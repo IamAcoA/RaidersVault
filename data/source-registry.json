@@ -81,6 +81,16 @@
     "enabled": true
   },
   {
+    "id": "pro-football-reference",
+    "name": "Pro Football Reference",
+    "homepage": "https://www.pro-football-reference.com/teams/rai/index.htm",
+    "type": "reference",
+    "trust": 5,
+    "ingestion": "manual",
+    "copyPolicy": "metadata-only",
+    "enabled": true
+  },
+  {
     "id": "apple-podcasts",
     "name": "Apple Podcasts",
     "homepage": "https://podcasts.apple.com/",
