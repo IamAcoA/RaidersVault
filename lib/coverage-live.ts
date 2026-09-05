@@ -1,4 +1,5 @@
 import { XMLParser } from "fast-xml-parser";
+import { unstable_cache } from "next/cache";
 import { coverage as snapshotCoverage } from "@/data/coverage";
 import { sources } from "@/data/sources";
 import { rankCoverage } from "@/lib/ranking";
@@ -56,13 +57,13 @@ function stableId(sourceId: string, title: string, url: string): string {
   return `${sourceId}-${(hash >>> 0).toString(36)}`;
 }
 
-async function fetchSource(source: SourceRecord): Promise<CoverageItem[]> {
+async function fetchSourceUncached(source: SourceRecord): Promise<CoverageItem[]> {
   if (!source.enabled || source.ingestion !== "rss" || !source.feedUrl || !source.contentType) return [];
 
   try {
     const response = await fetch(source.feedUrl, {
       headers: { "user-agent": "RaidersVault/0.3 (+https://raiders-vault.onrender.com)" },
-      next: { revalidate: 1800 },
+      cache: "no-store",
       signal: AbortSignal.timeout(8000)
     });
     if (!response.ok) return [];
@@ -96,6 +97,15 @@ async function fetchSource(source: SourceRecord): Promise<CoverageItem[]> {
   } catch {
     return [];
   }
+}
+
+async function fetchSource(source: SourceRecord): Promise<CoverageItem[]> {
+  const cached = unstable_cache(
+    () => fetchSourceUncached(source),
+    ["coverage-feed", source.id],
+    { revalidate: 1800 }
+  );
+  return cached();
 }
 
 export async function getLiveCoverage(limit = 12): Promise<CoverageItem[]> {
