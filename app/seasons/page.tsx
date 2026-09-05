@@ -1,12 +1,39 @@
 import type { Metadata } from "next";
-import { seasons } from "@/data/seasons";
 import { SectionTitle } from "@/components/SectionTitle";
+import { getSeasonArchive } from "@/lib/season-db";
 
 export const metadata: Metadata = { title: "Seasons" };
+export const revalidate = 300;
 
-export default function SeasonsPage() {
-  return <section className="section shell page-top">
-    <SectionTitle eyebrow="Year by year" title="Seasons">The first seed seasons prove the record model. The ingestion phase will expand this to every season from 1960 forward.</SectionTitle>
-    <div className="table-wrap"><table><thead><tr><th>Year</th><th>City</th><th>Record</th><th>Head coach</th><th>Finish</th><th>Note</th></tr></thead><tbody>{seasons.map(s => <tr key={s.year}><td><strong>{s.year}</strong></td><td>{s.location}</td><td>{s.record}</td><td>{s.coach}</td><td>{s.finish}</td><td>{s.note}</td></tr>)}</tbody></table></div>
-  </section>;
+const dash = (value: string) => value || "—";
+
+export default async function SeasonsPage() {
+  const { rows, database } = await getSeasonArchive();
+
+  return (
+    <section className="section shell page-top">
+      <SectionTitle eyebrow="Year by year" title="Seasons">
+        Every Raiders season is indexed from 1960 forward. Detailed records appear only after the season facts have been verified and sourced.
+      </SectionTitle>
+      <p className="fine-print">Archive source: {database ? "Render Postgres" : "versioned fallback"} · {rows.length} seasons indexed</p>
+      <div className="table-wrap">
+        <table>
+          <thead><tr><th>Year</th><th>City</th><th>Record</th><th>Head coach</th><th>Finish</th><th>Status</th><th>Note</th></tr></thead>
+          <tbody>
+            {rows.map(season => (
+              <tr key={season.year}>
+                <td><strong>{season.year}</strong></td>
+                <td>{season.location}</td>
+                <td>{dash(season.record)}</td>
+                <td>{dash(season.coach)}</td>
+                <td>{dash(season.finish)}</td>
+                <td><span className="tag">{season.status === "verified-detail" ? "Verified details" : "Indexed"}</span></td>
+                <td>{season.note}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  );
 }
