@@ -1,10 +1,4 @@
+import data from "@/data/moments.json";
 import type { Moment } from "@/lib/types";
 
-export const moments: Moment[] = [
-  { slug: "sea-of-hands", title: "Sea of Hands", date: "1974-12-21", opponent: "Miami Dolphins", summary: "A defining playoff finish from the 1970s Raiders, preserved as one of the franchise's signature moments.", tags: ["playoffs", "1970s", "classic"] },
-  { slug: "ghost-to-the-post", title: "Ghost to the Post", date: "1977-12-24", opponent: "Baltimore Colts", summary: "An overtime playoff classic that became part of Raiders mythology.", tags: ["playoffs", "1970s", "overtime"] },
-  { slug: "red-right-88", title: "Red Right 88", date: "1981-01-04", opponent: "Cleveland Browns", summary: "A freezing postseason finish that sent the Raiders deeper into their Super Bowl XV run.", tags: ["playoffs", "1980", "championship-run"] },
-  { slug: "super-bowl-xi", title: "Super Bowl XI", date: "1977-01-09", opponent: "Minnesota Vikings", summary: "Oakland wins 32-14 and captures the first Super Bowl title in franchise history.", tags: ["championship", "super-bowl"] },
-  { slug: "super-bowl-xv", title: "Super Bowl XV", date: "1981-01-25", opponent: "Philadelphia Eagles", summary: "The Raiders complete their 1980 championship run with the franchise's second Super Bowl victory.", tags: ["championship", "super-bowl"] },
-  { slug: "super-bowl-xviii", title: "Super Bowl XVIII", date: "1984-01-22", opponent: "Washington", summary: "The Los Angeles Raiders secure the franchise's third Super Bowl title.", tags: ["championship", "super-bowl", "los-angeles"] }
-];
+export const moments = data as Moment[];

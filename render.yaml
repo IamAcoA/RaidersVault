@@ -4,8 +4,13 @@ services:
     runtime: node
     plan: free
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    startCommand: npm run db:migrate && npm start
+    healthCheckPath: /api/health
     autoDeploy: true
     envVars:
       - key: NODE_VERSION
         value: 22.16.0
+      - key: DATABASE_URL
+        fromDatabase:
+          name: raiders-vault-db
+          property: connectionString

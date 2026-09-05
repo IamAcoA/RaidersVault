@@ -1,18 +1,20 @@
 {
   "name": "raiders-vault",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p ${PORT:-3000}",
-    "refresh:coverage": "node scripts/refresh-coverage.mjs"
+    "refresh:coverage": "node scripts/refresh-coverage.mjs",
+    "db:migrate": "node scripts/migrate-db.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "5.11.1",
     "next": "16.3.3",
     "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "react-dom": "19.2.7",
+    "postgres": "^3.4.7"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

@@ -1,5 +1,4 @@
--- Raiders Vault normalized data model. This is intentionally database-agnostic PostgreSQL SQL.
--- It is ready for a dedicated Postgres instance when one is provisioned.
+-- Raiders Vault normalized data model.
 
 create extension if not exists pgcrypto;
 
@@ -11,6 +10,7 @@ create table if not exists sources (
   trust smallint not null check (trust between 1 and 5),
   ingestion_method text not null,
   copy_policy text not null,
+  metadata jsonb not null default '{}'::jsonb,
   enabled boolean not null default true,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
@@ -18,7 +18,7 @@ create table if not exists sources (
 
 create table if not exists entities (
   id uuid primary key default gen_random_uuid(),
-  entity_type text not null check (entity_type in ('person','player','coach','executive','season','game','moment','venue','artifact','era','championship')),
+  entity_type text not null check (entity_type in ('person','player','coach','executive','season','game','moment','venue','artifact','era','championship','event')),
   slug text not null unique,
   display_name text not null,
   start_date date,

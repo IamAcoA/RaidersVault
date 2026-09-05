@@ -3,6 +3,7 @@ import { coverage as snapshotCoverage } from "@/data/coverage";
 import { sources } from "@/data/sources";
 import { rankCoverage } from "@/lib/ranking";
 import type { CoverageItem, SourceRecord } from "@/lib/types";
+import { persistCoverage, storedCoverage } from "@/lib/coverage-db";
 
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_", trimValues: true });
 
@@ -60,7 +61,7 @@ async function fetchSource(source: SourceRecord): Promise<CoverageItem[]> {
 
   try {
     const response = await fetch(source.feedUrl, {
-      headers: { "user-agent": "RaidersVault/0.2 (+https://raiders-vault.onrender.com)" },
+      headers: { "user-agent": "RaidersVault/0.3 (+https://raiders-vault.onrender.com)" },
       next: { revalidate: 1800 },
       signal: AbortSignal.timeout(8000)
     });
@@ -101,7 +102,9 @@ export async function getLiveCoverage(limit = 12): Promise<CoverageItem[]> {
   const feedSources = sources.filter(source => source.enabled && source.ingestion === "rss");
   const batches = await Promise.all(feedSources.map(fetchSource));
   const live = batches.flat();
-  const combined = live.length ? [...live, ...snapshotCoverage] : snapshotCoverage;
+  if (live.length) await persistCoverage(live);
+  const stored = await storedCoverage(40);
+  const combined = live.length ? [...live, ...stored, ...snapshotCoverage] : stored.length ? [...stored, ...snapshotCoverage] : snapshotCoverage;
 
   const seenTitles = new Set<string>();
   const seenUrls = new Set<string>();
