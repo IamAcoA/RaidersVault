@@ -1,11 +1,11 @@
 {
   "name": "raiders-vault",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p ${PORT:-3000}",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-3000}",
     "refresh:coverage": "node scripts/refresh-coverage.mjs",
     "db:migrate": "node scripts/migrate-db.mjs"
   },
