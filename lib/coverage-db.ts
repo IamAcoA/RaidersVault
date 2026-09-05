@@ -1,8 +1,9 @@
-import { databaseConfigured, db } from "@/lib/db";
+import { databaseConfigured, db, ensureDatabaseReady } from "@/lib/db";
 import type { CoverageItem } from "@/lib/types";
 
 export async function persistCoverage(items: CoverageItem[]): Promise<void> {
   if (!databaseConfigured() || !items.length) return;
+  if (!(await ensureDatabaseReady())) return;
   try {
     const sql = db();
     await sql.begin(async tx => {
@@ -27,6 +28,7 @@ export async function persistCoverage(items: CoverageItem[]): Promise<void> {
 
 export async function storedCoverage(limit = 30): Promise<CoverageItem[]> {
   if (!databaseConfigured()) return [];
+  if (!(await ensureDatabaseReady())) return [];
   try {
     const sql = db();
     const rows = await sql<Array<{

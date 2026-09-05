@@ -1,9 +1,10 @@
-import { databaseConfigured, db } from "@/lib/db";
+import { databaseConfigured, db, ensureDatabaseReady } from "@/lib/db";
 import { vaultIndex } from "@/lib/vault-index";
 import type { VaultSearchDocument } from "@/lib/types";
 
 export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocument[]; database: boolean }> {
   if (!databaseConfigured()) return { documents: vaultIndex, database: false };
+  if (!(await ensureDatabaseReady())) return { documents: vaultIndex, database: false };
 
   try {
     const sql = db();
