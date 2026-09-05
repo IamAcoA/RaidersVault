@@ -32,14 +32,20 @@ export async function ensureDatabaseReady(): Promise<boolean> {
       const sql = db();
       const check = await sql`select to_regclass('public.entities')::text as entities`;
       if (!check[0]?.entities) {
-        await execFileAsync(process.execPath, ["scripts/migrate-db.mjs"], {
+        console.log("[db] schema not found; running migration");
+        const { stdout, stderr } = await execFileAsync(process.execPath, ["scripts/migrate-db.mjs"], {
           cwd: process.cwd(),
           env: process.env,
           timeout: 30000
         });
+        if (stdout.trim()) console.log(stdout.trim());
+        if (stderr.trim()) console.warn(stderr.trim());
       }
+      console.log("[db] database ready");
       return true;
-    } catch {
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.error("[db] initialization failed:", message);
       readyPromise = null;
       return false;
     }
@@ -54,7 +60,9 @@ export async function databaseHealthy(): Promise<boolean> {
     const sql = db();
     await sql`select 1 as ok`;
     return true;
-  } catch {
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.error("[db] health check failed:", message);
     return false;
   }
 }
