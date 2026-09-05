@@ -3,6 +3,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const execFileAsync = promisify(execFile);
+const EXPECTED_DB_VERSION = "2";
 let client: ReturnType<typeof postgres> | null = null;
 let readyPromise: Promise<boolean> | null = null;
 
@@ -30,18 +31,30 @@ export async function ensureDatabaseReady(): Promise<boolean> {
   readyPromise = (async () => {
     try {
       const sql = db();
-      const check = await sql`select to_regclass('public.entities')::text as entities`;
-      if (!check[0]?.entities) {
-        console.log("[db] schema not found; running migration");
+      const check = await sql`
+        select
+          to_regclass('public.entities')::text as entities,
+          to_regclass('public.app_meta')::text as app_meta
+      `;
+
+      let currentVersion: string | null = null;
+      if (check[0]?.app_meta) {
+        const rows = await sql`select value from app_meta where key = 'schema_version' limit 1`;
+        currentVersion = rows[0]?.value ? String(rows[0].value) : null;
+      }
+
+      if (!check[0]?.entities || currentVersion !== EXPECTED_DB_VERSION) {
+        console.log(`[db] migration required: ${currentVersion ?? "none"} -> ${EXPECTED_DB_VERSION}`);
         const { stdout, stderr } = await execFileAsync(process.execPath, ["scripts/migrate-db.mjs"], {
           cwd: process.cwd(),
           env: process.env,
-          timeout: 30000
+          timeout: 60000
         });
         if (stdout.trim()) console.log(stdout.trim());
         if (stderr.trim()) console.warn(stderr.trim());
       }
-      console.log("[db] database ready");
+
+      console.log(`[db] database ready at schema version ${EXPECTED_DB_VERSION}`);
       return true;
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);

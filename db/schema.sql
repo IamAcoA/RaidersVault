@@ -2,6 +2,12 @@
 
 create extension if not exists pgcrypto;
 
+create table if not exists app_meta (
+  key text primary key,
+  value text not null,
+  updated_at timestamptz not null default now()
+);
+
 create table if not exists sources (
   id text primary key,
   name text not null,
