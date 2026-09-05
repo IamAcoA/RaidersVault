@@ -1,0 +1,104 @@
+import type { TimelineEvent } from "@/lib/types";
+
+export const timeline: TimelineEvent[] = [
+  {
+    date: "1960-01-30",
+    year: 1960,
+    title: "Oakland is granted an AFL franchise",
+    summary: "The franchise that would become the Raiders is granted on January 30, 1960, and begins play later that year.",
+    era: "Oakland I",
+    category: "franchise",
+    sourceLabel: "Pro Football Hall of Fame",
+    sourceUrl: "https://www.profootballhof.com/teams/las-vegas-raiders/team-facts"
+  },
+  {
+    date: "1963-01-19",
+    year: 1963,
+    title: "Al Davis arrives",
+    summary: "Al Davis is named head coach and general manager. The Raiders finish 10-4 for the first winning season in franchise history.",
+    era: "Oakland I",
+    category: "leadership",
+    sourceLabel: "Raiders.com historical timeline",
+    sourceUrl: "https://www.raiders.com/history/timeline"
+  },
+  {
+    date: "1967-12-31",
+    year: 1967,
+    title: "AFL champions",
+    summary: "Oakland defeats Houston 40-7 to win the 1967 AFL Championship after a 13-1 regular season.",
+    era: "Oakland I",
+    category: "championship",
+    sourceLabel: "Raiders.com historical timeline",
+    sourceUrl: "https://www.raiders.com/history/timeline"
+  },
+  {
+    date: "1977-01-09",
+    year: 1977,
+    title: "Super Bowl XI",
+    summary: "The Raiders defeat Minnesota 32-14 for the franchise's first Super Bowl championship.",
+    era: "Oakland I",
+    category: "championship",
+    sourceLabel: "Pro Football Hall of Fame",
+    sourceUrl: "https://www.profootballhof.com/teams/las-vegas-raiders/team-facts"
+  },
+  {
+    date: "1981-01-25",
+    year: 1981,
+    title: "Super Bowl XV",
+    summary: "Oakland wins its second Super Bowl championship, completing the 1980 postseason run.",
+    era: "Oakland I",
+    category: "championship",
+    sourceLabel: "Pro Football Hall of Fame",
+    sourceUrl: "https://www.profootballhof.com/teams/las-vegas-raiders/team-facts"
+  },
+  {
+    date: "1982-09-01",
+    year: 1982,
+    title: "The Los Angeles era begins",
+    summary: "The Raiders begin playing in Los Angeles, opening a new chapter that lasts through the 1994 season.",
+    era: "Los Angeles",
+    category: "relocation",
+    sourceLabel: "Pro Football Hall of Fame",
+    sourceUrl: "https://www.profootballhof.com/teams/las-vegas-raiders"
+  },
+  {
+    date: "1984-01-22",
+    year: 1984,
+    title: "Super Bowl XVIII",
+    summary: "The Los Angeles Raiders capture the franchise's third Super Bowl championship.",
+    era: "Los Angeles",
+    category: "championship",
+    sourceLabel: "Pro Football Hall of Fame",
+    sourceUrl: "https://www.profootballhof.com/teams/las-vegas-raiders/team-facts"
+  },
+  {
+    date: "1995-09-03",
+    year: 1995,
+    title: "Back to Oakland",
+    summary: "The Raiders return to Oakland for a second era in their original city.",
+    era: "Oakland II",
+    category: "relocation",
+    sourceLabel: "Pro Football Hall of Fame",
+    sourceUrl: "https://www.profootballhof.com/teams/las-vegas-raiders/team-history"
+  },
+  {
+    date: "2003-01-26",
+    year: 2003,
+    title: "Super Bowl XXXVII appearance",
+    summary: "The 2002 Raiders win the AFC Championship and reach the franchise's fifth Super Bowl.",
+    era: "Oakland II",
+    category: "championship",
+    sourceLabel: "Pro Football Hall of Fame",
+    sourceUrl: "https://www.profootballhof.com/teams/las-vegas-raiders/team-facts"
+  },
+  {
+    date: "2020-09-13",
+    year: 2020,
+    title: "The Las Vegas era begins",
+    summary: "The Raiders begin play as the Las Vegas Raiders, with Allegiant Stadium becoming the franchise's new home.",
+    era: "Las Vegas",
+    category: "relocation",
+    sourceLabel: "Pro Football Hall of Fame",
+    sourceUrl: "https://www.profootballhof.com/teams/las-vegas-raiders/team-history"
+  }
+];
