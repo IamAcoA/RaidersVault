@@ -1,10 +1,9 @@
 import Link from "next/link";
 import { SectionTitle } from "@/components/SectionTitle";
 import { CoverageCard } from "@/components/CoverageCard";
+import { TodayInHistory } from "@/components/TodayInHistory";
 import { timeline } from "@/data/timeline";
-import { coverage } from "@/data/coverage";
-import { sources } from "@/data/sources";
-import { rankCoverage } from "@/lib/ranking";
+import { getLiveCoverage } from "@/lib/coverage-live";
 
 const doors = [
   ["Timeline", "Every era, mapped.", "/timeline"],
@@ -15,8 +14,8 @@ const doors = [
   ["Around Raider Nation", "Trusted links, not copied stories.", "/coverage"]
 ] as const;
 
-export default function Home() {
-  const topCoverage = rankCoverage(coverage, sources).slice(0, 2);
+export default async function Home() {
+  const topCoverage = await getLiveCoverage(2);
   const featured = timeline[timeline.length - 1];
 
   return (
@@ -32,10 +31,13 @@ export default function Home() {
               <Link className="button ghost" href="/timeline">Explore 1960 → Today</Link>
             </div>
           </div>
-          <div className="hero-plaque" aria-label="Archive principles">
-            <span>THE ARCHIVE CODE</span>
-            <strong>Preserve facts.<br />Credit sources.<br />Connect history.</strong>
-            <small>Independent • Source-backed • Built to update itself</small>
+          <div className="hero-side-stack">
+            <div className="hero-plaque" aria-label="Archive principles">
+              <span>THE ARCHIVE CODE</span>
+              <strong>Preserve facts.<br />Credit sources.<br />Connect history.</strong>
+              <small>Independent • Source-backed • Built to update itself</small>
+            </div>
+            <TodayInHistory />
           </div>
         </div>
       </section>
@@ -63,9 +65,9 @@ export default function Home() {
       </section>
 
       <section className="section shell">
-        <SectionTitle eyebrow="Around Raider Nation" title="Current coverage without becoming a content farm">We link to trusted publishers and podcast platforms, add context, and send readers to the original source.</SectionTitle>
+        <SectionTitle eyebrow="Around Raider Nation" title="Current coverage, automatically curated">Raiders Vault checks approved feeds, ranks for trust and freshness, deduplicates repeated stories and sends readers to the original publisher.</SectionTitle>
         <div className="coverage-grid">{topCoverage.map(item => <CoverageCard key={item.id} item={item} />)}</div>
-        <p className="fine-print">Prototype note: these cards are seed metadata. The production worker will select the top one or two items automatically from approved feeds/APIs/embeds.</p>
+        <p className="fine-print">Only titles, source metadata and our own short routing copy are displayed. Article bodies are not republished.</p>
       </section>
     </>
   );

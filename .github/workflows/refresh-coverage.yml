@@ -1,0 +1,35 @@
+name: Refresh current coverage
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-current-coverage
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - run: npm install --no-audit --no-fund
+      - run: npm run refresh:coverage
+      - name: Commit refreshed snapshot
+        run: |
+          if git diff --quiet -- data/generated/coverage.json; then
+            echo "No snapshot changes"
+            exit 0
+          fi
+          git config user.name "raiders-vault-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/generated/coverage.json
+          git commit -m "chore: refresh current Raiders coverage"
+          git push

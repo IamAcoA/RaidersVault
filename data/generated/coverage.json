@@ -1,0 +1,23 @@
+[
+  {
+    "id": "seed-raiders-audio",
+    "type": "podcast",
+    "title": "Raiders Podcast Network",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "url": "https://www.raiders.com/audio/",
+    "description": "Latest official Raiders audio and podcast coverage.",
+    "sourceId": "raiders-podcast-network",
+    "featured": true
+  },
+  {
+    "id": "seed-review-journal",
+    "type": "article",
+    "title": "Latest Raiders coverage from the Las Vegas Review-Journal",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/",
+    "description": "Latest Raiders reporting from the original publisher.",
+    "sourceId": "review-journal"
+  }
+]

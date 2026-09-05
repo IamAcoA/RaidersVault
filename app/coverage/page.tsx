@@ -1,13 +1,23 @@
 import type { Metadata } from "next";
-import { coverage } from "@/data/coverage";
 import { sources } from "@/data/sources";
-import { rankCoverage } from "@/lib/ranking";
+import { getLiveCoverage } from "@/lib/coverage-live";
 import { CoverageCard } from "@/components/CoverageCard";
 import { SectionTitle } from "@/components/SectionTitle";
 
 export const metadata: Metadata = { title: "Coverage" };
+export const revalidate = 1800;
 
-export default function CoveragePage() {
-  const ranked = rankCoverage(coverage, sources);
-  return <section className="section shell page-top"><SectionTitle eyebrow="Around Raider Nation" title="Trusted outside coverage">Raiders Vault should organize and contextualize journalism, not copy it. Links open at the original publisher.</SectionTitle><div className="coverage-grid">{ranked.map(item => <CoverageCard key={item.id} item={item} />)}</div><div className="policy-box"><h3>Source policy</h3><p>Each source has a trust rating, ingestion method and copy policy. The production worker will reject disabled sources, deduplicate the same story, rank for recency and trust, and display only a small number of items.</p><ul>{sources.map(s => <li key={s.id}><strong>{s.name}</strong> — trust {s.trust}/5 — {s.ingestion} — {s.copyPolicy}</li>)}</ul></div></section>;
+export default async function CoveragePage() {
+  const ranked = await getLiveCoverage(16);
+  return (
+    <section className="section shell page-top">
+      <SectionTitle eyebrow="Around Raider Nation" title="Trusted outside coverage">A small, automatically refreshed layer of articles and podcasts. Raiders Vault links outward, preserves attribution and does not republish full stories or audio.</SectionTitle>
+      <div className="coverage-grid">{ranked.map(item => <CoverageCard key={item.id} item={item} />)}</div>
+      <div className="policy-box">
+        <h3>Source registry</h3>
+        <p>Every automated source has a trust score, ingestion method and copy policy. Failed feeds are skipped without breaking the site, and a versioned snapshot provides fallback content.</p>
+        <ul>{sources.map(s => <li key={s.id}><strong>{s.name}</strong> — trust {s.trust}/5 — {s.ingestion} — {s.copyPolicy}{s.enabled ? "" : " — disabled"}</li>)}</ul>
+      </div>
+    </section>
+  );
 }

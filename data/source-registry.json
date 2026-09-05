@@ -1,0 +1,93 @@
+[
+  {
+    "id": "raiders-official",
+    "name": "Raiders.com",
+    "homepage": "https://www.raiders.com/",
+    "type": "official",
+    "trust": 5,
+    "ingestion": "metadata-only",
+    "copyPolicy": "link-only",
+    "enabled": true
+  },
+  {
+    "id": "raiders-podcast-network",
+    "name": "Raiders Podcast Network",
+    "homepage": "https://www.raiders.com/audio/",
+    "type": "podcast",
+    "trust": 5,
+    "ingestion": "rss",
+    "copyPolicy": "link-only",
+    "enabled": true,
+    "feedUrl": "https://omny.fm/shows/upon-further-review-2/playlists/podcast.rss",
+    "contentType": "podcast"
+  },
+  {
+    "id": "review-journal",
+    "name": "Las Vegas Review-Journal",
+    "homepage": "https://www.reviewjournal.com/",
+    "type": "news",
+    "trust": 5,
+    "ingestion": "rss",
+    "copyPolicy": "link-only",
+    "enabled": true,
+    "feedUrl": "https://www.reviewjournal.com/feed/",
+    "contentType": "article",
+    "matchTerms": ["raiders", "las vegas raiders", "silver and black", "allegiant stadium"]
+  },
+  {
+    "id": "silver-and-black-pride",
+    "name": "Silver And Black Pride",
+    "homepage": "https://www.silverandblackpride.com/",
+    "type": "news",
+    "trust": 4,
+    "ingestion": "rss",
+    "copyPolicy": "link-only",
+    "enabled": true,
+    "feedUrl": "https://www.silverandblackpride.com/rss/index.xml",
+    "contentType": "article"
+  },
+  {
+    "id": "raiders-wire",
+    "name": "Raiders Wire",
+    "homepage": "https://raiderswire.usatoday.com/",
+    "type": "news",
+    "trust": 4,
+    "ingestion": "rss",
+    "copyPolicy": "link-only",
+    "enabled": true,
+    "feedUrl": "https://raiderswire.usatoday.com/feed/",
+    "contentType": "article"
+  },
+  {
+    "id": "locked-on-raiders",
+    "name": "Locked On Raiders",
+    "homepage": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "type": "podcast",
+    "trust": 4,
+    "ingestion": "rss",
+    "copyPolicy": "link-only",
+    "enabled": true,
+    "feedUrl": "https://rss.pdrl.fm/427f18/feeds.simplecast.com/FW_wEF1P",
+    "contentType": "podcast"
+  },
+  {
+    "id": "pro-football-hof",
+    "name": "Pro Football Hall of Fame",
+    "homepage": "https://www.profootballhof.com/teams/las-vegas-raiders",
+    "type": "reference",
+    "trust": 5,
+    "ingestion": "manual",
+    "copyPolicy": "metadata-only",
+    "enabled": true
+  },
+  {
+    "id": "apple-podcasts",
+    "name": "Apple Podcasts",
+    "homepage": "https://podcasts.apple.com/",
+    "type": "podcast",
+    "trust": 4,
+    "ingestion": "embed",
+    "copyPolicy": "embed-permitted",
+    "enabled": true
+  }
+]

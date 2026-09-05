@@ -1,5 +1,12 @@
 export type Era = "Oakland I" | "Los Angeles" | "Oakland II" | "Las Vegas";
 
+export interface ProvenanceRecord {
+  sourceLabel: string;
+  sourceUrl: string;
+  accessedAt?: string;
+  note?: string;
+}
+
 export interface TimelineEvent {
   date: string;
   year: number;
@@ -18,6 +25,7 @@ export interface Season {
   coach: string;
   finish: string;
   note: string;
+  provenance?: ProvenanceRecord[];
 }
 
 export interface Player {
@@ -27,6 +35,7 @@ export interface Player {
   years: string;
   number?: string;
   distinction: string;
+  provenance?: ProvenanceRecord[];
 }
 
 export interface Moment {
@@ -36,6 +45,7 @@ export interface Moment {
   opponent?: string;
   summary: string;
   tags: string[];
+  provenance?: ProvenanceRecord[];
 }
 
 export interface SourceRecord {
@@ -47,6 +57,9 @@ export interface SourceRecord {
   ingestion: "manual" | "rss" | "api" | "embed" | "metadata-only";
   copyPolicy: "link-only" | "metadata-only" | "embed-permitted";
   enabled: boolean;
+  feedUrl?: string;
+  contentType?: "article" | "podcast";
+  matchTerms?: string[];
 }
 
 export interface CoverageItem {
@@ -59,4 +72,14 @@ export interface CoverageItem {
   description: string;
   sourceId: string;
   featured?: boolean;
+}
+
+export interface VaultSearchDocument {
+  id: string;
+  type: "player" | "season" | "moment" | "timeline";
+  title: string;
+  subtitle: string;
+  text: string;
+  href: string;
+  year?: number;
 }
