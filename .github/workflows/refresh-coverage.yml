@@ -31,5 +31,5 @@ jobs:
           git config user.name "raiders-vault-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/generated/coverage.json
-          git commit -m "chore: refresh current Raiders coverage"
+          git commit -m "chore: refresh current Raiders coverage [skip render]"
           git push
