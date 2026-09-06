@@ -68,23 +68,26 @@ function fallbackRows(): SeasonArchiveRow[] {
 }
 
 function fallbackRelated(year: number): SeasonRelatedExhibit[] {
-  const games = [...postseasonGames, ...classicGames]
+  const games: SeasonRelatedExhibit[] = [...postseasonGames, ...classicGames]
     .filter(game => game.season === year)
-    .map(game => ({
-      slug: game.slug,
-      name: "nickname" in game && game.nickname ? game.nickname : `Raiders vs. ${game.opponent}`,
-      type: "game",
-      relation: "Season game",
-      href: `/games/${game.slug}`
-    }));
-  const titles = championships
+    .map(game => {
+      const nickname = "nickname" in game ? String(game.nickname ?? "") : "";
+      return {
+        slug: String(game.slug),
+        name: nickname || `Raiders vs. ${String(game.opponent)}`,
+        type: "game",
+        relation: "Season game",
+        href: `/games/${String(game.slug)}`
+      };
+    });
+  const titles: SeasonRelatedExhibit[] = championships
     .filter(championship => championship.season === year)
     .map(championship => ({
-      slug: championship.slug,
-      name: championship.name,
+      slug: String(championship.slug),
+      name: String(championship.name),
       type: "championship",
       relation: "Championship",
-      href: `/championships/${championship.slug}`
+      href: `/championships/${String(championship.slug)}`
     }));
   return [...titles, ...games];
 }
