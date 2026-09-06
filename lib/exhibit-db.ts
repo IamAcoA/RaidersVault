@@ -57,13 +57,16 @@ function fallbackLegend(slug: string): LegendExhibit | null {
     years: player?.years,
     number: player?.number,
     distinction: player?.distinction,
-    related: championships.flatMap(item => item.mvp === legend.name ? [{
-      slug: item.slug,
-      name: item.name,
-      type: "championship",
-      relation: "Championship MVP",
-      href: `/championships/${item.slug}`
-    }] : []),
+    related: championships.flatMap(item => {
+      const mvp = "mvp" in item ? item.mvp : undefined;
+      return mvp === legend.name ? [{
+        slug: item.slug,
+        name: item.name,
+        type: "championship",
+        relation: "Championship MVP",
+        href: `/championships/${item.slug}`
+      }] : [];
+    }),
     database: false
   };
 }
