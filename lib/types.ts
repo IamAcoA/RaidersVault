@@ -76,7 +76,7 @@ export interface CoverageItem {
 
 export interface VaultSearchDocument {
   id: string;
-  type: "player" | "season" | "moment" | "timeline";
+  type: "player" | "legend" | "season" | "moment" | "championship" | "timeline";
   title: string;
   subtitle: string;
   text: string;
