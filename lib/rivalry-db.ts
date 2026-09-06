@@ -42,6 +42,11 @@ export interface RivalryExhibit extends RivalryRecord {
 const rivalries = rawRivalries as RivalryRecord[];
 const allGames = [...postseasonGames, ...classicGames];
 
+function isoDate(value: unknown) {
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return String(value ?? "").slice(0, 10);
+}
+
 function fallbackExhibit(slug: string): RivalryExhibit | null {
   const rivalry = rivalries.find(item => item.slug === slug);
   if (!rivalry) return null;
@@ -119,13 +124,13 @@ export async function getRivalryExhibit(slug: string): Promise<RivalryExhibit | 
     `;
     const row = rows[0];
     if (!row) return fallback;
-    const games = await sql<Array<{ slug: string; start_date: string; metadata: Record<string, unknown> }>>`
+    const games = await sql<Array<{ slug: string; start_date: unknown; metadata: Record<string, unknown> }>>`
       select e.slug, e.start_date, e.metadata
       from relations r join entities e on e.id = r.to_entity_id
       where r.from_entity_id = ${row.id} and r.relation_type = 'rivalry_game'
       order by e.start_date desc
     `;
-    const momentRows = await sql<Array<{ slug: string; display_name: string; start_date: string }>>`
+    const momentRows = await sql<Array<{ slug: string; display_name: string; start_date: unknown }>>`
       select e.slug, e.display_name, e.start_date
       from relations r join entities e on e.id = r.to_entity_id
       where r.from_entity_id = ${row.id} and r.relation_type = 'rivalry_moment'
@@ -149,7 +154,7 @@ export async function getRivalryExhibit(slug: string): Promise<RivalryExhibit | 
       indexedGames: games.map(game => ({
         slug: game.slug,
         season: Number(game.metadata.season),
-        date: String(game.start_date),
+        date: isoDate(game.start_date),
         round: String(game.metadata.round),
         opponent: String(game.metadata.opponent),
         result: String(game.metadata.result) as "W" | "L",
@@ -158,7 +163,7 @@ export async function getRivalryExhibit(slug: string): Promise<RivalryExhibit | 
         site: String(game.metadata.site),
         nickname: game.metadata.nickname ? String(game.metadata.nickname) : undefined
       })),
-      relatedMoments: momentRows.map(moment => ({ slug: moment.slug, title: moment.display_name, date: moment.start_date })),
+      relatedMoments: momentRows.map(moment => ({ slug: moment.slug, title: moment.display_name, date: isoDate(moment.start_date) })),
       database: true
     };
   } catch {
