@@ -58,7 +58,7 @@ async function run() {
       // Earlier seed versions reused Super Bowl slugs in both Moments and Championships.
       // Normalize those shared rows so Championship Room owns every championship slug.
       for (const championship of championships) {
-        await tx`
+        const rows = await tx`
           insert into entities (entity_type, slug, display_name, start_date, metadata)
           values ('championship', ${championship.slug}, ${championship.name}, ${championship.date}, ${tx.json({ ...championship, subtitle: `${championship.score} · vs. ${championship.opponent}` })})
           on conflict (slug) do update set
@@ -67,7 +67,26 @@ async function run() {
             start_date = excluded.start_date,
             metadata = excluded.metadata,
             updated_at = now()
+          returning id
         `;
+        const championshipId = rows[0]?.id;
+        if (!championshipId) continue;
+
+        // Restore title-game links that older migrations could not create while the row type was ambiguous.
+        const gameRows = await tx`select id from entities where entity_type = 'game' and start_date = ${championship.date} limit 1`;
+        const gameId = gameRows[0]?.id;
+        if (gameId) {
+          await tx`
+            insert into relations (from_entity_id, relation_type, to_entity_id, source_id, source_url)
+            values (${gameId}, 'game_is_championship', ${championshipId}, 'raiders-official', ${championship.sourceUrl})
+            on conflict (from_entity_id, relation_type, to_entity_id) do nothing
+          `;
+          await tx`
+            insert into relations (from_entity_id, relation_type, to_entity_id, source_id, source_url)
+            values (${championshipId}, 'championship_game', ${gameId}, 'raiders-official', ${championship.sourceUrl})
+            on conflict (from_entity_id, relation_type, to_entity_id) do nothing
+          `;
+        }
       }
 
       for (const moment of moments) {
