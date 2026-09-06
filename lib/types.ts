@@ -35,6 +35,9 @@ export interface Player {
   years: string;
   number?: string;
   distinction: string;
+  sourceId?: string;
+  sourceLabel?: string;
+  sourceUrl?: string;
   provenance?: ProvenanceRecord[];
 }
 
