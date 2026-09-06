@@ -18,6 +18,8 @@
 .standalone-stats { border: 1px solid var(--line); border-top: 0; margin-top: 0; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 .person-card a { display: inline-block; margin-top: 18px; color: var(--silver); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
+.card-actions { margin-top: auto; padding-top: 18px; display: flex; flex-wrap: wrap; gap: 18px; align-items: center; }
+.card-actions a { margin-top: 0; }
 .championship-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 34px; }
 .championship-card { min-height: 390px; border: 1px solid var(--line); padding: 30px; background: linear-gradient(155deg,#171717,#0a0a0a); display: flex; flex-direction: column; }
 .championship-card > strong { display: block; font-size: clamp(58px,7vw,92px); letter-spacing: -.07em; line-height: .9; margin: 34px 0 18px; }
@@ -25,13 +27,35 @@
 .championship-card p { color: var(--muted); line-height: 1.55; }
 .championship-card small { color: var(--silver); text-transform: uppercase; letter-spacing: .1em; font-size: 10px; margin-top: auto; padding-top: 18px; }
 .championship-card a { margin-top: 18px; color: var(--silver); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
+.championship-card .card-actions { margin-top: auto; }
+.championship-card .card-actions a { margin-top: 0; }
 .championship-league-band { margin-top: 34px; padding: 56px; }
+.exhibit-back { display: inline-block; margin-bottom: 42px; color: var(--silver); font-size: 10px; text-transform: uppercase; letter-spacing: .14em; }
+.exhibit-hero { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(300px,.65fr); gap: 70px; align-items: stretch; }
+.exhibit-hero h1 { font-size: clamp(58px,9vw,118px); line-height: .86; letter-spacing: -.065em; margin: 22px 0 28px; }
+.exhibit-hero > div:first-child > p { color: #b7b7b2; max-width: 720px; font-size: clamp(17px,2vw,22px); line-height: 1.58; }
+.exhibit-plaque { border: 1px solid var(--line); background: linear-gradient(145deg,#191919,#0b0b0b); padding: 32px; display: flex; flex-direction: column; min-height: 330px; }
+.exhibit-plaque > span, .exhibit-plaque > small { color: #777; text-transform: uppercase; letter-spacing: .14em; font-size: 10px; }
+.exhibit-plaque > strong { font-family: Georgia, serif; font-weight: 400; font-size: clamp(28px,3vw,43px); line-height: 1.12; margin: 50px 0 24px; }
+.exhibit-plaque > small + small { margin-top: 10px; }
+.exhibit-plaque > a { margin-top: auto; padding-top: 28px; color: var(--silver); text-transform: uppercase; letter-spacing: .1em; font-size: 10px; }
+.score-plaque > strong { font-family: Arial, Helvetica, sans-serif; font-size: clamp(68px,8vw,112px); font-weight: 900; letter-spacing: -.07em; line-height: .85; }
+.exhibit-related { margin-top: 78px; padding-top: 34px; border-top: 1px solid var(--line); }
+.related-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-top: 24px; }
+.related-card { border: 1px solid var(--line); padding: 24px; min-height: 170px; display: flex; flex-direction: column; background: #0d0d0d; }
+.related-card small { color: #73736f; text-transform: uppercase; letter-spacing: .12em; font-size: 9px; }
+.related-card strong { font-size: 24px; line-height: 1.1; margin-top: 24px; }
+.related-card b { margin-top: auto; padding-top: 20px; color: var(--silver); text-transform: uppercase; letter-spacing: .1em; font-size: 10px; }
 @media (max-width: 900px) {
   .championship-grid { grid-template-columns: 1fr; }
   .championship-league-band { padding: 36px; }
+  .exhibit-hero { grid-template-columns: 1fr; gap: 30px; }
+  .related-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 600px) {
   .search-result { grid-template-columns: 1fr auto; }
   .search-result > span { grid-column: 1 / -1; }
   .championship-league-band { padding: 24px; }
+  .related-grid { grid-template-columns: 1fr; }
+  .exhibit-plaque { min-height: 280px; }
 }
