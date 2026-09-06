@@ -9,7 +9,7 @@ if (!databaseUrl) {
   process.exit(0);
 }
 
-const MIGRATION_VERSION = "3";
+const MIGRATION_VERSION = "4";
 const MIGRATION_LOCK_KEY = 724325198;
 const PFR_FRANCHISE_URL = "https://www.pro-football-reference.com/teams/rai/index.htm";
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -94,11 +94,20 @@ async function runMigration() {
 
       for (const player of players) {
         const range = yearRange(player.years);
-        await tx`
+        const rows = await tx`
           insert into entities (entity_type, slug, display_name, start_date, end_date, metadata)
           values ('player', ${player.slug}, ${player.name}, ${range.start}, ${range.end}, ${tx.json({ ...player, subtitle: `${player.position} · ${player.years}${player.number ? ` · #${player.number}` : ""}` })})
           on conflict (slug) do update set display_name = excluded.display_name, start_date = excluded.start_date, end_date = excluded.end_date, metadata = excluded.metadata, updated_at = now()
+          returning id
         `;
+        const entityId = rows[0]?.id;
+        if (entityId && player.sourceUrl) {
+          await tx`
+            insert into facts (entity_id, fact_key, fact_value, source_id, source_url, confidence, verified_at)
+            values (${entityId}, 'player_profile', ${tx.json({ position: player.position, years: player.years, number: player.number ?? null, distinction: player.distinction })}, ${player.sourceId ?? 'raiders-official'}, ${player.sourceUrl}, 1.0, now())
+            on conflict (entity_id, fact_key, source_url) do update set fact_value = excluded.fact_value, source_id = excluded.source_id, confidence = excluded.confidence, verified_at = now()
+          `;
+        }
       }
 
       for (const legend of legends) {
