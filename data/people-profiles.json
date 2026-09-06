@@ -1,0 +1,156 @@
+[
+  {
+    "slug":"al-davis",
+    "name":"Al Davis",
+    "role":"executive",
+    "summary":"Al Davis joined the Raiders as head coach and general manager in 1963, transformed the franchise into an AFL contender, and later returned from the AFL commissioner's office to lead the organization for decades.",
+    "raidersRoles":[
+      {"label":"Head coach & general manager","start":1963,"end":1965},
+      {"label":"Managing general partner / owner-leader","start":1966,"end":2011}
+    ],
+    "sourceLabel":"Pro Football Hall of Fame",
+    "sourceUrl":"https://www.profootballhof.com/players/al-davis",
+    "seasonRanges":[[1963,2011]],
+    "connections":[
+      {"type":"championship","slug":"1967-afl-championship","relation":"Organization leader"},
+      {"type":"championship","slug":"super-bowl-xi","relation":"Organization leader"},
+      {"type":"championship","slug":"super-bowl-xv","relation":"Organization leader"},
+      {"type":"championship","slug":"super-bowl-xviii","relation":"Organization leader"}
+    ]
+  },
+  {
+    "slug":"john-madden",
+    "name":"John Madden",
+    "role":"coach",
+    "summary":"John Madden joined Oakland as linebackers coach in 1967, became head coach in 1969, never had a losing season, and led the Raiders to their first Super Bowl championship after the 1976 season.",
+    "raidersRoles":[
+      {"label":"Linebackers coach","start":1967,"end":1968},
+      {"label":"Head coach","start":1969,"end":1978}
+    ],
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/history/john-madden",
+    "seasonRanges":[[1967,1978]],
+    "connections":[
+      {"type":"championship","slug":"super-bowl-xi","relation":"Head coach"},
+      {"type":"game","slug":"1974-12-21-miami-dolphins","relation":"Head coach"},
+      {"type":"game","slug":"1977-12-24-baltimore-colts","relation":"Head coach"},
+      {"type":"moment","slug":"sea-of-hands","relation":"Head coach"},
+      {"type":"moment","slug":"ghost-to-the-post","relation":"Head coach"}
+    ]
+  },
+  {
+    "slug":"tom-flores",
+    "name":"Tom Flores",
+    "role":"coach",
+    "summary":"Tom Flores was the Raiders' first starting quarterback, later returned as an assistant under John Madden, and then led the franchise to victories in Super Bowls XV and XVIII as head coach.",
+    "raidersRoles":[
+      {"label":"Quarterback","start":1960,"end":1966,"years":[1960,1961,1963,1964,1965,1966]},
+      {"label":"Assistant coach","start":1972,"end":1978},
+      {"label":"Head coach","start":1979,"end":1987}
+    ],
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/history/tom-flores",
+    "seasonRanges":[[1960,1961],[1963,1966],[1972,1987]],
+    "connections":[
+      {"type":"championship","slug":"super-bowl-xi","relation":"Assistant coach"},
+      {"type":"championship","slug":"super-bowl-xv","relation":"Head coach"},
+      {"type":"championship","slug":"super-bowl-xviii","relation":"Head coach"},
+      {"type":"game","slug":"1981-01-04-cleveland-browns","relation":"Head coach"},
+      {"type":"moment","slug":"red-right-88","relation":"Head coach"}
+    ]
+  },
+  {
+    "slug":"art-shell",
+    "name":"Art Shell",
+    "role":"player",
+    "summary":"Art Shell became one of the defining tackles of the Raiders' championship era, then moved into coaching and later served two stints as Raiders head coach.",
+    "raidersRoles":[
+      {"label":"Offensive tackle","start":1968,"end":1982},
+      {"label":"Assistant coach","start":1983,"end":1988},
+      {"label":"Head coach","start":1989,"end":1994},
+      {"label":"Head coach","start":2006,"end":2006}
+    ],
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/history/art-shell",
+    "seasonRanges":[[1968,1994],[2006,2006]],
+    "connections":[
+      {"type":"championship","slug":"super-bowl-xi","relation":"Starting tackle"},
+      {"type":"championship","slug":"super-bowl-xv","relation":"Starting tackle"}
+    ]
+  },
+  {
+    "slug":"ken-stabler",
+    "name":"Ken Stabler",
+    "role":"player",
+    "summary":"Ken Stabler became Oakland's starting quarterback in 1973, led five straight runs to the AFC title game, and quarterbacked the Raiders to victory in Super Bowl XI.",
+    "raidersRoles":[{"label":"Quarterback","start":1970,"end":1979}],
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/history/ken-stabler",
+    "seasonRanges":[[1970,1979]],
+    "connections":[
+      {"type":"championship","slug":"super-bowl-xi","relation":"Starting quarterback"},
+      {"type":"game","slug":"1974-12-21-miami-dolphins","relation":"Quarterback"},
+      {"type":"game","slug":"1977-12-24-baltimore-colts","relation":"Quarterback"},
+      {"type":"moment","slug":"sea-of-hands","relation":"Quarterback"},
+      {"type":"moment","slug":"ghost-to-the-post","relation":"Quarterback"}
+    ]
+  },
+  {
+    "slug":"fred-biletnikoff",
+    "name":"Fred Biletnikoff",
+    "role":"player",
+    "summary":"Fred Biletnikoff played fourteen seasons for Oakland, became one of the defining receivers of the AFL-NFL era, and was named MVP of Super Bowl XI before later returning as a Raiders receivers coach.",
+    "raidersRoles":[
+      {"label":"Wide receiver","start":1965,"end":1978},
+      {"label":"Wide receivers coach","start":1989,"end":2006}
+    ],
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/photos/on-this-day-in-raiders-history-fred-biletnikoff-inducted-into-the-hall-of-fame",
+    "seasonRanges":[[1965,1978],[1989,2006]],
+    "connections":[
+      {"type":"championship","slug":"super-bowl-xi","relation":"Super Bowl MVP"},
+      {"type":"game","slug":"1968-11-17-new-york-jets","relation":"Wide receiver"},
+      {"type":"moment","slug":"heidi-game","relation":"Wide receiver"}
+    ]
+  },
+  {
+    "slug":"marcus-allen",
+    "name":"Marcus Allen",
+    "role":"player",
+    "summary":"Marcus Allen spent eleven seasons with the Raiders, became the franchise's career rushing leader, and produced a record-setting performance as MVP of Super Bowl XVIII.",
+    "raidersRoles":[{"label":"Running back","start":1982,"end":1992}],
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/history/marcus-allen",
+    "seasonRanges":[[1982,1992]],
+    "connections":[
+      {"type":"championship","slug":"super-bowl-xviii","relation":"Super Bowl MVP"}
+    ]
+  },
+  {
+    "slug":"tim-brown",
+    "name":"Tim Brown",
+    "role":"player",
+    "summary":"Tim Brown spent sixteen seasons with the Los Angeles and Oakland Raiders and became the franchise's career leader in receptions and receiving yards while also excelling as a return specialist.",
+    "raidersRoles":[{"label":"Wide receiver / returner","start":1988,"end":2003}],
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/history/tim-brown",
+    "seasonRanges":[[1988,2003]],
+    "connections":[]
+  },
+  {
+    "slug":"jim-plunkett",
+    "name":"Jim Plunkett",
+    "role":"player",
+    "summary":"Jim Plunkett joined the Raiders in 1978, took over the 1980 team after Dan Pastorini's injury, won Super Bowl XV MVP honors, and later quarterbacked the franchise to another title in Super Bowl XVIII.",
+    "raidersRoles":[{"label":"Quarterback","start":1978,"end":1986}],
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/history/all-time-roster/bios-p/jim-plunkett",
+    "seasonRanges":[[1978,1986]],
+    "connections":[
+      {"type":"championship","slug":"super-bowl-xv","relation":"Super Bowl MVP"},
+      {"type":"championship","slug":"super-bowl-xviii","relation":"Starting quarterback"},
+      {"type":"game","slug":"1981-01-04-cleveland-browns","relation":"Quarterback"},
+      {"type":"moment","slug":"red-right-88","relation":"Quarterback"}
+    ]
+  }
+]
