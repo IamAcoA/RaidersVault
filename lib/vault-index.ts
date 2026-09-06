@@ -15,7 +15,7 @@ export const vaultIndex: VaultSearchDocument[] = [
     title: player.name,
     subtitle: `${player.position} · ${player.years}${player.number ? ` · #${player.number}` : ""}`,
     text: `${player.name} ${player.position} ${player.years} ${player.number ?? ""} ${player.distinction}`,
-    href: "/players"
+    href: playerSlugs.has(player.slug) && legends.some(legend => legend.slug === player.slug) ? `/legends/${player.slug}` : "/players"
   })),
   ...legends.filter(legend => !playerSlugs.has(legend.slug)).map(legend => ({
     id: `legend:${legend.slug}`,
@@ -23,7 +23,7 @@ export const vaultIndex: VaultSearchDocument[] = [
     title: legend.name,
     subtitle: `${legend.role} · ${legend.collection}`,
     text: `${legend.name} ${legend.role} ${legend.collection} Raiders Hall of Fame`,
-    href: "/legends"
+    href: `/legends/${legend.slug}`
   })),
   ...seasons.map(season => ({
     id: `season:${season.year}`,
@@ -42,7 +42,7 @@ export const vaultIndex: VaultSearchDocument[] = [
       title: championship.name,
       subtitle: `${championship.score} · vs. ${championship.opponent}`,
       text: `${championship.name} ${championship.season} ${championship.teamName} ${championship.opponent} ${championship.score} ${mvp ?? ""} ${championship.summary}`,
-      href: "/championships",
+      href: `/championships/${championship.slug}`,
       year: championship.season
     };
   }),
