@@ -1,23 +1,602 @@
 [
   {
-    "id": "seed-raiders-audio",
-    "type": "podcast",
-    "title": "Raiders Podcast Network",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "url": "https://www.raiders.com/audio/",
-    "description": "Latest official Raiders audio and podcast coverage.",
-    "sourceId": "raiders-podcast-network",
-    "featured": true
+    "id": "silver-and-black-pride-1vvw8q9",
+    "type": "article",
+    "title": "Raiders fans expect Ashton Jeanty to start Week 1",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-05T22:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/138950/raiders-fans-expect-ashton-jeanty-to-start-week-1",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "seed-review-journal",
+    "id": "silver-and-black-pride-2il1bj",
     "type": "article",
-    "title": "Latest Raiders coverage from the Las Vegas Review-Journal",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-05T00:00:00.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/",
-    "description": "Latest Raiders reporting from the original publisher.",
-    "sourceId": "review-journal"
+    "title": "Raiders’ Patrick Johnson a feel-good story, but veteran earned his spot",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-05T20:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/138778/raiders-2026-patrick-johnson-defensive-end",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-7erev1",
+    "type": "article",
+    "title": "Raiders Mailbag: What week will Fernando Mendoza make his 1st start, what will Raiders’ record be?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-05T17:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/138832/las-vegas-raiders-mailbag-season-preview-fernando-mendoza-start",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-qs9njx",
+    "type": "article",
+    "title": "Raiders News: Maxx Crosby trade deadline chatter already starting",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-05T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/138880/las-vegas-raiders-news-maxx-crosby-trade",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-5nzgjj",
+    "type": "article",
+    "title": "Raiders 2026: Game-by-game predictions for Klint Kubiak’s 1st year",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-04T21:41:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/137964/raiders-2026-season-predictions-klint-kubiak",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "raiders-podcast-network-1ec398j",
+    "type": "podcast",
+    "title": "Update on Upon Further Review",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-04T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-sendoff-09042026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-h62a0w",
+    "type": "podcast",
+    "title": "Roster deep dive ahead of Week 1",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-04T20:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-09042026-final-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "silver-and-black-pride-1ohh7ys",
+    "type": "article",
+    "title": "Jeremiah Smith, Will Echoles, 2027 NFL draft wide receivers and defensive tackles Las Vegas Raiders fans should know",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-04T19:09:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-draft/138738/las-vegas-raiders-nfl-draft-jeremiah-smith-will-echoles-wide-receivers-defensive-tackles",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1vfyai0",
+    "type": "article",
+    "title": "Raiders&#8217; offensive line is an X-factor for the 2026 season",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-04T17:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/138594/raiders-offensive-line-2026-season",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-45f1mb",
+    "type": "article",
+    "title": "Raider roster: What does cornerback room look like?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-04T15:07:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/138570/raider-roster-cornerback-2026-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-f6skbb",
+    "type": "article",
+    "title": "Raiders News: Evan Neal, Azeez Ojulari, Ronnie Bell sign to practice squad",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-04T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/138815/las-vegas-raiders-news-roster-evan-neal-azeez-ojulari-ronnie-bell-practice-squad",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "locked-on-raiders-1y6xf3z",
+    "type": "podcast",
+    "title": "Why this season and future will be bright for the Raiders",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-04T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-iypi4d",
+    "type": "article",
+    "title": "Is Klint Kubiak’s Raiders offense plug-and-play for any running back?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-03T21:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/137969/raiders-2026-offense-running-backs-mike-washington",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "locked-on-raiders-1bj2zsx",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Kirk COUSINS named STARTING QB + Las Vegas RAIDERS WR Room lacks DEPTH",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-03T16:00:16.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-1qotilc",
+    "type": "podcast",
+    "title": "Raiders name Cousins QB 1; plus other notable storylines",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-03T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "raiders-podcast-network-2hf3fr",
+    "type": "podcast",
+    "title": "Introducing ‘Raiders Weekly’ | Trailer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-02T21:30:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-trailer-jt-09022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "locked-on-raiders-1aqi0va",
+    "type": "podcast",
+    "title": "Raiders success in 2026:More than wins and losses",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-02T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-1kxmzvh",
+    "type": "podcast",
+    "title": "Raiders stay active with a handful of roster moves",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-01T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-14slmv",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS 53-Man ROSTER REACTION + 2026 SCHEDULE Predictions",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-31T15:48:15.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-1bh1wfh",
+    "type": "podcast",
+    "title": "Biggest takeaways from the Raiders initial 53 man roster being set",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-31T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "raiders-podcast-network-q3cded",
+    "type": "podcast",
+    "title": "Instant reactions to the Raiders’ initial 53-man roster",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-30T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "locked-on-raiders-1t949ke",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs 49ERS RECAP: Fernando MENDOZA STRUGGLES again",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-28T15:44:18.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-p3xb8z",
+    "type": "podcast",
+    "title": "Biggest takeaways from Raiders preseason finale",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-28T07:15:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-a4b1or",
+    "type": "podcast",
+    "title": "Battle of the Bay, Las Vegas edition: Raiders vs. 49ers",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-27T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-u1lmwf",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs San Francisco 49ERS PREVIEW & Ashton JEANTY Injury",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-26T15:42:41.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "raiders-podcast-network-1ueekx6",
+    "type": "podcast",
+    "title": "Caleb Rogers upped his standard",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-26T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-rogers-08252026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "locked-on-raiders-18bapcb",
+    "type": "podcast",
+    "title": "Raiders made a huge impact off the field on Monday",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-25T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-1m1t741",
+    "type": "podcast",
+    "title": "Raiders may have escaped major injury scare with Ashton Jeanty",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-24T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-xn9c4",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Houston TEXANS RECAP, Fernando MENDOZA STRUGGLES",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-21T20:14:29.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-108m8bx",
+    "type": "podcast",
+    "title": "Raiders win late despite a subpar first half from Mendoza and the team",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-21T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-1xmfjw3",
+    "type": "podcast",
+    "title": "Raiders preseason Game 2: 3 players or positions to focus on",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-20T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-1ddad88",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Jackson POWERS-JOHNSON starting job in JEOPARDY + RAIDERS vs TEXANS Preview",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-19T15:51:12.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-14aevfe",
+    "type": "podcast",
+    "title": "Raiders have teachable moments in joint practice vs Houston",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-19T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-ypvsc8",
+    "type": "podcast",
+    "title": "What to watch for Raiders joint practice vs Houston",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-18T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-286vny",
+    "type": "podcast",
+    "title": "Raiders cleaning up and building",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-17T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-uktih1",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Fernando MENDOZA delivers SOLID NFL DEBUT | RAIDERS vs CARDINALS recap",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-14T15:43:02.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-16kwuf7",
+    "type": "podcast",
+    "title": "The Good, the Bad and the overreaction to Raiders loss to Arizona",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-14T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-1g5btpz",
+    "type": "podcast",
+    "title": "Raiders vs Cardinals, everything you need to know",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-13T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-cad6sp",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs CARDINALS preseason PREVIEW & unofficial DEPTH CHART",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-12T15:50:56.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-1ej2g8d",
+    "type": "podcast",
+    "title": "Raiders final tune up done, now onto preseason game 1",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-12T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-177r2cr",
+    "type": "podcast",
+    "title": "What stood out on the Raiders 1st unofficial depth chart",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-11T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "raiders-podcast-network-19wl9y1",
+    "type": "podcast",
+    "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-10T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "locked-on-raiders-16hkn6o",
+    "type": "podcast",
+    "title": "With Cousins on timeout; Mendoza gets 1st team reps",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-10T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "raiders-podcast-network-1hlqv39",
+    "type": "podcast",
+    "title": "Dalton Johnson is a gamer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-07T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "locked-on-raiders-1mhn3y3",
+    "type": "podcast",
+    "title": "Raiders Recap Practice # 7 - DB's Win Games",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-07T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-19af30n",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS TRAINING CAMP takeaways, Fernando Mendoza & his CRITICS",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-06T15:50:41.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "locked-on-raiders-ymtmvh",
+    "type": "podcast",
+    "title": "Storylines to pay attention to, as the Raiders get back to work",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-08-06T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "raiders-podcast-network-gj6xq8",
+    "type": "podcast",
+    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T17:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-n7cgvf",
+    "type": "podcast",
+    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1t8wumo",
+    "type": "podcast",
+    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-02T16:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1y8bklc",
+    "type": "podcast",
+    "title": "Malik Benson is built to adapt",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-30T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-yok1fx",
+    "type": "podcast",
+    "title": "Keyron Crawford will match your energy",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-29T16:15:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1gz174p",
+    "type": "podcast",
+    "title": "Fernando Mendoza on signing his rookie deal, his mindset for training camp and more",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-24T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-15p5eya",
+    "type": "podcast",
+    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-23T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-3zciw2",
+    "type": "podcast",
+    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-16T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-wm5wt8",
+    "type": "podcast",
+    "title": "DJ Glaze is building his game on consistency",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-02T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-ufd8lx",
+    "type": "podcast",
+    "title": "Tre Tucker has become the Raiders’ X Factor",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-05-26T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1ggkvvf",
+    "type": "podcast",
+    "title": "Andrew Janocko on Klint Kubiak, Fernando Mendoza and the offense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-05-18T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-aj-05182026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-9d8cu",
+    "type": "podcast",
+    "title": "Hispanic Football Hall of Fame inducts inaugural class with ‘Silver and Black’ theme",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-05-06T19:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-05072026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
   }
 ]
