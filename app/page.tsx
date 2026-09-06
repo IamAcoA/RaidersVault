@@ -8,6 +8,7 @@ import { getLiveCoverage } from "@/lib/coverage-live";
 const doors = [
   ["Timeline", "Every era, mapped.", "/timeline"],
   ["Seasons", "Year-by-year history.", "/seasons"],
+  ["Games", "The complete postseason ledger.", "/games"],
   ["Legends", "The Hall of Fame wing.", "/legends"],
   ["Championship Room", "The title years and trophy case.", "/championships"],
   ["Players", "Featured Raiders and career records.", "/players"],
@@ -30,7 +31,7 @@ export default async function Home() {
             <p>A living, source-backed archive of the franchise: seasons, players, games, moments, championships, culture and the stories still being written.</p>
             <div className="hero-actions">
               <Link className="button primary" href="/vault">Open the Vault</Link>
-              <Link className="button ghost" href="/championships">Enter Championship Room</Link>
+              <Link className="button ghost" href="/games">Explore Postseason Games</Link>
             </div>
           </div>
           <div className="hero-side-stack">
@@ -49,12 +50,10 @@ export default async function Home() {
       </section>
 
       <section className="section shell">
-        <SectionTitle eyebrow="Open the archive" title="Eight ways into Raiders history">The site is organized around connected records rather than disconnected blog posts.</SectionTitle>
+        <SectionTitle eyebrow="Open the archive" title="Nine ways into Raiders history">The site is organized around connected records rather than disconnected blog posts.</SectionTitle>
         <div className="door-grid">
           {doors.map(([title, copy, href], index) => (
-            <Link href={href} key={href} className="door-card">
-              <span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{copy}</p><b>Enter →</b>
-            </Link>
+            <Link href={href} key={href} className="door-card"><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{copy}</p><b>Enter →</b></Link>
           ))}
         </div>
       </section>
