@@ -8,7 +8,9 @@ import { getLiveCoverage } from "@/lib/coverage-live";
 const doors = [
   ["Timeline", "Every era, mapped.", "/timeline"],
   ["Seasons", "Year-by-year history.", "/seasons"],
-  ["Players", "Legends and every Raider.", "/players"],
+  ["Legends", "The Hall of Fame wing.", "/legends"],
+  ["Championship Room", "The title years and trophy case.", "/championships"],
+  ["Players", "Featured Raiders and career records.", "/players"],
   ["Moments", "Games that became mythology.", "/moments"],
   ["Vault Search", "Find people, years and events.", "/vault"],
   ["Around Raider Nation", "Trusted links, not copied stories.", "/coverage"]
@@ -28,7 +30,7 @@ export default async function Home() {
             <p>A living, source-backed archive of the franchise: seasons, players, games, moments, championships, culture and the stories still being written.</p>
             <div className="hero-actions">
               <Link className="button primary" href="/vault">Open the Vault</Link>
-              <Link className="button ghost" href="/timeline">Explore 1960 → Today</Link>
+              <Link className="button ghost" href="/championships">Enter Championship Room</Link>
             </div>
           </div>
           <div className="hero-side-stack">
@@ -47,11 +49,11 @@ export default async function Home() {
       </section>
 
       <section className="section shell">
-        <SectionTitle eyebrow="Open the archive" title="Six ways into Raiders history">The site is organized around connected records rather than disconnected blog posts.</SectionTitle>
+        <SectionTitle eyebrow="Open the archive" title="Eight ways into Raiders history">The site is organized around connected records rather than disconnected blog posts.</SectionTitle>
         <div className="door-grid">
           {doors.map(([title, copy, href], index) => (
             <Link href={href} key={href} className="door-card">
-              <span>0{index + 1}</span><h3>{title}</h3><p>{copy}</p><b>Enter →</b>
+              <span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{copy}</p><b>Enter →</b>
             </Link>
           ))}
         </div>
