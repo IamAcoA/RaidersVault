@@ -42,9 +42,24 @@ export default async function SeasonPage({ params }: { params: Promise<{ year: s
         <p className="fine-print">This season is indexed in the franchise chronology, but detailed record/coach/finish fields are intentionally withheld until they are separately verified.</p>
       ) : null}
 
+      {season.people.length ? (
+        <div className="exhibit-related">
+          <span className="eyebrow">Connected people</span>
+          <div className="related-grid">
+            {season.people.map(person => (
+              <Link className="related-card" href={person.href} key={`${person.type}:${person.slug}`}>
+                <small>{person.relation}</small>
+                <strong>{person.name}</strong>
+                <b>Open person →</b>
+              </Link>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
       {season.related.length ? (
         <div className="exhibit-related">
-          <span className="eyebrow">Connected records</span>
+          <span className="eyebrow">Connected games & championships</span>
           <div className="related-grid">
             {season.related.map(item => (
               <Link className="related-card" href={item.href} key={`${item.type}:${item.slug}`}>
@@ -57,11 +72,11 @@ export default async function SeasonPage({ params }: { params: Promise<{ year: s
         </div>
       ) : (
         <div className="exhibit-related">
-          <span className="eyebrow">Connected records</span>
+          <span className="eyebrow">Connected games & championships</span>
           <p className="fine-print">No individually indexed games or championship records are connected to this season yet.</p>
         </div>
       )}
-      <p className="fine-print">Storage: {season.database ? "connected Postgres season record" : "versioned fallback chronology"}.</p>
+      <p className="fine-print">Storage: {season.database ? "connected Postgres season record with people graph" : "versioned fallback chronology"}.</p>
     </section>
   );
 }
