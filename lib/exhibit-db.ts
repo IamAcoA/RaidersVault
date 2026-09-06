@@ -47,7 +47,7 @@ function hrefFor(type: string, slug: string, metadata: Record<string, unknown> =
   if (type === "championship") return `/championships/${slug}`;
   if (type === "game") return `/games/${slug}`;
   if (type === "moment") return `/moments/${slug}`;
-  if (type === "season") return "/seasons";
+  if (type === "season") return `/seasons/${slug.replace(/^season-/, "")}`;
   if (metadata.collection === "Pro Football Hall of Fame") return `/legends/${slug}`;
   if (type === "player" && metadata.sourceUrl) return `/players/${slug}`;
   return "/vault";
@@ -99,7 +99,7 @@ function fallbackChampionship(slug: string): ChampionshipExhibit | null {
     name: `${item.season} season`,
     type: "season",
     relation: "Championship season",
-    href: "/seasons"
+    href: `/seasons/${item.season}`
   }];
   const titleGame = games.find(record => record.date === item.date);
   if (titleGame) related.push({
