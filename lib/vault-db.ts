@@ -46,7 +46,7 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
         href = metadata.sourceUrl ? `/players/${row.slug}` : "/players";
       } else if (row.entity_type === "season") {
         type = "season";
-        href = "/seasons";
+        href = `/seasons/${year}`;
       } else if (row.entity_type === "moment") {
         type = "moment";
         href = `/moments/${row.slug}`;
