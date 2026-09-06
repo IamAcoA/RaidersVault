@@ -51,6 +51,12 @@ async function run() {
 
     const rivalries = JSON.parse(await fs.readFile(path.join(root, "data/rivalries.json"), "utf8"));
     await sql.begin(async tx => {
+      await tx`alter table entities drop constraint if exists entities_entity_type_check`;
+      await tx`
+        alter table entities add constraint entities_entity_type_check
+        check (entity_type in ('person','player','coach','executive','season','game','moment','venue','artifact','era','championship','rivalry','event'))
+      `;
+
       for (const rivalry of rivalries) {
         const rows = await tx`
           insert into entities (entity_type, slug, display_name, start_date, metadata)
