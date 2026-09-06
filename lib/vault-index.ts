@@ -4,6 +4,7 @@ import classicGames from "@/data/classic-games.json";
 import legends from "@/data/legends.json";
 import { moments } from "@/data/moments";
 import { players } from "@/data/players";
+import rivalries from "@/data/rivalries.json";
 import { seasons } from "@/data/seasons";
 import { timeline } from "@/data/timeline";
 import type { VaultSearchDocument } from "@/lib/types";
@@ -17,6 +18,7 @@ export const vaultIndex: VaultSearchDocument[] = [
   ...games.map(game => ({ id: `game:${game.slug}`, type: "game" as const, title: `Raiders vs. ${game.opponent}`, subtitle: `${game.season} · ${game.round} · ${game.result} ${game.raidersScore}-${game.opponentScore}${game.overtime ? " OT" : ""}`, text: `${game.season} ${game.date} ${game.round} Raiders ${game.opponent} ${game.result} ${game.raidersScore} ${game.opponentScore} ${game.site} ${game.overtime ? "overtime" : ""}`, href: `/games/${game.slug}`, year: game.season })),
   ...classicGames.map(game => ({ id: `game:${game.slug}`, type: "game" as const, title: game.nickname, subtitle: `${game.season} · ${game.round} · Raiders ${game.raidersScore}-${game.opponentScore} ${game.opponent}`, text: `${game.nickname} ${game.season} ${game.date} ${game.round} Raiders ${game.opponent} ${game.result} ${game.raidersScore} ${game.opponentScore} ${game.site} regular season classic`, href: `/games/${game.slug}`, year: game.season })),
   ...championships.map(championship => { const mvp = "mvp" in championship ? championship.mvp : ""; return { id: `championship:${championship.slug}`, type: "championship" as const, title: championship.name, subtitle: `${championship.score} · vs. ${championship.opponent}`, text: `${championship.name} ${championship.season} ${championship.teamName} ${championship.opponent} ${championship.score} ${mvp ?? ""} ${championship.summary}`, href: `/championships/${championship.slug}`, year: championship.season }; }),
+  ...rivalries.map(rivalry => ({ id: `rivalry:${rivalry.slug}`, type: "rivalry" as const, title: `Raiders vs. ${rivalry.shortName}`, subtitle: rivalry.seriesRecord, text: `${rivalry.name} ${rivalry.shortName} Raiders rivalry ${rivalry.kind} ${rivalry.seriesRecord} ${"postseasonRecord" in rivalry ? rivalry.postseasonRecord ?? "" : ""} ${rivalry.summary} ${rivalry.aliases.join(" ")}`, href: `/rivalries/${rivalry.slug}`, year: rivalry.startYear })),
   ...moments.map(moment => ({ id: `moment:${moment.slug}`, type: "moment" as const, title: moment.title, subtitle: `${moment.date}${moment.opponent ? ` · vs. ${moment.opponent}` : ""}`, text: `${moment.title} ${moment.date} ${moment.opponent ?? ""} ${moment.summary} ${moment.playDetail ?? ""} ${(moment.people ?? []).join(" ")} ${moment.tags.join(" ")}`, href: `/moments/${moment.slug}`, year: Number(moment.date.slice(0, 4)) })),
   ...timeline.map(event => ({ id: `timeline:${event.date}:${event.title}`, type: "timeline" as const, title: event.title, subtitle: `${event.year} · ${event.era}`, text: `${event.title} ${event.summary} ${event.year} ${event.era} ${event.category}`, href: "/timeline", year: event.year }))
 ];
