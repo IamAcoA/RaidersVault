@@ -1,4 +1,5 @@
 import fallbackGames from "@/data/games.json";
+import fallbackClassicGames from "@/data/classic-games.json";
 import { moments } from "@/data/moments";
 import { databaseConfigured, db, ensureDatabaseReady } from "@/lib/db";
 
@@ -13,6 +14,8 @@ export interface GameArchiveRow {
   opponentScore: number;
   site: "home" | "away" | "neutral";
   overtime: boolean;
+  gameType?: string;
+  nickname?: string;
   sourceLabel: string;
   sourceUrl: string;
 }
@@ -22,7 +25,9 @@ export interface GameExhibit extends GameArchiveRow {
   database: boolean;
 }
 
-const fallback = fallbackGames as GameArchiveRow[];
+const postseasonFallback = fallbackGames as GameArchiveRow[];
+const classicFallback = fallbackClassicGames as GameArchiveRow[];
+const fallback = [...postseasonFallback, ...classicFallback];
 
 function fallbackRelated(slug: string) {
   return moments.filter(moment => moment.gameSlug === slug).map(moment => ({
@@ -33,33 +38,47 @@ function fallbackRelated(slug: string) {
   }));
 }
 
-export async function getGamesArchive(): Promise<{ rows: GameArchiveRow[]; database: boolean }> {
-  if (!databaseConfigured() || !(await ensureDatabaseReady())) return { rows: fallback, database: false };
+function mapRow(row: { slug: string; start_date: string; metadata: Record<string, unknown> }): GameArchiveRow {
+  return {
+    slug: row.slug,
+    season: Number(row.metadata.season),
+    date: String(row.start_date),
+    round: String(row.metadata.round),
+    opponent: String(row.metadata.opponent),
+    result: String(row.metadata.result) as "W" | "L",
+    raidersScore: Number(row.metadata.raidersScore),
+    opponentScore: Number(row.metadata.opponentScore),
+    site: String(row.metadata.site) as GameArchiveRow["site"],
+    overtime: Boolean(row.metadata.overtime),
+    gameType: row.metadata.gameType ? String(row.metadata.gameType) : undefined,
+    nickname: row.metadata.nickname ? String(row.metadata.nickname) : undefined,
+    sourceLabel: String(row.metadata.sourceLabel ?? "Source"),
+    sourceUrl: String(row.metadata.sourceUrl ?? "")
+  };
+}
+
+async function getArchiveByType(gameType: string, fallbackRows: GameArchiveRow[]) {
+  if (!databaseConfigured() || !(await ensureDatabaseReady())) return { rows: fallbackRows, database: false };
   try {
     const sql = db();
     const rows = await sql<Array<{ slug: string; start_date: string; metadata: Record<string, unknown> }>>`
       select slug, start_date, metadata from entities
-      where entity_type = 'game' and metadata ->> 'gameType' = 'postseason'
+      where entity_type = 'game' and metadata ->> 'gameType' = ${gameType}
       order by start_date
     `;
-    const mapped = rows.map(row => ({
-      slug: row.slug,
-      season: Number(row.metadata.season),
-      date: String(row.start_date),
-      round: String(row.metadata.round),
-      opponent: String(row.metadata.opponent),
-      result: String(row.metadata.result) as "W" | "L",
-      raidersScore: Number(row.metadata.raidersScore),
-      opponentScore: Number(row.metadata.opponentScore),
-      site: String(row.metadata.site) as GameArchiveRow["site"],
-      overtime: Boolean(row.metadata.overtime),
-      sourceLabel: String(row.metadata.sourceLabel ?? "Pro Football Reference"),
-      sourceUrl: String(row.metadata.sourceUrl ?? "https://www.pro-football-reference.com/teams/rai/playoffs.htm")
-    }));
-    return { rows: mapped.length ? mapped : fallback, database: true };
+    const mapped = rows.map(mapRow);
+    return { rows: mapped.length ? mapped : fallbackRows, database: true };
   } catch {
-    return { rows: fallback, database: false };
+    return { rows: fallbackRows, database: false };
   }
+}
+
+export async function getGamesArchive(): Promise<{ rows: GameArchiveRow[]; database: boolean }> {
+  return getArchiveByType("postseason", postseasonFallback);
+}
+
+export async function getClassicGamesArchive(): Promise<{ rows: GameArchiveRow[]; database: boolean }> {
+  return getArchiveByType("regular-season-classic", classicFallback);
 }
 
 export async function getGameExhibit(slug: string): Promise<GameExhibit | null> {
@@ -85,20 +104,7 @@ export async function getGameExhibit(slug: string): Promise<GameExhibit | null> 
       where r.to_entity_id = ${row.id} and r.relation_type = 'moment_of_game'
       order by relation_type, display_name
     `;
-    const base: GameArchiveRow = {
-      slug: row.slug,
-      season: Number(row.metadata.season),
-      date: String(row.start_date),
-      round: String(row.metadata.round),
-      opponent: String(row.metadata.opponent),
-      result: String(row.metadata.result) as "W" | "L",
-      raidersScore: Number(row.metadata.raidersScore),
-      opponentScore: Number(row.metadata.opponentScore),
-      site: String(row.metadata.site) as GameArchiveRow["site"],
-      overtime: Boolean(row.metadata.overtime),
-      sourceLabel: String(row.metadata.sourceLabel ?? "Pro Football Reference"),
-      sourceUrl: String(row.metadata.sourceUrl ?? "https://www.pro-football-reference.com/teams/rai/playoffs.htm")
-    };
+    const base = mapRow(row);
     return {
       ...base,
       related: relatedRows.map(item => ({
