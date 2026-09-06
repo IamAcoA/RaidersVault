@@ -4,6 +4,7 @@ const nav = [
   ["Timeline", "/timeline"],
   ["Seasons", "/seasons"],
   ["Games", "/games"],
+  ["Rivalries", "/rivalries"],
   ["Legends", "/legends"],
   ["Championships", "/championships"],
   ["Players", "/players"],
