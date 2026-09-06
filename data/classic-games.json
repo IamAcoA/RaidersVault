@@ -1,0 +1,36 @@
+[
+  {
+    "slug":"1968-11-17-new-york-jets",
+    "season":1968,
+    "date":"1968-11-17",
+    "round":"Week 10",
+    "opponent":"New York Jets",
+    "result":"W",
+    "raidersScore":43,
+    "opponentScore":32,
+    "site":"home",
+    "overtime":false,
+    "gameType":"regular-season-classic",
+    "nickname":"The Heidi Game",
+    "sourceId":"raiders-official",
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/history/remembering-heidi-game"
+  },
+  {
+    "slug":"1978-09-10-san-diego-chargers",
+    "season":1978,
+    "date":"1978-09-10",
+    "round":"Week 2",
+    "opponent":"San Diego Chargers",
+    "result":"W",
+    "raidersScore":21,
+    "opponentScore":20,
+    "site":"away",
+    "overtime":false,
+    "gameType":"regular-season-classic",
+    "nickname":"The Holy Roller",
+    "sourceId":"raiders-official",
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/news/the-holy-roller-3423311"
+  }
+]
