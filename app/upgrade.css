@@ -17,7 +17,21 @@
 .search-result > b { color: var(--silver); }
 .standalone-stats { border: 1px solid var(--line); border-top: 0; margin-top: 0; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.person-card a { display: inline-block; margin-top: 18px; color: var(--silver); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
+.championship-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 34px; }
+.championship-card { min-height: 390px; border: 1px solid var(--line); padding: 30px; background: linear-gradient(155deg,#171717,#0a0a0a); display: flex; flex-direction: column; }
+.championship-card > strong { display: block; font-size: clamp(58px,7vw,92px); letter-spacing: -.07em; line-height: .9; margin: 34px 0 18px; }
+.championship-card h3 { font-family: Georgia, serif; font-weight: 400; font-size: 30px; margin: 0 0 12px; }
+.championship-card p { color: var(--muted); line-height: 1.55; }
+.championship-card small { color: var(--silver); text-transform: uppercase; letter-spacing: .1em; font-size: 10px; margin-top: auto; padding-top: 18px; }
+.championship-card a { margin-top: 18px; color: var(--silver); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
+.championship-league-band { margin-top: 34px; padding: 56px; }
+@media (max-width: 900px) {
+  .championship-grid { grid-template-columns: 1fr; }
+  .championship-league-band { padding: 36px; }
+}
 @media (max-width: 600px) {
   .search-result { grid-template-columns: 1fr auto; }
   .search-result > span { grid-column: 1 / -1; }
+  .championship-league-band { padding: 24px; }
 }
