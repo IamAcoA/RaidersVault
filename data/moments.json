@@ -40,50 +40,5 @@
     "sourceLabel":"Las Vegas Raiders",
     "sourceUrl":"https://www.raiders.com/news/greatest-moments-1980-afc-divisional-playoff-1009177",
     "tags":["playoffs","1980","championship-run","named-play"]
-  },
-  {
-    "slug":"super-bowl-xi",
-    "title":"Super Bowl XI",
-    "date":"1977-01-09",
-    "opponent":"Minnesota Vikings",
-    "summary":"Oakland won 32-14 to capture the first Super Bowl title in franchise history.",
-    "playDetail":"The championship is preserved primarily in Championship Room; this moment record connects the title to the underlying game ledger.",
-    "people":["Fred Biletnikoff"],
-    "gameSlug":"1977-01-09-minnesota-vikings",
-    "championshipSlug":"super-bowl-xi",
-    "sourceId":"raiders-official",
-    "sourceLabel":"Las Vegas Raiders",
-    "sourceUrl":"https://www.raiders.com/history/greatest-moments",
-    "tags":["championship","super-bowl"]
-  },
-  {
-    "slug":"super-bowl-xv",
-    "title":"Super Bowl XV",
-    "date":"1981-01-25",
-    "opponent":"Philadelphia Eagles",
-    "summary":"The Raiders completed their 1980 championship run with a 27-10 victory and the franchise's second Super Bowl title.",
-    "playDetail":"The championship is preserved primarily in Championship Room; this moment record connects the title to the underlying game ledger and Jim Plunkett's MVP exhibit.",
-    "people":["Jim Plunkett"],
-    "gameSlug":"1981-01-25-philadelphia-eagles",
-    "championshipSlug":"super-bowl-xv",
-    "sourceId":"raiders-official",
-    "sourceLabel":"Las Vegas Raiders",
-    "sourceUrl":"https://www.raiders.com/history/greatest-moments",
-    "tags":["championship","super-bowl"]
-  },
-  {
-    "slug":"super-bowl-xviii",
-    "title":"Super Bowl XVIII",
-    "date":"1984-01-22",
-    "opponent":"Washington Redskins",
-    "summary":"The Los Angeles Raiders defeated Washington 38-9 to secure the franchise's third Super Bowl title.",
-    "playDetail":"The championship is preserved primarily in Championship Room; this moment record connects the title to the underlying game ledger and Marcus Allen's MVP exhibit.",
-    "people":["Marcus Allen"],
-    "gameSlug":"1984-01-22-washington-redskins",
-    "championshipSlug":"super-bowl-xviii",
-    "sourceId":"raiders-official",
-    "sourceLabel":"Las Vegas Raiders",
-    "sourceUrl":"https://www.raiders.com/history/greatest-moments",
-    "tags":["championship","super-bowl","los-angeles"]
   }
 ]
