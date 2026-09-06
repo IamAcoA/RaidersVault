@@ -17,7 +17,7 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
     }>>`
       select entity_type, slug, display_name, start_date, metadata
       from entities
-      where entity_type in ('person','player','coach','executive','season','moment','era','championship','event')
+      where entity_type in ('person','player','coach','executive','season','game','moment','era','championship','event')
       order by coalesce(start_date, '9999-12-31'::date), display_name
     `;
 
@@ -25,7 +25,7 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
 
     const documents: VaultSearchDocument[] = rows.map((row) => {
       const metadata = row.metadata ?? {};
-      const year = row.start_date ? Number(String(row.start_date).slice(0, 4)) : undefined;
+      const year = row.entity_type === "game" ? Number(metadata.season) : row.start_date ? Number(String(row.start_date).slice(0, 4)) : undefined;
       const isLegend = metadata.collection === "Pro Football Hall of Fame";
       const subtitle = String(metadata.subtitle ?? metadata.years ?? metadata.record ?? metadata.date ?? metadata.collection ?? row.entity_type);
       const text = [row.display_name, row.slug, row.entity_type, ...Object.values(metadata).map(String)].join(" ");
@@ -35,6 +35,9 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
       if (row.entity_type === "championship") {
         type = "championship";
         href = `/championships/${row.slug}`;
+      } else if (row.entity_type === "game") {
+        type = "game";
+        href = `/games/${row.slug}`;
       } else if (isLegend) {
         type = "legend";
         href = `/legends/${row.slug}`;
@@ -49,15 +52,7 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
         href = "/moments";
       }
 
-      return {
-        id: `db:${row.entity_type}:${row.slug}`,
-        type,
-        title: row.display_name,
-        subtitle,
-        text,
-        href,
-        year
-      };
+      return { id: `db:${row.entity_type}:${row.slug}`, type, title: row.display_name, subtitle, text, href, year };
     });
 
     return { documents, database: true };
