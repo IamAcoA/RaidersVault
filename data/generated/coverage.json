@@ -1,5 +1,25 @@
 [
   {
+    "id": "silver-and-black-pride-11lrznq",
+    "type": "article",
+    "title": "Raiders News: Amy Trask thinks the Raiders made the right call on Mendoza",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-06T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/138956/raiders-news-amy-trask-thinks-the-raiders-made-the-right-call-on-mendoza",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-b591no",
+    "type": "article",
+    "title": "Why does Klint Kubiak value a fullback with the Raiders?",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-06T13:00:24.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/why-does-klint-kubiak-value-a-fullback-with-the-raiders-3882981/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-1vvw8q9",
     "type": "article",
     "title": "Raiders fans expect Ashton Jeanty to start Week 1",
@@ -118,16 +138,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-iypi4d",
-    "type": "article",
-    "title": "Is Klint Kubiak’s Raiders offense plug-and-play for any running back?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-03T21:45:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/137969/raiders-2026-offense-running-backs-mike-washington",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1bj2zsx",
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-05-18T21:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-aj-05182026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-9d8cu",
-    "type": "podcast",
-    "title": "Hispanic Football Hall of Fame inducts inaugural class with ‘Silver and Black’ theme",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-05-06T19:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-05072026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
