@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getChampionshipArchive } from "@/lib/championship-db";
 
@@ -26,7 +27,10 @@ export default async function ChampionshipsPage() {
             <p>{item.teamName} vs. {item.opponent}</p>
             <p>{item.summary}</p>
             {item.mvp ? <small>MVP: {item.mvp}</small> : null}
-            <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {item.sourceLabel} ↗</a>
+            <div className="card-actions">
+              <Link href={`/championships/${item.slug}`}>Open exhibit →</Link>
+              <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">Source ↗</a>
+            </div>
           </article>
         ))}
       </div>
@@ -35,7 +39,12 @@ export default async function ChampionshipsPage() {
         <div className="feature-band championship-league-band">
           <div className="feature-grid">
             <SectionTitle eyebrow="Before the Super Bowl era" title={leagueTitles[0].name}>{leagueTitles[0].summary}</SectionTitle>
-            <div className="year-stamp"><span>{leagueTitles[0].teamName}</span><strong>{leagueTitles[0].score}</strong><a href={leagueTitles[0].sourceUrl} target="_blank" rel="noopener noreferrer">Source: {leagueTitles[0].sourceLabel} ↗</a></div>
+            <div className="year-stamp">
+              <span>{leagueTitles[0].teamName}</span>
+              <strong>{leagueTitles[0].score}</strong>
+              <Link href={`/championships/${leagueTitles[0].slug}`}>Open exhibit →</Link>
+              <a href={leagueTitles[0].sourceUrl} target="_blank" rel="noopener noreferrer">Source: {leagueTitles[0].sourceLabel} ↗</a>
+            </div>
           </div>
         </div>
       ) : null}
