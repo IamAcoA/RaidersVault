@@ -9,7 +9,7 @@ if (!databaseUrl) {
   process.exit(0);
 }
 
-const MIGRATION_VERSION = "2";
+const MIGRATION_VERSION = "3";
 const MIGRATION_LOCK_KEY = 724325198;
 const PFR_FRANCHISE_URL = "https://www.pro-football-reference.com/teams/rai/index.htm";
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -41,6 +41,11 @@ function currentFranchiseSeasonYear() {
   return now.getUTCMonth() >= 2 ? now.getUTCFullYear() : now.getUTCFullYear() - 1;
 }
 
+function legendSubtitle(legend) {
+  const label = legend.role === "executive" ? "Executive" : legend.role === "coach" ? "Coach" : "Player";
+  return `${label} · ${legend.collection}`;
+}
+
 async function runMigration() {
   let lockHeld = false;
   try {
@@ -56,13 +61,15 @@ async function runMigration() {
       }
     }
 
-    const [schema, sources, players, seasons, moments, timeline] = await Promise.all([
+    const [schema, sources, players, seasons, moments, timeline, legends, championships] = await Promise.all([
       fs.readFile(path.join(root, "db/schema.sql"), "utf8"),
       readJson("data/source-registry.json"),
       readJson("data/players.json"),
       readJson("data/seasons.json"),
       readJson("data/moments.json"),
-      readJson("data/timeline.json")
+      readJson("data/timeline.json"),
+      readJson("data/legends.json"),
+      readJson("data/championships.json")
     ]);
 
     await sql.unsafe(schema);
@@ -92,6 +99,26 @@ async function runMigration() {
           values ('player', ${player.slug}, ${player.name}, ${range.start}, ${range.end}, ${tx.json({ ...player, subtitle: `${player.position} · ${player.years}${player.number ? ` · #${player.number}` : ""}` })})
           on conflict (slug) do update set display_name = excluded.display_name, start_date = excluded.start_date, end_date = excluded.end_date, metadata = excluded.metadata, updated_at = now()
         `;
+      }
+
+      for (const legend of legends) {
+        const rows = await tx`
+          insert into entities (entity_type, slug, display_name, metadata)
+          values (${legend.role}, ${legend.slug}, ${legend.name}, ${tx.json({ ...legend, hallOfFame: true, subtitle: legendSubtitle(legend) })})
+          on conflict (slug) do update set
+            display_name = excluded.display_name,
+            metadata = entities.metadata || excluded.metadata,
+            updated_at = now()
+          returning id
+        `;
+        const entityId = rows[0]?.id;
+        if (entityId) {
+          await tx`
+            insert into facts (entity_id, fact_key, fact_value, source_id, source_url, confidence, verified_at)
+            values (${entityId}, 'hall_of_fame_membership', ${tx.json({ collection: legend.collection, role: legend.role })}, 'pro-football-hof', ${legend.sourceUrl}, 1.0, now())
+            on conflict (entity_id, fact_key, source_url) do update set fact_value = excluded.fact_value, source_id = excluded.source_id, verified_at = now()
+          `;
+        }
       }
 
       const detailedSeasons = new Map(seasons.map(season => [Number(season.year), season]));
@@ -161,6 +188,46 @@ async function runMigration() {
         }
       }
 
+      for (const championship of championships) {
+        const sourceId = championship.sourceLabel.toLowerCase().includes("hall of fame") ? "pro-football-hof" : "raiders-official";
+        const rows = await tx`
+          insert into entities (entity_type, slug, display_name, start_date, metadata)
+          values ('championship', ${championship.slug}, ${championship.name}, ${championship.date}, ${tx.json({ ...championship, subtitle: `${championship.score} · vs. ${championship.opponent}` })})
+          on conflict (slug) do update set display_name = excluded.display_name, start_date = excluded.start_date, metadata = excluded.metadata, updated_at = now()
+          returning id
+        `;
+        const championshipId = rows[0]?.id;
+        if (!championshipId) continue;
+
+        await tx`
+          insert into facts (entity_id, fact_key, fact_value, source_id, source_url, confidence, verified_at)
+          values (${championshipId}, 'championship_result', ${tx.json({ season: championship.season, opponent: championship.opponent, score: championship.score, mvp: championship.mvp ?? null })}, ${sourceId}, ${championship.sourceUrl}, 1.0, now())
+          on conflict (entity_id, fact_key, source_url) do update set fact_value = excluded.fact_value, source_id = excluded.source_id, verified_at = now()
+        `;
+
+        const seasonRows = await tx`select id from entities where slug = ${`season-${championship.season}`} limit 1`;
+        const seasonId = seasonRows[0]?.id;
+        if (seasonId) {
+          await tx`
+            insert into relations (from_entity_id, relation_type, to_entity_id, source_id, source_url)
+            values (${championshipId}, 'championship_of_season', ${seasonId}, ${sourceId}, ${championship.sourceUrl})
+            on conflict (from_entity_id, relation_type, to_entity_id) do nothing
+          `;
+        }
+
+        if (championship.mvp) {
+          const mvpRows = await tx`select id from entities where slug = ${slugify(championship.mvp)} limit 1`;
+          const mvpId = mvpRows[0]?.id;
+          if (mvpId) {
+            await tx`
+              insert into relations (from_entity_id, relation_type, to_entity_id, source_id, source_url)
+              values (${championshipId}, 'championship_mvp', ${mvpId}, ${sourceId}, ${championship.sourceUrl})
+              on conflict (from_entity_id, relation_type, to_entity_id) do nothing
+            `;
+          }
+        }
+      }
+
       await tx`
         insert into app_meta (key, value, updated_at)
         values ('schema_version', ${MIGRATION_VERSION}, now())
@@ -172,7 +239,8 @@ async function runMigration() {
       select
         (select count(*)::int from sources) as sources,
         (select count(*)::int from entities) as entities,
-        (select count(*)::int from facts) as facts
+        (select count(*)::int from facts) as facts,
+        (select count(*)::int from relations) as relations
     `;
     console.log(`[db] migration ${MIGRATION_VERSION} complete`, counts[0]);
   } finally {
