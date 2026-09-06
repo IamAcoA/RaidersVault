@@ -1,9 +1,31 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { moments } from "@/data/moments";
 import { SectionTitle } from "@/components/SectionTitle";
 
 export const metadata: Metadata = { title: "Moments" };
 
 export default function MomentsPage() {
-  return <section className="section shell page-top"><SectionTitle eyebrow="The mythology" title="Moments">Signature games and plays become structured records instead of isolated articles.</SectionTitle><div className="moment-grid">{moments.map(m => <article className="moment-card" key={m.slug}><span className="date">{m.date}</span><h3>{m.title}</h3>{m.opponent ? <strong>vs. {m.opponent}</strong> : null}<p>{m.summary}</p><div className="tag-row">{m.tags.map(t => <span className="tag" key={t}>{t}</span>)}</div></article>)}</div></section>;
+  return (
+    <section className="section shell page-top">
+      <SectionTitle eyebrow="The mythology" title="Moments">
+        Signature plays and championship moments are preserved as source-backed records and connected to the exact games where they happened.
+      </SectionTitle>
+      <div className="moment-grid">
+        {moments.map(moment => (
+          <article className="moment-card" key={moment.slug}>
+            <span className="date">{moment.date}</span>
+            <h3>{moment.title}</h3>
+            {moment.opponent ? <strong>vs. {moment.opponent}</strong> : null}
+            <p>{moment.summary}</p>
+            <div className="tag-row">{moment.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}</div>
+            <div className="card-actions">
+              <Link href={`/moments/${moment.slug}`}>Open exhibit →</Link>
+              {moment.gameSlug ? <Link href={`/games/${moment.gameSlug}`}>Game record →</Link> : null}
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
 }
