@@ -29,13 +29,21 @@ const postseasonFallback = fallbackGames as GameArchiveRow[];
 const classicFallback = fallbackClassicGames as GameArchiveRow[];
 const fallback = [...postseasonFallback, ...classicFallback];
 
-function fallbackRelated(slug: string) {
-  return moments.filter(moment => moment.gameSlug === slug).map(moment => ({
-    slug: moment.slug,
-    name: moment.title,
-    relation: "Archive moment",
-    href: `/moments/${moment.slug}`
-  }));
+function fallbackRelated(game: GameArchiveRow) {
+  return [
+    {
+      slug: `season-${game.season}`,
+      name: `${game.season} Raiders season`,
+      relation: "Season",
+      href: `/seasons/${game.season}`
+    },
+    ...moments.filter(moment => moment.gameSlug === game.slug).map(moment => ({
+      slug: moment.slug,
+      name: moment.title,
+      relation: "Archive moment",
+      href: `/moments/${moment.slug}`
+    }))
+  ];
 }
 
 function mapRow(row: { slug: string; start_date: string; metadata: Record<string, unknown> }): GameArchiveRow {
@@ -83,7 +91,7 @@ export async function getClassicGamesArchive(): Promise<{ rows: GameArchiveRow[]
 
 export async function getGameExhibit(slug: string): Promise<GameExhibit | null> {
   const fallbackRow = fallback.find(row => row.slug === slug);
-  const fallbackLinks = fallbackRelated(slug);
+  const fallbackLinks = fallbackRow ? fallbackRelated(fallbackRow) : [];
   if (!databaseConfigured() || !(await ensureDatabaseReady())) return fallbackRow ? { ...fallbackRow, related: fallbackLinks, database: false } : null;
   try {
     const sql = db();
@@ -111,7 +119,11 @@ export async function getGameExhibit(slug: string): Promise<GameExhibit | null> 
         slug: item.slug,
         name: item.display_name,
         relation: item.relation_type === "game_of_season" ? "Season" : item.relation_type === "moment_of_game" ? "Archive moment" : "Championship record",
-        href: item.entity_type === "moment" ? `/moments/${item.slug}` : item.entity_type === "championship" ? `/championships/${item.slug}` : "/seasons"
+        href: item.entity_type === "moment"
+          ? `/moments/${item.slug}`
+          : item.entity_type === "championship"
+            ? `/championships/${item.slug}`
+            : `/seasons/${item.slug.replace(/^season-/, "")}`
       })),
       database: true
     };
