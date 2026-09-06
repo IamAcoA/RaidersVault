@@ -3,7 +3,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const execFileAsync = promisify(execFile);
-const EXPECTED_DB_VERSION = "2";
+const EXPECTED_DB_VERSION = "3";
 let client: ReturnType<typeof postgres> | null = null;
 let readyPromise: Promise<boolean> | null = null;
 
