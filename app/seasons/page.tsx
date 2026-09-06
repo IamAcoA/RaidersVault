@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getSeasonArchive } from "@/lib/season-db";
 
@@ -13,7 +14,7 @@ export default async function SeasonsPage() {
   return (
     <section className="section shell page-top">
       <SectionTitle eyebrow="Year by year" title="Seasons">
-        Every Raiders season is indexed from 1960 forward. Detailed records appear only after the season facts have been verified and sourced.
+        Every Raiders season is indexed from 1960 forward. Open any year as its own exhibit; detailed fields appear only after the season facts have been verified and sourced.
       </SectionTitle>
       <p className="fine-print">Archive source: {database ? "Render Postgres" : "versioned fallback"} · {rows.length} seasons indexed</p>
       <div className="table-wrap">
@@ -22,13 +23,13 @@ export default async function SeasonsPage() {
           <tbody>
             {rows.map(season => (
               <tr key={season.year}>
-                <td><strong>{season.year}</strong></td>
+                <td><strong><Link href={`/seasons/${season.year}`}>{season.year}</Link></strong></td>
                 <td>{season.location}</td>
                 <td>{dash(season.record)}</td>
                 <td>{dash(season.coach)}</td>
                 <td>{dash(season.finish)}</td>
                 <td><span className="tag">{season.status === "verified-detail" ? "Verified details" : "Indexed"}</span></td>
-                <td>{season.note}</td>
+                <td>{season.note} <Link href={`/seasons/${season.year}`}>Open →</Link></td>
               </tr>
             ))}
           </tbody>
