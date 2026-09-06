@@ -34,15 +34,18 @@ export const vaultIndex: VaultSearchDocument[] = [
     href: "/seasons",
     year: season.year
   })),
-  ...championships.map(championship => ({
-    id: `championship:${championship.slug}`,
-    type: "championship" as const,
-    title: championship.name,
-    subtitle: `${championship.score} · vs. ${championship.opponent}`,
-    text: `${championship.name} ${championship.season} ${championship.teamName} ${championship.opponent} ${championship.score} ${championship.mvp ?? ""} ${championship.summary}`,
-    href: "/championships",
-    year: championship.season
-  })),
+  ...championships.map(championship => {
+    const mvp = "mvp" in championship ? championship.mvp : "";
+    return {
+      id: `championship:${championship.slug}`,
+      type: "championship" as const,
+      title: championship.name,
+      subtitle: `${championship.score} · vs. ${championship.opponent}`,
+      text: `${championship.name} ${championship.season} ${championship.teamName} ${championship.opponent} ${championship.score} ${mvp ?? ""} ${championship.summary}`,
+      href: "/championships",
+      year: championship.season
+    };
+  }),
   ...moments.map(moment => ({
     id: `moment:${moment.slug}`,
     type: "moment" as const,
