@@ -24,7 +24,7 @@ create table if not exists sources (
 
 create table if not exists entities (
   id uuid primary key default gen_random_uuid(),
-  entity_type text not null check (entity_type in ('person','player','coach','executive','season','game','moment','venue','artifact','era','championship','event')),
+  entity_type text not null check (entity_type in ('person','player','coach','executive','season','game','moment','venue','artifact','era','championship','rivalry','event')),
   slug text not null unique,
   display_name text not null,
   start_date date,
