@@ -3,6 +3,8 @@ import Link from "next/link";
 const nav = [
   ["Timeline", "/timeline"],
   ["Seasons", "/seasons"],
+  ["Legends", "/legends"],
+  ["Championships", "/championships"],
   ["Players", "/players"],
   ["Moments", "/moments"],
   ["The Vault", "/vault"],
