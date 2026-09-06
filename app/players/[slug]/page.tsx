@@ -15,6 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: exhibit?.name ?? "Player" };
 }
 
+const roleYears = (start: number, end: number) => start === end ? String(start) : `${start}–${end}`;
+
 export default async function PlayerExhibitPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const exhibit = await getPlayerExhibit(slug);
@@ -27,7 +29,7 @@ export default async function PlayerExhibitPage({ params }: { params: Promise<{ 
         <div>
           <span className="eyebrow">{exhibit.position} · Raiders player</span>
           <h1>{exhibit.name}</h1>
-          <p>{exhibit.distinction}</p>
+          <p>{exhibit.summary ?? exhibit.distinction}</p>
         </div>
         <div className="exhibit-plaque score-plaque">
           <span>RAIDERS RECORD</span>
@@ -37,12 +39,27 @@ export default async function PlayerExhibitPage({ params }: { params: Promise<{ 
         </div>
       </div>
 
+      {exhibit.raidersRoles.length ? (
+        <div className="exhibit-related">
+          <span className="eyebrow">Raiders roles</span>
+          <div className="related-grid">
+            {exhibit.raidersRoles.map((role, index) => (
+              <Link className="related-card" href={`/seasons/${role.start}`} key={`${role.label}:${role.start}:${index}`}>
+                <small>{roleYears(role.start, role.end)}</small>
+                <strong>{role.label}</strong>
+                <b>Open first season →</b>
+              </Link>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
       {exhibit.related.length ? (
         <div className="exhibit-related">
           <span className="eyebrow">Connected records</span>
           <div className="related-grid">
             {exhibit.related.map(item => (
-              <Link className="related-card" href={item.href} key={`${item.relation}:${item.slug}`}>
+              <Link className="related-card" href={item.href} key={`${item.type}:${item.slug}`}>
                 <small>{item.relation}</small>
                 <strong>{item.name}</strong>
                 <b>Open record →</b>
@@ -51,7 +68,7 @@ export default async function PlayerExhibitPage({ params }: { params: Promise<{ 
           </div>
         </div>
       ) : null}
-      <p className="fine-print">Storage: {exhibit.database ? "connected Postgres record" : "versioned fallback record"}.</p>
+      <p className="fine-print">Storage: {exhibit.database ? "connected Postgres record with sourced Raiders roles" : "versioned fallback record"}.</p>
     </section>
   );
 }
