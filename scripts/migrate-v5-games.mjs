@@ -88,20 +88,15 @@ async function run() {
         }
 
         const championshipRows = await tx`
-          select id, slug from entities
+          select id from entities
           where entity_type = 'championship' and start_date = ${game.date}
           limit 1
         `;
-        const championship = championshipRows[0];
-        if (championship?.id) {
+        const championshipId = championshipRows[0]?.id;
+        if (championshipId) {
           await tx`
             insert into relations (from_entity_id, relation_type, to_entity_id, source_id, source_url)
-            values (${gameId}, 'game_is_championship', ${championship.id}, ${game.sourceId}, ${game.sourceUrl})
-            on conflict (from_entity_id, relation_type, to_entity_id) do nothing
-          `;
-          await tx`
-            insert into relations (from_entity_id, relation_type, to_entity_id, source_id, source_url)
-            values (${championship.id}, 'championship_game', ${gameId}, ${game.sourceId}, ${game.sourceUrl})
+            values (${gameId}, 'game_is_championship', ${championshipId}, ${game.sourceId}, ${game.sourceUrl})
             on conflict (from_entity_id, relation_type, to_entity_id) do nothing
           `;
         }
