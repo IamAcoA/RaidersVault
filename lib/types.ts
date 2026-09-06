@@ -47,6 +47,13 @@ export interface Moment {
   date: string;
   opponent?: string;
   summary: string;
+  playDetail?: string;
+  people?: string[];
+  gameSlug?: string;
+  championshipSlug?: string;
+  sourceId?: string;
+  sourceLabel?: string;
+  sourceUrl?: string;
   tags: string[];
   provenance?: ProvenanceRecord[];
 }

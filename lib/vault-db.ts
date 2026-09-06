@@ -49,7 +49,7 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
         href = "/seasons";
       } else if (row.entity_type === "moment") {
         type = "moment";
-        href = "/moments";
+        href = `/moments/${row.slug}`;
       }
 
       return { id: `db:${row.entity_type}:${row.slug}`, type, title: row.display_name, subtitle, text, href, year };

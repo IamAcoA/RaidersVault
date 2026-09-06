@@ -1,4 +1,5 @@
 import championships from "@/data/championships.json";
+import games from "@/data/games.json";
 import legends from "@/data/legends.json";
 import { players } from "@/data/players";
 import { databaseConfigured, db, ensureDatabaseReady } from "@/lib/db";
@@ -42,6 +43,24 @@ export interface ChampionshipExhibit {
   database: boolean;
 }
 
+function hrefFor(type: string, slug: string, metadata: Record<string, unknown> = {}) {
+  if (type === "championship") return `/championships/${slug}`;
+  if (type === "game") return `/games/${slug}`;
+  if (type === "moment") return `/moments/${slug}`;
+  if (type === "season") return "/seasons";
+  if (metadata.collection === "Pro Football Hall of Fame") return `/legends/${slug}`;
+  if (type === "player" && metadata.sourceUrl) return `/players/${slug}`;
+  return "/vault";
+}
+
+function labelFor(relation: string) {
+  if (relation === "championship_mvp") return "Championship MVP";
+  if (relation === "championship_of_season") return "Championship season";
+  if (relation === "championship_game") return "Championship game";
+  if (relation === "moment_person") return "Archive moment";
+  return relation;
+}
+
 function fallbackLegend(slug: string): LegendExhibit | null {
   const legend = legends.find(item => item.slug === slug);
   if (!legend) return null;
@@ -82,6 +101,14 @@ function fallbackChampionship(slug: string): ChampionshipExhibit | null {
     relation: "Championship season",
     href: "/seasons"
   }];
+  const titleGame = games.find(record => record.date === item.date);
+  if (titleGame) related.push({
+    slug: titleGame.slug,
+    name: `Raiders vs. ${titleGame.opponent}`,
+    type: "game",
+    relation: "Championship game",
+    href: `/games/${titleGame.slug}`
+  });
   const legend = mvp ? legends.find(record => record.name === mvp) : undefined;
   if (legend) {
     related.push({ slug: legend.slug, name: legend.name, type: "legend", relation: "Championship MVP", href: `/legends/${legend.slug}` });
@@ -105,8 +132,8 @@ export async function getLegendExhibit(slug: string): Promise<LegendExhibit | nu
     `;
     const row = rows[0];
     if (!row) return fallback;
-    const relatedRows = await sql<Array<{ slug: string; display_name: string; entity_type: string; relation_type: string }>>`
-      select e.slug, e.display_name, e.entity_type, r.relation_type
+    const relatedRows = await sql<Array<{ slug: string; display_name: string; entity_type: string; relation_type: string; metadata: Record<string, unknown> }>>`
+      select e.slug, e.display_name, e.entity_type, r.relation_type, e.metadata
       from relations r
       join entities e on e.id = r.from_entity_id
       where r.to_entity_id = ${row.id}
@@ -127,8 +154,8 @@ export async function getLegendExhibit(slug: string): Promise<LegendExhibit | nu
         slug: item.slug,
         name: item.display_name,
         type: item.entity_type,
-        relation: item.relation_type === "championship_mvp" ? "Championship MVP" : item.relation_type,
-        href: item.entity_type === "championship" ? `/championships/${item.slug}` : "/vault"
+        relation: labelFor(item.relation_type),
+        href: hrefFor(item.entity_type, item.slug, item.metadata ?? {})
       })),
       database: true
     };
@@ -169,23 +196,13 @@ export async function getChampionshipExhibit(slug: string): Promise<Championship
       summary: String(row.metadata.summary ?? ""),
       sourceLabel: String(row.metadata.sourceLabel ?? "Source"),
       sourceUrl: String(row.metadata.sourceUrl ?? ""),
-      related: relatedRows.map(item => {
-        const isLegend = item.metadata.collection === "Pro Football Hall of Fame";
-        const href = item.entity_type === "season"
-          ? "/seasons"
-          : isLegend
-            ? `/legends/${item.slug}`
-            : item.metadata.sourceUrl
-              ? `/players/${item.slug}`
-              : "/players";
-        return {
-          slug: item.slug,
-          name: item.display_name,
-          type: item.entity_type,
-          relation: item.relation_type === "championship_mvp" ? "Championship MVP" : "Championship season",
-          href
-        };
-      }),
+      related: relatedRows.map(item => ({
+        slug: item.slug,
+        name: item.display_name,
+        type: item.entity_type,
+        relation: labelFor(item.relation_type),
+        href: hrefFor(item.entity_type, item.slug, item.metadata ?? {})
+      })),
       database: true
     };
   } catch {
