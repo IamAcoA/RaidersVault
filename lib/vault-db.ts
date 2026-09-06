@@ -34,10 +34,10 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
       let href = "/timeline";
       if (row.entity_type === "championship") {
         type = "championship";
-        href = "/championships";
+        href = `/championships/${row.slug}`;
       } else if (isLegend) {
         type = "legend";
-        href = "/legends";
+        href = `/legends/${row.slug}`;
       } else if (row.entity_type === "player") {
         type = "player";
         href = "/players";
