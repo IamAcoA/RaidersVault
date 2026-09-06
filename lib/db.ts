@@ -28,7 +28,7 @@ export async function ensureDatabaseReady(): Promise<boolean> {
       }
       if (!check[0]?.entities || currentVersion !== EXPECTED_DB_VERSION) {
         console.log(`[db] migration required: ${currentVersion ?? "none"} -> ${EXPECTED_DB_VERSION}`);
-        const { stdout, stderr } = await execFileAsync(process.execPath, ["scripts/migrate-db.mjs"], { cwd: process.cwd(), env: process.env, timeout: 60000 });
+        const { stdout, stderr } = await execFileAsync(process.execPath, ["scripts/migrate-v5-games.mjs"], { cwd: process.cwd(), env: process.env, timeout: 90000 });
         if (stdout.trim()) console.log(stdout.trim());
         if (stderr.trim()) console.warn(stderr.trim());
       }
