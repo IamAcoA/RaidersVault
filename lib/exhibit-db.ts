@@ -1,6 +1,9 @@
 import championships from "@/data/championships.json";
+import classicGames from "@/data/classic-games.json";
 import games from "@/data/games.json";
 import legends from "@/data/legends.json";
+import moments from "@/data/moments.json";
+import peopleProfiles from "@/data/people-profiles.json";
 import { players } from "@/data/players";
 import { databaseConfigured, db, ensureDatabaseReady } from "@/lib/db";
 
@@ -10,6 +13,25 @@ export interface RelatedExhibit {
   type: string;
   relation: string;
   href: string;
+}
+
+export interface RaidersRole {
+  label: string;
+  start: number;
+  end: number;
+  years?: number[];
+}
+
+interface PeopleProfile {
+  slug: string;
+  name: string;
+  role: string;
+  summary: string;
+  raidersRoles: RaidersRole[];
+  sourceLabel: string;
+  sourceUrl: string;
+  seasonRanges: number[][];
+  connections: Array<{ type: string; slug: string; relation: string }>;
 }
 
 export interface LegendExhibit {
@@ -23,6 +45,8 @@ export interface LegendExhibit {
   years?: string;
   number?: string;
   distinction?: string;
+  summary?: string;
+  raidersRoles: RaidersRole[];
   related: RelatedExhibit[];
   database: boolean;
 }
@@ -43,6 +67,12 @@ export interface ChampionshipExhibit {
   database: boolean;
 }
 
+const profiles = peopleProfiles as PeopleProfile[];
+
+function profileFor(slug: string) {
+  return profiles.find(item => item.slug === slug);
+}
+
 function hrefFor(type: string, slug: string, metadata: Record<string, unknown> = {}) {
   if (type === "championship") return `/championships/${slug}`;
   if (type === "game") return `/games/${slug}`;
@@ -53,39 +83,78 @@ function hrefFor(type: string, slug: string, metadata: Record<string, unknown> =
   return "/vault";
 }
 
+function humanizeProfileRelation(relation: string) {
+  return relation
+    .replace(/^profile_/, "")
+    .split("_")
+    .filter(Boolean)
+    .map((part, index) => index === 0 ? part.charAt(0).toUpperCase() + part.slice(1) : part)
+    .join(" ");
+}
+
 function labelFor(relation: string) {
   if (relation === "championship_mvp") return "Championship MVP";
   if (relation === "championship_of_season") return "Championship season";
   if (relation === "championship_game") return "Championship game";
   if (relation === "moment_person") return "Archive moment";
+  if (relation.startsWith("profile_")) return humanizeProfileRelation(relation);
   return relation;
+}
+
+function fallbackConnection(item: PeopleProfile["connections"][number]): RelatedExhibit | null {
+  if (item.type === "championship") {
+    const record = championships.find(entry => entry.slug === item.slug);
+    return record ? { slug: record.slug, name: record.name, type: "championship", relation: item.relation, href: `/championships/${record.slug}` } : null;
+  }
+  if (item.type === "game") {
+    const record = [...games, ...classicGames].find(entry => entry.slug === item.slug);
+    if (!record) return null;
+    const nickname = "nickname" in record ? String(record.nickname ?? "") : "";
+    return { slug: record.slug, name: nickname || `Raiders vs. ${record.opponent}`, type: "game", relation: item.relation, href: `/games/${record.slug}` };
+  }
+  if (item.type === "moment") {
+    const record = moments.find(entry => entry.slug === item.slug);
+    return record ? { slug: record.slug, name: record.title, type: "moment", relation: item.relation, href: `/moments/${record.slug}` } : null;
+  }
+  return null;
+}
+
+function dedupeRelated(items: RelatedExhibit[]) {
+  const deduped = new Map<string, RelatedExhibit>();
+  for (const item of items) deduped.set(`${item.type}:${item.slug}`, item);
+  return [...deduped.values()];
 }
 
 function fallbackLegend(slug: string): LegendExhibit | null {
   const legend = legends.find(item => item.slug === slug);
   if (!legend) return null;
   const player = players.find(item => item.slug === slug);
+  const profile = profileFor(slug);
+  const mvpLinks = championships.flatMap(item => {
+    const mvp = "mvp" in item ? item.mvp : undefined;
+    return mvp === legend.name ? [{
+      slug: item.slug,
+      name: item.name,
+      type: "championship",
+      relation: "Championship MVP",
+      href: `/championships/${item.slug}`
+    }] : [];
+  });
+  const profileLinks = profile?.connections.map(fallbackConnection).filter((item): item is RelatedExhibit => Boolean(item)) ?? [];
   return {
     slug,
     name: legend.name,
     role: legend.role,
     collection: legend.collection,
-    sourceLabel: legend.sourceLabel,
-    sourceUrl: legend.sourceUrl,
+    sourceLabel: profile?.sourceLabel ?? legend.sourceLabel,
+    sourceUrl: profile?.sourceUrl ?? legend.sourceUrl,
     position: player?.position,
     years: player?.years,
     number: player?.number,
     distinction: player?.distinction,
-    related: championships.flatMap(item => {
-      const mvp = "mvp" in item ? item.mvp : undefined;
-      return mvp === legend.name ? [{
-        slug: item.slug,
-        name: item.name,
-        type: "championship",
-        relation: "Championship MVP",
-        href: `/championships/${item.slug}`
-      }] : [];
-    }),
+    summary: profile?.summary,
+    raidersRoles: profile?.raidersRoles ?? [],
+    related: dedupeRelated([...profileLinks, ...mvpLinks]),
     database: false
   };
 }
@@ -137,8 +206,23 @@ export async function getLegendExhibit(slug: string): Promise<LegendExhibit | nu
       from relations r
       join entities e on e.id = r.from_entity_id
       where r.to_entity_id = ${row.id}
-      order by e.start_date nulls last, e.display_name
+        and r.relation_type <> 'season_person'
+      order by e.start_date nulls last, e.display_name, r.relation_type
     `;
+    const related = new Map<string, RelatedExhibit>();
+    for (const item of relatedRows) {
+      const key = `${item.entity_type}:${item.slug}`;
+      const candidate = {
+        slug: item.slug,
+        name: item.display_name,
+        type: item.entity_type,
+        relation: labelFor(item.relation_type),
+        href: hrefFor(item.entity_type, item.slug, item.metadata ?? {})
+      };
+      const existing = related.get(key);
+      if (!existing || item.relation_type.startsWith("profile_")) related.set(key, candidate);
+    }
+    const rawRoles = Array.isArray(row.metadata.raidersRoles) ? row.metadata.raidersRoles : [];
     return {
       slug: row.slug,
       name: row.display_name,
@@ -150,13 +234,9 @@ export async function getLegendExhibit(slug: string): Promise<LegendExhibit | nu
       years: row.metadata.years ? String(row.metadata.years) : undefined,
       number: row.metadata.number ? String(row.metadata.number) : undefined,
       distinction: row.metadata.distinction ? String(row.metadata.distinction) : undefined,
-      related: relatedRows.map(item => ({
-        slug: item.slug,
-        name: item.display_name,
-        type: item.entity_type,
-        relation: labelFor(item.relation_type),
-        href: hrefFor(item.entity_type, item.slug, item.metadata ?? {})
-      })),
+      summary: row.metadata.summary ? String(row.metadata.summary) : fallback?.summary,
+      raidersRoles: rawRoles as RaidersRole[],
+      related: [...related.values()],
       database: true
     };
   } catch {
