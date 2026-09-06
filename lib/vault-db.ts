@@ -40,7 +40,7 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
         href = `/legends/${row.slug}`;
       } else if (row.entity_type === "player") {
         type = "player";
-        href = "/players";
+        href = metadata.sourceUrl ? `/players/${row.slug}` : "/players";
       } else if (row.entity_type === "season") {
         type = "season";
         href = "/seasons";
