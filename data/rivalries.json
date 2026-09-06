@@ -1,0 +1,59 @@
+[
+  {
+    "slug":"kansas-city-chiefs",
+    "name":"Kansas City Chiefs",
+    "shortName":"Chiefs",
+    "kind":"AFC West · original AFL rivalry",
+    "startYear":1960,
+    "seriesRecord":"Chiefs lead 74-55-2 (.427)",
+    "seriesThrough":2025,
+    "summary":"A founding AFL rivalry that began when Kansas City was still the Dallas Texans. The series has repeatedly carried division, playoff and championship consequences.",
+    "aliases":["Kansas City Chiefs"],
+    "sourceLabel":"Las Vegas Raiders · Matchup History",
+    "sourceUrl":"https://www.raiders.com/history/matchups/kansas-city-chiefs/",
+    "historyUrl":"https://www.raiders.com/news/a-history-of-the-raiders-and-chiefs-rivalry-through-the-years-19942798%26lang%3Den"
+  },
+  {
+    "slug":"denver-broncos",
+    "name":"Denver Broncos",
+    "shortName":"Broncos",
+    "kind":"AFC West · original AFL rivalry",
+    "startYear":1960,
+    "seriesRecord":"Raiders lead 72-57-2 (.557)",
+    "seriesThrough":2025,
+    "summary":"Oakland and Denver entered the AFL together in 1960 and have remained division rivals ever since, including two postseason meetings and a long history of prime-time games.",
+    "aliases":["Denver Broncos"],
+    "sourceLabel":"Las Vegas Raiders · Matchup History",
+    "sourceUrl":"https://www.raiders.com/history/matchups/denver-broncos/",
+    "historyUrl":"https://www.raiders.com/news/raiders-vs-broncos-through-the-years-10468464"
+  },
+  {
+    "slug":"los-angeles-chargers",
+    "name":"Los Angeles Chargers",
+    "shortName":"Chargers",
+    "kind":"AFC West · original AFL rivalry",
+    "startYear":1960,
+    "seriesRecord":"Raiders lead 68-62-2 (.523)",
+    "seriesThrough":2025,
+    "summary":"The Raiders and Chargers have shared a division since the AFL's first season, through the Chargers' Los Angeles and San Diego identities and the Raiders' Oakland, Los Angeles and Las Vegas eras.",
+    "aliases":["Los Angeles Chargers","San Diego Chargers"],
+    "sourceLabel":"Las Vegas Raiders · Matchup History",
+    "sourceUrl":"https://www.raiders.com/history/matchups/los-angeles-chargers/",
+    "historyUrl":"https://www.raiders.com/news/raiders-vs-chargers-through-the-years-10484612"
+  },
+  {
+    "slug":"pittsburgh-steelers",
+    "name":"Pittsburgh Steelers",
+    "shortName":"Steelers",
+    "kind":"Historic AFC playoff rivalry",
+    "startYear":1970,
+    "seriesRecord":"Raiders lead 14-13 (.519)",
+    "postseasonRecord":"Postseason tied 3-3",
+    "seriesThrough":2025,
+    "summary":"The Raiders-Steelers rivalry became one of the defining AFC conflicts of the 1970s, with six postseason meetings that included five playoff clashes in that decade alone.",
+    "aliases":["Pittsburgh Steelers"],
+    "sourceLabel":"Las Vegas Raiders · Matchup History",
+    "sourceUrl":"https://www.raiders.com/history/matchups/pittsburgh-steelers/",
+    "historyUrl":"https://www.raiders.com/news/raiders-and-steelers-epic-rivalry"
+  }
+]
