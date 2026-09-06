@@ -46,11 +46,25 @@
 .related-card small { color: #73736f; text-transform: uppercase; letter-spacing: .12em; font-size: 9px; }
 .related-card strong { font-size: 24px; line-height: 1.1; margin-top: 24px; }
 .related-card b { margin-top: auto; padding-top: 20px; color: var(--silver); text-transform: uppercase; letter-spacing: .1em; font-size: 10px; }
+.game-ledger-stats { margin-bottom: 28px; }
+.game-list { border-top: 1px solid var(--line); }
+.game-row { display: grid; grid-template-columns: 150px minmax(0,1fr) 150px; gap: 26px; align-items: center; padding: 22px 0; border-bottom: 1px solid var(--line); transition: background .15s ease, padding .15s ease; }
+.game-row:hover { background: #111; padding-left: 14px; padding-right: 14px; }
+.game-row > div:first-child span { display: block; color: #777; font-size: 10px; letter-spacing: .12em; }
+.game-row > div:first-child strong { display: block; margin-top: 5px; text-transform: uppercase; font-size: 11px; letter-spacing: .1em; }
+.game-row small { color: #70706c; text-transform: uppercase; letter-spacing: .1em; font-size: 9px; }
+.game-row h3 { margin: 6px 0 0; font-family: Georgia, serif; font-size: 23px; font-weight: 400; }
+.game-score { text-align: right; }
+.game-score span { display: block; font-size: 10px; letter-spacing: .14em; color: #777; }
+.game-score strong { display: block; margin-top: 3px; font-size: 30px; letter-spacing: -.04em; }
+.game-score.win strong { color: var(--white); }
+.game-score.loss strong { color: #777; }
 @media (max-width: 900px) {
   .championship-grid { grid-template-columns: 1fr; }
   .championship-league-band { padding: 36px; }
   .exhibit-hero { grid-template-columns: 1fr; gap: 30px; }
   .related-grid { grid-template-columns: 1fr 1fr; }
+  .game-row { grid-template-columns: 110px 1fr 110px; gap: 16px; }
 }
 @media (max-width: 600px) {
   .search-result { grid-template-columns: 1fr auto; }
@@ -58,4 +72,6 @@
   .championship-league-band { padding: 24px; }
   .related-grid { grid-template-columns: 1fr; }
   .exhibit-plaque { min-height: 280px; }
+  .game-row { grid-template-columns: 1fr auto; }
+  .game-row > div:first-child { grid-column: 1 / -1; }
 }
