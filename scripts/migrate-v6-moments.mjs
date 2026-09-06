@@ -49,13 +49,33 @@ async function run() {
       return;
     }
 
-    const moments = JSON.parse(await fs.readFile(path.join(root, "data/moments.json"), "utf8"));
+    const [moments, championships] = await Promise.all([
+      fs.readFile(path.join(root, "data/moments.json"), "utf8").then(JSON.parse),
+      fs.readFile(path.join(root, "data/championships.json"), "utf8").then(JSON.parse)
+    ]);
+
     await sql.begin(async tx => {
+      // Earlier seed versions reused Super Bowl slugs in both Moments and Championships.
+      // Normalize those shared rows so Championship Room owns every championship slug.
+      for (const championship of championships) {
+        await tx`
+          insert into entities (entity_type, slug, display_name, start_date, metadata)
+          values ('championship', ${championship.slug}, ${championship.name}, ${championship.date}, ${tx.json({ ...championship, subtitle: `${championship.score} · vs. ${championship.opponent}` })})
+          on conflict (slug) do update set
+            entity_type = 'championship',
+            display_name = excluded.display_name,
+            start_date = excluded.start_date,
+            metadata = excluded.metadata,
+            updated_at = now()
+        `;
+      }
+
       for (const moment of moments) {
         const rows = await tx`
           insert into entities (entity_type, slug, display_name, start_date, metadata)
           values ('moment', ${moment.slug}, ${moment.title}, ${moment.date}, ${tx.json({ ...moment, subtitle: `${moment.date}${moment.opponent ? ` · vs. ${moment.opponent}` : ""}` })})
           on conflict (slug) do update set
+            entity_type = 'moment',
             display_name = excluded.display_name,
             start_date = excluded.start_date,
             metadata = excluded.metadata,
@@ -130,6 +150,7 @@ async function run() {
       select
         (select count(*)::int from entities) as entities,
         (select count(*)::int from entities where entity_type = 'moment') as moments,
+        (select count(*)::int from entities where entity_type = 'championship') as championships,
         (select count(*)::int from facts) as facts,
         (select count(*)::int from relations) as relations
     `;
