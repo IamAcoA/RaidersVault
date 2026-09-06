@@ -1,5 +1,19 @@
 [
   {
+    "slug":"heidi-game",
+    "title":"The Heidi Game",
+    "date":"1968-11-17",
+    "opponent":"New York Jets",
+    "summary":"Oakland erased a late 32-29 deficit and scored two touchdowns in nine seconds to beat the Jets 43-32 after NBC switched away from the finish to its scheduled broadcast of Heidi.",
+    "playDetail":"Daryle Lamonica hit Charlie Smith for the go-ahead 43-yard touchdown, then Preston Ridlehuber recovered the ensuing kickoff fumble and scored again as millions of television viewers missed the comeback.",
+    "people":["Daryle Lamonica","Charlie Smith","Preston Ridlehuber"],
+    "gameSlug":"1968-11-17-new-york-jets",
+    "sourceId":"raiders-official",
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/history/remembering-heidi-game",
+    "tags":["regular-season","1960s","broadcast-history","named-game"]
+  },
+  {
     "slug":"sea-of-hands",
     "title":"Sea of Hands",
     "date":"1974-12-21",
@@ -26,6 +40,20 @@
     "sourceLabel":"Las Vegas Raiders",
     "sourceUrl":"https://www.raiders.com/news/ghost-to-the-post-992110",
     "tags":["playoffs","1970s","double-overtime","named-play"]
+  },
+  {
+    "slug":"holy-roller",
+    "title":"The Holy Roller",
+    "date":"1978-09-10",
+    "opponent":"San Diego Chargers",
+    "summary":"The Raiders won 21-20 in San Diego after one of the strangest final plays in NFL history ended with Dave Casper recovering the loose ball in the end zone.",
+    "playDetail":"With ten seconds left, Ken Stabler lost the ball forward under pressure, Pete Banaszak helped keep it moving, and Dave Casper eventually recovered it in the end zone before the extra point completed the 21-20 win.",
+    "people":["Ken Stabler","Pete Banaszak","Dave Casper"],
+    "gameSlug":"1978-09-10-san-diego-chargers",
+    "sourceId":"raiders-official",
+    "sourceLabel":"Las Vegas Raiders",
+    "sourceUrl":"https://www.raiders.com/news/the-holy-roller-3423311",
+    "tags":["regular-season","1970s","last-second","named-play"]
   },
   {
     "slug":"red-right-88",
