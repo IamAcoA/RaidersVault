@@ -83,7 +83,12 @@ function fallbackChampionship(slug: string): ChampionshipExhibit | null {
     href: "/seasons"
   }];
   const legend = mvp ? legends.find(record => record.name === mvp) : undefined;
-  if (legend) related.push({ slug: legend.slug, name: legend.name, type: "legend", relation: "Championship MVP", href: `/legends/${legend.slug}` });
+  if (legend) {
+    related.push({ slug: legend.slug, name: legend.name, type: "legend", relation: "Championship MVP", href: `/legends/${legend.slug}` });
+  } else if (mvp) {
+    const player = players.find(record => record.name === mvp && record.sourceUrl);
+    if (player) related.push({ slug: player.slug, name: player.name, type: "player", relation: "Championship MVP", href: `/players/${player.slug}` });
+  }
   return { ...item, mvp, related, database: false } as ChampionshipExhibit;
 }
 
@@ -164,13 +169,23 @@ export async function getChampionshipExhibit(slug: string): Promise<Championship
       summary: String(row.metadata.summary ?? ""),
       sourceLabel: String(row.metadata.sourceLabel ?? "Source"),
       sourceUrl: String(row.metadata.sourceUrl ?? ""),
-      related: relatedRows.map(item => ({
-        slug: item.slug,
-        name: item.display_name,
-        type: item.entity_type,
-        relation: item.relation_type === "championship_mvp" ? "Championship MVP" : "Championship season",
-        href: item.entity_type === "season" ? "/seasons" : `/legends/${item.slug}`
-      })),
+      related: relatedRows.map(item => {
+        const isLegend = item.metadata.collection === "Pro Football Hall of Fame";
+        const href = item.entity_type === "season"
+          ? "/seasons"
+          : isLegend
+            ? `/legends/${item.slug}`
+            : item.metadata.sourceUrl
+              ? `/players/${item.slug}`
+              : "/players";
+        return {
+          slug: item.slug,
+          name: item.display_name,
+          type: item.entity_type,
+          relation: item.relation_type === "championship_mvp" ? "Championship MVP" : "Championship season",
+          href
+        };
+      }),
       database: true
     };
   } catch {
