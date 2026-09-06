@@ -15,7 +15,7 @@ export const vaultIndex: VaultSearchDocument[] = [
     title: player.name,
     subtitle: `${player.position} · ${player.years}${player.number ? ` · #${player.number}` : ""}`,
     text: `${player.name} ${player.position} ${player.years} ${player.number ?? ""} ${player.distinction}`,
-    href: playerSlugs.has(player.slug) && legends.some(legend => legend.slug === player.slug) ? `/legends/${player.slug}` : "/players"
+    href: player.sourceUrl ? `/players/${player.slug}` : legends.some(legend => legend.slug === player.slug) ? `/legends/${player.slug}` : "/players"
   })),
   ...legends.filter(legend => !playerSlugs.has(legend.slug)).map(legend => ({
     id: `legend:${legend.slug}`,
