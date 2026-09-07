@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import "./globals.css";
 import "./upgrade.css";
 import "./immersive.css";
+import "./page-motion.css";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ImmersiveExperience } from "@/components/ImmersiveExperience";
