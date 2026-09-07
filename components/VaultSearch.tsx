@@ -40,6 +40,11 @@ function score(doc: VaultSearchDocument, query: string): number {
   return points;
 }
 
+function previewArt(doc: VaultSearchDocument) {
+  if (doc.year) return String(doc.year).slice(-2);
+  return doc.type.replace(/[^a-z]/gi, "").slice(0, 3).toUpperCase() || "RV";
+}
+
 export function VaultSearch({ documents }: { documents: VaultSearchDocument[] }) {
   const [query, setQuery] = useState("");
   const results = useMemo(() => {
@@ -63,7 +68,15 @@ export function VaultSearch({ documents }: { documents: VaultSearchDocument[] })
         <div className="search-results" aria-live="polite">
           <p className="fine-print">{results.length ? `${results.length} best matches` : "No matches in the current archive."}</p>
           {results.map(result => (
-            <Link className="search-result" href={result.href} key={result.id}>
+            <Link
+              className="search-result"
+              href={result.href}
+              key={result.id}
+              data-preview-title={result.title}
+              data-preview-meta={result.subtitle}
+              data-preview-kicker={`${result.type} record`}
+              data-preview-art={previewArt(result)}
+            >
               <span>{result.type}</span>
               <div><strong>{result.title}</strong><small>{result.subtitle}</small></div>
               <b>→</b>
