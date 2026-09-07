@@ -1,0 +1,89 @@
+{
+  "sourceLabel": "Las Vegas Raiders · Draft History",
+  "sourceUrl": "https://www.raiders.com/history/draft-history",
+  "checked": "2026-09-07",
+  "years": [
+    {
+      "year": 2019,
+      "picks": [
+        {"round":1,"roundLabel":"1","pick":null,"player":"Clelin Ferrell","position":"DE","college":"Clemson"},
+        {"round":1,"roundLabel":"1","pick":null,"player":"Josh Jacobs","position":"RB","college":"Alabama"},
+        {"round":1,"roundLabel":"1","pick":null,"player":"Johnathan Abram","position":"S","college":"Mississippi St."},
+        {"round":2,"roundLabel":"2","pick":null,"player":"Trayvon Mullen","position":"CB","college":"Clemson"},
+        {"round":4,"roundLabel":"4","pick":null,"player":"Maxx Crosby","position":"DE","college":"Eastern Mich."},
+        {"round":4,"roundLabel":"4","pick":null,"player":"Isaiah Johnson","position":"CB","college":"Houston"},
+        {"round":4,"roundLabel":"4","pick":null,"player":"Foster Moreau","position":"TE","college":"LSU"},
+        {"round":5,"roundLabel":"5","pick":null,"player":"Hunter Renfrow","position":"WR","college":"Clemson"},
+        {"round":7,"roundLabel":"7","pick":null,"player":"Quinton Bell","position":"DE","college":"Prairie View A&M"}
+      ]
+    },
+    {
+      "year": 2018,
+      "picks": [
+        {"round":1,"roundLabel":"1","pick":null,"player":"Kolton Miller","position":"T","college":"UCLA"},
+        {"round":2,"roundLabel":"2","pick":null,"player":"P.J. Hall","position":"DT","college":"Sam Houston St."},
+        {"round":3,"roundLabel":"3","pick":null,"player":"Brandon Parker","position":"T","college":"North Carolina A&T"},
+        {"round":3,"roundLabel":"3","pick":null,"player":"Arden Key","position":"DE","college":"LSU"},
+        {"round":4,"roundLabel":"4","pick":null,"player":"Nick Nelson","position":"CB","college":"Wisconsin"},
+        {"round":5,"roundLabel":"5","pick":null,"player":"Maurice Hurst","position":"DT","college":"Michigan"},
+        {"round":5,"roundLabel":"5","pick":null,"player":"Johnny Townsend","position":"P","college":"Florida"},
+        {"round":6,"roundLabel":"6","pick":null,"player":"Azeem Victor","position":"LB","college":"Washington"},
+        {"round":7,"roundLabel":"7","pick":null,"player":"Marcell Ateman","position":"WR","college":"Oklahoma St."}
+      ]
+    },
+    {
+      "year": 2017,
+      "picks": [
+        {"round":1,"roundLabel":"1","pick":null,"player":"Gareon Conley","position":"CB","college":"Ohio State"},
+        {"round":2,"roundLabel":"2","pick":null,"player":"Obi Melifonwu","position":"S","college":"Connecticut"},
+        {"round":3,"roundLabel":"3","pick":null,"player":"Eddie Vanderdoes","position":"DT","college":"UCLA"},
+        {"round":4,"roundLabel":"4","pick":null,"player":"David Sharpe","position":"OT","college":"Florida"},
+        {"round":5,"roundLabel":"5","pick":null,"player":"Marquel Lee","position":"LB","college":"Wake Forest"},
+        {"round":7,"roundLabel":"7a","pick":null,"player":"Shalom Luani","position":"S","college":"Washington State"},
+        {"round":7,"roundLabel":"7b","pick":null,"player":"Jylan Ware","position":"OT","college":"Alabama State"},
+        {"round":7,"roundLabel":"7c","pick":null,"player":"Elijah Hood","position":"RB","college":"North Carolina"},
+        {"round":7,"roundLabel":"7d","pick":null,"player":"Treyvon Hester","position":"DT","college":"Toledo"}
+      ]
+    },
+    {
+      "year": 2016,
+      "picks": [
+        {"round":1,"roundLabel":"1","pick":null,"player":"Karl Joseph","position":"S","college":"West Virginia"},
+        {"round":2,"roundLabel":"2","pick":null,"player":"Jihad Ward","position":"DE","college":"Illinois"},
+        {"round":3,"roundLabel":"3","pick":null,"player":"Shilique Calhoun","position":"DE","college":"Michigan State"},
+        {"round":4,"roundLabel":"4","pick":null,"player":"Connor Cook","position":"QB","college":"Michigan State"},
+        {"round":5,"roundLabel":"5","pick":null,"player":"DeAndré Washington","position":"RB","college":"Texas Tech"},
+        {"round":6,"roundLabel":"6","pick":null,"player":"Cory James","position":"LB","college":"Colorado State"},
+        {"round":7,"roundLabel":"7","pick":null,"player":"Vadal Alexander","position":"G","college":"LSU"}
+      ]
+    },
+    {
+      "year": 2015,
+      "picks": [
+        {"round":1,"roundLabel":"1","pick":null,"player":"Amari Cooper","position":"WR","college":"Alabama"},
+        {"round":2,"roundLabel":"2","pick":null,"player":"Mario Edwards Jr.","position":"DE","college":"Florida State"},
+        {"round":3,"roundLabel":"3","pick":null,"player":"Clive Walford","position":"TE","college":"Miami"},
+        {"round":4,"roundLabel":"4","pick":null,"player":"Jon Feliciano","position":"G","college":"Miami"},
+        {"round":5,"roundLabel":"5a","pick":null,"player":"Ben Heeney","position":"LB","college":"Kansas"},
+        {"round":5,"roundLabel":"5b","pick":null,"player":"Neiron Ball","position":"LB","college":"Florida"},
+        {"round":6,"roundLabel":"6","pick":null,"player":"Max Valles","position":"LB","college":"Virginia"},
+        {"round":7,"roundLabel":"7a","pick":null,"player":"Anthony Morris","position":"OL","college":"Tennessee State"},
+        {"round":7,"roundLabel":"7b","pick":null,"player":"Andre Debose","position":"WR","college":"Florida"},
+        {"round":7,"roundLabel":"7c","pick":null,"player":"Dexter McDonald","position":"CB","college":"Kansas"}
+      ]
+    },
+    {
+      "year": 2014,
+      "picks": [
+        {"round":1,"roundLabel":"1","pick":null,"player":"Khalil Mack","position":"LB","college":"Buffalo"},
+        {"round":2,"roundLabel":"2","pick":null,"player":"Derek Carr","position":"QB","college":"Fresno State"},
+        {"round":3,"roundLabel":"3","pick":null,"player":"Gabe Jackson","position":"G","college":"Mississippi State"},
+        {"round":4,"roundLabel":"4a","pick":null,"player":"Justin Ellis","position":"DT","college":"Louisiana Tech"},
+        {"round":4,"roundLabel":"4b","pick":null,"player":"Keith McGill","position":"CB","college":"Utah"},
+        {"round":7,"roundLabel":"7a","pick":null,"player":"TJ Carrie","position":"CB","college":"Ohio"},
+        {"round":7,"roundLabel":"7b","pick":null,"player":"Shelby Harris","position":"DE","college":"Illinois State"},
+        {"round":7,"roundLabel":"7c","pick":null,"player":"Jonathan Dowling","position":"S","college":"Western Kentucky"}
+      ]
+    }
+  ]
+}
