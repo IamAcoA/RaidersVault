@@ -21,6 +21,7 @@ export default async function RivalryPage({ params }: { params: Promise<{ slug: 
   if (!rivalry) notFound();
   const wins = rivalry.indexedGames.filter(game => game.result === "W").length;
   const losses = rivalry.indexedGames.filter(game => game.result === "L").length;
+  const completeBattleLedger = slug === "san-francisco-49ers" && rivalry.indexedGames.length === 15;
 
   return (
     <section className="section shell page-top exhibit-page">
@@ -42,9 +43,9 @@ export default async function RivalryPage({ params }: { params: Promise<{ slug: 
       </div>
 
       <div className="stats-grid standalone-stats game-ledger-stats">
-        <div><strong>{rivalry.indexedGames.length}</strong><span>indexed Vault games</span></div>
-        <div><strong>{wins}</strong><span>indexed wins</span></div>
-        <div><strong>{losses}</strong><span>indexed losses</span></div>
+        <div><strong>{rivalry.indexedGames.length}</strong><span>{completeBattleLedger ? "all regular-season meetings" : "indexed Vault games"}</span></div>
+        <div><strong>{wins}</strong><span>{completeBattleLedger ? "Raiders series wins" : "indexed wins"}</span></div>
+        <div><strong>{losses}</strong><span>{completeBattleLedger ? "Raiders series losses" : "indexed losses"}</span></div>
         <div><strong>{rivalry.relatedMoments.length}</strong><span>connected Moments</span></div>
       </div>
 
@@ -64,7 +65,7 @@ export default async function RivalryPage({ params }: { params: Promise<{ slug: 
       ) : null}
 
       <div className="exhibit-related">
-        <span className="eyebrow">Games currently indexed in RaidersVault</span>
+        <span className="eyebrow">{completeBattleLedger ? "Complete Battle of the Bay regular-season ledger" : "Games currently indexed in RaidersVault"}</span>
         {rivalry.indexedGames.length ? (
           <div className="game-list">
             {rivalry.indexedGames.map(game => (
@@ -77,7 +78,7 @@ export default async function RivalryPage({ params }: { params: Promise<{ slug: 
           </div>
         ) : <p className="fine-print">No individual game records for this rivalry are indexed yet.</p>}
       </div>
-      <p className="fine-print">The all-time series record is not calculated from the limited game list above. Storage: {rivalry.database ? "connected Postgres rivalry record" : "versioned fallback rivalry record"}.</p>
+      <p className="fine-print">{completeBattleLedger ? "Battle of the Bay is represented here by all 15 regular-season meetings in the official series record. " : "The all-time series record is not calculated from the limited game list above. "}Storage: {rivalry.database ? "connected Postgres rivalry record" : "versioned fallback rivalry record"}.</p>
     </section>
   );
 }
