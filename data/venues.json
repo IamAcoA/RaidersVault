@@ -1,0 +1,56 @@
+[
+  {
+    "slug":"kezar-stadium",
+    "name":"Kezar Stadium",
+    "city":"San Francisco, California",
+    "summary":"The Raiders began their inaugural 1960 season at Kezar Stadium before shifting their final three home contests to Candlestick Park.",
+    "homeRanges":[{"start":1960,"end":1960,"partial":true,"note":"Primary home at the start of the inaugural season."}],
+    "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+    "sourceUrl":"https://www.raiders.com/history/timeline"
+  },
+  {
+    "slug":"candlestick-park",
+    "name":"Candlestick Park",
+    "city":"San Francisco, California",
+    "summary":"The Raiders moved their final three home games of 1960 to Candlestick Park and played their 1961 home schedule there.",
+    "homeRanges":[{"start":1960,"end":1960,"partial":true,"note":"Final three home contests of 1960."},{"start":1961,"end":1961,"partial":false}],
+    "sourceLabel":"Las Vegas Raiders · Raiders vs. Patriots Through the Years",
+    "sourceUrl":"https://www.raiders.com/news/raiders-and-patriots-go-international-to-renew-contentious-rivalry-19788369"
+  },
+  {
+    "slug":"frank-youell-field",
+    "name":"Frank Youell Field",
+    "city":"Oakland, California",
+    "summary":"Frank Youell Field served as the Raiders' temporary Oakland home from 1962 through 1965 while the Oakland Coliseum was being developed.",
+    "homeRanges":[{"start":1962,"end":1965,"partial":false}],
+    "sourceLabel":"Las Vegas Raiders · Raiders vs. Patriots Through the Years",
+    "sourceUrl":"https://www.raiders.com/news/raiders-and-patriots-go-international-to-renew-contentious-rivalry-19788369"
+  },
+  {
+    "slug":"oakland-coliseum",
+    "name":"Oakland-Alameda County Coliseum",
+    "city":"Oakland, California",
+    "summary":"The Coliseum opened as the Raiders' home in 1966, housed the first Oakland championship era through 1981, and again served as the franchise's home after the return from Los Angeles from 1995 through 2019.",
+    "homeRanges":[{"start":1966,"end":1981,"partial":false},{"start":1995,"end":2019,"partial":false}],
+    "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+    "sourceUrl":"https://www.raiders.com/history/timeline"
+  },
+  {
+    "slug":"los-angeles-memorial-coliseum",
+    "name":"Los Angeles Memorial Coliseum",
+    "city":"Los Angeles, California",
+    "summary":"The Los Angeles Memorial Coliseum was the Raiders' home from 1982 through 1994, including the franchise's Super Bowl XVIII championship season.",
+    "homeRanges":[{"start":1982,"end":1994,"partial":false}],
+    "sourceLabel":"Las Vegas Raiders · Los Angeles Coliseum History",
+    "sourceUrl":"https://www.raiders.com/news/coliseo-de-los-angeles-casa-de-todos"
+  },
+  {
+    "slug":"allegiant-stadium",
+    "name":"Allegiant Stadium",
+    "city":"Las Vegas, Nevada",
+    "summary":"Allegiant Stadium became the home of the Las Vegas Raiders beginning with the 2020 season. The enclosed stadium sits adjacent to the Las Vegas Strip.",
+    "homeRanges":[{"start":2020,"end":2026,"partial":false,"ongoing":true}],
+    "sourceLabel":"Las Vegas Raiders · Allegiant Stadium",
+    "sourceUrl":"https://www.raiders.com/stadium/"
+  }
+]
