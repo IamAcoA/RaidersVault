@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionTitle } from "@/components/SectionTitle";
 import { draftPickHref, getDraftArchive, type DraftPickRecord } from "@/lib/draft-db";
-import { getModernDraftIndex } from "@/lib/draft-years-db";
+import { getDraftIndex } from "@/lib/draft-years-db";
 
 export const metadata: Metadata = { title: "Draft History" };
 export const revalidate = 300;
@@ -13,12 +13,12 @@ const draftAnchor = (pick: DraftPickRecord, collection: "current-class" | "hall-
 
 export default async function DraftPage() {
   const archive = await getDraftArchive();
-  const modernYears = getModernDraftIndex();
+  const completeYears = getDraftIndex();
 
   return (
     <section className="section shell page-top">
       <SectionTitle eyebrow="How the roster was built" title="Draft History">
-        A source-backed draft archive with complete Raiders classes from 2020 through 2026, plus the franchise's 12 drafted Pro Football Hall of Famers. Older year-by-year classes will be added backward from the same official source.
+        A source-backed draft archive with complete Raiders classes from 2014 through 2026, plus the franchise's 12 drafted Pro Football Hall of Famers. Older classes are being added backward from the same official source without inventing details the source does not provide.
       </SectionTitle>
 
       <div className="stats-grid standalone-stats">
@@ -26,13 +26,13 @@ export default async function DraftPage() {
       </div>
 
       <div className="exhibit-related">
-        <span className="eyebrow">Complete modern draft classes</span>
+        <span className="eyebrow">Complete year-by-year draft classes · 2014–2026</span>
         <div className="related-grid">
-          {modernYears.map(item => (
+          {completeYears.map(item => (
             <Link className="related-card" href={`/draft/${item.year}`} key={item.year}>
               <small>{item.pickCount} selections</small>
               <strong>{item.year} NFL Draft</strong>
-              <span>{item.firstPick ? `First pick: ${item.firstPick.player}${item.firstPick.pick ? ` · No. ${item.firstPick.pick}` : ""}` : ""}</span>
+              <span>{item.firstPick ? `First pick: ${item.firstPick.player}${item.firstPick.pick ? ` · No. ${item.firstPick.pick}` : ` · Round ${item.firstPick.roundLabel ?? item.firstPick.round ?? "—"}`}` : ""}</span>
               <b>Open draft class →</b>
             </Link>
           ))}
