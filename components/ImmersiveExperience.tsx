@@ -17,6 +17,8 @@ const SURFACE_SELECTOR = [
   ".search-result"
 ].join(",");
 
+const REVEAL_SELECTOR = "[data-reveal], .section-title, .door-card, .person-card, .moment-card, .championship-card, .related-card, .game-row, .timeline-row, .search-result";
+
 type PreviewState = {
   title: string;
   meta: string;
@@ -49,6 +51,7 @@ export function ImmersiveExperience() {
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     let activeSurface: HTMLElement | null = null;
     let frame = 0;
+    let revealIndex = 0;
 
     const resetSurface = (surface: HTMLElement | null) => {
       if (!surface) return;
@@ -124,9 +127,6 @@ export function ImmersiveExperience() {
 
     const handleFocusOut = () => setPreview(null);
 
-    const revealTargets = Array.from(document.querySelectorAll<HTMLElement>(
-      "[data-reveal], .section-title, .door-card, .person-card, .moment-card, .championship-card, .related-card, .game-row, .timeline-row, .search-result"
-    ));
     const observer = new IntersectionObserver(
       entries => entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -136,11 +136,28 @@ export function ImmersiveExperience() {
       }),
       { threshold: 0.12, rootMargin: "0px 0px -5% 0px" }
     );
-    revealTargets.forEach((element, index) => {
-      element.classList.add("reveal-ready");
-      element.style.setProperty("--reveal-delay", `${Math.min(index % 6, 5) * 45}ms`);
-      observer.observe(element);
+
+    const prepareReveal = (root: ParentNode | HTMLElement) => {
+      const elements: HTMLElement[] = [];
+      if (root instanceof HTMLElement && root.matches(REVEAL_SELECTOR)) elements.push(root);
+      elements.push(...Array.from(root.querySelectorAll<HTMLElement>(REVEAL_SELECTOR)));
+      elements.forEach(element => {
+        if (element.dataset.revealBound === "true") return;
+        element.dataset.revealBound = "true";
+        element.classList.add("reveal-ready");
+        element.style.setProperty("--reveal-delay", `${Math.min(revealIndex % 6, 5) * 45}ms`);
+        revealIndex += 1;
+        observer.observe(element);
+      });
+    };
+
+    prepareReveal(document);
+    const mutationObserver = new MutationObserver(records => {
+      records.forEach(record => record.addedNodes.forEach(node => {
+        if (node instanceof HTMLElement) prepareReveal(node);
+      }));
     });
+    mutationObserver.observe(document.body, { childList: true, subtree: true });
 
     window.addEventListener("pointermove", handlePointerMove, { passive: true });
     document.addEventListener("pointerleave", handlePointerLeave);
@@ -150,6 +167,7 @@ export function ImmersiveExperience() {
     return () => {
       cancelAnimationFrame(frame);
       observer.disconnect();
+      mutationObserver.disconnect();
       window.removeEventListener("pointermove", handlePointerMove);
       document.removeEventListener("pointerleave", handlePointerLeave);
       document.removeEventListener("focusin", handleFocusIn);
