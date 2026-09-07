@@ -10,6 +10,7 @@ const nav = [
   ["Legends", "/legends"],
   ["Al Davis", "/al-davis"],
   ["Numbers", "/numbers"],
+  ["Records", "/records"],
   ["Championships", "/championships"],
   ["Players", "/players"],
   ["Moments", "/moments"],
