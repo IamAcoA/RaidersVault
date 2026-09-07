@@ -1,0 +1,47 @@
+[
+  {
+    "slug":"oakland-i",
+    "name":"Oakland I",
+    "location":"Oakland",
+    "startYear":1960,
+    "endYear":1981,
+    "summary":"The original Raiders era: the franchise launched in 1960, established itself in Oakland, became an AFL power, and won its first two Super Bowls before relocating to Los Angeles after the 1981 season.",
+    "venueSlugs":["kezar-stadium","candlestick-park","frank-youell-field","oakland-coliseum"],
+    "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+    "sourceUrl":"https://www.raiders.com/history/timeline"
+  },
+  {
+    "slug":"los-angeles",
+    "name":"Los Angeles",
+    "location":"Los Angeles",
+    "startYear":1982,
+    "endYear":1994,
+    "summary":"The Raiders played in Los Angeles from 1982 through 1994, winning Super Bowl XVIII and building a distinct Southern California chapter around the Los Angeles Memorial Coliseum.",
+    "venueSlugs":["los-angeles-memorial-coliseum"],
+    "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+    "sourceUrl":"https://www.raiders.com/history/timeline"
+  },
+  {
+    "slug":"oakland-ii",
+    "name":"Oakland II",
+    "location":"Oakland",
+    "startYear":1995,
+    "endYear":2019,
+    "summary":"The Raiders returned to Oakland in 1995 and remained there through the 2019 season, including the 2002 AFC championship run and a final generation of Coliseum history.",
+    "venueSlugs":["oakland-coliseum"],
+    "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+    "sourceUrl":"https://www.raiders.com/history/timeline"
+  },
+  {
+    "slug":"las-vegas",
+    "name":"Las Vegas",
+    "location":"Las Vegas",
+    "startYear":2020,
+    "endYear":2026,
+    "ongoing":true,
+    "summary":"The Las Vegas era began in 2020 with Allegiant Stadium as the franchise's new home and continues as the current chapter of Raiders history.",
+    "venueSlugs":["allegiant-stadium"],
+    "sourceLabel":"Las Vegas Raiders · Allegiant Stadium",
+    "sourceUrl":"https://www.raiders.com/stadium/"
+  }
+]

@@ -23,7 +23,7 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
     }>>`
       select entity_type, slug, display_name, start_date, metadata
       from entities
-      where entity_type in ('person','player','coach','executive','season','game','moment','era','championship','rivalry','number','event')
+      where entity_type in ('person','player','coach','executive','season','game','moment','venue','era','championship','rivalry','number','event')
       order by coalesce(start_date, '9999-12-31'::date), display_name
     `;
 
@@ -31,11 +31,11 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
 
     const documents: VaultSearchDocument[] = rows.map((row) => {
       const metadata = row.metadata ?? {};
-      const year = row.entity_type === "game" ? Number(metadata.season) : Number(metadata.year ?? yearFromDate(row.start_date));
+      const year = row.entity_type === "game" ? Number(metadata.season) : Number(metadata.year ?? metadata.startYear ?? yearFromDate(row.start_date));
       const normalizedYear = Number.isFinite(year) ? year : undefined;
       const isLegend = metadata.collection === "Pro Football Hall of Fame";
       const isAlDavisMilestone = row.entity_type === "event" && metadata.collectionSlug === "al-davis";
-      const subtitle = String(metadata.subtitle ?? metadata.years ?? metadata.record ?? metadata.date ?? metadata.collection ?? row.entity_type);
+      const subtitle = String(metadata.subtitle ?? metadata.city ?? metadata.years ?? metadata.record ?? metadata.date ?? metadata.collection ?? row.entity_type);
       const text = [row.display_name, row.slug, row.entity_type, JSON.stringify(metadata)].join(" ");
 
       let type: VaultSearchDocument["type"] = "timeline";
@@ -52,6 +52,12 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
       } else if (row.entity_type === "number") {
         type = "number";
         href = `/numbers/${String(metadata.number ?? row.slug.replace(/^number-/, ""))}`;
+      } else if (row.entity_type === "venue") {
+        type = "venue";
+        href = `/venues/${row.slug}`;
+      } else if (row.entity_type === "era") {
+        type = "era";
+        href = `/eras/${row.slug}`;
       } else if (isAlDavisMilestone) {
         type = "collection";
         href = String(metadata.href ?? `/al-davis#${row.slug}`);
