@@ -1,5 +1,15 @@
 [
   {
+    "id": "review-journal-jv3nnl",
+    "type": "article",
+    "title": "What the fantasy, betting markets say about expectations for 2026 Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-07T00:36:19.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/what-the-fantasy-betting-markets-say-about-expectations-for-2026-raiders-3883152/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-133ki59",
     "type": "article",
     "title": "Revisiting the Raiders’ return game with the 53-man roster settled",
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-05-26T22:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1ggkvvf",
-    "type": "podcast",
-    "title": "Andrew Janocko on Klint Kubiak, Fernando Mendoza and the offense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-05-18T21:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-aj-05182026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
