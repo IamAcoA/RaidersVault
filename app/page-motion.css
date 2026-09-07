@@ -1,0 +1,14 @@
+.vault-page-transition {
+  min-height: 100%;
+  animation: vault-page-enter 520ms cubic-bezier(.2,.72,.2,1) both;
+}
+
+@keyframes vault-page-enter {
+  0% { opacity: 0; transform: translate3d(0,14px,0) scale(.994); filter: blur(5px); }
+  55% { opacity: 1; filter: blur(0); }
+  100% { opacity: 1; transform: translate3d(0,0,0) scale(1); filter: blur(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vault-page-transition { animation: none; }
+}
