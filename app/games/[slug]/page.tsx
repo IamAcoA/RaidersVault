@@ -3,12 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import games from "@/data/games.json";
 import classicGames from "@/data/classic-games.json";
+import rivalryGames from "@/data/battle-of-the-bay-games.json";
 import { getGameExhibit } from "@/lib/game-db";
 
 export const revalidate = 300;
 
 export function generateStaticParams() {
-  return [...games, ...classicGames].map(game => ({ slug: game.slug }));
+  return [...games, ...classicGames, ...rivalryGames].map(game => ({ slug: game.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -22,15 +23,17 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   const game = await getGameExhibit(slug);
   if (!game) notFound();
   const classic = game.gameType === "regular-season-classic";
+  const rivalrySeries = game.gameType === "rivalry-series";
+  const regularSeason = classic || rivalrySeries;
 
   return (
     <section className="section shell page-top exhibit-page">
       <Link className="exhibit-back" href="/games">← Games archive</Link>
       <div className="exhibit-hero championship-exhibit-hero">
         <div>
-          <span className="eyebrow">{game.season} {classic ? "regular season" : "postseason"} · {game.round}</span>
-          <h1>{classic && game.nickname ? game.nickname : <>Raiders<br />vs. {game.opponent}</>}</h1>
-          <p>{classic && game.nickname ? `Raiders vs. ${game.opponent} · ` : ""}{game.result === "W" ? "Raiders victory" : "Raiders loss"} · {game.date} · {game.site}{game.overtime ? " · overtime" : ""}.</p>
+          <span className="eyebrow">{game.season} {regularSeason ? "regular season" : "postseason"} · {game.round}</span>
+          <h1>{game.nickname ? game.nickname : <>Raiders<br />vs. {game.opponent}</>}</h1>
+          <p>{rivalrySeries ? "Battle of the Bay · " : classic && game.nickname ? `Raiders vs. ${game.opponent} · ` : ""}{game.result === "W" ? "Raiders victory" : "Raiders loss"} · {game.date} · {game.site}{game.overtime ? " · overtime" : ""}.</p>
         </div>
         <div className="exhibit-plaque score-plaque">
           <span>FINAL</span>

@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getClassicGamesArchive, getGamesArchive } from "@/lib/game-db";
+import { getClassicGamesArchive, getGamesArchive, getRivalrySeriesArchive } from "@/lib/game-db";
 
 export const metadata: Metadata = { title: "Games" };
 export const revalidate = 300;
 
 export default async function GamesPage() {
-  const [{ rows, database }, { rows: classics, database: classicsDatabase }] = await Promise.all([
+  const [{ rows, database }, { rows: classics, database: classicsDatabase }, { rows: rivalrySeries, database: rivalryDatabase }] = await Promise.all([
     getGamesArchive(),
-    getClassicGamesArchive()
+    getClassicGamesArchive(),
+    getRivalrySeriesArchive()
   ]);
   const wins = rows.filter(row => row.result === "W").length;
   const losses = rows.filter(row => row.result === "L").length;
@@ -17,18 +18,33 @@ export default async function GamesPage() {
   return (
     <section className="section shell page-top">
       <SectionTitle eyebrow="Game archive" title="Games">
-        The complete Raiders postseason ledger, plus a growing curated collection of source-backed regular-season games that became part of franchise mythology.
+        The complete Raiders postseason ledger, the complete 15-game Battle of the Bay regular-season series, and a growing curated collection of source-backed regular-season classics.
       </SectionTitle>
       <div className="stats-grid standalone-stats game-ledger-stats">
         <div><strong>{rows.length}</strong><span>playoff games</span></div>
         <div><strong>{wins}</strong><span>playoff wins</span></div>
-        <div><strong>{losses}</strong><span>playoff losses</span></div>
-        <div><strong>{classics.length}</strong><span>classic regular-season games</span></div>
+        <div><strong>{rivalrySeries.length}</strong><span>Battle of the Bay games</span></div>
+        <div><strong>{classics.length}</strong><span>other classic games</span></div>
+      </div>
+
+      <div className="exhibit-related game-collection-section">
+        <SectionTitle eyebrow="Complete cross-bay series" title="Battle of the Bay">
+          Every Raiders–49ers regular-season meeting from 1970 through the January 1, 2023 overtime game at Allegiant Stadium. The current series stands 8–7 San Francisco.
+        </SectionTitle>
+        <div className="game-list">
+          {[...rivalrySeries].reverse().map(game => (
+            <Link className="game-row" href={`/games/${game.slug}`} key={game.slug}>
+              <div><span>{game.season}</span><strong>{game.nickname ?? "Battle of the Bay"}</strong></div>
+              <div><small>{game.date} · {game.site}{game.overtime ? " · OT" : ""}</small><h3>Raiders vs. {game.opponent}</h3></div>
+              <div className={`game-score ${game.result === "W" ? "win" : "loss"}`}><span>{game.result}</span><strong>{game.raidersScore}–{game.opponentScore}</strong></div>
+            </Link>
+          ))}
+        </div>
       </div>
 
       <div className="exhibit-related game-collection-section">
         <SectionTitle eyebrow="Curated classics" title="Classic regular-season games">
-          These are selected, verified historical games—not yet a complete regular-season ledger. Each is linked to its named Moment exhibit and source record.
+          Selected, verified historical games outside the Battle of the Bay ledger. Each is linked to its named Moment exhibit and source record.
         </SectionTitle>
         <div className="related-grid">
           {classics.map(game => (
@@ -56,7 +72,7 @@ export default async function GamesPage() {
           ))}
         </div>
       </div>
-      <p className="fine-print">Storage: {database && classicsDatabase ? "both collections served from Render Postgres" : "database-backed archive with versioned fallback"}. Postseason ledger source: Pro Football Reference. Classic-game sources: Raiders official history.</p>
+      <p className="fine-print">Storage: {database && classicsDatabase && rivalryDatabase ? "all game collections served from Render Postgres" : "database-backed archive with versioned fallback"}. Postseason source: Pro Football Reference. Battle of the Bay and classic-game sources: Raiders official history.</p>
     </section>
   );
 }
