@@ -1,0 +1,103 @@
+{
+  "slug":"al-davis",
+  "title":"The Al Davis Collection",
+  "subtitle":"Coach. Commissioner. Owner-leader. Architect of the Raiders.",
+  "lifespan":"1929–2011",
+  "summary":"A source-backed collection of turning points in Al Davis' Raiders story: the 1963 turnaround, the AFL commissioner era, championships, relocation battles, landmark leadership decisions, Hall of Fame induction, the return to Oakland, and the end of a half-century leading the franchise.",
+  "sourceLabel":"Las Vegas Raiders · Al Davis",
+  "sourceUrl":"https://www.raiders.com/history/al-davis",
+  "hallOfFameUrl":"https://www.raiders.com/history/al-davis-hall-of-fame",
+  "timelineUrl":"https://www.raiders.com/history/timeline",
+  "milestones":[
+    {
+      "date":"1963-01-19",
+      "year":1963,
+      "title":"Head coach and general manager",
+      "summary":"Al Davis was named Raiders head coach and general manager. Oakland finished 10-4 that season for the first winning record in franchise history.",
+      "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+      "sourceUrl":"https://www.raiders.com/history/timeline",
+      "links":[{"label":"1963 season","href":"/seasons/1963"}]
+    },
+    {
+      "date":"1966-04-08",
+      "year":1966,
+      "title":"AFL commissioner",
+      "summary":"Davis left Oakland to become the second commissioner of the American Football League. The AFL and NFL announced their alliance on June 8; Davis resigned as commissioner on July 25 and returned to the Raiders as Managing General Partner.",
+      "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+      "sourceUrl":"https://www.raiders.com/history/timeline",
+      "links":[{"label":"1966 season","href":"/seasons/1966"}]
+    },
+    {
+      "date":"1977-03-05",
+      "year":1977,
+      "title":"First Super Bowl title and Executive of the Year",
+      "summary":"After the Raiders defeated Minnesota 32-14 in Super Bowl XI on January 9, Davis was named NFL Executive of the Year on March 5.",
+      "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+      "sourceUrl":"https://www.raiders.com/history/timeline",
+      "links":[{"label":"Super Bowl XI","href":"/championships/super-bowl-xi"},{"label":"1976 season","href":"/seasons/1976"}]
+    },
+    {
+      "date":"1981-01-25",
+      "year":1981,
+      "title":"Super Bowl XV",
+      "summary":"The Raiders defeated Philadelphia 27-10 in Super Bowl XV, securing the franchise's second Super Bowl championship during Davis' leadership.",
+      "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+      "sourceUrl":"https://www.raiders.com/history/timeline",
+      "links":[{"label":"Super Bowl XV","href":"/championships/super-bowl-xv"},{"label":"1980 season","href":"/seasons/1980"}]
+    },
+    {
+      "date":"1982-05-07",
+      "year":1982,
+      "title":"The Los Angeles move cleared in court",
+      "summary":"A federal jury found for the Raiders and against the NFL in the relocation case, setting up the move to Los Angeles. The Los Angeles Raiders played their first home preseason game at the L.A. Coliseum on August 29.",
+      "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+      "sourceUrl":"https://www.raiders.com/history/timeline",
+      "links":[{"label":"1982 season","href":"/seasons/1982"}]
+    },
+    {
+      "date":"1984-01-22",
+      "year":1984,
+      "title":"Super Bowl XVIII",
+      "summary":"The Los Angeles Raiders defeated Washington 38-9 in Super Bowl XVIII, giving the franchise its third Super Bowl title.",
+      "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+      "sourceUrl":"https://www.raiders.com/history/timeline",
+      "links":[{"label":"Super Bowl XVIII","href":"/championships/super-bowl-xviii"},{"label":"1983 season","href":"/seasons/1983"}]
+    },
+    {
+      "date":"1989-10-03",
+      "year":1989,
+      "title":"Art Shell named head coach",
+      "summary":"Davis promoted Hall of Fame tackle Art Shell to head coach. Shell became the first African-American head coach in the modern era of professional football.",
+      "sourceLabel":"Las Vegas Raiders · Historic Anniversary",
+      "sourceUrl":"https://www.raiders.com/news/historic-anniversary-13962643",
+      "links":[{"label":"Art Shell","href":"/legends/art-shell"},{"label":"1989 season","href":"/seasons/1989"}]
+    },
+    {
+      "date":"1992-08-01",
+      "year":1992,
+      "title":"Pro Football Hall of Fame",
+      "summary":"Davis was inducted into the Pro Football Hall of Fame in Canton, Ohio, with former Raiders head coach John Madden presenting him.",
+      "sourceLabel":"Las Vegas Raiders · Hall of Fame",
+      "sourceUrl":"https://www.raiders.com/news/on-this-date-al-davis-inducted-pro-football-hall-of-fame-august-1-1992-canton-ohio-raiders-history",
+      "links":[{"label":"John Madden","href":"/legends/john-madden"},{"label":"Hall of Fame exhibit","href":"/legends/al-davis"}]
+    },
+    {
+      "date":"1995-06-23",
+      "year":1995,
+      "title":"Return to Oakland",
+      "summary":"A letter of intent between the Raiders and the Oakland Coliseum was signed on June 23. The agreement followed on August 7, and the Raiders played their first home preseason game back in Oakland on August 12.",
+      "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+      "sourceUrl":"https://www.raiders.com/history/timeline",
+      "links":[{"label":"1995 season","href":"/seasons/1995"}]
+    },
+    {
+      "date":"2011-10-08",
+      "year":2011,
+      "title":"A half-century of Raiders leadership ends",
+      "summary":"Al Davis died at age 81 after leading the Raiders for roughly half a century. The next day, the Raiders defeated Houston 25-20 in their first game without him.",
+      "sourceLabel":"Las Vegas Raiders · Historical Timeline",
+      "sourceUrl":"https://www.raiders.com/history/timeline",
+      "links":[{"label":"2011 season","href":"/seasons/2011"}]
+    }
+  ]
+}
