@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import championships from "@/data/championships.json";
 import { getChampionshipExhibit } from "@/lib/exhibit-db";
+import { SuperBowlXIExhibit } from "@/components/SuperBowlXIExhibit";
 
 export const revalidate = 300;
 
@@ -20,6 +21,15 @@ export default async function ChampionshipExhibitPage({ params }: { params: Prom
   const { slug } = await params;
   const exhibit = await getChampionshipExhibit(slug);
   if (!exhibit) notFound();
+
+  if (slug === "super-bowl-xi") {
+    return (
+      <section className="section shell page-top exhibit-page">
+        <Link className="exhibit-back" href="/championships">← Championship Room</Link>
+        <SuperBowlXIExhibit exhibit={exhibit} />
+      </section>
+    );
+  }
 
   return (
     <section className="section shell page-top exhibit-page">
