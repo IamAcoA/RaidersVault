@@ -14,7 +14,13 @@ export function TodayInHistory() {
     const sorted = [...timeline].sort((a, b) => monthDay(a.date).localeCompare(monthDay(b.date)));
     const next = sorted.find(event => monthDay(event.date) >= key) ?? sorted[0];
     return (
-      <div className="history-today-card">
+      <div
+        className="history-today-card"
+        data-preview-title={next.title}
+        data-preview-meta={`${next.date} · ${next.summary}`}
+        data-preview-kicker="Next date in the Vault"
+        data-preview-art={String(next.year).slice(2)}
+      >
         <span className="eyebrow">Next date in the Vault</span>
         <strong>{next.date.slice(5)}</strong>
         <h3>{next.title}</h3>
@@ -24,10 +30,17 @@ export function TodayInHistory() {
   }
 
   const summary = "summary" in item ? item.summary : "";
+  const year = "year" in item ? item.year : Number(item.date.slice(0, 4));
   return (
-    <div className="history-today-card">
+    <div
+      className="history-today-card"
+      data-preview-title={item.title}
+      data-preview-meta={`${item.date} · ${summary}`}
+      data-preview-kicker="Today in Raiders history"
+      data-preview-art={String(year).slice(2)}
+    >
       <span className="eyebrow">Today in Raiders history</span>
-      <strong>{"year" in item ? item.year : item.date.slice(0, 4)}</strong>
+      <strong>{year}</strong>
       <h3>{item.title}</h3>
       <p>{summary}</p>
     </div>
