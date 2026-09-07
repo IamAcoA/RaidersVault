@@ -43,6 +43,19 @@ export default async function LegendExhibitPage({ params }: { params: Promise<{ 
         </div>
       </div>
 
+      {slug === "al-davis" ? (
+        <div className="exhibit-related">
+          <span className="eyebrow">Special collection</span>
+          <div className="related-grid">
+            <Link className="related-card" href="/al-davis">
+              <small>Leadership archive · 1963–2011</small>
+              <strong>The Al Davis Collection</strong>
+              <b>Enter collection →</b>
+            </Link>
+          </div>
+        </div>
+      ) : null}
+
       {exhibit.raidersRoles.length ? (
         <div className="exhibit-related">
           <span className="eyebrow">Raiders roles</span>
