@@ -12,7 +12,9 @@ const SURFACE_SELECTOR = [
   ".history-today-card",
   ".hero-plaque",
   ".exhibit-plaque",
-  ".game-row"
+  ".game-row",
+  ".timeline-row",
+  ".search-result"
 ].join(",");
 
 type PreviewState = {
@@ -123,7 +125,7 @@ export function ImmersiveExperience() {
     const handleFocusOut = () => setPreview(null);
 
     const revealTargets = Array.from(document.querySelectorAll<HTMLElement>(
-      "[data-reveal], .section-title, .door-card, .person-card, .moment-card, .championship-card, .related-card, .game-row"
+      "[data-reveal], .section-title, .door-card, .person-card, .moment-card, .championship-card, .related-card, .game-row, .timeline-row, .search-result"
     ));
     const observer = new IntersectionObserver(
       entries => entries.forEach(entry => {
