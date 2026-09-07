@@ -4,6 +4,7 @@ import classicGames from "@/data/classic-games.json";
 import battleGames from "@/data/battle-of-the-bay-games.json";
 import draftHistory from "@/data/draft-history.json";
 import draftModern from "@/data/draft-2020-2026.json";
+import draftOlder from "@/data/draft-2014-2019.json";
 import eras from "@/data/eras.json";
 import legends from "@/data/legends.json";
 import alDavisCollection from "@/data/al-davis-collection.json";
@@ -52,10 +53,19 @@ export const vaultIndex: VaultSearchDocument[] = [
     id: "draft:history",
     type: "draft",
     title: "Raiders Draft History",
-    subtitle: `Complete 2020–2026 classes · ${draftHistory.facts[0].value} Raiders-drafted Hall of Famers`,
-    text: `Raiders draft history NFL Draft 2020 2021 2022 2023 2024 2025 2026 ${draftHistory.facts.map(item => `${item.label} ${item.value} ${item.detail}`).join(" ")}`,
+    subtitle: `Complete 2014–2026 classes · ${draftHistory.facts[0].value} Raiders-drafted Hall of Famers`,
+    text: `Raiders draft history NFL Draft 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 ${draftHistory.facts.map(item => `${item.label} ${item.value} ${item.detail}`).join(" ")}`,
     href: "/draft"
   },
+  ...draftOlder.years.map(year => ({
+    id: `draft:class:${year.year}`,
+    type: "draft" as const,
+    title: `${year.year} Raiders Draft Class`,
+    subtitle: `${year.picks.length} selections · source-faithful round labels`,
+    text: `${year.year} Raiders draft ${year.picks.map(pick => `${pick.player} round ${pick.roundLabel ?? pick.round} ${pick.position} ${pick.college}`).join(" ")}`,
+    href: `/draft/${year.year}`,
+    year: year.year
+  })),
   ...draftModern.years.flatMap(year => year.picks.map(pick => ({
     id: `draft:modern:${year.year}:${pick.pick}:${slugify(pick.player)}`,
     type: "draft" as const,
