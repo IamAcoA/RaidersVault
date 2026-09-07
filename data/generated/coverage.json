@@ -1,5 +1,85 @@
 [
   {
+    "id": "silver-and-black-pride-1h548t6",
+    "type": "article",
+    "title": "Raiders Week 1: The must-account-for Dolphins in the home opener",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-07T21:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/138754/raiders-2026-week-1-dolphins-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-n9gppp",
+    "type": "article",
+    "title": "What does Darrell Luter Jr. bring to Las Vegas Raiders’ roster?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-07T19:11:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/138795/las-vegas-raiders-roster-darrell-luter-film-breakdown",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1vl1b9j",
+    "type": "article",
+    "title": "Betting on the Raiders hinges on how they define success in the 2026 season",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-07T17:00:12.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/betting-on-the-raiders-hinges-on-how-they-define-success-in-the-2026-season-3883256/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-131nl94",
+    "type": "article",
+    "title": "Raiders Weekly: Week 0",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-07T16:09:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/138908/las-vegas-raiders-depth-chart-kirk-cousins-stadium-upgrade-roster",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-x87gpa",
+    "type": "article",
+    "title": "Las Vegas Raiders Radio Network affiliate stations",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-07T15:07:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/136043/las-vegas-raiders-radio-network-affiliate-stations-2026",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-21pfyo",
+    "type": "article",
+    "title": "Raiders News: Former Raider Richie Incognito is excited about the new OL coach",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-07T14:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139010/raiders-news-former-raider-richie-incognito-is-excited-about-the-new-ol-coach",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-vr3woc",
+    "type": "article",
+    "title": "Why the Raiders will begin the season with Fernando Mendoza on the sideline",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-07T13:00:48.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/why-the-raiders-will-begin-the-season-with-fernando-mendoza-on-the-sideline-3883210/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-v46dr",
+    "type": "article",
+    "title": "Graney: It’s simple — Raiders offensive line needs to be much better",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-07T13:00:31.000Z",
+    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-its-simple-raiders-offensive-line-needs-to-be-much-better-3883207/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "locked-on-raiders-1ths7l0",
     "type": "podcast",
     "title": "Raider Nation congrats you made it to Game Week",
@@ -80,26 +160,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-qs9njx",
-    "type": "article",
-    "title": "Raiders News: Maxx Crosby trade deadline chatter already starting",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-05T14:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/138880/las-vegas-raiders-news-maxx-crosby-trade",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-5nzgjj",
-    "type": "article",
-    "title": "Raiders 2026: Game-by-game predictions for Klint Kubiak’s 1st year",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-04T21:41:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/137964/raiders-2026-season-predictions-klint-kubiak",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "raiders-podcast-network-1ec398j",
     "type": "podcast",
     "title": "Update on Upon Further Review",
@@ -118,36 +178,6 @@
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-09042026-final-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "silver-and-black-pride-1ohh7ys",
-    "type": "article",
-    "title": "Jeremiah Smith, Will Echoles, 2027 NFL draft wide receivers and defensive tackles Las Vegas Raiders fans should know",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-04T19:09:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-draft/138738/las-vegas-raiders-nfl-draft-jeremiah-smith-will-echoles-wide-receivers-defensive-tackles",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1vfyai0",
-    "type": "article",
-    "title": "Raiders&#8217; offensive line is an X-factor for the 2026 season",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-04T17:02:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/138594/raiders-offensive-line-2026-season",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-45f1mb",
-    "type": "article",
-    "title": "Raider roster: What does cornerback room look like?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-04T15:07:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/138570/raider-roster-cornerback-2026-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1y6xf3z",
@@ -566,36 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1k0g6fk",
-    "type": "podcast",
-    "title": "Kwity Paye just wants to rush",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-09T19:30:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-wm5wt8",
-    "type": "podcast",
-    "title": "DJ Glaze is building his game on consistency",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-02T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-ufd8lx",
-    "type": "podcast",
-    "title": "Tre Tucker has become the Raiders’ X Factor",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-05-26T22:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
