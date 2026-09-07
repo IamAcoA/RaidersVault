@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import "./globals.css";
 import "./upgrade.css";
+import "./immersive.css";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { ImmersiveExperience } from "@/components/ImmersiveExperience";
 
 export const metadata: Metadata = {
   title: { default: "Raiders Vault", template: "%s | Raiders Vault" },
@@ -14,6 +16,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
   return (
     <html lang="en">
       <body>
+        <ImmersiveExperience />
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />
