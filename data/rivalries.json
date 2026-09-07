@@ -65,8 +65,9 @@
     "seriesRecord":"49ers lead 8-7 (.467)",
     "postseasonRecord":"No postseason meetings",
     "seriesThrough":2025,
+    "completeRegularSeasonLedger":true,
     "summary":"The Battle of the Bay grew from geography, fan identity and decades of shared Northern California football culture. The teams have met only 15 times in the regular season, but the matchup became one of the Raiders' most emotionally charged non-division rivalries.",
-    "aliases":["San Francisco 49ers","49ers","San Francisco"],
+    "aliases":["San Francisco 49ers","49ers","San Francisco","Battle of the Bay"],
     "sourceLabel":"Las Vegas Raiders · Matchup History",
     "sourceUrl":"https://www.raiders.com/history/matchups/san-francisco-49ers/",
     "historyUrl":"https://www.raiders.com/news/raiders-vs-49ers-through-the-decades-14487859"
