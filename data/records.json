@@ -1,0 +1,114 @@
+{
+  "sourceLabel":"Las Vegas Raiders · Career Leaders",
+  "sourceUrl":"https://www.raiders.com/history/career-leaders",
+  "snapshotSourceLabel":"Pro Football Reference · Raiders Franchise Encyclopedia",
+  "snapshotSourceUrl":"https://www.pro-football-reference.com/teams/rai/index.htm",
+  "checked":"2026-09-07",
+  "snapshot":[
+    {"label":"Franchise seasons","value":"67","detail":"1960–2026"},
+    {"label":"Regular-season record","value":"512-494-11","detail":"through 2025"},
+    {"label":"Playoff record","value":"25-20","detail":"45 postseason games"},
+    {"label":"Super Bowl wins","value":"3","detail":"5 appearances"},
+    {"label":"Winningest coach","value":"John Madden","detail":"112-39-7 including playoffs","vaultSlug":"john-madden","vaultType":"legend"}
+  ],
+  "categories":[
+    {
+      "slug":"passing-yards","title":"Career Passing Leaders","stat":"Passing yards","leaders":[
+        {"rank":1,"name":"Derek Carr","value":"35,222","detail":"3,201 completions · 217 TD"},
+        {"rank":2,"name":"Ken Stabler","value":"19,078","detail":"1,486 completions · 150 TD","vaultSlug":"ken-stabler","vaultType":"legend"},
+        {"rank":3,"name":"Rich Gannon","value":"17,585","detail":"1,533 completions · 114 TD"},
+        {"rank":4,"name":"Daryle Lamonica","value":"16,655","detail":"1,138 completions · 148 TD"},
+        {"rank":5,"name":"Jim Plunkett","value":"12,665","detail":"960 completions · 80 TD","vaultSlug":"jim-plunkett","vaultType":"player"},
+        {"rank":6,"name":"Marc Wilson","value":"11,760","detail":"871 completions · 77 TD"},
+        {"rank":7,"name":"Tom Flores","value":"11,635","detail":"810 completions · 92 TD","vaultSlug":"tom-flores","vaultType":"legend"},
+        {"rank":8,"name":"Jeff Hostetler","value":"11,122","detail":"913 completions · 69 TD"},
+        {"rank":9,"name":"Jay Schroeder","value":"10,276","detail":"698 completions · 66 TD"},
+        {"rank":10,"name":"Kerry Collins","value":"7,254","detail":"591 completions · 41 TD"}
+      ]
+    },
+    {
+      "slug":"rushing-yards","title":"Career Rushing Leaders","stat":"Rushing yards","leaders":[
+        {"rank":1,"name":"Marcus Allen","value":"8,545","detail":"2,090 attempts · 79 TD","vaultSlug":"marcus-allen","vaultType":"legend"},
+        {"rank":2,"name":"Mark van Eeghen","value":"5,907","detail":"1,475 attempts · 35 TD"},
+        {"rank":3,"name":"Josh Jacobs","value":"5,545","detail":"1,305 attempts · 46 TD"},
+        {"rank":4,"name":"Clem Daniels","value":"5,103","detail":"1,133 attempts · 30 TD"},
+        {"rank":5,"name":"Napoleon Kaufman","value":"4,792","detail":"978 attempts · 11 TD"},
+        {"rank":6,"name":"Marv Hubbard","value":"4,394","detail":"913 attempts · 22 TD"},
+        {"rank":7,"name":"Darren McFadden","value":"4,247","detail":"1,038 attempts · 25 TD"},
+        {"rank":8,"name":"Pete Banaszak","value":"3,772","detail":"964 attempts · 47 TD"},
+        {"rank":9,"name":"Tyrone Wheatley","value":"3,682","detail":"914 attempts · 32 TD"},
+        {"rank":10,"name":"Clarence Davis","value":"3,640","detail":"804 attempts · 26 TD"}
+      ]
+    },
+    {
+      "slug":"receiving-yards","title":"Career Receiving Leaders","stat":"Receiving yards","leaders":[
+        {"rank":1,"name":"Tim Brown","value":"14,734","detail":"1,070 receptions · 99 TD","vaultSlug":"tim-brown","vaultType":"legend"},
+        {"rank":2,"name":"Fred Biletnikoff","value":"8,974","detail":"589 receptions · 76 TD","vaultSlug":"fred-biletnikoff","vaultType":"legend"},
+        {"rank":3,"name":"Cliff Branch","value":"8,685","detail":"501 receptions · 67 TD","vaultSlug":"cliff-branch","vaultType":"legend"},
+        {"rank":4,"name":"Todd Christensen","value":"5,872","detail":"461 receptions · 41 TD"},
+        {"rank":5,"name":"Art Powell","value":"4,491","detail":"254 receptions · 50 TD"},
+        {"rank":6,"name":"James Jett","value":"4,417","detail":"256 receptions · 30 TD"},
+        {"rank":7,"name":"Marcus Allen","value":"4,258","detail":"446 receptions · 18 TD","vaultSlug":"marcus-allen","vaultType":"legend"},
+        {"rank":8,"name":"Jerry Porter","value":"3,939","detail":"284 receptions · 30 TD"},
+        {"rank":9,"name":"Mervyn Fernandez","value":"3,764","detail":"209 receptions · 19 TD"},
+        {"rank":10,"name":"Warren Wells","value":"3,634","detail":"156 receptions · 42 TD"}
+      ]
+    },
+    {
+      "slug":"interceptions","title":"Career Interception Leaders","stat":"Defensive interceptions","leaders":[
+        {"rank":1,"name":"Willie Brown","value":"39","detail":"277 return yards · 2 TD","vaultSlug":"willie-brown","vaultType":"legend"},
+        {"rank":1,"name":"Lester Hayes","value":"39","detail":"572 return yards · 4 TD"},
+        {"rank":3,"name":"Terry McDaniel","value":"34","detail":"624 return yards · 5 TD"},
+        {"rank":4,"name":"Vann McElroy","value":"31","detail":"296 return yards · 1 TD"},
+        {"rank":5,"name":"George Atkinson","value":"30","detail":"448 return yards · 2 TD"},
+        {"rank":5,"name":"Jack Tatum","value":"30","detail":"636 return yards"},
+        {"rank":7,"name":"Dave Grayson","value":"29","detail":"624 return yards · 4 TD"},
+        {"rank":8,"name":"Charles Woodson","value":"27","detail":"398 return yards · 2 TD","vaultSlug":"charles-woodson","vaultType":"legend"},
+        {"rank":9,"name":"Fred Williamson","value":"25","detail":"293 return yards · 1 TD"},
+        {"rank":10,"name":"Tom Morrow","value":"23","detail":"346 return yards"}
+      ]
+    },
+    {
+      "slug":"sacks","title":"Career Sack Leaders","stat":"Sacks","note":"Sacks became an official NFL statistic in 1982.","leaders":[
+        {"rank":1,"name":"Greg Townsend","value":"107.5","detail":"Raiders career sacks"},
+        {"rank":2,"name":"Howie Long","value":"84","detail":"Raiders career sacks","vaultSlug":"howie-long","vaultType":"legend"},
+        {"rank":3,"name":"Maxx Crosby","value":"69.5","detail":"Raiders career sacks"},
+        {"rank":4,"name":"Anthony Smith","value":"57.5","detail":"Raiders career sacks"},
+        {"rank":5,"name":"Bill Pickel","value":"53","detail":"Raiders career sacks"},
+        {"rank":6,"name":"Khalil Mack","value":"40.5","detail":"Raiders career sacks"},
+        {"rank":7,"name":"Chester McGlockton","value":"39.5","detail":"Raiders career sacks"},
+        {"rank":8,"name":"Derrick Burgess","value":"38.5","detail":"Raiders career sacks"},
+        {"rank":9,"name":"Tommy Kelly","value":"34","detail":"Raiders career sacks"},
+        {"rank":10,"name":"Rod Martin","value":"33.5","detail":"Raiders career sacks"}
+      ]
+    },
+    {
+      "slug":"scoring","title":"Career Scoring Leaders","stat":"Points","leaders":[
+        {"rank":1,"name":"Sebastian Janikowski","value":"1,799","detail":"414 field goals · 557 extra points"},
+        {"rank":2,"name":"Daniel Carlson","value":"910","detail":"224 field goals · 238 extra points"},
+        {"rank":3,"name":"George Blanda","value":"863","detail":"156 field goals · 395 extra points","vaultSlug":"george-blanda","vaultType":"legend"},
+        {"rank":4,"name":"Chris Bahr","value":"817","detail":"162 field goals · 331 extra points"},
+        {"rank":5,"name":"Jeff Jaeger","value":"667","detail":"152 field goals · 211 extra points"},
+        {"rank":6,"name":"Tim Brown","value":"626","detail":"104 touchdowns","vaultSlug":"tim-brown","vaultType":"legend"},
+        {"rank":7,"name":"Marcus Allen","value":"588","detail":"98 touchdowns","vaultSlug":"marcus-allen","vaultType":"legend"},
+        {"rank":8,"name":"Fred Biletnikoff","value":"462","detail":"77 touchdowns","vaultSlug":"fred-biletnikoff","vaultType":"legend"},
+        {"rank":9,"name":"Cliff Branch","value":"402","detail":"67 touchdowns","vaultSlug":"cliff-branch","vaultType":"legend"},
+        {"rank":10,"name":"Clem Daniels","value":"324","detail":"54 touchdowns"}
+      ]
+    },
+    {
+      "slug":"punting","title":"Career Punting Leaders","stat":"Punting yards","leaders":[
+        {"rank":1,"name":"Shane Lechler","value":"48,215","detail":"1,014 punts · 47.5 avg"},
+        {"rank":2,"name":"Ray Guy","value":"44,493","detail":"1,049 punts · 42.4 avg","vaultSlug":"ray-guy","vaultType":"legend"},
+        {"rank":3,"name":"Jeff Gossett","value":"26,747","detail":"642 punts · 41.7 avg"},
+        {"rank":4,"name":"AJ Cole","value":"21,572","detail":"445 punts · 48.5 avg"},
+        {"rank":5,"name":"Marquette King","value":"19,941","detail":"426 punts · 46.8 avg"},
+        {"rank":6,"name":"Mike Eischeid","value":"15,381","detail":"364 punts · 42.3 avg"},
+        {"rank":7,"name":"Leo Araguz","value":"12,024","detail":"280 punts · 42.9 avg"},
+        {"rank":8,"name":"Mike Mercer","value":"8,905","detail":"218 punts · 40.8 avg"},
+        {"rank":9,"name":"Wayne Crow","value":"5,571","detail":"139 punts · 40.1 avg"},
+        {"rank":10,"name":"Jerry Depoyster","value":"4,044","detail":"106 punts · 38.2 avg"}
+      ]
+    }
+  ]
+}
