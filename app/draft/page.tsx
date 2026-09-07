@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionTitle } from "@/components/SectionTitle";
-import { draftPickHref, getDraftArchive } from "@/lib/draft-db";
+import { draftPickHref, getDraftArchive, type DraftPickRecord } from "@/lib/draft-db";
 
 export const metadata: Metadata = { title: "Draft History" };
 export const revalidate = 300;
 
 const pickLabel = (round: number | null, pick: number | null) => round == null || pick == null ? "Historical selection" : `Round ${round} · Pick ${pick}`;
+const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const draftAnchor = (pick: DraftPickRecord, collection: "current-class" | "hall-of-fame") => `draft-${pick.year}-${collection}-${pick.pick == null ? "historical" : `pick-${pick.pick}`}-${slugify(pick.player)}`;
 
 export default async function DraftPage() {
   const archive = await getDraftArchive();
@@ -27,7 +29,7 @@ export default async function DraftPage() {
         </SectionTitle>
         <div className="game-list">
           {archive.currentClass.picks.map((pick, index) => (
-            <div className="game-row" key={`${pick.year}:${pick.pick}:${pick.player}:${index}`}>
+            <div className="game-row" id={draftAnchor(pick, "current-class")} key={`${pick.year}:${pick.pick}:${pick.player}:${index}`}>
               <div><span>R{pick.round}</span><strong>#{pick.pick}</strong></div>
               <div><small>{pick.position} · {pick.college}{pick.note ? ` · ${pick.note}` : ""}</small><h3>{pick.player}</h3></div>
               <div className="game-score win"><span>OVERALL</span><strong>{pick.pick}</strong></div>
@@ -43,10 +45,11 @@ export default async function DraftPage() {
         <div className="related-grid">
           {archive.hallOfFamePicks.map((pick, index) => {
             const href = draftPickHref(pick);
+            const id = draftAnchor(pick, "hall-of-fame");
             const card = <><small>{pick.year} · {pickLabel(pick.round, pick.pick)}</small><strong>{pick.player}</strong><span>{pick.note ?? "Raiders-drafted Hall of Famer"}</span>{href ? <b>Open Hall of Fame exhibit →</b> : null}</>;
             return href
-              ? <Link className="related-card" href={href} key={`${pick.year}:${pick.player}:${index}`}>{card}</Link>
-              : <div className="related-card" key={`${pick.year}:${pick.player}:${index}`}>{card}</div>;
+              ? <Link className="related-card" href={href} id={id} key={`${pick.year}:${pick.player}:${index}`}>{card}</Link>
+              : <div className="related-card" id={id} key={`${pick.year}:${pick.player}:${index}`}>{card}</div>;
           })}
         </div>
       </div>
