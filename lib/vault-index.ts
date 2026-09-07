@@ -4,6 +4,7 @@ import classicGames from "@/data/classic-games.json";
 import legends from "@/data/legends.json";
 import alDavisCollection from "@/data/al-davis-collection.json";
 import { moments } from "@/data/moments";
+import numbers from "@/data/numbers.json";
 import { players } from "@/data/players";
 import rivalries from "@/data/rivalries.json";
 import { seasons } from "@/data/seasons";
@@ -14,13 +15,21 @@ const playerSlugs = new Set(players.map(player => player.slug));
 const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 export const vaultIndex: VaultSearchDocument[] = [
-  ...players.map(player => ({ id: `player:${player.slug}`, type: "player" as const, title: player.name, subtitle: `${player.position} · ${player.years}${player.number ? ` · #${player.number}` : ""}`, text: `${player.name} ${player.position} ${player.years} ${player.number ?? ""} ${player.distinction}`, href: player.sourceUrl ? `/players/${player.slug}` : legends.some(legend => legend.slug === player.slug) ? `/legends/${player.slug}` : "/players" })),
+  ...players.map(player => ({ id: `player:${player.slug}`, type: "player" as const, title: player.name, subtitle: `${player.position} · ${player.years}${player.number ? ` · #${player.number}` : ""}`, text: `${player.name} ${player.position} ${player.years} number ${player.number ?? ""} ${player.distinction}`, href: player.sourceUrl ? `/players/${player.slug}` : legends.some(legend => legend.slug === player.slug) ? `/legends/${player.slug}` : "/players" })),
   ...legends.filter(legend => !playerSlugs.has(legend.slug)).map(legend => ({ id: `legend:${legend.slug}`, type: "legend" as const, title: legend.name, subtitle: `${legend.role} · ${legend.collection}`, text: `${legend.name} ${legend.role} ${legend.collection} Raiders Hall of Fame`, href: `/legends/${legend.slug}` })),
   ...seasons.map(season => ({ id: `season:${season.year}`, type: "season" as const, title: `${season.year} ${season.location} Raiders`, subtitle: `${season.record} · ${season.coach}`, text: `${season.year} ${season.location} Raiders ${season.record} ${season.coach} ${season.finish} ${season.note}`, href: `/seasons/${season.year}`, year: season.year })),
   ...games.map(game => ({ id: `game:${game.slug}`, type: "game" as const, title: `Raiders vs. ${game.opponent}`, subtitle: `${game.season} · ${game.round} · ${game.result} ${game.raidersScore}-${game.opponentScore}${game.overtime ? " OT" : ""}`, text: `${game.season} ${game.date} ${game.round} Raiders ${game.opponent} ${game.result} ${game.raidersScore} ${game.opponentScore} ${game.site} ${game.overtime ? "overtime" : ""}`, href: `/games/${game.slug}`, year: game.season })),
   ...classicGames.map(game => ({ id: `game:${game.slug}`, type: "game" as const, title: game.nickname, subtitle: `${game.season} · ${game.round} · Raiders ${game.raidersScore}-${game.opponentScore} ${game.opponent}`, text: `${game.nickname} ${game.season} ${game.date} ${game.round} Raiders ${game.opponent} ${game.result} ${game.raidersScore} ${game.opponentScore} ${game.site} regular season classic`, href: `/games/${game.slug}`, year: game.season })),
   ...championships.map(championship => { const mvp = "mvp" in championship ? championship.mvp : ""; return { id: `championship:${championship.slug}`, type: "championship" as const, title: championship.name, subtitle: `${championship.score} · vs. ${championship.opponent}`, text: `${championship.name} ${championship.season} ${championship.teamName} ${championship.opponent} ${championship.score} ${mvp ?? ""} ${championship.summary}`, href: `/championships/${championship.slug}`, year: championship.season }; }),
   ...rivalries.map(rivalry => ({ id: `rivalry:${rivalry.slug}`, type: "rivalry" as const, title: `Raiders vs. ${rivalry.shortName}`, subtitle: rivalry.seriesRecord, text: `${rivalry.name} ${rivalry.shortName} Raiders rivalry ${rivalry.kind} ${rivalry.seriesRecord} ${"postseasonRecord" in rivalry ? rivalry.postseasonRecord ?? "" : ""} ${rivalry.summary} ${rivalry.aliases.join(" ")}`, href: `/rivalries/${rivalry.slug}`, year: rivalry.startYear })),
+  ...numbers.map(record => ({
+    id: `number:${record.number}`,
+    type: "number" as const,
+    title: `Raiders #${record.number}`,
+    subtitle: `${record.wearerCount} documented wearers`,
+    text: `Raiders number ${record.number} who wore ${record.number} uniform jersey ${record.wearers.map(wearer => `${wearer.name} ${wearer.from} ${wearer.to}`).join(" ")}`,
+    href: `/numbers/${record.number}`
+  })),
   {
     id: "collection:al-davis",
     type: "collection",

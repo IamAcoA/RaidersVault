@@ -7,6 +7,7 @@ const nav = [
   ["Rivalries", "/rivalries"],
   ["Legends", "/legends"],
   ["Al Davis", "/al-davis"],
+  ["Numbers", "/numbers"],
   ["Championships", "/championships"],
   ["Players", "/players"],
   ["Moments", "/moments"],
