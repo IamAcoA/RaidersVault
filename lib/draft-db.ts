@@ -4,6 +4,7 @@ import { databaseConfigured, db, ensureDatabaseReady } from "@/lib/db";
 export interface DraftPickRecord {
   year: number;
   round: number | null;
+  roundLabel?: string;
   pick: number | null;
   player: string;
   position?: string;
@@ -38,7 +39,7 @@ export async function getDraftArchive(): Promise<DraftArchive> {
     const rows = await sql<Array<{ metadata: Record<string, unknown> }>>`
       select metadata from entities
       where entity_type = 'draft_pick'
-      order by (metadata ->> 'year')::int desc, coalesce((metadata ->> 'pick')::int, 9999)
+      order by (metadata ->> 'year')::int desc, coalesce((metadata ->> 'pick')::int, 9999), display_name
     `;
     if (!rows.length) return { ...fallback, database: true };
 
@@ -49,6 +50,7 @@ export async function getDraftArchive(): Promise<DraftArchive> {
       const pick: DraftPickRecord = {
         year: Number(m.year),
         round: m.round == null ? null : Number(m.round),
+        roundLabel: m.roundLabel ? String(m.roundLabel) : undefined,
         pick: m.pick == null ? null : Number(m.pick),
         player: String(m.player ?? ""),
         position: m.position ? String(m.position) : undefined,
