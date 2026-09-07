@@ -3,6 +3,7 @@ import games from "@/data/games.json";
 import classicGames from "@/data/classic-games.json";
 import battleGames from "@/data/battle-of-the-bay-games.json";
 import draftHistory from "@/data/draft-history.json";
+import draftModern from "@/data/draft-2020-2026.json";
 import eras from "@/data/eras.json";
 import legends from "@/data/legends.json";
 import alDavisCollection from "@/data/al-davis-collection.json";
@@ -51,22 +52,19 @@ export const vaultIndex: VaultSearchDocument[] = [
     id: "draft:history",
     type: "draft",
     title: "Raiders Draft History",
-    subtitle: `${draftHistory.facts[0].value} Raiders-drafted Hall of Famers · ${draftHistory.currentClass.year} class`,
-    text: `Raiders draft history NFL Draft ${draftHistory.facts.map(item => `${item.label} ${item.value} ${item.detail}`).join(" ")}`,
+    subtitle: `Complete 2020–2026 classes · ${draftHistory.facts[0].value} Raiders-drafted Hall of Famers`,
+    text: `Raiders draft history NFL Draft 2020 2021 2022 2023 2024 2025 2026 ${draftHistory.facts.map(item => `${item.label} ${item.value} ${item.detail}`).join(" ")}`,
     href: "/draft"
   },
-  ...draftHistory.currentClass.picks.map(pick => {
-    const slug = draftSlug(draftHistory.currentClass.year, "current-class", pick.pick, pick.player);
-    return {
-      id: `draft:${slug}`,
-      type: "draft" as const,
-      title: `${draftHistory.currentClass.year} Draft · ${pick.player}`,
-      subtitle: `Round ${pick.round} · Pick ${pick.pick} · ${pick.position} · ${pick.college}`,
-      text: `${pick.player} Raiders draft ${draftHistory.currentClass.year} round ${pick.round} pick ${pick.pick} ${pick.position} ${pick.college} ${pick.note ?? ""}`,
-      href: `/draft#${slug}`,
-      year: draftHistory.currentClass.year
-    };
-  }),
+  ...draftModern.years.flatMap(year => year.picks.map(pick => ({
+    id: `draft:modern:${year.year}:${pick.pick}:${slugify(pick.player)}`,
+    type: "draft" as const,
+    title: `${year.year} Draft · ${pick.player}`,
+    subtitle: `Round ${pick.round} · Pick ${pick.pick} · ${pick.position} · ${pick.college}`,
+    text: `${pick.player} Raiders draft ${year.year} round ${pick.round} pick ${pick.pick} ${pick.position} ${pick.college} ${pick.note ?? ""}`,
+    href: `/draft/${year.year}`,
+    year: year.year
+  }))),
   ...draftHistory.hallOfFamePicks.map(pick => {
     const slug = draftSlug(pick.year, "hall-of-fame", pick.pick, pick.player);
     return {
