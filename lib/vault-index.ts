@@ -2,6 +2,7 @@ import championships from "@/data/championships.json";
 import games from "@/data/games.json";
 import classicGames from "@/data/classic-games.json";
 import battleGames from "@/data/battle-of-the-bay-games.json";
+import draftHistory from "@/data/draft-history.json";
 import eras from "@/data/eras.json";
 import legends from "@/data/legends.json";
 import alDavisCollection from "@/data/al-davis-collection.json";
@@ -17,6 +18,7 @@ import type { VaultSearchDocument } from "@/lib/types";
 
 const playerSlugs = new Set(players.map(player => player.slug));
 const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const draftSlug = (year: number, collection: string, pick: number | null, player: string) => `draft-${year}-${collection}-${pick == null ? "historical" : `pick-${pick}`}-${slugify(player)}`;
 
 export const vaultIndex: VaultSearchDocument[] = [
   ...players.map(player => ({ id: `player:${player.slug}`, type: "player" as const, title: player.name, subtitle: `${player.position} · ${player.years}${player.number ? ` · #${player.number}` : ""}`, text: `${player.name} ${player.position} ${player.years} number ${player.number ?? ""} ${player.distinction}`, href: player.sourceUrl ? `/players/${player.slug}` : legends.some(legend => legend.slug === player.slug) ? `/legends/${player.slug}` : "/players" })),
@@ -45,6 +47,38 @@ export const vaultIndex: VaultSearchDocument[] = [
     text: `Raiders records stats ${category.title} ${category.stat} ${category.note ?? ""} ${category.leaders.map(leader => `${leader.name} ${leader.value} ${leader.detail}`).join(" ")}`,
     href: `/records#${category.slug}`
   })),
+  {
+    id: "draft:history",
+    type: "draft",
+    title: "Raiders Draft History",
+    subtitle: `${draftHistory.facts[0].value} Raiders-drafted Hall of Famers · ${draftHistory.currentClass.year} class`,
+    text: `Raiders draft history NFL Draft ${draftHistory.facts.map(item => `${item.label} ${item.value} ${item.detail}`).join(" ")}`,
+    href: "/draft"
+  },
+  ...draftHistory.currentClass.picks.map(pick => {
+    const slug = draftSlug(draftHistory.currentClass.year, "current-class", pick.pick, pick.player);
+    return {
+      id: `draft:${slug}`,
+      type: "draft" as const,
+      title: `${draftHistory.currentClass.year} Draft · ${pick.player}`,
+      subtitle: `Round ${pick.round} · Pick ${pick.pick} · ${pick.position} · ${pick.college}`,
+      text: `${pick.player} Raiders draft ${draftHistory.currentClass.year} round ${pick.round} pick ${pick.pick} ${pick.position} ${pick.college} ${pick.note ?? ""}`,
+      href: `/draft#${slug}`,
+      year: draftHistory.currentClass.year
+    };
+  }),
+  ...draftHistory.hallOfFamePicks.map(pick => {
+    const slug = draftSlug(pick.year, "hall-of-fame", pick.pick, pick.player);
+    return {
+      id: `draft:${slug}`,
+      type: "draft" as const,
+      title: `${pick.year} Draft · ${pick.player}`,
+      subtitle: pick.pick == null ? `${pick.year} · Raiders-drafted Hall of Famer` : `${pick.year} · Round ${pick.round} · Pick ${pick.pick}`,
+      text: `${pick.player} Raiders draft Hall of Fame ${pick.year} round ${pick.round ?? "historical"} pick ${pick.pick ?? "historical"} ${pick.note ?? ""}`,
+      href: `/draft#${slug}`,
+      year: pick.year
+    };
+  }),
   ...numbers.map(record => ({
     id: `number:${record.number}`,
     type: "number" as const,
