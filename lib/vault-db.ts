@@ -23,7 +23,7 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
     }>>`
       select entity_type, slug, display_name, start_date, metadata
       from entities
-      where entity_type in ('person','player','coach','executive','season','game','moment','era','championship','rivalry','event')
+      where entity_type in ('person','player','coach','executive','season','game','moment','era','championship','rivalry','number','event')
       order by coalesce(start_date, '9999-12-31'::date), display_name
     `;
 
@@ -49,6 +49,9 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
       } else if (row.entity_type === "rivalry") {
         type = "rivalry";
         href = `/rivalries/${row.slug}`;
+      } else if (row.entity_type === "number") {
+        type = "number";
+        href = `/numbers/${String(metadata.number ?? row.slug.replace(/^number-/, ""))}`;
       } else if (isAlDavisMilestone) {
         type = "collection";
         href = String(metadata.href ?? `/al-davis#${row.slug}`);
