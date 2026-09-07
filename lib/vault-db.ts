@@ -23,7 +23,7 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
     }>>`
       select entity_type, slug, display_name, start_date, metadata
       from entities
-      where entity_type in ('person','player','coach','executive','season','game','moment','venue','era','championship','rivalry','number','record','event')
+      where entity_type in ('person','player','coach','executive','season','game','moment','venue','era','championship','rivalry','number','record','draft_pick','event')
       order by coalesce(start_date, '9999-12-31'::date), display_name
     `;
 
@@ -55,6 +55,9 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
       } else if (row.entity_type === "record") {
         type = "record";
         href = row.slug === "record-franchise-snapshot" ? "/records" : `/records#${row.slug.replace(/^record-/, "")}`;
+      } else if (row.entity_type === "draft_pick") {
+        type = "draft";
+        href = String(metadata.href ?? `/draft#${row.slug}`);
       } else if (row.entity_type === "venue") {
         type = "venue";
         href = `/venues/${row.slug}`;
@@ -94,6 +97,15 @@ export async function getVaultDocuments(): Promise<{ documents: VaultSearchDocum
         year: 1963
       });
     }
+
+    documents.push({
+      id: "db:draft:history",
+      type: "draft",
+      title: "Raiders Draft History",
+      subtitle: "Year-by-year draft archive",
+      text: "Raiders Draft History NFL Draft Hall of Fame picks 2026 draft class",
+      href: "/draft"
+    });
 
     return { documents, database: true };
   } catch {
