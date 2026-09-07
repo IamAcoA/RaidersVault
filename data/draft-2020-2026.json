@@ -1,0 +1,100 @@
+{
+  "sourceLabel": "Las Vegas Raiders · Draft History",
+  "sourceUrl": "https://www.raiders.com/history/draft-history",
+  "checked": "2026-09-07",
+  "years": [
+    {
+      "year": 2026,
+      "picks": [
+        {"round":1,"pick":1,"player":"Fernando Mendoza","position":"QB","college":"Indiana"},
+        {"round":2,"pick":38,"player":"Treydan Stukes","position":"S","college":"Arizona","note":"WAS > HOU > LV"},
+        {"round":3,"pick":67,"player":"Keyron Crawford","position":"DE","college":"Auburn"},
+        {"round":3,"pick":91,"player":"Trey Zuhn III","position":"G","college":"Texas A&M","note":"BUF > HOU > LV"},
+        {"round":4,"pick":101,"player":"Jermod McCoy","position":"CB","college":"Tennessee","note":"TEN > BUF > LV"},
+        {"round":4,"pick":122,"player":"Mike Washington Jr.","position":"RB","college":"Arkansas","note":"PHI > ATL > LV"},
+        {"round":5,"pick":150,"player":"Dalton Johnson","position":"S","college":"Arizona","note":"NO > LV"},
+        {"round":5,"pick":175,"player":"Zeke Masses","position":"CB","college":"California","note":"compensatory pick"},
+        {"round":6,"pick":195,"player":"Malik Benson","position":"WR","college":"Oregon","note":"TB > LV"},
+        {"round":7,"pick":229,"player":"Brandon Cleveland","position":"DT","college":"NC State","note":"TB > LV"}
+      ]
+    },
+    {
+      "year": 2025,
+      "picks": [
+        {"round":1,"pick":6,"player":"Ashton Jeanty","position":"RB","college":"Boise State"},
+        {"round":2,"pick":58,"player":"Jack Bech","position":"WR","college":"TCU"},
+        {"round":3,"pick":68,"player":"Darien Porter","position":"CB","college":"Iowa State"},
+        {"round":3,"pick":98,"player":"Caleb Rogers","position":"G","college":"Texas Tech"},
+        {"round":3,"pick":99,"player":"Charles Grant","position":"T","college":"William & Mary"},
+        {"round":4,"pick":108,"player":"Dont'e Thornton Jr.","position":"WR","college":"Tennessee"},
+        {"round":4,"pick":135,"player":"Tonka Hemingway","position":"DT","college":"South Carolina"},
+        {"round":6,"pick":180,"player":"JJ Pegues","position":"DT","college":"Mississippi"},
+        {"round":6,"pick":213,"player":"Tommy Mellott","position":"WR","college":"Montana State"},
+        {"round":6,"pick":215,"player":"Cam Miller","position":"QB","college":"North Dakota State"},
+        {"round":7,"pick":222,"player":"Cody Lindenberg","position":"LB","college":"Minnesota"}
+      ]
+    },
+    {
+      "year": 2024,
+      "picks": [
+        {"round":1,"pick":13,"player":"Brock Bowers","position":"TE","college":"Georgia"},
+        {"round":2,"pick":44,"player":"Jackson Powers-Johnson","position":"G","college":"Oregon"},
+        {"round":3,"pick":77,"player":"DJ Glaze","position":"T","college":"Maryland"},
+        {"round":4,"pick":112,"player":"Decamerion Richardson","position":"CB","college":"Mississippi State"},
+        {"round":5,"pick":148,"player":"Tommy Eichenberg","position":"LB","college":"Ohio State"},
+        {"round":6,"pick":208,"player":"Dylan Laube","position":"RB","college":"New Hampshire"},
+        {"round":7,"pick":223,"player":"Trey Taylor","position":"S","college":"Air Force"},
+        {"round":7,"pick":229,"player":"M.J. Devonshire","position":"CB","college":"Pittsburgh"}
+      ]
+    },
+    {
+      "year": 2023,
+      "picks": [
+        {"round":1,"pick":7,"player":"Tyree Wilson","position":"DE","college":"Texas Tech"},
+        {"round":2,"pick":35,"player":"Michael Mayer","position":"TE","college":"Notre Dame"},
+        {"round":3,"pick":70,"player":"Byron Young","position":"DT","college":"Alabama"},
+        {"round":3,"pick":100,"player":"Tre Tucker","position":"WR","college":"Cincinnati"},
+        {"round":4,"pick":104,"player":"Jakorian Bennett","position":"CB","college":"Maryland"},
+        {"round":4,"pick":135,"player":"Aidan O'Connell","position":"QB","college":"Purdue"},
+        {"round":5,"pick":170,"player":"Christopher Smith II","position":"S","college":"Georgia"},
+        {"round":6,"pick":203,"player":"Amari Burney","position":"LB","college":"Florida"},
+        {"round":7,"pick":231,"player":"Nesta Jade Silvera","position":"DT","college":"Arizona State"}
+      ]
+    },
+    {
+      "year": 2022,
+      "picks": [
+        {"round":3,"pick":90,"player":"Dylan Parham","position":"G","college":"Memphis"},
+        {"round":4,"pick":122,"player":"Zamir White","position":"RB","college":"Georgia"},
+        {"round":4,"pick":126,"player":"Neil Farrell Jr.","position":"DL","college":"LSU"},
+        {"round":5,"pick":175,"player":"Matthew Butler","position":"DT","college":"Tennessee"},
+        {"round":7,"pick":238,"player":"Thayer Munford Jr.","position":"T","college":"Ohio State"},
+        {"round":7,"pick":250,"player":"Brittain Brown","position":"RB","college":"UCLA"}
+      ]
+    },
+    {
+      "year": 2021,
+      "picks": [
+        {"round":1,"pick":17,"player":"Alex Leatherwood","position":"OL","college":"Alabama"},
+        {"round":2,"pick":43,"player":"Tre'von Moehrig","position":"S","college":"TCU"},
+        {"round":3,"pick":79,"player":"Malcolm Koonce","position":"DE","college":"Buffalo"},
+        {"round":3,"pick":80,"player":"Divine Deablo","position":"DB","college":"Virginia Tech"},
+        {"round":4,"pick":143,"player":"Tyree Gillespie","position":"S","college":"Missouri"},
+        {"round":5,"pick":167,"player":"Nate Hobbs","position":"CB","college":"Illinois"},
+        {"round":7,"pick":230,"player":"Jimmy Morrissey","position":"C","college":"Pittsburgh"}
+      ]
+    },
+    {
+      "year": 2020,
+      "picks": [
+        {"round":1,"pick":12,"player":"Henry Ruggs III","position":"WR","college":"Alabama"},
+        {"round":1,"pick":19,"player":"Damon Arnette","position":"CB","college":"Ohio State"},
+        {"round":3,"pick":80,"player":"Lynn Bowden Jr.","position":"RB","college":"Kentucky"},
+        {"round":3,"pick":81,"player":"Bryan Edwards","position":"WR","college":"South Carolina"},
+        {"round":3,"pick":100,"player":"Tanner Muse","position":"LB","college":"Clemson"},
+        {"round":4,"pick":109,"player":"John Simpson","position":"G","college":"Clemson"},
+        {"round":4,"pick":139,"player":"Amik Robertson","position":"CB","college":"Louisiana Tech"}
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionTitle } from "@/components/SectionTitle";
 import { draftPickHref, getDraftArchive, type DraftPickRecord } from "@/lib/draft-db";
+import { getModernDraftIndex } from "@/lib/draft-years-db";
 
 export const metadata: Metadata = { title: "Draft History" };
 export const revalidate = 300;
@@ -12,15 +13,30 @@ const draftAnchor = (pick: DraftPickRecord, collection: "current-class" | "hall-
 
 export default async function DraftPage() {
   const archive = await getDraftArchive();
+  const modernYears = getModernDraftIndex();
 
   return (
     <section className="section shell page-top">
       <SectionTitle eyebrow="How the roster was built" title="Draft History">
-        A source-backed draft archive. This first graph release preserves the complete 2026 class and the 12 Raiders-drafted players who reached the Pro Football Hall of Fame; the same model will expand year by year.
+        A source-backed draft archive with complete Raiders classes from 2020 through 2026, plus the franchise's 12 drafted Pro Football Hall of Famers. Older year-by-year classes will be added backward from the same official source.
       </SectionTitle>
 
       <div className="stats-grid standalone-stats">
         {archive.facts.map(item => <div key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>)}
+      </div>
+
+      <div className="exhibit-related">
+        <span className="eyebrow">Complete modern draft classes</span>
+        <div className="related-grid">
+          {modernYears.map(item => (
+            <Link className="related-card" href={`/draft/${item.year}`} key={item.year}>
+              <small>{item.pickCount} selections</small>
+              <strong>{item.year} NFL Draft</strong>
+              <span>{item.firstPick ? `First pick: ${item.firstPick.player}${item.firstPick.pick ? ` · No. ${item.firstPick.pick}` : ""}` : ""}</span>
+              <b>Open draft class →</b>
+            </Link>
+          ))}
+        </div>
       </div>
 
       <div className="exhibit-related game-collection-section">
