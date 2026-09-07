@@ -1,0 +1,42 @@
+{
+  "sourceLabel":"Las Vegas Raiders · Draft History",
+  "sourceUrl":"https://www.raiders.com/history/draft-history",
+  "historySourceLabel":"Las Vegas Raiders · By the Numbers: Draft History",
+  "historySourceUrl":"https://www.raiders.com/news/raiders-draft-history-nfl-facts-by-the-numbers",
+  "checked":"2026-09-07",
+  "facts":[
+    {"label":"Raiders-drafted Hall of Famers","value":"12","detail":"From Jim Otto through Charles Woodson"},
+    {"label":"Most picks in one common-era draft","value":"20","detail":"1972 · 17-round draft"},
+    {"label":"Players selected since 1967","value":"587","detail":"From 198 schools through the 2026 pre-draft historical analysis"},
+    {"label":"Most-drafted college","value":"USC · 17","detail":"Nebraska and UCLA follow with 14 each"}
+  ],
+  "currentClass":{
+    "year":2026,
+    "picks":[
+      {"round":1,"pick":1,"player":"Fernando Mendoza","position":"QB","college":"Indiana"},
+      {"round":2,"pick":38,"player":"Treydan Stukes","position":"S","college":"Arizona","note":"WAS > HOU > LV"},
+      {"round":3,"pick":67,"player":"Keyron Crawford","position":"DE","college":"Auburn"},
+      {"round":3,"pick":91,"player":"Trey Zuhn III","position":"G","college":"Texas A&M","note":"BUF > HOU > LV"},
+      {"round":4,"pick":101,"player":"Jermod McCoy","position":"CB","college":"Tennessee","note":"TEN > BUF > LV"},
+      {"round":4,"pick":122,"player":"Mike Washington Jr.","position":"RB","college":"Arkansas","note":"PHI > ATL > LV"},
+      {"round":5,"pick":150,"player":"Dalton Johnson","position":"S","college":"Arizona","note":"NO > LV"},
+      {"round":5,"pick":175,"player":"Zeke Masses","position":"CB","college":"California","note":"compensatory pick"},
+      {"round":6,"pick":195,"player":"Malik Benson","position":"WR","college":"Oregon","note":"TB > LV"},
+      {"round":7,"pick":229,"player":"Brandon Cleveland","position":"DT","college":"NC State","note":"TB > LV"}
+    ]
+  },
+  "hallOfFamePicks":[
+    {"year":1998,"round":1,"pick":4,"player":"Charles Woodson","vaultSlug":"charles-woodson"},
+    {"year":1988,"round":1,"pick":6,"player":"Tim Brown","vaultSlug":"tim-brown"},
+    {"year":1982,"round":1,"pick":10,"player":"Marcus Allen","vaultSlug":"marcus-allen"},
+    {"year":1981,"round":2,"pick":48,"player":"Howie Long","vaultSlug":"howie-long"},
+    {"year":1974,"round":2,"pick":45,"player":"Dave Casper","vaultSlug":"dave-casper"},
+    {"year":1973,"round":1,"pick":23,"player":"Ray Guy","vaultSlug":"ray-guy"},
+    {"year":1972,"round":4,"pick":98,"player":"Cliff Branch","vaultSlug":"cliff-branch"},
+    {"year":1968,"round":2,"pick":52,"player":"Ken Stabler","vaultSlug":"ken-stabler"},
+    {"year":1968,"round":3,"pick":80,"player":"Art Shell","vaultSlug":"art-shell"},
+    {"year":1967,"round":1,"pick":17,"player":"Gene Upshaw","vaultSlug":"gene-upshaw"},
+    {"year":1965,"round":2,"pick":11,"player":"Fred Biletnikoff","vaultSlug":"fred-biletnikoff"},
+    {"year":1960,"round":null,"pick":null,"player":"Jim Otto","vaultSlug":"jim-otto","note":"Listed by Raiders among franchise-drafted Hall of Famers; round/pick not listed in the Raiders table."}
+  ]
+}
