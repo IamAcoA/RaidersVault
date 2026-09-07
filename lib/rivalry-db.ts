@@ -1,5 +1,6 @@
 import classicGames from "@/data/classic-games.json";
 import postseasonGames from "@/data/games.json";
+import rivalryGames from "@/data/battle-of-the-bay-games.json";
 import moments from "@/data/moments.json";
 import rawRivalries from "@/data/rivalries.json";
 import { databaseConfigured, db, ensureDatabaseReady } from "@/lib/db";
@@ -40,7 +41,7 @@ export interface RivalryExhibit extends RivalryRecord {
 }
 
 const rivalries = rawRivalries as RivalryRecord[];
-const allGames = [...postseasonGames, ...classicGames];
+const allGames = [...postseasonGames, ...classicGames, ...rivalryGames];
 
 function isoDate(value: unknown) {
   if (value instanceof Date) return value.toISOString().slice(0, 10);
