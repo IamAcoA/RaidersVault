@@ -8,6 +8,7 @@ import alDavisCollection from "@/data/al-davis-collection.json";
 import { moments } from "@/data/moments";
 import numbers from "@/data/numbers.json";
 import { players } from "@/data/players";
+import records from "@/data/records.json";
 import rivalries from "@/data/rivalries.json";
 import { seasons } from "@/data/seasons";
 import { timeline } from "@/data/timeline";
@@ -28,6 +29,22 @@ export const vaultIndex: VaultSearchDocument[] = [
   ...battleGames.map(game => ({ id: `game:${game.slug}`, type: "game" as const, title: game.nickname ?? `Raiders vs. San Francisco 49ers`, subtitle: `${game.season} · Battle of the Bay · ${game.result} ${game.raidersScore}-${game.opponentScore}${game.overtime ? " OT" : ""}`, text: `Battle of the Bay Raiders 49ers San Francisco rivalry ${game.season} ${game.date} ${game.result} ${game.raidersScore} ${game.opponentScore} ${game.site} ${game.overtime ? "overtime" : ""}`, href: `/games/${game.slug}`, year: game.season })),
   ...championships.map(championship => { const mvp = "mvp" in championship ? championship.mvp : ""; return { id: `championship:${championship.slug}`, type: "championship" as const, title: championship.name, subtitle: `${championship.score} · vs. ${championship.opponent}`, text: `${championship.name} ${championship.season} ${championship.teamName} ${championship.opponent} ${championship.score} ${mvp ?? ""} ${championship.summary}`, href: `/championships/${championship.slug}`, year: championship.season }; }),
   ...rivalries.map(rivalry => ({ id: `rivalry:${rivalry.slug}`, type: "rivalry" as const, title: `Raiders vs. ${rivalry.shortName}`, subtitle: rivalry.seriesRecord, text: `${rivalry.name} ${rivalry.shortName} Raiders rivalry ${rivalry.kind} ${rivalry.seriesRecord} ${"postseasonRecord" in rivalry ? rivalry.postseasonRecord ?? "" : ""} ${rivalry.summary} ${rivalry.aliases.join(" ")}`, href: `/rivalries/${rivalry.slug}`, year: rivalry.startYear })),
+  {
+    id: "record:franchise-snapshot",
+    type: "record",
+    title: "Raiders Franchise Snapshot",
+    subtitle: `${records.snapshot[0].value} seasons · ${records.snapshot[1].value} regular-season record`,
+    text: `Raiders records stats franchise record book ${records.snapshot.map(item => `${item.label} ${item.value} ${item.detail}`).join(" ")}`,
+    href: "/records"
+  },
+  ...records.categories.map(category => ({
+    id: `record:${category.slug}`,
+    type: "record" as const,
+    title: category.title,
+    subtitle: `${category.stat} · ${category.leaders[0]?.name} ${category.leaders[0]?.value}`,
+    text: `Raiders records stats ${category.title} ${category.stat} ${category.note ?? ""} ${category.leaders.map(leader => `${leader.name} ${leader.value} ${leader.detail}`).join(" ")}`,
+    href: `/records#${category.slug}`
+  })),
   ...numbers.map(record => ({
     id: `number:${record.number}`,
     type: "number" as const,
