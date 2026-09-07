@@ -1,0 +1,300 @@
+/* Raiders Vault immersion layer — motion, depth and archival atmosphere. */
+:root {
+  --vault-ease: cubic-bezier(.2,.72,.2,1);
+  --vault-fast: 180ms;
+  --vault-slow: 620ms;
+}
+
+body { position: relative; overflow-x: clip; }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: .035;
+  background-image:
+    repeating-radial-gradient(circle at 17% 31%, rgba(255,255,255,.75) 0 .35px, transparent .5px 3px),
+    repeating-radial-gradient(circle at 73% 67%, rgba(255,255,255,.35) 0 .3px, transparent .45px 4px);
+  background-size: 7px 9px, 11px 13px;
+  mix-blend-mode: soft-light;
+}
+main, .site-header, .site-footer { position: relative; z-index: 1; }
+
+.vault-pointer-aura {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 520px;
+  height: 520px;
+  z-index: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(205,209,214,.075) 0%, rgba(155,159,164,.028) 32%, transparent 68%);
+  filter: blur(8px);
+  will-change: transform;
+}
+
+.site-header {
+  box-shadow: 0 12px 55px rgba(0,0,0,.22);
+  transition: background var(--vault-fast) ease, border-color var(--vault-fast) ease, box-shadow var(--vault-fast) ease;
+}
+.site-header:hover { background: rgba(8,8,8,.965); border-color: #494949; box-shadow: 0 18px 70px rgba(0,0,0,.42); }
+nav a { position: relative; transition: color var(--vault-fast) ease, transform var(--vault-fast) ease; }
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -8px;
+  height: 1px;
+  background: var(--bright);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 260ms var(--vault-ease);
+}
+nav a:hover { transform: translateY(-2px); }
+nav a:hover::after { transform: scaleX(1); }
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at var(--hero-x,70%) var(--hero-y,30%), #303236 0%, #171819 19%, #0b0b0b 46%, #060606 72%);
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  z-index: -1;
+  pointer-events: none;
+  opacity: .24;
+  background:
+    linear-gradient(105deg, transparent 42%, rgba(255,255,255,.045) 49%, transparent 56%),
+    repeating-linear-gradient(90deg, transparent 0 95px, rgba(255,255,255,.025) 96px 97px),
+    repeating-linear-gradient(0deg, transparent 0 95px, rgba(255,255,255,.018) 96px 97px);
+  transform: rotate(-3deg) scale(1.08);
+  animation: vault-breathe 11s ease-in-out infinite alternate;
+}
+.hero::after {
+  content: "1960 — FOREVER";
+  position: absolute;
+  right: -1vw;
+  bottom: -4vw;
+  z-index: -1;
+  font-weight: 1000;
+  letter-spacing: -.075em;
+  font-size: clamp(80px,16vw,240px);
+  color: rgba(255,255,255,.018);
+  white-space: nowrap;
+  pointer-events: none;
+}
+.hero h1 { text-shadow: 0 20px 60px rgba(0,0,0,.48); }
+.hero-copy, .hero-side-stack { position: relative; z-index: 2; }
+.hero-plaque, .history-today-card { backdrop-filter: blur(12px); }
+.hero-plaque { background: linear-gradient(145deg,rgba(30,30,30,.88),rgba(10,10,10,.9)); }
+
+.door-card,
+.person-card,
+.moment-card,
+.championship-card,
+.related-card,
+.coverage-card,
+.history-today-card,
+.hero-plaque,
+.exhibit-plaque,
+.game-row {
+  --tilt-x: 0deg;
+  --tilt-y: 0deg;
+  --pointer-x: 50%;
+  --pointer-y: 50%;
+  --lift: 0px;
+  --surface-scale: 1;
+  transform: perspective(1100px) rotateX(var(--tilt-x)) rotateY(var(--tilt-y)) translateY(var(--lift)) scale(var(--surface-scale));
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition:
+    transform 220ms var(--vault-ease),
+    border-color 220ms ease,
+    box-shadow 260ms ease,
+    background-color 220ms ease;
+}
+.door-card,
+.person-card,
+.moment-card,
+.championship-card,
+.related-card,
+.coverage-card,
+.history-today-card,
+.hero-plaque,
+.exhibit-plaque,
+.game-row { position: relative; }
+
+.door-card::after,
+.person-card::after,
+.moment-card::after,
+.championship-card::after,
+.related-card::after,
+.coverage-card::after,
+.history-today-card::after,
+.hero-plaque::after,
+.exhibit-plaque::after,
+.game-row::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(260px circle at var(--pointer-x) var(--pointer-y), rgba(255,255,255,.12), rgba(255,255,255,.035) 30%, transparent 68%);
+  transition: opacity 220ms ease;
+  mix-blend-mode: screen;
+}
+
+@media (pointer: fine) {
+  .door-card:hover,
+  .person-card:hover,
+  .moment-card:hover,
+  .championship-card:hover,
+  .related-card:hover,
+  .coverage-card:hover,
+  .history-today-card:hover,
+  .hero-plaque:hover,
+  .exhibit-plaque:hover {
+    --lift: -9px;
+    --surface-scale: 1.012;
+    border-color: #696b6e;
+    box-shadow: 0 28px 75px rgba(0,0,0,.42), 0 0 0 1px rgba(255,255,255,.025) inset;
+  }
+  .game-row:hover { --surface-scale: 1.006; }
+  .door-card:hover::after,
+  .person-card:hover::after,
+  .moment-card:hover::after,
+  .championship-card:hover::after,
+  .related-card:hover::after,
+  .coverage-card:hover::after,
+  .history-today-card:hover::after,
+  .hero-plaque:hover::after,
+  .exhibit-plaque:hover::after,
+  .game-row:hover::after { opacity: 1; }
+}
+
+.door-card { overflow: hidden; }
+.door-card::before {
+  content: attr(data-preview-art);
+  position: absolute;
+  right: -12px;
+  bottom: -28px;
+  color: rgba(255,255,255,.035);
+  font-size: 118px;
+  line-height: .85;
+  font-weight: 1000;
+  letter-spacing: -.07em;
+  transition: transform 420ms var(--vault-ease), color 420ms ease;
+}
+.door-card:hover::before { transform: translate3d(-10px,-11px,0) scale(1.08); color: rgba(255,255,255,.065); }
+.door-card h3, .person-card h3, .moment-card h3, .related-card strong { transition: transform 300ms var(--vault-ease), color 220ms ease; }
+.door-card:hover h3, .person-card:hover h3, .moment-card:hover h3 { transform: translate3d(0,-4px,24px); }
+.person-card .number { transition: transform 480ms var(--vault-ease), color 380ms ease; }
+.person-card:hover .number { transform: translate3d(-12px,15px,30px) rotate(-4deg) scale(1.08); color: #202020; }
+.related-card:hover strong { transform: translate3d(0,-2px,18px); }
+.coverage-card:hover h3 { color: var(--white); }
+
+.vault-hover-preview {
+  position: fixed;
+  z-index: 120;
+  width: 300px;
+  min-height: 166px;
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(10px) scale(.94);
+  transform-origin: top left;
+  border: 1px solid rgba(190,193,197,.52);
+  background: rgba(8,8,8,.9);
+  box-shadow: 0 30px 85px rgba(0,0,0,.62), 0 0 35px rgba(185,190,198,.06);
+  backdrop-filter: blur(18px) saturate(.75);
+  overflow: hidden;
+  transition: opacity 130ms ease, transform 180ms var(--vault-ease);
+}
+.vault-hover-preview.is-visible { opacity: 1; transform: translateY(0) scale(1); }
+.vault-hover-preview-art {
+  min-height: 166px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-right: 1px solid #383838;
+  background:
+    linear-gradient(155deg,rgba(210,214,220,.17),transparent 46%),
+    radial-gradient(circle at 50% 22%,#2b2d30,#111 58%,#080808);
+}
+.vault-hover-preview-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg,transparent 33%,rgba(255,255,255,.1) 49%,transparent 65%);
+  transform: translateX(-120%);
+  animation: preview-sweep 2.8s ease-in-out infinite;
+}
+.vault-hover-preview-art > span {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 10px;
+  font-size: 48px;
+  line-height: .8;
+  font-weight: 1000;
+  letter-spacing: -.08em;
+  color: rgba(255,255,255,.78);
+}
+.vault-hover-preview-image {
+  position: absolute;
+  inset: 0;
+  background-position: center top;
+  background-size: cover;
+  filter: grayscale(1) contrast(1.12);
+  opacity: .78;
+}
+.vault-hover-preview-copy { padding: 18px 18px 16px; display: flex; flex-direction: column; min-width: 0; }
+.vault-hover-preview-copy small { color: #858581; font-size: 8px; text-transform: uppercase; letter-spacing: .18em; }
+.vault-hover-preview-copy strong { font-size: 21px; line-height: 1.04; margin: 11px 0 8px; letter-spacing: -.025em; }
+.vault-hover-preview-copy p { color: #a7a7a2; font-size: 11px; line-height: 1.45; margin: 0; }
+.vault-hover-preview-copy b { margin-top: auto; padding-top: 11px; color: #d4d5d6; text-transform: uppercase; letter-spacing: .13em; font-size: 8px; }
+
+.reveal-ready { opacity: 0; filter: blur(7px); }
+.reveal-ready.is-revealed {
+  opacity: 1;
+  filter: blur(0);
+  transition: opacity var(--vault-slow) var(--vault-ease) var(--reveal-delay,0ms), filter 700ms ease var(--reveal-delay,0ms);
+}
+
+.ticker-immersive .ticker-inner { overflow: hidden; }
+.ticker-track { display: flex; width: max-content; align-items: center; gap: 24px; animation: vault-marquee 28s linear infinite; }
+.ticker-track:hover { animation-play-state: paused; }
+.ticker-track span { transition: color 180ms ease, transform 180ms ease; }
+.ticker-track span:hover { color: var(--white); transform: translateY(-2px); }
+
+@keyframes vault-breathe {
+  from { transform: rotate(-3deg) scale(1.04) translate3d(-1%,0,0); opacity: .18; }
+  to { transform: rotate(-2deg) scale(1.11) translate3d(1.5%,-1%,0); opacity: .3; }
+}
+@keyframes preview-sweep {
+  0%, 42% { transform: translateX(-130%); }
+  65%, 100% { transform: translateX(140%); }
+}
+@keyframes vault-marquee { to { transform: translateX(-50%); } }
+
+@media (max-width: 900px), (pointer: coarse) {
+  .vault-pointer-aura, .vault-hover-preview { display: none; }
+  .door-card, .person-card, .moment-card, .championship-card, .related-card, .coverage-card, .history-today-card, .hero-plaque, .exhibit-plaque, .game-row { transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  .vault-pointer-aura, .vault-hover-preview { display: none; }
+  .reveal-ready { opacity: 1; filter: none; }
+  .door-card, .person-card, .moment-card, .championship-card, .related-card, .coverage-card, .history-today-card, .hero-plaque, .exhibit-plaque, .game-row { transform: none; }
+}
