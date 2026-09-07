@@ -2,7 +2,9 @@ import Link from "next/link";
 
 const nav = [
   ["Timeline", "/timeline"],
+  ["Eras", "/eras"],
   ["Seasons", "/seasons"],
+  ["Venues", "/venues"],
   ["Games", "/games"],
   ["Rivalries", "/rivalries"],
   ["Legends", "/legends"],
