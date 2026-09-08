@@ -1,5 +1,25 @@
 [
   {
+    "id": "silver-and-black-pride-19rmqk5",
+    "type": "article",
+    "title": "How Patrick Johnson made Las Vegas Raiders’ 53-man roster during preseason",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-08T19:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/138714/las-vegas-raiders-roster-patrick-johnson-preseason-film-breakdown",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-11mudod",
+    "type": "article",
+    "title": "Raiders fans were not in favor of signing Von Miller",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-08T17:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-free-agency/135111/raiders-signing-von-miller-free-agent",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "locked-on-raiders-1wbmlxa",
     "type": "podcast",
     "title": "RAIDERS SQUAD SHOW: Brock BOWERS is coming for OPOY + QB2 debate, MENDOZA or AOC?",
@@ -70,16 +90,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "review-journal-9bs1j3",
-    "type": "article",
-    "title": "How has Raiders quarterback Kirk Cousins fared in his Week 1 starts?",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-07T23:22:00.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/how-has-raiders-quarterback-kirk-cousins-fared-in-his-week-1-starts-3883314/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1h548t6",
     "type": "article",
     "title": "Raiders Week 1: The must-account-for Dolphins in the home opener",
@@ -138,26 +148,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-133ki59",
-    "type": "article",
-    "title": "Revisiting the Raiders’ return game with the 53-man roster settled",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-06T17:10:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-depth-chart/138769/raiders-2026-return-specialists-tre-tucker",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-11lrznq",
-    "type": "article",
-    "title": "Raiders News: Amy Trask thinks the Raiders made the right call on Mendoza",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-06T14:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/138956/raiders-news-amy-trask-thinks-the-raiders-made-the-right-call-on-mendoza",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "raiders-podcast-network-1ec398j",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-02T18:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-ufd8lx",
+    "type": "podcast",
+    "title": "Tre Tucker has become the Raiders’ X Factor",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-05-26T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
