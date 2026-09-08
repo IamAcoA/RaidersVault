@@ -1,5 +1,65 @@
 [
   {
+    "id": "locked-on-raiders-1wbmlxa",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Brock BOWERS is coming for OPOY + QB2 debate, MENDOZA or AOC?",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-08T15:46:35.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-sbenm2",
+    "type": "article",
+    "title": "How the Las Vegas Raiders are going to win season opener against Miami Dolphins",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-08T15:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139006/las-vegas-raiders-miami-dolphins-week-1-prediction",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-sh5dde",
+    "type": "article",
+    "title": "Raiders News: ESPN gives Las Vegas slim playoff odds in Klint Kubiak’s 1st season",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-08T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139050/las-vegas-raiders-news-playoff-odds-klint-kubiak",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1ouv7g5",
+    "type": "article",
+    "title": "Going to any games this season?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-08T13:04:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/109039/going-to-any-games-this-season",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-llhjtx",
+    "type": "article",
+    "title": "Hill: Raiders’ season has to be about developing more than just a young QB",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-08T13:00:48.000Z",
+    "url": "https://www.reviewjournal.com/sports/sports-columns/adam-hill/hill-raiders-season-has-to-be-about-developing-more-than-just-a-young-qb-3883467/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-lahjry",
+    "type": "article",
+    "title": "In the blood: Football journey leads Klint Kubiak to try to turn around Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-08T13:00:23.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/in-the-blood-football-journey-leads-klint-kubiak-to-try-to-turn-around-raiders-3883455/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "locked-on-raiders-1f9b34l",
     "type": "podcast",
     "title": "Raiders RB room will be key to success in 2026",
@@ -40,16 +100,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1vl1b9j",
-    "type": "article",
-    "title": "Betting on the Raiders hinges on how they define success in the 2026 season",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-07T17:00:12.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/betting-on-the-raiders-hinges-on-how-they-define-success-in-the-2026-season-3883256/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-131nl94",
     "type": "article",
     "title": "Raiders Weekly: Week 0",
@@ -80,26 +130,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-vr3woc",
-    "type": "article",
-    "title": "Why the Raiders will begin the season with Fernando Mendoza on the sideline",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-07T13:00:48.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/why-the-raiders-will-begin-the-season-with-fernando-mendoza-on-the-sideline-3883210/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-v46dr",
-    "type": "article",
-    "title": "Graney: It’s simple — Raiders offensive line needs to be much better",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-07T13:00:31.000Z",
-    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-its-simple-raiders-offensive-line-needs-to-be-much-better-3883207/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-1ths7l0",
     "type": "podcast",
     "title": "Raider Nation congrats you made it to Game Week",
@@ -126,36 +156,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-06T14:00:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/138956/raiders-news-amy-trask-thinks-the-raiders-made-the-right-call-on-mendoza",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1vvw8q9",
-    "type": "article",
-    "title": "Raiders fans expect Ashton Jeanty to start Week 1",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-05T22:45:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/138950/raiders-fans-expect-ashton-jeanty-to-start-week-1",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-2il1bj",
-    "type": "article",
-    "title": "Raiders’ Patrick Johnson a feel-good story, but veteran earned his spot",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-05T20:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/138778/raiders-2026-patrick-johnson-defensive-end",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-7erev1",
-    "type": "article",
-    "title": "Raiders Mailbag: What week will Fernando Mendoza make his 1st start, what will Raiders’ record be?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-05T17:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/138832/las-vegas-raiders-mailbag-season-preview-fernando-mendoza-start",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -500,16 +500,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "locked-on-raiders-1mhn3y3",
-    "type": "podcast",
-    "title": "Raiders Recap Practice # 7 - DB's Win Games",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-07T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-gj6xq8",
     "type": "podcast",
     "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-09T19:30:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-wm5wt8",
+    "type": "podcast",
+    "title": "DJ Glaze is building his game on consistency",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-02T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
