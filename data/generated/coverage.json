@@ -1,5 +1,15 @@
 [
   {
+    "id": "review-journal-9bs1j3",
+    "type": "article",
+    "title": "How has Raiders quarterback Kirk Cousins fared in his Week 1 starts?",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-07T23:22:00.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/how-has-raiders-quarterback-kirk-cousins-fared-in-his-week-1-starts-3883314/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-1h548t6",
     "type": "article",
     "title": "Raiders Week 1: The must-account-for Dolphins in the home opener",
@@ -90,16 +100,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "review-journal-jv3nnl",
-    "type": "article",
-    "title": "What the fantasy, betting markets say about expectations for 2026 Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-07T00:36:19.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-the-fantasy-betting-markets-say-about-expectations-for-2026-raiders-3883152/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-133ki59",
     "type": "article",
     "title": "Revisiting the Raiders’ return game with the 53-man roster settled",
@@ -118,16 +118,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/138956/raiders-news-amy-trask-thinks-the-raiders-made-the-right-call-on-mendoza",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-b591no",
-    "type": "article",
-    "title": "Why does Klint Kubiak value a fullback with the Raiders?",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-06T13:00:24.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/why-does-klint-kubiak-value-a-fullback-with-the-raiders-3882981/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1vvw8q9",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
