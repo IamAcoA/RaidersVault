@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-wgg8tt",
+    "type": "podcast",
+    "title": "Raiders what you need to know week 1",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-09T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-1fmpjy3",
     "type": "article",
     "title": "Raiders players who have helped, hurt their stock this offseason",
@@ -458,16 +468,6 @@
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "locked-on-raiders-16hkn6o",
-    "type": "podcast",
-    "title": "With Cousins on timeout; Mendoza gets 1st team reps",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-10T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
   },
   {
     "id": "raiders-podcast-network-1hlqv39",
