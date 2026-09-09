@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-1fmpjy3",
+    "type": "article",
+    "title": "Raiders players who have helped, hurt their stock this offseason",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-08T21:43:43.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-players-who-have-helped-hurt-their-stock-this-offseason-3883661/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-n9jmj6",
+    "type": "article",
+    "title": "Michael Mayer, Jackson Powers-Johnson, 8 Las Vegas Raiders entering make-or-break season in 2026",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-08T21:40:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/139024/las-vegas-raiders-roster-michael-mayer-jackson-powers-johnson-make-or-break",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-19rmqk5",
     "type": "article",
     "title": "How Patrick Johnson made Las Vegas Raiders’ 53-man roster during preseason",
@@ -60,26 +80,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-llhjtx",
-    "type": "article",
-    "title": "Hill: Raiders’ season has to be about developing more than just a young QB",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-08T13:00:48.000Z",
-    "url": "https://www.reviewjournal.com/sports/sports-columns/adam-hill/hill-raiders-season-has-to-be-about-developing-more-than-just-a-young-qb-3883467/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-lahjry",
-    "type": "article",
-    "title": "In the blood: Football journey leads Klint Kubiak to try to turn around Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-08T13:00:23.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/in-the-blood-football-journey-leads-klint-kubiak-to-try-to-turn-around-raiders-3883455/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-1f9b34l",
     "type": "podcast",
     "title": "Raiders RB room will be key to success in 2026",
@@ -126,16 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-07T15:07:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/136043/las-vegas-raiders-radio-network-affiliate-stations-2026",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-21pfyo",
-    "type": "article",
-    "title": "Raiders News: Former Raider Richie Incognito is excited about the new OL coach",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-07T14:02:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139010/raiders-news-former-raider-richie-incognito-is-excited-about-the-new-ol-coach",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-05-26T22:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1ggkvvf",
+    "type": "podcast",
+    "title": "Andrew Janocko on Klint Kubiak, Fernando Mendoza and the offense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-05-18T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-aj-05182026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
