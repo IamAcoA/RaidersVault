@@ -1,5 +1,55 @@
 [
   {
+    "id": "silver-and-black-pride-1jdfjba",
+    "type": "article",
+    "title": "Submit your Las Vegas Raiders Week 1 mailbag questions!",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-10T16:09:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139265/las-vegas-raiders-week-1-miami-dolphins-mailba",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "locked-on-raiders-1i71l6s",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Brock BOWERS to MISS Week 1 | Las Vegas RAIDERS vs Miami DOLPHINS PREVIEW",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-10T15:50:14.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-9br8jf",
+    "type": "article",
+    "title": "Raiders 2026: Remaining starting job battles",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-10T15:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/139206/raiders-2026-starting-job-battles",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-142rq1w",
+    "type": "article",
+    "title": "Raiders news: How watchable will Las Vegas be in 2026?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-10T14:03:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/138616/raiders-news-2026-season-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1molcrw",
+    "type": "article",
+    "title": "Raiders rookie set to start in NFL debut against Dolphins",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-10T13:00:41.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rookie-set-to-start-in-nfl-debut-against-dolphins-3884485/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "locked-on-raiders-1jovx7f",
     "type": "podcast",
     "title": "Raiders vs Dolphins week 1 preview without Brock Bowers",
@@ -30,16 +80,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "review-journal-346acc",
-    "type": "article",
-    "title": "Dolphins prepare for ‘hothead’ Maxx Crosby, new-look Raiders in Week 1 matchup",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-09T21:55:20.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/dolphins-prepare-for-hothead-maxx-crosby-new-look-raiders-in-week-1-matchup-3884224/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-10k7ra6",
     "type": "article",
     "title": "Kirk Cousins buys Las Vegas Raiders some, but not much, goodwill in NFL Power rankings heading into 2026 season",
@@ -58,16 +98,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139249/raiders-news-brock-bowers-out-sunday-knee",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1g3c36d",
-    "type": "article",
-    "title": "Raiders’ Brock Bowers expected to miss opener vs. Dolphins after surgery",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-09T20:15:30.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/las-vegas-raiders-star-to-miss-opener-against-dolphins-after-knee-surgery-3884179/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-173l4to",
@@ -120,16 +150,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-1wndlwh",
-    "type": "article",
-    "title": "Raiders News: Fernando Mendoza ahead of Aidan O’Connell on Week 1 unofficial depth chart",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-09T14:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139149/las-vegas-raiders-news-depth-chart-fernando-mendoza-aidan-oconnell",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-wgg8tt",
     "type": "podcast",
     "title": "Raiders what you need to know week 1",
@@ -138,26 +158,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-n9jmj6",
-    "type": "article",
-    "title": "Michael Mayer, Jackson Powers-Johnson, 8 Las Vegas Raiders entering make-or-break season in 2026",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-08T21:40:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/139024/las-vegas-raiders-roster-michael-mayer-jackson-powers-johnson-make-or-break",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-19rmqk5",
-    "type": "article",
-    "title": "How Patrick Johnson made Las Vegas Raiders’ 53-man roster during preseason",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-08T19:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/138714/las-vegas-raiders-roster-patrick-johnson-preseason-film-breakdown",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1wbmlxa",
@@ -480,16 +480,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-1ej2g8d",
-    "type": "podcast",
-    "title": "Raiders final tune up done, now onto preseason game 1",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-12T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-19wl9y1",
     "type": "podcast",
     "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-09T19:30:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-wm5wt8",
+    "type": "podcast",
+    "title": "DJ Glaze is building his game on consistency",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-02T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
