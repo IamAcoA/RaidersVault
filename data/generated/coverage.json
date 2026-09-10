@@ -1,5 +1,45 @@
 [
   {
+    "id": "review-journal-1ot0ror",
+    "type": "article",
+    "title": "Kirk Cousins, Klint Kubiak extend partnership into Week 1 with Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-10T00:53:33.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/kirk-cousins-klint-kubiak-extend-partnership-into-week-1-with-raiders-3884292/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "raiders-podcast-network-14gmcyl",
+    "type": "podcast",
+    "title": "Offseason recap, numbers to know and slowing the Dolphins’ run game",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-week1-09092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "review-journal-346acc",
+    "type": "article",
+    "title": "Dolphins prepare for ‘hothead’ Maxx Crosby, new-look Raiders in Week 1 matchup",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-09T21:55:20.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/dolphins-prepare-for-hothead-maxx-crosby-new-look-raiders-in-week-1-matchup-3884224/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-10k7ra6",
+    "type": "article",
+    "title": "Kirk Cousins buys Las Vegas Raiders some, but not much, goodwill in NFL Power rankings heading into 2026 season",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-09T21:43:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-power-rankings/139118/las-vegas-raiders-power-rankings-season-opener-kirk-cousins",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1fa937t",
     "type": "article",
     "title": "Raiders news: Brock Bowers out Sunday",
@@ -10,9 +50,9 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-126hcbw",
+    "id": "review-journal-1g3c36d",
     "type": "article",
-    "title": "Raiders star to miss opener against Dolphins after knee surgery",
+    "title": "Raiders’ Brock Bowers expected to miss opener vs. Dolphins after surgery",
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-09-09T20:15:30.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/las-vegas-raiders-star-to-miss-opener-against-dolphins-after-knee-surgery-3884179/",
@@ -40,24 +80,14 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-21c33t",
+    "id": "silver-and-black-pride-5zoykv",
     "type": "article",
-    "title": "Raiders injury news: Ashton Jeanty practicing Wednesday",
+    "title": "Raiders injury news: Ashton Jeanty practices fully Wednesday",
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-09T18:34:16.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/139220/raiders-news-ashton-jeanty-practicing-wednesday",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-4ebspj",
-    "type": "article",
-    "title": "Raiders QB Kirk Cousins discusses season opener vs. Dolphins",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-09T17:20:36.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-qb-kirk-cousins-set-to-address-media-3884065/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1td6swg",
@@ -90,16 +120,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-6e9okd",
-    "type": "article",
-    "title": "Raiders schedule predictions: Cousins starts. When might Mendoza?",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-09T13:00:13.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-schedule-predictions-cousins-starts-when-might-mendoza-3883961/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-wgg8tt",
     "type": "podcast",
     "title": "Raiders what you need to know week 1",
@@ -126,16 +146,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-08T19:08:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/138714/las-vegas-raiders-roster-patrick-johnson-preseason-film-breakdown",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-11mudod",
-    "type": "article",
-    "title": "Raiders fans were not in favor of signing Von Miller",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-08T17:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-free-agency/135111/raiders-signing-von-miller-free-agent",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-09T19:30:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-wm5wt8",
-    "type": "podcast",
-    "title": "DJ Glaze is building his game on consistency",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-02T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
