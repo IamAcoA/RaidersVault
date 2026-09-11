@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-1ey384z",
+    "type": "podcast",
+    "title": "Keys to a Raiders victory week 1 without Brock Bowers",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-11T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-r99rl2",
     "type": "article",
     "title": "Graney: Raiders want to win now while eyeing future success",
@@ -20,14 +30,24 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-1rrpfal",
+    "id": "review-journal-mippwc",
     "type": "article",
-    "title": "Raiders 3rd most valuable NFL team at $13B, report says",
+    "title": "Raiders 3rd-most valuable NFL team at $13B, report says",
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-09-10T23:12:42.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/raiders-3rd-most-valuable-nfl-team-at-13b-report-says-3884736/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1xu9bx5",
+    "type": "article",
+    "title": "Raiders Week 1: Battle of rebuilding teams is must-win for Las Vegas",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-10T21:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/138761/raiders-2026-week-1-must-win-season-opener",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "review-journal-d0altg",
@@ -40,14 +60,54 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-1ryogg6",
+    "id": "silver-and-black-pride-1msercy",
     "type": "article",
-    "title": "Raiders increase season ticket prices for 3rd time since 2020 relocation",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-10T19:54:55.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-increase-season-ticket-prices-for-3rd-time-since-2020-relocation-3884657/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
+    "title": "Klint Kubiak reunites with former Seattle Seahawks player",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-10T21:06:21.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139361/raiders-news-brian-cabeldue-waier-claim-offensive-lineman",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-5efamc",
+    "type": "article",
+    "title": "Nakobe Dean, Quay Walker face tough test against De’Von Achane, Malik Willis in Las Vegas Raiders’ Week 1 key matchups against Miami Dolphins",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-10T20:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139194/raiders-dolphins-week-1-preview-nakobe-dean-quay-walker-devon-achane-malik-willis",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-jhmixz",
+    "type": "article",
+    "title": "Las Vegas Raiders Week 1: Scouting the Miami Dolphins Defense",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-10T19:05:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139066/las-vegas-raiders-miami-dolphins-week-1-preview-defense",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1rwmfgx",
+    "type": "article",
+    "title": "Most important assistants stand out",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-10T17:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/136692/raiders-assistant-coach-2026-staff",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1jdfjba",
+    "type": "article",
+    "title": "Submit your Las Vegas Raiders Week 1 mailbag questions!",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-10T16:09:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139265/las-vegas-raiders-week-1-miami-dolphins-mailba",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1i71l6s",
@@ -116,66 +176,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-09T20:17:44.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139249/raiders-news-brock-bowers-out-sunday-knee",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-173l4to",
-    "type": "article",
-    "title": "Las Vegas Raiders Week 1: Scouting the Miami Dolphins offense",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-09T20:07:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139007/las-vegas-raiders-week-1-miami-dolphins-offense-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-x0ge3l",
-    "type": "article",
-    "title": "Silver and Black Pride Reacts survey",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-09T18:56:27.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/139145/silver-and-black-pride-reacts-survey",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-5zoykv",
-    "type": "article",
-    "title": "Raiders injury news: Ashton Jeanty practices fully Wednesday",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-09T18:34:16.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/139220/raiders-news-ashton-jeanty-practicing-wednesday",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1td6swg",
-    "type": "article",
-    "title": "Raiders-Dolphins: 5 things to watch",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-09T17:04:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/137866/raiders-dolphins-week-1-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-xrrqbg",
-    "type": "article",
-    "title": "Raiders Week 1: Meet the Dolphins",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-09T15:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137875/raiders-week-1dolphins-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1wndlwh",
-    "type": "article",
-    "title": "Raiders News: Fernando Mendoza ahead of Aidan O’Connell on Week 1 unofficial depth chart",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-09T14:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139149/las-vegas-raiders-news-depth-chart-fernando-mendoza-aidan-oconnell",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -500,16 +500,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-cad6sp",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs CARDINALS preseason PREVIEW & unofficial DEPTH CHART",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-12T15:50:56.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-19wl9y1",
     "type": "podcast",
     "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-23T18:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-3zciw2",
+    "type": "podcast",
+    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-16T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
