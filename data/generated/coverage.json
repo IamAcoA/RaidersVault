@@ -1,5 +1,55 @@
 [
   {
+    "id": "review-journal-1vjl4w3",
+    "type": "article",
+    "title": "Raiders’ Brock Bowers out Sunday despite Klint Kubiak’s optimism star could play",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-11T20:35:49.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-brock-bowers-out-sunday-despite-klint-kubiaks-optimism-star-could-play-3885227/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-13ja7tp",
+    "type": "article",
+    "title": "Ashton Jeanty will play, Fernando Mendoza No. 2 Sunday against Miami",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-11T19:10:36.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139435/raiders-news-ashton-jeanty-play-sunday-miami",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-s208at",
+    "type": "article",
+    "title": "Raiders coach Klint Kubiak addresses media ahead of opener vs. Dolphins",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-11T18:29:59.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-to-address-media-ahead-of-season-opener-3885170/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-11q2q9t",
+    "type": "article",
+    "title": "Raiders offense: Spotlight is on Michael Mayer",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-11T18:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139330/raiders-brockbowers-injury-michael-mayer-tight-end",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1z0tttr",
+    "type": "article",
+    "title": "Week 1 picks: Raiders-Dolphins prediction, Silver and Black Pride’s Pick’em competition begins!",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-11T17:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/139098/raiders-dolphins-picks-week-1-nfl-predictions-fanduel-odds",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1tuxyy",
     "type": "article",
     "title": "Raiders fans not sold on a Justin Jefferson trade pursuit",
@@ -60,16 +110,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "review-journal-r99rl2",
-    "type": "article",
-    "title": "Graney: Raiders want to win now while eyeing future success",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-10T23:48:40.000Z",
-    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-raiders-want-to-win-now-while-eyeing-future-success-3884751/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1xu9bx5",
     "type": "article",
     "title": "Raiders Week 1: Battle of rebuilding teams is must-win for Las Vegas",
@@ -110,26 +150,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-1rwmfgx",
-    "type": "article",
-    "title": "Most important assistants stand out",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-10T17:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/136692/raiders-assistant-coach-2026-staff",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1jdfjba",
-    "type": "article",
-    "title": "Submit your Las Vegas Raiders Week 1 mailbag questions!",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-10T16:09:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139265/las-vegas-raiders-week-1-miami-dolphins-mailba",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-1i71l6s",
     "type": "podcast",
     "title": "RAIDERS SQUAD SHOW: Brock BOWERS to MISS Week 1 | Las Vegas RAIDERS vs Miami DOLPHINS PREVIEW",
@@ -138,16 +158,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-9br8jf",
-    "type": "article",
-    "title": "Raiders 2026: Remaining starting job battles",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-10T15:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/139206/raiders-2026-starting-job-battles",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1jovx7f",
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1k0g6fk",
-    "type": "podcast",
-    "title": "Kwity Paye just wants to rush",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-09T19:30:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
