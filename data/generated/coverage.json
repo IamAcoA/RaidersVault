@@ -100,16 +100,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-n3ysga",
-    "type": "article",
-    "title": "Raiders vs. Dolphins predictions: RJ staffers pick winner of Sunday’s game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-11T16:00:39.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-dolphins-predictions-rj-staffers-pick-winner-of-sundays-game-3885121/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1x0o1o2",
     "type": "article",
     "title": "Lions seem to have the best chance to go from worst to first",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-23T18:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-3zciw2",
+    "type": "podcast",
+    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-16T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
