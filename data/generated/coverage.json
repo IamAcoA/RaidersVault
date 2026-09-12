@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-1vqmr0a",
+    "type": "article",
+    "title": "How will Miami Dolphins use Malik Willis in Week 1 against Las Vegas Raiders?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-12T20:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139406/las-vegas-raiders-miami-dolphins-week-1-malik-willis",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-obvvyt",
+    "type": "article",
+    "title": "Raiders Mailbag: Who needs to step up against Dolphins with Brock Bowers out?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-12T17:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139418/las-vegas-raiders-mailbag-miami-dolphins-brock-bowers-tre-tucker",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1wgtuhr",
+    "type": "article",
+    "title": "Raiders agree to 3-year extension with Michael Mayer",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-12T15:59:07.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-agree-to-three-year-45-million-deal-with-tight-end-michael-mayer-3885500/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-my45lq",
+    "type": "article",
+    "title": "Raiders news: Tight end gets paid",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-12T15:33:35.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139472/raiders-news-michael-mayer-contract-extension-tight-end",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1btibrg",
     "type": "article",
     "title": "Raiders news: Las Vegas-Miami Week 1 predictions",
@@ -90,16 +130,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-s208at",
-    "type": "article",
-    "title": "Raiders coach Klint Kubiak addresses media ahead of opener vs. Dolphins",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-11T18:29:59.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-to-address-media-ahead-of-season-opener-3885170/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-11q2q9t",
     "type": "article",
     "title": "Raiders offense: Spotlight is on Michael Mayer",
@@ -130,26 +160,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-1x0o1o2",
-    "type": "article",
-    "title": "Lions seem to have the best chance to go from worst to first",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-11T15:02:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/134939/raiders-2026-preview-worst-to-first",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-q893ds",
-    "type": "article",
-    "title": "Raiders news: Home game ticket prices decreasing somewhat",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-11T14:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139197/raiders-news-home-game-ticket-prices-decreasing",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-1ey384z",
     "type": "podcast",
     "title": "Keys to a Raiders victory week 1 without Brock Bowers",
@@ -158,16 +168,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-1xu9bx5",
-    "type": "article",
-    "title": "Raiders Week 1: Battle of rebuilding teams is must-win for Las Vegas",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-10T21:45:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/138761/raiders-2026-week-1-must-win-season-opener",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1i71l6s",
