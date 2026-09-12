@@ -1,5 +1,35 @@
 [
   {
+    "id": "silver-and-black-pride-1btibrg",
+    "type": "article",
+    "title": "Raiders news: Las Vegas-Miami Week 1 predictions",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-12T14:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/137771/raiders-news-week-1-predictions-dolphins",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-19r08tq",
+    "type": "article",
+    "title": "Kirk Cousins relishes the present as Raiders starter in his 15th season",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-12T13:00:23.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/kirk-cousins-relishes-the-present-as-raiders-starter-in-his-15th-season-3885493/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1dmh6oc",
+    "type": "article",
+    "title": "Raiders vs. Dolphins preview: How they match up, injuries, bold predictions",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-12T13:00:10.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-dolphins-preview-how-they-match-up-injuries-bold-predictions-3885490/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "review-journal-14kqwdu",
     "type": "article",
     "title": "Former Raiders receiver Henry Ruggs transferred to Reno transitional housing",
@@ -136,16 +166,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-10T21:45:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/138761/raiders-2026-week-1-must-win-season-opener",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1msercy",
-    "type": "article",
-    "title": "Klint Kubiak reunites with former Seattle Seahawks player",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-10T21:06:21.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139361/raiders-news-brian-cabeldue-waier-claim-offensive-lineman",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-24T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-15p5eya",
-    "type": "podcast",
-    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-23T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-3zciw2",
-    "type": "podcast",
-    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-16T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
