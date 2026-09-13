@@ -1,5 +1,35 @@
 [
   {
+    "id": "silver-and-black-pride-lrckfp",
+    "type": "article",
+    "title": "Raiders-Dolphins game thread",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-13T19:09:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/137212/raiders-dolphins-game-thread",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1w9eddc",
+    "type": "article",
+    "title": "Mendoza set to serve as No. 2 quarterback for Raiders, starting tight end out",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-13T19:06:08.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/mendoza-set-to-serve-as-no-2-quarterback-for-raiders-starting-tight-end-out-3885844/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1bpud1r",
+    "type": "article",
+    "title": "LIVE UPDATES: Raiders, Dolphins underway in 1st quarter of season opener",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-13T16:00:18.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/live-updates-raiders-dolphins-set-to-square-off-in-season-opener-3885825/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-173rd1x",
     "type": "article",
     "title": "Raiders News: Raiders elevated TE Chris Myarick and WR Cody White from the practice squad.",
@@ -106,16 +136,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-11T21:45:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139207/raiders-2026-week-1-offense-ashton-jeanty",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-13ja7tp",
-    "type": "article",
-    "title": "Ashton Jeanty will play, Fernando Mendoza No. 2 Sunday against Miami",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-11T19:10:36.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139435/raiders-news-ashton-jeanty-play-sunday-miami",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1k0g6fk",
-    "type": "podcast",
-    "title": "Kwity Paye just wants to rush",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-09T19:30:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-wm5wt8",
-    "type": "podcast",
-    "title": "DJ Glaze is building his game on consistency",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-02T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
