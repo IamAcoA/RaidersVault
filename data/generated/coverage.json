@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-5zsi8m",
+    "type": "article",
+    "title": "‘Genius of Jeanty’: Fantasy owner’s bet on Raiders RB goes viral",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-13T00:27:52.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/genius-of-jeanty-fantasy-owners-bet-on-raiders-rb-goes-viral-3885630/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1ceeyjt",
+    "type": "article",
+    "title": "Raiders fans are confident Tyler Linderbaum will make the Pro Bowl",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-12T21:30:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/139492/raiders-fans-are-confident-tyler-linderbaum-will-make-the-pro-bowl",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1vqmr0a",
     "type": "article",
     "title": "How will Miami Dolphins use Malik Willis in Week 1 against Las Vegas Raiders?",
@@ -18,16 +38,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139418/las-vegas-raiders-mailbag-miami-dolphins-brock-bowers-tre-tucker",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1wgtuhr",
-    "type": "article",
-    "title": "Raiders agree to 3-year extension with Michael Mayer",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-12T15:59:07.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-agree-to-three-year-45-million-deal-with-tight-end-michael-mayer-3885500/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-my45lq",
@@ -50,46 +60,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-19r08tq",
-    "type": "article",
-    "title": "Kirk Cousins relishes the present as Raiders starter in his 15th season",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-12T13:00:23.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/kirk-cousins-relishes-the-present-as-raiders-starter-in-his-15th-season-3885493/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1dmh6oc",
-    "type": "article",
-    "title": "Raiders vs. Dolphins preview: How they match up, injuries, bold predictions",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-12T13:00:10.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-dolphins-preview-how-they-match-up-injuries-bold-predictions-3885490/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-14kqwdu",
-    "type": "article",
-    "title": "Former Raiders receiver Henry Ruggs transferred to Reno transitional housing",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-12T02:15:00.000Z",
-    "url": "https://www.reviewjournal.com/crime/former-raiders-receiver-henry-ruggs-transferred-to-reno-transitional-housing-3885406/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-4yct6r",
-    "type": "article",
-    "title": "Raiders’ Jackson Powers-Johnson emerges from competition, looks forward",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-12T00:13:06.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-jackson-powers-johnson-emerges-from-competition-looks-forward-3885291/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1faf5sp",
     "type": "article",
     "title": "Las Vegas Raiders-Miami Dolphins FEED topic: How much has offensive line improved?",
@@ -108,16 +78,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139207/raiders-2026-week-1-offense-ashton-jeanty",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1vjl4w3",
-    "type": "article",
-    "title": "Raiders’ Brock Bowers out Sunday despite Klint Kubiak’s optimism star could play",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-11T20:35:49.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-brock-bowers-out-sunday-despite-klint-kubiaks-optimism-star-could-play-3885227/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-13ja7tp",
@@ -146,16 +106,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-11T17:02:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/139098/raiders-dolphins-picks-week-1-nfl-predictions-fanduel-odds",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1tuxyy",
-    "type": "article",
-    "title": "Raiders fans not sold on a Justin Jefferson trade pursuit",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-11T16:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-rumors/134000/raiders-justin-jefferson-trade-rumors",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +546,56 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-24T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-15p5eya",
+    "type": "podcast",
+    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-23T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-3zciw2",
+    "type": "podcast",
+    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-16T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-wm5wt8",
+    "type": "podcast",
+    "title": "DJ Glaze is building his game on consistency",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-02T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-ufd8lx",
+    "type": "podcast",
+    "title": "Tre Tucker has become the Raiders’ X Factor",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-05-26T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
