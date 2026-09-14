@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-6m51fg",
+    "type": "podcast",
+    "title": "Raiders open 2026 with a convincing win vs Miami",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-14T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-1ynemku",
     "type": "article",
     "title": "Kirk Cousins plays ‘winning football,’ throws 300th TD in Raiders debut",
@@ -20,6 +30,16 @@
     "sourceId": "review-journal"
   },
   {
+    "id": "silver-and-black-pride-fyrklr",
+    "type": "article",
+    "title": "Raiders open as big underdogs Week 2 vs the Chargers",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-14T03:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/139529/raiders-open-as-big-underdogs-week-2-vs-the-chargers",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-3uw8ul",
     "type": "article",
     "title": "Klint Kubiak’s 1st victory: Raiders win in the trenches, play ‘clean football’",
@@ -38,6 +58,26 @@
     "url": "https://www.reviewjournal.com/sports/raiders/raiders-rookie-safety-makes-splash-in-nfl-debut-3886006/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1ksx1cn",
+    "type": "article",
+    "title": "Las Vegas Raiders’ offensive line dominates in Week 1 win over Miami Dolphins",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-14T01:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/139576/las-vegas-raiders-miami-dolphins-score-offensive-line-internet-reacts",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1ae2h7x",
+    "type": "article",
+    "title": "Raiders start Klint Kubiak era with complete team victory",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-14T00:40:06.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137881/raiders-win-dolphins-week-1",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "review-journal-pp4j8g",
@@ -176,36 +216,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-12T17:08:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139418/las-vegas-raiders-mailbag-miami-dolphins-brock-bowers-tre-tucker",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-my45lq",
-    "type": "article",
-    "title": "Raiders news: Tight end gets paid",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-12T15:33:35.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139472/raiders-news-michael-mayer-contract-extension-tight-end",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1btibrg",
-    "type": "article",
-    "title": "Raiders news: Las Vegas-Miami Week 1 predictions",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-12T14:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/137771/raiders-news-week-1-predictions-dolphins",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1faf5sp",
-    "type": "article",
-    "title": "Las Vegas Raiders-Miami Dolphins FEED topic: How much has offensive line improved?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-11T23:25:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/139328/las-vegas-raiders-miami-dolphins-offensive-line-tyler-linderbuam-rick-dennison",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -555,16 +565,6 @@
     "title": "The Good, the Bad and the overreaction to Raiders loss to Arizona",
     "publisher": "Locked On Raiders",
     "publishedAt": "2026-08-14T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "locked-on-raiders-1g5btpz",
-    "type": "podcast",
-    "title": "Raiders vs Cardinals, everything you need to know",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-13T07:05:00.000Z",
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
