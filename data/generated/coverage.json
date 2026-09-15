@@ -1,5 +1,45 @@
 [
   {
+    "id": "locked-on-raiders-lbee6x",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Miami DOLPHINS RECAP & the AFC WEST after week 1",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-15T15:53:21.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-9at7p1",
+    "type": "article",
+    "title": "Raiders roster 2026: Get to know Bryce Cabeldue",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-15T15:06:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/139370/raiders-roster-2026-bryce-cabeldue-guard",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1kfa9pp",
+    "type": "article",
+    "title": "Raiders news: Ashton Jeanty making history",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-15T14:03:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139540/raiders-news-ashton-jeanty-receiving-backfield",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-bkctff",
+    "type": "article",
+    "title": "Stock up, stock down after Week 1 victory for Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-15T13:00:28.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-after-week-1-victory-for-raiders-3886516/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "locked-on-raiders-y33xp2",
     "type": "podcast",
     "title": "Raiders gave the shocking effort that HC Klint Kubiak expects",
@@ -48,16 +88,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/139682/raiders-former-players-daniel-carlson-davante-adams-jakobi-meyers",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1ww2gpo",
-    "type": "article",
-    "title": "‘He’s awesome’: Kirk Cousins super fan sets up shrine in Allegiant Stadium",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-14T19:48:58.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/hes-awesome-kirk-cousins-super-fan-sets-up-shrine-in-allegiant-stadium-3886272/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1kutied",
@@ -126,26 +156,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-14T01:45:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/139576/las-vegas-raiders-miami-dolphins-score-offensive-line-internet-reacts",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1ae2h7x",
-    "type": "article",
-    "title": "Raiders start Klint Kubiak era with complete team victory",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-14T00:40:06.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137881/raiders-win-dolphins-week-1",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1u3m2tz",
-    "type": "article",
-    "title": "Las Vegas Raiders-Miami Dolphins final score: A big win to start season",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-13T21:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137883/las-vegas-raiders-miami-dolphins-live-updates-week-1",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -475,16 +485,6 @@
     "title": "Raiders cleaning up and building",
     "publisher": "Locked On Raiders",
     "publishedAt": "2026-08-17T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "locked-on-raiders-uktih1",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Fernando MENDOZA delivers SOLID NFL DEBUT | RAIDERS vs CARDINALS recap",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-14T15:43:02.000Z",
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
