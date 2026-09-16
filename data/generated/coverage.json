@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-punhik",
+    "type": "podcast",
+    "title": "Raiders have a huge opportunity ahead of them",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-16T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-ep4q7p",
     "type": "article",
     "title": "Raiders rewind: Victory earned in the trenches, a positive sign for the future",
@@ -78,16 +88,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139540/raiders-news-ashton-jeanty-receiving-backfield",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-bkctff",
-    "type": "article",
-    "title": "Stock up, stock down after Week 1 victory for Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-15T13:00:28.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-after-week-1-victory-for-raiders-3886516/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "locked-on-raiders-y33xp2",
@@ -470,16 +470,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-286vny",
-    "type": "podcast",
-    "title": "Raiders cleaning up and building",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-17T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-19wl9y1",
     "type": "podcast",
     "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-02T18:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-ufd8lx",
+    "type": "podcast",
+    "title": "Tre Tucker has become the Raiders’ X Factor",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-05-26T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
