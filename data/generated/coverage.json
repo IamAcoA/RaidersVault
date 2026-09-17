@@ -1,5 +1,75 @@
 [
   {
+    "id": "review-journal-uzcreb",
+    "type": "article",
+    "title": "NFL analysts not buying Raiders resurgence in Week 2 power rankings",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-17T16:26:12.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/nfl-analysts-not-buying-raiders-resurgence-in-week-2-power-rankings-3887503/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-ldzoj5",
+    "type": "article",
+    "title": "Submit your Las Vegas Raiders Week 2 mailbag questions!",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-17T16:07:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140051/las-vegas-raiders-week-2-charger-mailbag",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "locked-on-raiders-1clld8w",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS @ Los Angeles CHARGERS PREVIEW, BOWERS injury update",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-17T15:45:22.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-1gfyg75",
+    "type": "article",
+    "title": "Jackson Powers-Johnson, D.J. Glaze settle into roles for the Raiders",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-17T15:04:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-draft/139872/raiders-jackson-powers-johnson-dj-glaze-offensive-line",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1ikev1w",
+    "type": "article",
+    "title": "Raiders news: Ashton Jeanty can carry the load",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-17T14:03:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139744/raiders-news-ashton-jeantyrunning-back",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-cwoijw",
+    "type": "article",
+    "title": "Maxx Crosby optimistic about Raiders’ plan to manage his workload",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-17T13:30:08.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/maxx-crosby-optimistic-about-raiders-plan-to-manage-his-workload-3887405/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-mjubva",
+    "type": "article",
+    "title": "Fernando Mendoza makes a major commercial debut",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-17T12:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/140001/raiders-news-fernando-mendoza-state-farm-commercial-debut",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "locked-on-raiders-nyqx6i",
     "type": "podcast",
     "title": "Need to knows Raiders vs Chargers Week 2",
@@ -100,36 +170,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-ngsdzu",
-    "type": "article",
-    "title": "Silver and Black Pride Reacts Survey Week 2",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-15T21:02:09.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/139852/silver-and-black-pride-reacts-survey-week-2",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-qxpdv",
-    "type": "article",
-    "title": "Kwity Paye makes loud statement in Las Vegas Raiders debut against Miami Dolphins",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-15T18:31:59.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139775/raiders-dolphins-week-1-film-breakdown-kwity-paye",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1t77vtd",
-    "type": "article",
-    "title": "Treydan Stukes makes presence felt in Week 1",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-15T17:06:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-draft/139773/raiders-week-1-rookie-watch-draft-pciks",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-lbee6x",
     "type": "podcast",
     "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Miami DOLPHINS RECAP & the AFC WEST after week 1",
@@ -138,16 +178,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-9at7p1",
-    "type": "article",
-    "title": "Raiders roster 2026: Get to know Bryce Cabeldue",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-15T15:06:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/139370/raiders-roster-2026-bryce-cabeldue-guard",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-y33xp2",
@@ -470,16 +500,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-14aevfe",
-    "type": "podcast",
-    "title": "Raiders have teachable moments in joint practice vs Houston",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-19T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-19wl9y1",
     "type": "podcast",
     "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1k0g6fk",
-    "type": "podcast",
-    "title": "Kwity Paye just wants to rush",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-09T19:30:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-wm5wt8",
-    "type": "podcast",
-    "title": "DJ Glaze is building his game on consistency",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-02T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
