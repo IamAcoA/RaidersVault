@@ -1,5 +1,45 @@
 [
   {
+    "id": "review-journal-ngc41d",
+    "type": "article",
+    "title": "NFL betting: Vikings, Steelers live ’dogs, but wait on Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-18T00:05:39.000Z",
+    "url": "https://www.reviewjournal.com/sports/betting/nfl-betting-vikings-steelers-live-dogs-but-wait-on-raiders-3887670/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-ah9owt",
+    "type": "article",
+    "title": "Linebacker reunion already paying off for Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-17T23:37:30.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/linebacker-reunion-already-paying-off-for-raiders-3887639/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-dzaygh",
+    "type": "article",
+    "title": "Raiders Week 1: Special teams returns to form in win over Dolphins",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-17T21:54:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139700/raiders-2026-week-1-special-teams-dylan-laube",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-141xe66",
+    "type": "article",
+    "title": "Chargers’ Justin Herbert: Raiders defense has ‘no weaknesses’ ahead of Week 2",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-17T21:24:02.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/chargers-justin-herbert-raiders-defense-has-no-weaknesses-ahead-of-week-2-3887600/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-1ni7r3f",
     "type": "article",
     "title": "Week 2 picks: Raiders-Chargers prediction, Silver and Black Pride’s Pick’em competition!",
@@ -90,16 +130,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-cwoijw",
-    "type": "article",
-    "title": "Maxx Crosby optimistic about Raiders’ plan to manage his workload",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-17T13:30:08.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/maxx-crosby-optimistic-about-raiders-plan-to-manage-his-workload-3887405/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-mjubva",
     "type": "article",
     "title": "Fernando Mendoza makes a major commercial debut",
@@ -146,16 +176,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-16T18:16:32.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139973/raiders-news-brock-bowers-darien-porter-not-practicing-injury",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1jomwyx",
-    "type": "article",
-    "title": "Raiders got a lot out of Kwity Paye in Week 1",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-16T17:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139889/raiders-kwity-paye-pass-rushweek-1",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-24T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-15p5eya",
-    "type": "podcast",
-    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-23T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-3zciw2",
-    "type": "podcast",
-    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-16T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
