@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-8vrcof",
+    "type": "podcast",
+    "title": "What it will take for the Raiders to win \"Qimonni's Game\"",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-18T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-ngc41d",
     "type": "article",
     "title": "NFL betting: Vikings, Steelers live ’dogs, but wait on Raiders",
@@ -60,16 +70,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1dbvoue",
-    "type": "article",
-    "title": "Raiders rookie QB Fernando Mendoza stars in hilarious new State Farm ad",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-17T18:41:19.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rookie-qb-fernando-mendoza-stars-in-hilarious-new-state-farm-ad-3887552/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-t2vvq8",
     "type": "article",
     "title": "Klint Kubiak looking for a full 4 quarters from Raiders’ offense",
@@ -78,16 +78,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139915/raiders-klint-kubiak-offense-week-2",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-uzcreb",
-    "type": "article",
-    "title": "NFL analysts not buying Raiders resurgence in Week 2 power rankings",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-17T16:26:12.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/nfl-analysts-not-buying-raiders-resurgence-in-week-2-power-rankings-3887503/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-ldzoj5",
@@ -510,16 +500,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-1ddad88",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Jackson POWERS-JOHNSON starting job in JEOPARDY + RAIDERS vs TEXANS Preview",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-19T15:51:12.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-19wl9y1",
     "type": "podcast",
     "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
@@ -596,6 +576,26 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-24T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-15p5eya",
+    "type": "podcast",
+    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-23T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-3zciw2",
+    "type": "podcast",
+    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-16T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
