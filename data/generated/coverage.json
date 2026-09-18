@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-xe03vn",
+    "type": "article",
+    "title": "Las Vegas Raiders offensive line turning heads for right reasons",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-18T16:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139947/las-vegas-raiders-offensive-line-2026",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1qguapf",
+    "type": "article",
+    "title": "Raiders-Chargers Week 2: 5 things to watch",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-18T15:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139592/raiders-chargers-week-2-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-fk6uq9",
+    "type": "article",
+    "title": "Raiders News: Mike McDaniel calls Maxx Crosby ‘professional game wrecker’",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-18T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140142/las-vegas-raiders-news-chargers-mike-mcdaniel-maxx-crosby",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-8tuqba",
+    "type": "article",
+    "title": "Can the Raiders, Ashton Jeanty control tempo again vs. Chargers?",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-18T13:00:13.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/can-the-raiders-ashton-jeanty-control-tempo-again-vs-chargers-3887858/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "locked-on-raiders-8vrcof",
     "type": "podcast",
     "title": "What it will take for the Raiders to win \"Qimonni's Game\"",
@@ -20,16 +60,6 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-ah9owt",
-    "type": "article",
-    "title": "Linebacker reunion already paying off for Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-17T23:37:30.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/linebacker-reunion-already-paying-off-for-raiders-3887639/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-dzaygh",
     "type": "article",
     "title": "Raiders Week 1: Special teams returns to form in win over Dolphins",
@@ -38,16 +68,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139700/raiders-2026-week-1-special-teams-dylan-laube",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-141xe66",
-    "type": "article",
-    "title": "Chargers’ Justin Herbert: Raiders defense has ‘no weaknesses’ ahead of Week 2",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-17T21:24:02.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/chargers-justin-herbert-raiders-defense-has-no-weaknesses-ahead-of-week-2-3887600/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1ni7r3f",
@@ -120,16 +140,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-mjubva",
-    "type": "article",
-    "title": "Fernando Mendoza makes a major commercial debut",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-17T12:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/140001/raiders-news-fernando-mendoza-state-farm-commercial-debut",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-nyqx6i",
     "type": "podcast",
     "title": "Need to knows Raiders vs Chargers Week 2",
@@ -140,16 +150,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "silver-and-black-pride-1qt4tz7",
-    "type": "article",
-    "title": "Las Vegas Raiders playmakers introduced themselves in win",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-16T22:00:58.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139945/las-vegas-raiders-playmakers-weeek-1",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "raiders-podcast-network-1g7nm08",
     "type": "podcast",
     "title": "Week 1 recap, plus Raiders-Chargers Week 2 primer",
@@ -158,16 +158,6 @@
     "url": "https://omny.fm/shows/raiders-weekly/rw-wk02-audio-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "silver-and-black-pride-6qc43k",
-    "type": "article",
-    "title": "Brock Bowers, Darien Porter not practicing Wednesday",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-16T18:16:32.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139973/raiders-news-brock-bowers-darien-porter-not-practicing-injury",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-punhik",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
