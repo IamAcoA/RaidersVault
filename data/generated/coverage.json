@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-yaxi3s",
+    "type": "article",
+    "title": "Raiders’ defense is key against Chargers’ offense",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-19T15:31:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140215/raiders-defense-is-key-against-chargers-offense",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1p2y30l",
+    "type": "article",
+    "title": "Raiders vs. Chargers preview: How they match up, injuries, bold predictions",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-19T15:00:24.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-chargers-preview-how-they-match-up-injuries-bold-predictions-3888467/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1i2dfwt",
+    "type": "article",
+    "title": "Raiders-Chargers Week 2 predictions",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-19T14:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/139760/raiders-chargers-week-2-predictions",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-d65mhu",
+    "type": "article",
+    "title": "‘Alpha of alphas’: How Tyler Linderbaum became a Raiders rebuild cornerstone",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-19T14:00:25.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/alpha-of-alphas-how-tyler-linderbaum-became-a-raiders-rebuild-cornerstone-3888447/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-x70f8d",
     "type": "article",
     "title": "Las Vegas Raiders-Los Angeles Chargers FEED topic: Which defensive tackle steps up?",
@@ -88,26 +128,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-dzaygh",
-    "type": "article",
-    "title": "Raiders Week 1: Special teams returns to form in win over Dolphins",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-17T21:54:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139700/raiders-2026-week-1-special-teams-dylan-laube",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1ni7r3f",
-    "type": "article",
-    "title": "Week 2 picks: Raiders-Chargers prediction, Silver and Black Pride’s Pick’em competition!",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-17T20:09:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/140043/raiders-chargers-picks-week-2-nfl-predictions-fanduel-odds",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1clld8w",
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-09T19:30:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-wm5wt8",
-    "type": "podcast",
-    "title": "DJ Glaze is building his game on consistency",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-02T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-ufd8lx",
-    "type": "podcast",
-    "title": "Tre Tucker has become the Raiders’ X Factor",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-05-26T22:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
