@@ -30,26 +30,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1dj6rhj",
-    "type": "article",
-    "title": "Raiders’ Brock Bowers doubtful vs. Chargers but could be game-time decision",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-18T18:53:51.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-brock-bowers-doubtful-vs-chargers-but-could-be-game-time-decision-3888008/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1vnzn9v",
-    "type": "article",
-    "title": "Raiders coach expected to discuss status of star TE, Week 2 matchup vs. Chargers",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-18T18:13:21.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-expected-to-discuss-status-of-star-te-week-2-matchup-vs-chargers-3887999/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-67dhbf",
     "type": "article",
     "title": "Klint Kubiak displays his creativity in his 21 personnel groupings.",
@@ -58,16 +38,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139927/raiders-klint-kubiak-21-personnel-offense",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-rzsp92",
-    "type": "article",
-    "title": "Raiders vs. Chargers predictions: RJ staffers pick winner of Week 2 game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-18T17:39:31.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-chargers-predictions-rj-staffers-pick-winner-of-week-2-game-3887985/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-42eyw2",
@@ -596,6 +566,36 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-wm5wt8",
+    "type": "podcast",
+    "title": "DJ Glaze is building his game on consistency",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-02T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-ufd8lx",
+    "type": "podcast",
+    "title": "Tre Tucker has become the Raiders’ X Factor",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-05-26T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
