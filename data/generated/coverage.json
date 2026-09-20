@@ -1,5 +1,35 @@
 [
   {
+    "id": "silver-and-black-pride-1og5lqv",
+    "type": "article",
+    "title": "Raiders fans are all in with the teams direction",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-19T23:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/140245/raiders-fans-are-all-in-with-the-teams-direction",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-wfiu04",
+    "type": "article",
+    "title": "As schedule gets more difficult, sustained momentum key for Raiders",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-19T22:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/139713/raiders-2026-week-2-momentum-klint-kubiak",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-xe4yjd",
+    "type": "article",
+    "title": "Raiders to be without backup quarterback on Sunday",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-19T21:52:42.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-to-be-without-backup-quarterback-on-sunday-3888525/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-1uupe3w",
     "type": "article",
     "title": "What happened in Los Angeles Chargers’ upset loss ahead of matchup with Las Vegas Raiders?",
@@ -96,26 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-18T18:08:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139927/raiders-klint-kubiak-21-personnel-offense",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-42eyw2",
-    "type": "article",
-    "title": "Raiders Week 1 wide receiver snap and production review",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-18T17:06:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/139931/raiders-week-1-wide-receiver-snap-production-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-xe03vn",
-    "type": "article",
-    "title": "Las Vegas Raiders offensive line turning heads for right reasons",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-18T16:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139947/las-vegas-raiders-offensive-line-2026",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1k0g6fk",
-    "type": "podcast",
-    "title": "Kwity Paye just wants to rush",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-09T19:30:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
