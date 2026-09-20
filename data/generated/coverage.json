@@ -1,8 +1,48 @@
 [
   {
-    "id": "silver-and-black-pride-1og5lqv",
+    "id": "review-journal-11la9cd",
     "type": "article",
-    "title": "Raiders fans are all in with the teams direction",
+    "title": "LIVE UPDATES: Raiders look for 2-0 start when they face Chargers",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-20T16:00:09.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/live-updates-raiders-look-for-2-0-start-when-they-face-chargers-3888867/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1db1vou",
+    "type": "article",
+    "title": "Raiders vs. Chargers: How to watch, TV schedule, streaming and more",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-20T14:21:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137338/raiders-vs-chargers-how-watch-tv-schedule",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1s9rloj",
+    "type": "article",
+    "title": "What channel is Raiders vs. Chargers Week 2 NFL game: Time, TV, streaming",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-20T14:15:57.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-raiders-vs-chargers-week-2-nfl-game-time-tv-streaming-3888740/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-11bqprh",
+    "type": "article",
+    "title": "Raiders news: Aidan O’Connell ruled out for personal reasons",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-20T13:24:06.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140260/aidan-oconnell-ruled-out-for-personal-reasons",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-m2kkh6",
+    "type": "article",
+    "title": "Raiders fans are all in with the team’s direction",
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-19T23:00:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/140245/raiders-fans-are-all-in-with-the-teams-direction",
@@ -18,16 +58,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/139713/raiders-2026-week-2-momentum-klint-kubiak",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-xe4yjd",
-    "type": "article",
-    "title": "Raiders to be without backup quarterback on Sunday",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-19T21:52:42.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-to-be-without-backup-quarterback-on-sunday-3888525/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1uupe3w",
@@ -86,26 +116,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-18T21:39:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/139706/raiders-week-2-chargers-game-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-jumah0",
-    "type": "article",
-    "title": "Raiders’ tight end Brock Bowers is doubtful to play Sunday",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-18T18:56:57.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140168/raiders-newsb-rock-bowers-practicing-knee-injury-tight-end",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-67dhbf",
-    "type": "article",
-    "title": "Klint Kubiak displays his creativity in his 21 personnel groupings.",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-18T18:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139927/raiders-klint-kubiak-21-personnel-offense",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-09T19:30:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-wm5wt8",
-    "type": "podcast",
-    "title": "DJ Glaze is building his game on consistency",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-02T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
