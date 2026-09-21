@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-1hvse14",
+    "type": "podcast",
+    "title": "Raiders now 2-0 after taking down the Chargers",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-21T07:25:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-1efcfp9",
     "type": "article",
     "title": "Vegas Sports Sunday: Raiders 2-0 following win over Chargers",
@@ -550,26 +560,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-108m8bx",
-    "type": "podcast",
-    "title": "Raiders win late despite a subpar first half from Mendoza and the team",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-21T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "locked-on-raiders-1xmfjw3",
-    "type": "podcast",
-    "title": "Raiders preseason Game 2: 3 players or positions to focus on",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-20T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-19wl9y1",
     "type": "podcast",
     "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T17:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-n7cgvf",
+    "type": "podcast",
+    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
