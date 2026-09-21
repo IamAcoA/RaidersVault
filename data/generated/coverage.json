@@ -1,13 +1,123 @@
 [
   {
-    "id": "silver-and-black-pride-ovxk3v",
+    "id": "review-journal-1efcfp9",
     "type": "article",
-    "title": "Las Vegas Raiders-Los Angeles Chargers live updates",
+    "title": "Vegas Sports Sunday: Raiders 2-0 following win over Chargers",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-21T03:39:57.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/vegas-sports-sunday-raiders-2-0-following-win-over-chargers-3889097/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-ixwg1e",
+    "type": "article",
+    "title": "Nakobe Dean and the Raiders’ ‘firemen’ put out late fire in win over Chargers",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-21T02:02:06.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/nakobe-dean-and-the-raiders-firemen-put-out-late-fire-in-win-over-chargers-3889073/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1sk7l0k",
+    "type": "article",
+    "title": "Captain Kirk Cousins leads Las Vegas Raiders to first 2-0 start in 5 years with win over Los Angeles Chargers",
     "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-20T20:15:05.000Z",
+    "publishedAt": "2026-09-21T01:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/140374/las-vegas-raiders-los-angeles-chargers-score-kirk-cousins-internet-reacts",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-13kn608",
+    "type": "article",
+    "title": "Raiders vs. Saints odds: Opening lines for Week 3 matchup",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-21T01:13:52.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/140257/raiders-vs-saints-odds-week-3-opening-lines-point-spread-total",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1111pyy",
+    "type": "article",
+    "title": "Raiders show signs of being a well-coached team under Klint Kubiak",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-21T00:37:07.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/139319/raiders-chargers-gary-kubiak-undefeated",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1b0t3ut",
+    "type": "article",
+    "title": "Raiders grades: Winning the game in 3 phases keys upset of the Chargers",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-20T23:38:41.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-grades-winning-the-game-in-3-phases-keys-upset-of-the-chargers-3889008/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1822rgo",
+    "type": "article",
+    "title": "Graney: Raiders outplay Chargers and are perfect for it",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-20T23:26:50.000Z",
+    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-raiders-outplay-chargers-and-are-perfect-for-it-3889001/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-hs353k",
+    "type": "article",
+    "title": "Raiders Coach, QB speaks after win over Los Angeles Chargers",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-20T23:19:10.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-qb-speaks-after-win-over-los-angeles-chargers-3888993/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1lpx38c",
+    "type": "article",
+    "title": "Raiders are undefeated after win over Chargers",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-20T23:15:27.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/139321/las-vegas-raiders-los-angeles-chargers-live-updates-week-2",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-fvr29n",
+    "type": "article",
+    "title": "Raiders upset Chargers on road, earn first 2-0 start in 5 years — PHOTOS",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-20T23:15:01.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-pull-off-road-upset-vs-chargers-earn-first-2-0-start-in-5-years-3888980/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1379p56",
+    "type": "article",
+    "title": "Raiders part-owner swears on live TV in reaction to Jayden Daniels’ injury",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-20T23:08:27.000Z",
+    "url": "https://www.reviewjournal.com/sports/nfl/raiders-part-owner-swears-on-live-tv-in-reaction-to-jayden-daniels-injury-3888974/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1kox1x1",
+    "type": "article",
+    "title": "Raiders star tight end ‘close’ to return after missing Chargers game",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-20T22:16:07.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rookie-treydan-stukes-out-of-chargers-game-with-concussion-3888951/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-8prn9m",
@@ -40,9 +150,9 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-pfbogu",
+    "id": "review-journal-14zyedh",
     "type": "article",
-    "title": "LIVE UPDATES: Cousins throws INT on Raiders’ opening drive vs. Chargers",
+    "title": "UPDATES: Kirk Cousins throws 3 TDs, defense shines in Raiders’ win over Chargers",
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-09-20T16:00:09.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/live-updates-raiders-look-for-2-0-start-when-they-face-chargers-3888867/",
@@ -58,16 +168,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137338/raiders-vs-chargers-how-watch-tv-schedule",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1s9rloj",
-    "type": "article",
-    "title": "What channel is Raiders vs. Chargers Week 2 NFL game: Time, TV, streaming",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-20T14:15:57.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-raiders-vs-chargers-week-2-nfl-game-time-tv-streaming-3888740/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-11bqprh",
@@ -96,36 +196,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-19T22:00:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/139713/raiders-2026-week-2-momentum-klint-kubiak",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1uupe3w",
-    "type": "article",
-    "title": "What happened in Los Angeles Chargers’ upset loss ahead of matchup with Las Vegas Raiders?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-19T20:07:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140096/raiders-chargers-week-2-preview-upset-loss-justin-herbert-mike-mcdaniel",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-tsc77q",
-    "type": "article",
-    "title": "Raiders Mailbag: Will Rob Leonard dial up more blitzes in Las Vegas’ Week 2 matchup against Los Angeles Chargers?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-19T17:02:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140158/raiders-mailbag-week-2-chargers-rob-leonard-blitz",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-yaxi3s",
-    "type": "article",
-    "title": "Raiders’ defense is key against Chargers’ offense",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-19T15:31:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140215/raiders-defense-is-key-against-chargers-offense",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -526,76 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T17:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-n7cgvf",
-    "type": "podcast",
-    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1t8wumo",
-    "type": "podcast",
-    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-02T16:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1y8bklc",
-    "type": "podcast",
-    "title": "Malik Benson is built to adapt",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-30T22:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-yok1fx",
-    "type": "podcast",
-    "title": "Keyron Crawford will match your energy",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-29T16:15:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1gz174p",
-    "type": "podcast",
-    "title": "Fernando Mendoza on signing his rookie deal, his mindset for training camp and more",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-24T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-15p5eya",
-    "type": "podcast",
-    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-23T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-3zciw2",
-    "type": "podcast",
-    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-16T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
