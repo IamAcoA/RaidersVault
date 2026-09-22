@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-hbml9s",
+    "type": "article",
+    "title": "Stock up, stock down after Week 2 victory for Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-22T02:24:22.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-after-week-2-victory-for-raiders-3889495/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-12232rm",
+    "type": "article",
+    "title": "Brock Bowers to practice this week as unbeaten Raiders prepare for Saints",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-21T22:35:47.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/brock-bowers-to-practice-this-week-as-unbeaten-raiders-prepare-for-saints-3889411/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-1ttgbc2",
     "type": "article",
     "title": "Tyree Wilson quiet so far with New Orleans Saints",
@@ -58,36 +78,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140469/raiders-news-week-2-afc-west-roundup-chargers-broncos-chiefs",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1cq34xx",
-    "type": "article",
-    "title": "Graney: Practice squad? Call Hollywood about Raiders WR Cody White",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-21T13:30:19.000Z",
-    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-practice-squad-call-hollywood-about-raiders-wr-cody-white-3889222/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1hwfdtq",
-    "type": "article",
-    "title": "Kirk Cousins, Raiders open passing offense in win vs. Chargers",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-21T13:00:57.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/kirk-cousins-raiders-open-passing-offense-in-win-vs-chargers-3889176/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-3k97kc",
-    "type": "article",
-    "title": "Tre Tucker, Raiders do enough vs. Chargers to secure 2-0 start",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-21T13:00:14.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/tre-tucker-raiders-do-enough-vs-chargers-to-secure-2-0-start-3889157/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "locked-on-raiders-1hvse14",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-09T19:30:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-wm5wt8",
+    "type": "podcast",
+    "title": "DJ Glaze is building his game on consistency",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-02T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
