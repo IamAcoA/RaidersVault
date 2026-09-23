@@ -1,5 +1,35 @@
 [
   {
+    "id": "review-journal-zf7jn6",
+    "type": "article",
+    "title": "Raiders gain respect in Week 3 power rankings after first 2-0 start in 5 years",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-23T00:00:33.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-gain-respect-in-week-3-power-rankings-after-first-2-0-start-in-5-years-3889818/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-qo3jsc",
+    "type": "article",
+    "title": "Raiders rewind: How Las Vegas was able to overcome mistakes for road win",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-22T23:51:08.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rewind-how-las-vegas-was-able-to-overcome-mistakes-for-road-win-3889814/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1d65icp",
+    "type": "article",
+    "title": "Nakobe Dean was all over field in Las Vegas Raiders Week 2 win over Los Angeles Chargers",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-22T21:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140559/las-vegas-raiders-week-2-chargers-nakobe-dean-film-breakdown",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-2hkngv",
     "type": "article",
     "title": "Silver and Black Pride Reacts Survey Week 3",
@@ -70,16 +100,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-ksvm5g",
-    "type": "article",
-    "title": "Fernando Mendoza isn’t bored. The Raiders QB’s past comments explain his yawn.",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-22T13:43:37.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-isnt-bored-the-raiders-qbs-past-comments-explain-his-yawn-3889608/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-1b6ml11",
     "type": "podcast",
     "title": "Raiders defense making plays as the goal post continues to move",
@@ -88,16 +108,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "review-journal-hbml9s",
-    "type": "article",
-    "title": "Stock up, stock down after Week 2 victory for Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-22T02:24:22.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-after-week-2-victory-for-raiders-3889495/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1ttgbc2",
@@ -136,16 +146,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-21T16:02:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140472/las-vegas-raiders-week-1-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1txilua",
-    "type": "article",
-    "title": "Raiders Week 3: Meet the Saints",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-21T15:02:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/138012/raiders-week-3-saints-preview-sunday",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
