@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-1j21gff",
+    "type": "podcast",
+    "title": "Raiders could be getting their # 1 target back in time for week 3",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-23T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-zf7jn6",
     "type": "article",
     "title": "Raiders gain respect in Week 3 power rankings after first 2-0 start in 5 years",
@@ -478,16 +488,6 @@
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-rogers-08252026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "locked-on-raiders-18bapcb",
-    "type": "podcast",
-    "title": "Raiders made a huge impact off the field on Monday",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-25T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
   },
   {
     "id": "raiders-podcast-network-19wl9y1",
