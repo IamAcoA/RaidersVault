@@ -1,8 +1,58 @@
 [
   {
-    "id": "silver-and-black-pride-48ojtj",
+    "id": "silver-and-black-pride-a0crt8",
     "type": "article",
-    "title": "Zeke Masses puts league on notice",
+    "title": "Brock Bowers will practice, still day-to-day",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-23T19:42:52.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140803/raiders-news-brock-bowers-practice-day-to-day",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-cda38g",
+    "type": "article",
+    "title": "Raiders film room: The Cody White game-sealing touchdown",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-23T19:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140602/raiders-ficody-white-wide-receiver-touchdown",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "raiders-podcast-network-1pvnzjw",
+    "type": "podcast",
+    "title": "Saints leaning on the passing game and more Week 3 storylines",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-23T19:00:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-wk03-audio-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "review-journal-147eq4a",
+    "type": "article",
+    "title": "Raiders QB Kirk Cousins discusses Sunday’s game against Saints",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-23T17:50:29.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-quarterback-discuss-sundays-game-against-saints-watch-live-3890197/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-19scv3c",
+    "type": "article",
+    "title": "Raiders-Saints Week 3: Kicking battle will be watched closely",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-23T17:50:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140585/raiders-saints-week-3-kicking-battle-matt-gay-daniel-carlson",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-cpmh9j",
+    "type": "article",
+    "title": "Zeke Masses puts league on notice as he wins player of the week award",
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-23T16:53:39.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140794/raiders-news-zeke-masses-afc-defensive-player-week",
@@ -100,26 +150,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "silver-and-black-pride-1ybra6n",
-    "type": "article",
-    "title": "Zeke Masses flashes big-time in starting debut",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-22T15:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-draft/140560/raiders-week-2-rookie-watch-zeke-masses",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-yp6xf4",
-    "type": "article",
-    "title": "Raiders news: Las Vegas already connected to Fernando Mendoza college teammate",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-22T14:07:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140272/raiders-news-charlie-becker-mock-draft-wide-receiver",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-1b6ml11",
     "type": "podcast",
     "title": "Raiders defense making plays as the goal post continues to move",
@@ -128,16 +158,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-1ttgbc2",
-    "type": "article",
-    "title": "Tyree Wilson quiet so far with New Orleans Saints",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-21T21:39:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140475/raiders-former-players-tyree-wilson-geno-smith-klavon-chaisson",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1hvse14",
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-09T19:30:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-wm5wt8",
-    "type": "podcast",
-    "title": "DJ Glaze is building his game on consistency",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-02T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-ufd8lx",
-    "type": "podcast",
-    "title": "Tre Tucker has become the Raiders’ X Factor",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-05-26T22:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
