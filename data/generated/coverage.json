@@ -1,10 +1,50 @@
 [
   {
-    "id": "silver-and-black-pride-a0crt8",
+    "id": "review-journal-741q68",
     "type": "article",
-    "title": "Brock Bowers will practice, still day-to-day",
+    "title": "Brock Bowers limited; Aidan O’Connell, Treydan Stukes miss Raiders practice",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-24T01:53:14.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/brock-bowers-limited-aidan-oconnell-treydan-stukes-miss-raiders-practice-3890420/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1ii0u22",
+    "type": "article",
+    "title": "‘Undefeated is undefeated’: Tom Brady defends ranking Raiders in his top 10",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-24T00:34:44.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/undefeated-is-undefeated-tom-brady-defends-ranking-raiders-in-his-top-10-3890375/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-4vnxiw",
+    "type": "article",
+    "title": "Raiders special teams doing special things early in the season",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-23T23:35:30.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-special-teams-doing-special-things-early-in-the-season-3890336/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-g9pv4g",
+    "type": "article",
+    "title": "Raiders defense is ready for Saints offense",
     "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-23T19:42:52.000Z",
+    "publishedAt": "2026-09-23T21:43:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140738/lraiders-defense-isaints-offense-week-3-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-jfcf6q",
+    "type": "article",
+    "title": "Brock Bowers limited in practice Wednesday",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-23T21:36:22.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140803/raiders-news-brock-bowers-practice-day-to-day",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
@@ -30,16 +70,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "review-journal-147eq4a",
-    "type": "article",
-    "title": "Raiders QB Kirk Cousins discusses Sunday’s game against Saints",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-23T17:50:29.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-quarterback-discuss-sundays-game-against-saints-watch-live-3890197/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-19scv3c",
     "type": "article",
     "title": "Raiders-Saints Week 3: Kicking battle will be watched closely",
@@ -58,16 +88,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140794/raiders-news-zeke-masses-afc-defensive-player-week",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-19m5sdr",
-    "type": "article",
-    "title": "Raiders rookie earns league award after spectacular starting debut",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-23T16:48:54.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rookie-earns-league-award-after-spectacular-starting-debut-3890174/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-98t72c",
@@ -126,16 +146,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-22T19:06:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-power-rankings/140630/las-vegas-raiders-week-3-nfl-power-rankings-roundup-hezekiah-masses",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-2r3iyw",
-    "type": "article",
-    "title": "Revisiting Tyree Wilson trade",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-22T17:04:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140581/raiderssaints-week-3-tyree-wilson-trade",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1k0g6fk",
-    "type": "podcast",
-    "title": "Kwity Paye just wants to rush",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-09T19:30:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
