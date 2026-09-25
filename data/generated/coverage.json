@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-8dwmvf",
+    "type": "podcast",
+    "title": "Raiders face a major test on Sunday vs the Saints",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-25T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-1hs4qv1",
     "type": "article",
     "title": "Raiders quarterback Aidan O’Connell announces father’s death",
@@ -18,16 +28,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/140493/raiders-2026-team-confidence-klint-kubiak",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1qchest",
-    "type": "article",
-    "title": "Saints praise Raiders QB Kirk Cousins as ‘a winner’ ahead of Week 3 clash",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-24T20:32:41.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/saints-praise-raiders-qb-kirk-cousins-as-a-winner-ahead-of-week-3-clash-3890675/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-ax3yn5",
@@ -470,16 +470,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-p3xb8z",
-    "type": "podcast",
-    "title": "Biggest takeaways from Raiders preseason finale",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-28T07:15:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-1ueekx6",
     "type": "podcast",
     "title": "Caleb Rogers upped his standard",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-09T19:30:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-wm5wt8",
+    "type": "podcast",
+    "title": "DJ Glaze is building his game on consistency",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-02T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
