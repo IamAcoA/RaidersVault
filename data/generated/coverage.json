@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-1hs4qv1",
+    "type": "article",
+    "title": "Raiders quarterback Aidan O’Connell announces father’s death",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-25T02:37:04.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-quarterback-aidan-oconnell-announces-fathers-death-3890828/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1jmxalr",
+    "type": "article",
+    "title": "Raiders 2-0 start may surprise many, but not head coach Klint Kubiak",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-24T21:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/140493/raiders-2026-team-confidence-klint-kubiak",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-1qchest",
     "type": "article",
     "title": "Saints praise Raiders QB Kirk Cousins as ‘a winner’ ahead of Week 3 clash",
@@ -50,16 +70,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-16u5f8s",
-    "type": "article",
-    "title": "Raiders’ Jack Bech to honor brother in New Orleans homecoming, write new chapter",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-24T16:36:47.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-jack-bech-to-honor-tiger-in-new-orleans-homecoming-write-new-chapter-3890616/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-pnoldn",
     "type": "article",
     "title": "Submit your Week 3 Las Vegas Raiders mailbag questions!",
@@ -100,16 +110,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-19ybh43",
-    "type": "article",
-    "title": "Raiders pass rush powers unbeaten start",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-24T13:00:06.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-pass-rush-powers-unbeaten-start-3890519/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-1hmcvxd",
     "type": "podcast",
     "title": "What it will take for the Raiders to pick up the win in the Big Easy",
@@ -136,16 +136,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-23T21:36:22.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140803/raiders-news-brock-bowers-practice-day-to-day",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-cda38g",
-    "type": "article",
-    "title": "Raiders film room: The Cody White game-sealing touchdown",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-23T19:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140602/raiders-ficody-white-wide-receiver-touchdown",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
