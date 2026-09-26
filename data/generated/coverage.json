@@ -1,5 +1,35 @@
 [
   {
+    "id": "review-journal-1kqzi1c",
+    "type": "article",
+    "title": "Raiders’ Aidan O’Connell to miss 2nd straight game after father’s death",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-26T20:16:20.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-aidan-oconnell-to-miss-2nd-straight-game-after-fathers-death-3891621/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-hk40hu",
+    "type": "article",
+    "title": "Brock Bowers’ return will make Klint Kubiak’s offense even more dynamic",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-26T19:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140513/raiders-2026-offense-brock-bowers-return",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1f1ppo4",
+    "type": "article",
+    "title": "Raiders Mailbag: How should Rob Leonard handle cornerback rotation with Hezekiah Masses’ emergence?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-26T17:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140957/raiders-mailbag-cornerbac-hezekiah-masses-week-3-saints",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-r79e5z",
     "type": "article",
     "title": "Raiders-Saints Week 3 predictions",
@@ -86,26 +116,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-25T16:01:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/140697/raiders-klint-kubiak-coach-2-0-start",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-pb5172",
-    "type": "article",
-    "title": "Raiders-Saints: 5 things to watch",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-25T15:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140409/raiders-saints-5-things-watch-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-178kyes",
-    "type": "article",
-    "title": "Raiders news: Andrew Janocko is excited for the return of Brock Bowers",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-25T13:36:15.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/140941/raiders-news-brock-bowers-week-3",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-09T19:30:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-wm5wt8",
-    "type": "podcast",
-    "title": "DJ Glaze is building his game on consistency",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-02T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
