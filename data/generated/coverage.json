@@ -1,5 +1,25 @@
 [
   {
+    "id": "silver-and-black-pride-1u1mqtb",
+    "type": "article",
+    "title": "Las Vegas Raiders-New Orleans Saints FEED topic: Can Raiders’ secondary contain Chris Olave?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-25T23:22:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140904/las-vegas-raiders-new-orleans-saints-week-3-preview-secondary-chris-olave",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-cbjkrz",
+    "type": "article",
+    "title": "Raiders Week 3: The Saints Las Vegas must account for in road matchup",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-25T21:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/140496/raiders-2026-week-3-saints-game-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-15se88u",
     "type": "article",
     "title": "Raiders star could return for Sunday’s game in New Orleans",
@@ -38,16 +58,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/140857/las-vegas-raiders-new-orleans-saints-week-3-nfl-picks",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1ezzga7",
-    "type": "article",
-    "title": "Raiders coach Klint Kubiak to meet with the media ahead of Saints game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-25T17:42:31.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-to-meet-with-the-media-ahead-of-saints-game-3891094/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-zc3213",
@@ -90,26 +100,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-vlc5rj",
-    "type": "article",
-    "title": "Raiders vs. Saints predictions: RJ staffers pick winner of Week 3 game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-25T13:30:13.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-saints-predictions-rj-staffers-pick-winner-of-week-3-game-3890999/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-lf2vmf",
-    "type": "article",
-    "title": "Can the Raiders get their run game on track in New Orleans?",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-25T13:00:25.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/can-the-raiders-get-their-run-game-on-track-in-new-orleans-3890965/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-8dwmvf",
     "type": "podcast",
     "title": "Raiders face a major test on Sunday vs the Saints",
@@ -126,26 +116,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-24T21:45:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/140493/raiders-2026-team-confidence-klint-kubiak",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-ax3yn5",
-    "type": "article",
-    "title": "Kwity Paye misses practice ahead of Las Vegas Raiders-New Orleans Saints Week 3 matchup",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-24T20:08:19.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/140916/las-vegas-raiders-injury-report-week-3-saints-kwity-paye",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1ao0k9p",
-    "type": "article",
-    "title": "What should Las Vegas Raiders expect from Tyler Shough ahead of Week 3 matchup against New Orleans Saints?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-24T19:05:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140799/las-vegas-raiders-week-3-new-orleans-saints-preview-tyler-shough",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +566,36 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-23T18:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-3zciw2",
+    "type": "podcast",
+    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-16T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-wm5wt8",
+    "type": "podcast",
+    "title": "DJ Glaze is building his game on consistency",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-02T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
