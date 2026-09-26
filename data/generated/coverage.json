@@ -20,16 +20,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-15se88u",
-    "type": "article",
-    "title": "Raiders star could return for Sunday’s game in New Orleans",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-25T20:05:14.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-star-could-return-for-sundays-game-in-new-orleans-3891125/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1lxl06h",
     "type": "article",
     "title": "Raiders’ secondary must be ready for Tyler Shough, Chris Olave in Las Vegas Raiders-New Orleans Saints Week 3 matchup",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-02T18:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-ufd8lx",
+    "type": "podcast",
+    "title": "Tre Tucker has become the Raiders’ X Factor",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-05-26T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-tucker-05262026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
