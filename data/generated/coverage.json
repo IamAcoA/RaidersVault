@@ -1,5 +1,45 @@
 [
   {
+    "id": "review-journal-wcclba",
+    "type": "article",
+    "title": "Graney: The difference in these Raiders — they know how to win",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-28T13:01:07.000Z",
+    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-the-difference-in-these-raiders-they-know-how-to-win-3892210/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-cun0yg",
+    "type": "article",
+    "title": "Brock Bowers dominates for Raiders in return from knee injury",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-28T13:00:44.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/brock-bowers-dominates-for-raiders-in-return-from-knee-injury-3892200/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-x1i71g",
+    "type": "article",
+    "title": "Raiders defense shuts door on Saints with 4 straight turnovers",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-28T13:00:25.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-defense-shuts-door-on-saints-with-4-straight-turnovers-3892192/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "locked-on-raiders-17x3hjz",
+    "type": "podcast",
+    "title": "Raiders are proving they’re no longer the same old team",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-28T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-13w22cd",
     "type": "article",
     "title": "Vegas Sports Sunday: Raiders improve to 3-0, Aces open WNBA playoffs with win",
@@ -18,6 +58,26 @@
     "url": "https://www.reviewjournal.com/sports/raiders/how-the-raiders-found-a-way-takeaways-from-a-impressive-comeback-vs-saints-3892114/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1qfd045",
+    "type": "article",
+    "title": "Raiders vs. Chiefs odds: Opening lines for Week 4 matchup",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-28T02:30:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/141195/raiders-vs-chiefs-odds-opening-lines-for-week-4-matchup",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-c52zie",
+    "type": "article",
+    "title": "Klink Kubiak’s culture change fuels Las Vegas Raiders’ 4th-quarter comeback against New Orleans Saints",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-28T02:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/141177/las-vegas-raiders-score-saints-week-3-klint-kubiak-internet-reacts",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "review-journal-1ru4kbo",
@@ -130,16 +190,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1gi7r7e",
-    "type": "article",
-    "title": "What channel is Raiders vs. Saints on? Time, TV and streaming for Sunday’s game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-27T14:00:08.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-raiders-vs-saints-on-time-tv-and-streaming-for-sundays-game-3891847/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1bleztw",
     "type": "article",
     "title": "Raiders News: WR Cody White is elevated for 3rd time",
@@ -150,42 +200,12 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-j5f2o8",
-    "type": "article",
-    "title": "Raiders vs. Saints preview: How they match up, injuries, bold predictions",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-27T13:00:35.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-saints-preview-how-they-match-up-injuries-bold-predictions-3891842/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-15a2pub",
     "type": "article",
     "title": "Raider Nation is united on the team’s direction",
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-26T22:30:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/141062/raider-nation-is-united-on-the-teams-direction",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1s9dgej",
-    "type": "article",
-    "title": "What if the Raiders trade for Marvin Harrison Jr?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-26T22:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/140850/raiders-trade-rumors-marvin-harrison-jcardinals",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-hk40hu",
-    "type": "article",
-    "title": "Brock Bowers’ return will make Klint Kubiak’s offense even more dynamic",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-26T19:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/140513/raiders-2026-offense-brock-bowers-return",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -540,16 +560,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "locked-on-raiders-1t949ke",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs 49ERS RECAP: Fernando MENDOZA STRUGGLES again",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-28T15:44:18.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-1ueekx6",
     "type": "podcast",
     "title": "Caleb Rogers upped his standard",
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T17:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-n7cgvf",
-    "type": "podcast",
-    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
