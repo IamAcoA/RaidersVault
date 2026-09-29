@@ -1,5 +1,105 @@
 [
   {
+    "id": "silver-and-black-pride-1kvt1k4",
+    "type": "article",
+    "title": "Malcolm Koonce comes alive in 4th quarter of Las Vegas Raiders’ Week 3 win over New Orleans Saints",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-29T21:45:41.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/141310/las-vegas-raiders-malcolm-koonce-week-3-film-breakdown-saints",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-jharxc",
+    "type": "article",
+    "title": "Raiders promote surprise early-season star to active roster",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-29T21:41:27.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-promote-surprise-early-season-star-to-active-roster-3892976/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-13cuz3f",
+    "type": "article",
+    "title": "Touchdown machine Cody White promoted to 53-man roster",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-29T20:51:01.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141452/raiders-news-cody-white-jack-bech-53-man-roster",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-cntvv1",
+    "type": "article",
+    "title": "Raiders, students rally each other at Historic Westside Las Vegas school",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-29T19:59:44.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-students-rally-each-other-at-historic-westside-las-vegas-school-3892943/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1olmyg2",
+    "type": "article",
+    "title": "Las Vegas Raiders surging in Week 4 NFL Power Rankings with hot 3-0 start",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-29T19:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-power-rankings/141392/las-vegas-raiders-nfl-power-rankings-week-4",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1max34o",
+    "type": "article",
+    "title": "Raiders fans split on a potential Marvin Harrison Jr. trade",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-29T17:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/140960/raiders-rumors-marvin-harrison-jr-trade",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "locked-on-raiders-1wpef2k",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs SAINTS RECAP + 3-0, BUT ARE THEY LEGIT?",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-29T15:09:45.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-egft7w",
+    "type": "article",
+    "title": "Rookies Mike Washington, Zeke Masses come up big in Week 3 win",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-29T15:07:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-draft/141315/raiders-rookie-watch-week-3",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-h7rg7a",
+    "type": "article",
+    "title": "Raiders news: A Super Bowl win predicted to come soon",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-29T14:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141024/raiders-news-super-bowl-win-predicted",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1wxz6dd",
+    "type": "article",
+    "title": "Stock up, stock down after Week 3 victory for Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-29T13:45:06.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-after-week-3-victory-for-raiders-3892731/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "locked-on-raiders-ss54bu",
     "type": "podcast",
     "title": "The Raiders keep proving they’re a good team, yet doubts remain",
@@ -8,16 +108,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "review-journal-hd2upd",
-    "type": "article",
-    "title": "Klint Kubiak, Raiders turn the page from 3-0 start to showdown vs. Chiefs",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-28T21:58:45.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/klint-kubiak-raiders-turn-the-page-from-3-0-start-to-showdown-vs-chiefs-3892435/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1okzmuc",
@@ -60,16 +150,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-tphcw3",
-    "type": "article",
-    "title": "Raiders News: Week 3 AFC West roundup, stage set for Las Vegas-Kansas City battle for 1st place",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-28T13:33:02.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141256/raiders-news-week-3-afc-west-roundup-chiefs-chargers-broncos",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-17x3hjz",
     "type": "podcast",
     "title": "Raiders are proving they’re no longer the same old team",
@@ -78,56 +158,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-1qfd045",
-    "type": "article",
-    "title": "Raiders vs. Chiefs odds: Opening lines for Week 4 matchup",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-28T02:30:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/141195/raiders-vs-chiefs-odds-opening-lines-for-week-4-matchup",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-c52zie",
-    "type": "article",
-    "title": "Klink Kubiak’s culture change fuels Las Vegas Raiders’ 4th-quarter comeback against New Orleans Saints",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-28T02:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/141177/las-vegas-raiders-score-saints-week-3-klint-kubiak-internet-reacts",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1by8l3q",
-    "type": "article",
-    "title": "Raiders-Saints: 17 things we learned",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-28T01:04:54.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/139908/raiders-saints-week-3-undefeated",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-45pd0l",
-    "type": "article",
-    "title": "Las Vegas Raiders-New Orleans Saints Week 3: Las Vegas is 3-0",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-27T23:49:20.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/139910/las-vegas-raiders-new-orleans-saints-live-updates-week-3",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1tb3ijr",
-    "type": "article",
-    "title": "Raiders injury news: Jack Bech out, reportedly headed to injured reserve",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-27T23:05:24.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/141127/raiders-injury-news-jack-bech-out-foreamr",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-8dwmvf",
@@ -450,16 +480,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-14slmv",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS 53-Man ROSTER REACTION + 2026 SCHEDULE Predictions",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-08-31T15:48:15.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-q3cded",
     "type": "podcast",
     "title": "Instant reactions to the Raiders’ initial 53-man roster",
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1k0g6fk",
-    "type": "podcast",
-    "title": "Kwity Paye just wants to rush",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-09T19:30:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-wm5wt8",
-    "type": "podcast",
-    "title": "DJ Glaze is building his game on consistency",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-02T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-glaze-06022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
