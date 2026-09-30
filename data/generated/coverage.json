@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-ccstch",
+    "type": "podcast",
+    "title": "Raiders turn the page to week 4 matchup with KC",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-09-30T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-1kfvqoj",
     "type": "article",
     "title": "What we learned: A closer look at the Raiders’ win over Saints and 3-0 start",
@@ -48,16 +58,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141452/raiders-news-cody-white-jack-bech-53-man-roster",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-cntvv1",
-    "type": "article",
-    "title": "Raiders, students rally each other at Historic Westside Las Vegas school",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-29T19:59:44.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-students-rally-each-other-at-historic-westside-las-vegas-school-3892943/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1olmyg2",
@@ -470,16 +470,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-1kxmzvh",
-    "type": "podcast",
-    "title": "Raiders stay active with a handful of roster moves",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-01T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-q3cded",
     "type": "podcast",
     "title": "Instant reactions to the Raiders’ initial 53-man roster",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
