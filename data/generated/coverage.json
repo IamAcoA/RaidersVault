@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-1kfvqoj",
+    "type": "article",
+    "title": "What we learned: A closer look at the Raiders’ win over Saints and 3-0 start",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-09-30T01:20:46.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/what-we-learned-a-closer-look-at-the-raiders-win-over-saints-and-3-0-start-3893086/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-gmb88l",
+    "type": "article",
+    "title": "Silver and Black Pride Reacts Survey Week 4",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-09-29T23:06:06.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/141443/silver-and-black-pride-reacts-survey-week-4",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1kvt1k4",
     "type": "article",
     "title": "Malcolm Koonce comes alive in 4th quarter of Las Vegas Raiders’ Week 3 win over New Orleans Saints",
@@ -90,16 +110,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1wxz6dd",
-    "type": "article",
-    "title": "Stock up, stock down after Week 3 victory for Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-29T13:45:06.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-after-week-3-victory-for-raiders-3892731/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-ss54bu",
     "type": "podcast",
     "title": "The Raiders keep proving they’re a good team, yet doubts remain",
@@ -136,16 +146,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-09-28T17:00:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/141101/raiders-2026-week-3-saints-game-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-peybzl",
-    "type": "article",
-    "title": "Raiders Week 4: Meet the Chiefs",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-09-28T15:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/138018/raiders-week-3-chiefs-preview-sunday",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
