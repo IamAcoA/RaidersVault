@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-1thtmgj",
+    "type": "podcast",
+    "title": "Battle of 3-0 Raiders vs Chiefs week 4",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-01T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-12ow6dj",
     "type": "article",
     "title": "Raiders rookie returns from absence with new goal to chase",
@@ -30,16 +40,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "review-journal-wyqgou",
-    "type": "article",
-    "title": "Raiders star Brock Bowers wins his first conference award",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-30T19:31:47.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-star-brock-bowers-wins-his-first-conference-award-3893518/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1amxm1j",
     "type": "article",
     "title": "Raiders-Chiefs Week 4: coaching is key matchup to watch",
@@ -58,16 +58,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141546/raiders-news-jackson-powers-johnson-not-practicing-wednesday",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-vu0gs4",
-    "type": "article",
-    "title": "Raiders coach Klint Kubiak, quarterback Kirk Cousins address media",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-09-30T17:49:50.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-quarterback-kirk-cousins-address-media-watch-live-3893470/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-cawpbf",
@@ -480,16 +470,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "locked-on-raiders-1aqi0va",
-    "type": "podcast",
-    "title": "Raiders success in 2026:More than wins and losses",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-02T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-q3cded",
     "type": "podcast",
     "title": "Instant reactions to the Raiders’ initial 53-man roster",
@@ -596,6 +576,26 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-23T18:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-3zciw2",
+    "type": "podcast",
+    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-16T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
