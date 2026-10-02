@@ -1,5 +1,15 @@
 [
   {
+    "id": "review-journal-1emt15z",
+    "type": "article",
+    "title": "Patrick Mahomes, Chiefs brace for Raiders defense in Week 4 clash",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-02T01:26:31.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/patrick-mahomes-chiefs-brace-for-raiders-defense-in-week-4-clash-3894213/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-1x8vo8f",
     "type": "article",
     "title": "Resilience powering the Raiders’ renaissance thus far in 2026 campaign",
@@ -18,16 +28,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/141448/raiders-defense-turnovers-leaders",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1ltqlao",
-    "type": "article",
-    "title": "Raiders’ ‘silent assassin’ quietly off to great start",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-01T19:49:30.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-silent-assassin-quietly-off-to-great-start-3894035/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1h3bryv",
@@ -98,16 +98,6 @@
     "url": "https://www.silverandblackpride.com/general/141453/one-month-in-heres-how-youre-using-our-new-app",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-4m8bi6",
-    "type": "article",
-    "title": "Georgia Bulldog roots run deep through Raiders’ dominant defense",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-01T13:30:19.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/georgia-bulldog-roots-run-deep-through-raiders-dominant-defense-3893865/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "locked-on-raiders-1thtmgj",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
