@@ -320,7 +320,7 @@ function newSpot(){
  renderSpot()
 }
 function renderSpot(){
- show("spotScreen");$("spotStreet").textContent=spot.street+" · "+spot.pos;$("spotContext").textContent=spot.context;$("spotHole").innerHTML=miniCards(spot.hero);$("spotBoardWrap").style.display=spot.board.length?"block":"none";$("spotBoard").innerHTML=spot.board.map(cardHTML).join("");$("spotHint").style.display="none";$("spotFeedback").style.display="none";
+ show("spotScreen");$("spotStreet").textContent=spot.street+" · "+spot.pos;$("spotContext").textContent=spot.context;$("spotHole").innerHTML=miniCards(spot.hero);$("spotBoardWrap").style.display=spot.board.length?"block":"none";$("spotBoard").innerHTML=spot.board.map(c=>cardHTML(c)).join("");$("spotHint").style.display="none";$("spotFeedback").style.display="none";
  let coach=spot.street==="Preflop"?coachPreflop(spot.st):coachPost(spot.st,spot.toCall>0,spot.toCall),opts=[];
  if(spot.street==="Preflop"){
    if(spot.toCall===0)opts=[{kind:"check",label:"Check"},{kind:"raise",label:"Raise"}];
@@ -334,7 +334,7 @@ function renderSpot(){
 function addGenericButtons(id,opts,fn){let box=$(id);box.innerHTML="";opts.forEach(o=>{let b=document.createElement("button");b.className="action";b.textContent=o.label;b.addEventListener("click",()=>fn(o));box.appendChild(b)})}
 
 function renderGuided(){
- show("guidedScreen");let s=G[gidx%G.length];$("gStreet").textContent=s.street;$("gContext").textContent=s.context;$("gHole").innerHTML=s.hole.map(cardHTML).join("");$("gBoardWrap").style.display=s.board.length?"block":"none";$("gBoard").innerHTML=s.board.map(cardHTML).join("");$("gQuestion").textContent=s.q;$("gHint").style.display="none";$("gFeedback").style.display="none";$("gNext").style.display="none";$("gScore").textContent=gscore+"/"+gatt;
+ show("guidedScreen");let s=G[gidx%G.length];$("gStreet").textContent=s.street;$("gContext").textContent=s.context;$("gHole").innerHTML=s.hole.map(c=>cardHTML(c)).join("");$("gBoardWrap").style.display=s.board.length?"block":"none";$("gBoard").innerHTML=s.board.map(c=>cardHTML(c)).join("");$("gQuestion").textContent=s.q;$("gHint").style.display="none";$("gFeedback").style.display="none";$("gNext").style.display="none";$("gScore").textContent=gscore+"/"+gatt;
  let box=$("gAnswers");box.innerHTML="";s.a.forEach((x,i)=>{let b=document.createElement("button");b.className="answer";b.textContent=String.fromCharCode(65+i)+") "+x;b.onclick=()=>{if(document.querySelector("#gAnswers .correct,#gAnswers .wrong"))return;gatt++;if(i===s.c){gscore++;b.classList.add("correct")}else{b.classList.add("wrong");box.children[s.c].classList.add("correct")}Array.from(box.children).forEach(q=>q.disabled=true);$("gScore").textContent=gscore+"/"+gatt;$("gFeedback").innerHTML="<b>"+(i===s.c?"Good decision.":"Review this one.")+"</b><br>"+s.e;$("gFeedback").style.display="block";$("gNext").style.display="block"};box.appendChild(b)});
  $("gHintBtn").onclick=()=>{$("gHint").textContent=s.h;$("gHint").style.display="block"};$("gNext").onclick=()=>{gidx++;if(gidx%G.length===0)shuffle(G);renderGuided()}
 }
