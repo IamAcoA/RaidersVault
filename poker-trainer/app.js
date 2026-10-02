@@ -91,32 +91,69 @@ function boardWet(b){
  for(let i=0;i<rs.length;i++)for(let j=i+1;j<rs.length;j++)if(rs[j]-rs[i]<=4)conn=true;
  return two&&conn
 }
-function labelAction(k,amt){if(k==="fold")return"Fold";if(k==="check")return"Check";if(k==="call")return"Call "+money(amt);if(k==="raise")return"Raise to "+money(amt);if(k==="betSmall")return"Bet "+money(amt);if(k==="betBig")return"Bet "+money(amt);return k}
-
+function labelAction(k,amt){
+ const hasAmount=amt!==undefined&&amt!==null&&Number.isFinite(Number(amt));
+ if(k==="fold")return"Fold";
+ if(k==="check")return"Check";
+ if(k==="call")return hasAmount?"Call "+money(amt):"Call";
+ if(k==="raise")return hasAmount?"Raise to "+money(amt):"Raise";
+ if(k==="betSmall")return hasAmount?"Bet "+money(amt):"Bet small";
+ if(k==="betBig")return hasAmount?"Bet "+money(amt):"Bet big";
+ return k
+}
+function preflopRaiseTarget(st){
+ const hero=st.seats[0];
+ if(st.currentBet<=2){
+   const participants=st.seats.filter(s=>s.id!==hero.id&&!s.folded&&s.streetInvest===2).length;
+   return Math.min(hero.streetInvest+hero.stack,Math.max(8,8+participants*2))
+ }
+ return Math.min(hero.streetInvest+hero.stack,Math.max(st.currentBet*3,st.currentBet+10))
+}
 function coachPreflop(st){
  const hero=st.seats[0],score=preScore(hero.cards),th=openThreshold(hero.pos),toCall=Math.max(0,st.currentBet-hero.streetInvest);
+ const raiseTo=preflopRaiseTarget(st);
+ const finalPotIfCall=st.pot+toCall;
+ const pricePct=finalPotIfCall>0?toCall/finalPotIfCall:0;
+ const suited=hero.cards[0].s===hero.cards[1].s;
+ const pair=hero.cards[0].r===hero.cards[1].r;
+ const hi=Math.max(hero.cards[0].r,hero.cards[1].r),lo=Math.min(hero.cards[0].r,hero.cards[1].r);
+ const connected=hi-lo<=2;
+ const blindDiscount=st.currentBet===2&&hero.streetInvest===1&&toCall===1;
+ const limpers=st.seats.filter(s=>s.id!==hero.id&&!s.folded&&s.streetInvest===2&&s.pos!=="BB").length;
+
  if(st.currentBet<=2){
    if(toCall===0){
-     if(score>=th-2)return{k:"raise",ok:["raise"],why:"Your hand is strong enough to build the pot from "+hero.pos+"."};
-     return{k:"check",ok:["check"],why:"You can see the flop without adding money; there is no reason to fold your option."}
+     if(score>=th-2)return{k:"raise",amount:raiseTo,ok:["raise"],why:"You can check for free, but this hand is strong enough to raise for value from "+hero.pos+"."};
+     return{k:"check",amount:0,ok:["check"],why:"It costs $0 to continue. Take the free flop rather than folding your option."}
    }
-   if(score>=th)return{k:"raise",ok:["raise"],why:"This hand clears the opening threshold for "+hero.pos+"; raise rather than limp."};
-   if(score>=th-9&&(hero.cards[0].s===hero.cards[1].s||hero.cards[0].r===hero.cards[1].r))return{k:"call",ok:["call","raise"],why:"This is a playable speculative hand at a cheap price; calling is fine and an isolation raise can also work."};
-   return{k:"fold",ok:["fold"],why:"This holding is too weak for this position and price. Save the chips."}
+
+   if(blindDiscount){
+     if(score>=th+3)return{k:"raise",amount:raiseTo,ok:["raise","call"],why:"You already posted $1 in the blind and only "+money(toCall)+" more is required. Your hand is strong enough to raise, while completing is also defensible."};
+     const completeFloor=limpers>=2?23:limpers===1?27:32;
+     if(score>=completeFloor||suited||pair||(connected&&hi>=6)){
+       return{k:"call",amount:toCall,ok:["call"],why:"You have already posted $1 and it costs only "+money(toCall)+" more to continue. At roughly "+Math.round(pricePct*100)+"% of the final pot, this price justifies completing much wider than a normal call, even though you will often be out of position."}
+     }
+     return{k:"fold",amount:toCall,ok:["fold","call"],why:"This is near the bottom of the deck. The extra dollar is cheap, so completing is not a major mistake, but folding the weakest offsuit holdings from the small blind is still reasonable."}
+   }
+
+   if(score>=th)return{k:"raise",amount:raiseTo,ok:["raise"],why:"Your hand is strong enough to raise over the unraised field rather than enter passively."};
+   if(score>=th-10&&(suited||pair||connected))return{k:"call",amount:toCall,ok:["call","raise"],why:"The pot is still unraised and this hand has enough playability to take the cheap price. Raising can also be reasonable with the right table dynamics."};
+   return{k:"fold",amount:toCall,ok:["fold"],why:"Even though the pot is unraised, this hand does not have enough strength or playability to enter from "+hero.pos+" for "+money(toCall)+"."}
  }
- if(score>=th+15)return{k:"raise",ok:["raise","call"],why:"Your hand is strong enough to continue aggressively against the raise."};
- if(score>=th+1)return{k:"call",ok:["call"],why:"You have enough strength to continue, but not enough to automatically inflate the pot."};
- return{k:"fold",ok:["fold"],why:"Against a raise, this hand is too dominated or too weak to continue profitably."}
+
+ if(score>=th+15)return{k:"raise",amount:raiseTo,ok:["raise","call"],why:"Against the raise, this hand is strong enough to continue aggressively. Calling is also defensible depending on the opponent."};
+ if(score>=th+1)return{k:"call",amount:toCall,ok:["call"],why:"You are facing a real raise of "+money(toCall)+" more. Your hand is strong enough to continue at this price, but not strong enough to automatically build a much larger pot."};
+ return{k:"fold",amount:toCall,ok:["fold"],why:"This is an actual raised pot, not a cheap blind completion. At "+money(toCall)+" more, the hand is too dominated or too weak to continue profitably."}
 }
 function coachPost(st,facing,toCall){
  const h=postStrength(st.seats[0].cards,st.board),wet=boardWet(st.board),pot=st.pot;
  if(facing){
    let req=toCall/(pot+toCall),est=h.v;
-   if(h.base>=.78)return{k:"raise",ok:["raise","call"],why:h.name+" is strong enough to raise for value; calling is also defensible against some lines."};
+   if(h.base>=.78)return{k:"raise",ok:["raise","call"],why:h.name+" is strong enough to raise for value; calling "+money(toCall)+" is also defensible against some lines."};
    if((h.fd&&h.sd)&&est>=req)return{k:"raise",ok:["raise","call"],why:"Your combo draw has enough equity to continue and can profitably apply pressure."};
-   if(est>=req+.07)return{k:"call",ok:["call"],why:"The price requires about "+Math.round(req*100)+"% equity, and your made hand/draw is strong enough to continue."};
-   if(est>=req-.02)return{k:"call",ok:["call","fold"],why:"This is close. The price is near the edge of your estimated equity, so opponent tendencies matter."};
-   return{k:"fold",ok:["fold"],why:"The price is too high for the strength of your hand and draw."}
+   if(est>=req+.07)return{k:"call",amount:toCall,ok:["call"],why:"It costs "+money(toCall)+" to call. The price requires about "+Math.round(req*100)+"% equity, and your made hand/draw is strong enough to continue."};
+   if(est>=req-.02)return{k:"call",amount:toCall,ok:["call","fold"],why:"It costs "+money(toCall)+" to call and this is close. The price is near the edge of your estimated equity, so opponent tendencies matter."};
+   return{k:"fold",amount:toCall,ok:["fold"],why:"It costs "+money(toCall)+" to call, and that price is too high for the strength of your hand and draw."}
  }else{
    if(h.base>=.78)return{k:"betBig",ok:["betBig","betSmall"],why:"You have a very strong made hand. Build a pot and charge worse hands."};
    if(h.base>=.55)return{k:wet?"betBig":"betSmall",ok:wet?["betBig","betSmall"]:["betSmall","check"],why:"You have a value hand. "+(wet?"The coordinated board favors a larger protection/value size.":"The dry board lets you use a smaller value size.")};
@@ -244,7 +281,8 @@ function addDecisionButtons(opts,handler){
 }
 function liveHint(coach){$("liveHint").textContent="Think first: "+coach.why;$("liveHint").style.display="block"}
 function recordDecision(street,chosen,coach){
- let ok=coach.ok.includes(chosen.kind);live.decisions.push({street,chosen:chosen.label,preferred:labelAction(coach.k,chosen.amount||0),ok,why:coach.why});
+ let ok=coach.ok.includes(chosen.kind);
+ live.decisions.push({street,chosen:chosen.label,preferred:labelAction(coach.k,coach.amount),ok,why:coach.why});
  if(coachTiming==="instant"){let f=$("liveFeedback");f.className="feedback "+(ok?"good":"bad");f.innerHTML="<b>"+(ok?"Solid decision.":"Coach prefers another line.")+"</b><br>"+coach.why;f.style.display="block"}
 }
 function presentPreflop(){
