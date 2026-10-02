@@ -32,7 +32,7 @@ function shuffle(a){for(let i=a.length-1;i>0;i--){let j=rand(i+1);[a[i],a[j]]=[a
 function money(n){return "$"+Math.max(0,Math.round(n))}
 function makeDeck(){let d=[];for(const s of SUITS)for(const r of RANKS)d.push({r,s});return shuffle(d)}
 function ct(c){return (RN[c.r]||c.r)+c.s}
-function parseCard(t){const s=t.slice(-1),x=t.slice(0,-1);return {r:x==="A"?14:x==="K"?13:x==="Q"?12:x==="J"?11:Number(x),s}}
+function parseCard(t){const s=t.slice(-1),x=t.slice(0,-1);return {r:x==="A"?14:x==="K"?13:x==="Q"?12:x==="J"?11:x==="T"?10:Number(x),s}}
 function cardHTML(c,back=false){if(back)return '<div class="card back">??</div>';let x=typeof c==="string"?parseCard(c):c;return '<div class="card '+((x.s==="♥"||x.s==="♦")?"red":"")+'"><span>'+(RN[x.r]||x.r)+'</span><span>'+x.s+'</span></div>'}
 function miniCards(cards,hide=false){return cards.map(c=>cardHTML(c,hide)).join("")}
 
