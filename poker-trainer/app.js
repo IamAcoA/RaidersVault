@@ -23,7 +23,7 @@ const G=[
 ];
 
 let mode="live",coachTiming="end";
-let handNo=0,sessionNet=0,live=null,spot=null,gidx=0,gscore=0,gatt=0;
+let handNo=0,sessionNet=0,live=null,spot=null,gidx=0,gscore=0,gatt=0,tableSeats=null,tableButtonSeat=null,liveSessionActive=false;
 
 function show(id){document.querySelectorAll(".screen").forEach(x=>x.classList.remove("active"));$(id).classList.add("active");window.scrollTo(0,0)}
 function rand(n){return Math.floor(Math.random()*n)}
@@ -127,13 +127,47 @@ function coachPost(st,facing,toCall){
 }
 
 function makeSeats(){
- const seats=[{id:0,name:"You",style:"Hero",profile:{loose:0,agg:0}}];
- BOT_PROFILES.forEach((p,i)=>seats.push({id:i+1,name:p.name,style:p.style,profile:p}));
+ const seats=[{id:0,name:"You",style:"Hero",profile:{loose:0,agg:0},stack:300,busted:false}];
+ BOT_PROFILES.forEach((p,i)=>seats.push({id:i+1,name:p.name,style:p.style,profile:p,stack:300,busted:false}));
  return seats
 }
+function nextActiveSeat(from){
+ if(!tableSeats)return null;
+ const active=tableSeats.filter(s=>s.stack>0);
+ if(!active.length)return null;
+ if(from===null||from===undefined)return active[0].id;
+ for(let step=1;step<=tableSeats.length;step++){
+   const id=(from+step)%tableSeats.length;
+   if(tableSeats[id].stack>0)return id
+ }
+ return active[0].id
+}
 function assignPositions(seats,buttonSeat){
- const map={};map[buttonSeat]="BTN";map[(buttonSeat+1)%6]="SB";map[(buttonSeat+2)%6]="BB";map[(buttonSeat+3)%6]="UTG";map[(buttonSeat+4)%6]="HJ";map[(buttonSeat+5)%6]="CO";
- seats.forEach((s,i)=>s.pos=map[i])
+ seats.forEach(s=>s.pos="OUT");
+ const clockwise=[];
+ for(let step=0;step<seats.length;step++){
+   const s=seats[(buttonSeat+step)%seats.length];
+   if(s.stack>0)clockwise.push(s)
+ }
+ const n=clockwise.length;
+ const layouts={
+   6:["BTN","SB","BB","UTG","HJ","CO"],
+   5:["BTN","SB","BB","UTG","CO"],
+   4:["BTN","SB","BB","CO"],
+   3:["BTN","SB","BB"],
+   2:["BTN","BB"],
+   1:["BTN"]
+ };
+ const labels=layouts[n]||[];
+ clockwise.forEach((s,i)=>s.pos=labels[i]||"OUT")
+}
+function preflopOrder(seats){
+ const names=["UTG","HJ","CO","BTN","SB","BB"];
+ return names.map(p=>seats.find(s=>s.pos===p&&s.stack>=0&&!s.busted)).filter(Boolean)
+}
+function startLiveSession(){
+ handNo=0;sessionNet=0;tableSeats=makeSeats();tableButtonSeat=null;liveSessionActive=true;
+ newLiveHand()
 }
 function put(st,seat,target){
  target=Math.min(target,seat.streetInvest+seat.stack);let d=Math.max(0,target-seat.streetInvest);seat.stack-=d;seat.streetInvest+=d;st.pot+=d;if(seat.id===0)st.heroInvested+=d
@@ -166,20 +200,40 @@ function preBotApply(st,seat,act,allowRaise=true){
  }
 }
 function newLiveHand(){
- handNo++;let seats=makeSeats(),buttonSeat=(handNo-1)%6;assignPositions(seats,buttonSeat);
- let d=makeDeck();seats.forEach(s=>{s.cards=[d.pop(),d.pop()];s.stack=300;s.streetInvest=0;s.folded=false});
- live={deck:d,seats,buttonSeat,pot:0,currentBet:2,heroInvested:0,board:[],street:"Preflop",log:[],decisions:[],ended:false,villain:null,sessionStartNet:sessionNet};
- put(live,seats.find(s=>s.pos==="SB"),1);put(live,seats.find(s=>s.pos==="BB"),2);
- logLive("Blinds posted $1/$2. You are "+seats[0].pos+".");
- let order=POS.map(p=>seats.find(s=>s.pos===p));
- for(const s of order){if(s.id===0)break;preBotApply(live,s,botPreAction(live,s,true),true)}
+ if(!liveSessionActive||!tableSeats)return startLiveSession();
+ const activeBefore=tableSeats.filter(s=>s.stack>0);
+ if(tableSeats[0].stack<=0||activeBefore.length<=1){
+   liveSessionActive=false;
+   return show("home")
+ }
+ handNo++;tableButtonSeat=nextActiveSeat(tableButtonSeat);assignPositions(tableSeats,tableButtonSeat);
+ let seats=tableSeats,d=makeDeck();
+ seats.forEach(s=>{
+   s.busted=s.stack<=0;
+   s.cards=s.busted?[]:[d.pop(),d.pop()];
+   s.streetInvest=0;s.folded=s.busted;s.handStartStack=s.stack
+ });
+ live={deck:d,seats,buttonSeat:tableButtonSeat,pot:0,currentBet:0,heroInvested:0,board:[],street:"Preflop",log:[],decisions:[],ended:false,villain:null,sessionStartNet:sessionNet};
+ const sb=seats.find(s=>s.pos==="SB")||seats.find(s=>s.pos==="BTN");
+ const bb=seats.find(s=>s.pos==="BB");
+ if(sb)put(live,sb,1);
+ if(bb)put(live,bb,2);
+ live.currentBet=Math.max(sb?sb.streetInvest:0,bb?bb.streetInvest:0);
+ logLive("Hand "+handNo+". Blinds posted. You are "+seats[0].pos+".");
+ let order=preflopOrder(seats);
+ for(const s of order){if(s.id===0)break;if(!s.folded)preBotApply(live,s,botPreAction(live,s,true),true)}
  show("liveScreen");renderLive();presentPreflop()
 }
 function renderSeats(){
- for(let i=0;i<6;i++){let s=live.seats[i],box=$("seat"+i);box.className="seat s"+i+(i===0?" hero":"")+(live.villain&&live.villain.id===i?" active":"");box.innerHTML='<div class="avatar">'+(i===0?"YOU":s.name[0])+'</div><div class="name">'+s.name+' · '+s.pos+'</div><div class="meta">'+money(s.stack)+(i?(" · "+s.style):"")+'</div>'}
+ for(let i=0;i<6;i++){
+   let s=live.seats[i],box=$("seat"+i),out=s.stack<=0;
+   box.className="seat s"+i+(i===0?" hero":"")+(live.villain&&live.villain.id===i?" active":"")+(out?" busted":"");
+   box.innerHTML='<div class="avatar">'+(i===0?"YOU":s.name[0])+'</div><div class="name">'+s.name+' · '+(out?"OUT":s.pos)+'</div><div class="meta">'+(out?"Eliminated":money(s.stack)+(i?(" · "+s.style):""))+'</div>'
+ }
 }
 function renderLive(){
- renderSeats();$("livePot").textContent=money(live.pot);$("liveStreet").textContent=live.street;$("liveNet").textContent=(sessionNet>=0?"+":"")+money(sessionNet).replace("$","$");
+ renderSeats();$("livePot").textContent=money(live.pot);$("liveStreet").textContent=live.street;$("liveNet").textContent=(sessionNet>=0?"+":"-")+money(Math.abs(sessionNet));
+ if($("livePlayers"))$("livePlayers").textContent=live.seats.filter(s=>s.stack>0).length+"/6";
  $("heroHole").innerHTML=miniCards(live.seats[0].cards);$("liveBoard").innerHTML=live.board.map(c=>cardHTML(c)).join("");renderLog()
 }
 function clearDecision(){
@@ -207,11 +261,11 @@ function presentPreflop(){
 }
 function resolvePreflop(o,coach){
  recordDecision("Preflop",o,coach);let hero=live.seats[0];
- if(o.kind==="fold"){logLive("You fold.");return endHand("fold")}
+ if(o.kind==="fold"){hero.folded=true;logLive("You fold.");return endHand("fold")}
  if(o.kind==="check")logLive("You check.");
  if(o.kind==="call"){put(live,hero,live.currentBet);logLive("You call "+money(o.amount)+".")}
  if(o.kind==="raise"){put(live,hero,o.amount);live.currentBet=o.amount;logLive("You raise to "+money(o.amount)+".")}
- let order=POS.map(p=>live.seats.find(s=>s.pos===p)),passedHero=false;
+ let order=preflopOrder(live.seats),passedHero=false;
  for(const s of order){
    if(s.id===0){passedHero=true;continue}
    if(!passedHero||s.folded)continue;
@@ -274,7 +328,7 @@ function presentFacingRaise(){
 }
 function resolveFacing(o,coach){
  recordDecision(live.street,o,coach);let hero=live.seats[0],toCall=live.currentBet-hero.streetInvest;
- if(o.kind==="fold"){logLive("You fold.");return endHand("fold")}
+ if(o.kind==="fold"){hero.folded=true;logLive("You fold.");return endHand("fold")}
  if(o.kind==="call"){put(live,hero,live.currentBet);logLive("You call "+money(toCall)+".");return advanceStreet()}
  if(o.kind==="raise"){
    put(live,hero,o.amount);live.currentBet=o.amount;logLive("You raise to "+money(o.amount)+".");let r=botRespond(o.amount);renderLive();if(r.kind==="fold")return endHand("villainFold");if(r.kind==="raise")return presentFacingRaise();return advanceStreet()
@@ -291,19 +345,53 @@ function showdown(){
  if(c>0)endHand("heroShowdown");else if(c<0)endHand("villainShowdown");else endHand("tie")
 }
 function endHand(reason){
- live.ended=true;clearDecision();renderLive();
- let hero=live.seats[0],won=0,title="",reveal=false;
- if(reason==="villainFold"){won=live.pot;title="You win "+money(live.pot)+".";reveal=false}
- else if(reason==="fold"){title="You folded.";reveal=false}
- else if(reason==="heroShowdown"){won=live.pot;title="You win at showdown.";reveal=true}
- else if(reason==="villainShowdown"){title=live.villain.name+" wins at showdown.";reveal=true}
- else if(reason==="tie"){won=live.pot/2;title="Split pot.";reveal=true}
- let net=won-live.heroInvested;sessionNet+=net;$("liveNet").textContent=(sessionNet>=0?"+":"-")+money(Math.abs(sessionNet));
+ live.ended=true;clearDecision();
+ let hero=live.seats[0],won=0,title="",reveal=false,recipient=null;
+ const opponents=live.seats.filter(s=>s.id!==0&&!s.folded&&s.cards&&s.cards.length===2);
+ const fallbackOpponent=live.villain||opponents.sort((a,b)=>b.streetInvest-a.streetInvest||preScore(b.cards)-preScore(a.cards))[0]||live.seats.find(s=>s.id!==0&&s.stack>0);
+
+ if(reason==="villainFold"){
+   recipient=hero;won=live.pot;title="You win "+money(live.pot)+".";
+ }else if(reason==="fold"){
+   recipient=fallbackOpponent;
+   if(recipient)recipient.stack+=live.pot;
+   title="You folded. "+(recipient?recipient.name+" takes "+money(live.pot)+".":"Pot awarded.");
+ }else if(reason==="heroShowdown"){
+   recipient=hero;won=live.pot;title="You win at showdown.";
+ }else if(reason==="villainShowdown"){
+   recipient=live.villain||fallbackOpponent;
+   if(recipient)recipient.stack+=live.pot;
+   title=(recipient?recipient.name:"Villain")+" wins at showdown.";reveal=true;
+ }else if(reason==="tie"){
+   const v=live.villain||fallbackOpponent,heroShare=Math.floor(live.pot/2),villainShare=live.pot-heroShare;
+   hero.stack+=heroShare;won=heroShare;if(v)v.stack+=villainShare;
+   title="Split pot.";reveal=true
+ }
+ if((reason==="villainFold"||reason==="heroShowdown")&&recipient===hero)hero.stack+=live.pot;
+ if(reason==="heroShowdown")reveal=true;
+
+ live.seats.forEach(s=>{s.busted=s.stack<=0});
+ sessionNet=hero.stack-300;
+ const net=hero.stack-hero.handStartStack;
+ const newlyOut=live.seats.filter(s=>s.stack<=0&&s.handStartStack>0);
+ newlyOut.forEach(s=>logLive((s.id===0?"You":s.name)+" has been knocked out."));
+ renderLive();
+
  $("handEnd").style.display="block";$("handWinner").textContent=title+"  Hand: "+(net>=0?"+":"-")+money(Math.abs(net));
  $("heroShow").innerHTML='<b>You</b><div class="miniCards">'+miniCards(hero.cards)+'</div><div class="muted">'+(live.board.length>=3?handName(hero.cards.concat(live.board)):"")+'</div>';
  $("villainShow").innerHTML='<b>'+(live.villain?live.villain.name:"Table")+'</b><div class="miniCards">'+(live.villain?miniCards(live.villain.cards,!reveal):miniCards([{r:2,s:"♠"},{r:2,s:"♥"}],true))+'</div><div class="muted">'+(reveal&&live.villain?handName(live.villain.cards.concat(live.board)):"Mucked")+'</div>';
  $("handReview").innerHTML=live.decisions.length?live.decisions.map(d=>'<div class="reviewitem"><b>'+d.street+' · <span class="'+(d.ok?"taggood":"tagwarn")+'">'+(d.ok?"Solid":"Review")+'</span></b>You: '+d.chosen+' · Coach: '+d.preferred+'<br><span class="muted">'+d.why+'</span></div>').join(""):'<div class="muted">No decision points this hand.</div>';
- $("nextHand").onclick=newLiveHand
+
+ const active=live.seats.filter(s=>s.stack>0);
+ if(hero.stack<=0){
+   liveSessionActive=false;$("nextHand").textContent="Start New Session";$("nextHand").onclick=startLiveSession;
+   $("handWinner").textContent+="  You are out."
+ }else if(active.length===1){
+   liveSessionActive=false;$("nextHand").textContent="Start New Session";$("nextHand").onclick=startLiveSession;
+   $("handWinner").textContent+="  You won the table."
+ }else{
+   $("nextHand").textContent="Deal Next Hand";$("nextHand").onclick=newLiveHand
+ }
 }
 
 function randomHole(deck){return[deck.pop(),deck.pop()]}
@@ -342,7 +430,7 @@ function renderGuided(){
 function selectMode(m){mode=m;document.querySelectorAll(".modecard").forEach(x=>x.classList.toggle("selected",x.dataset.mode===m))}
 document.querySelectorAll(".modecard").forEach(b=>b.addEventListener("click",()=>selectMode(b.dataset.mode)));
 $("coachTiming").addEventListener("change",e=>coachTiming=e.target.value);
-$("startMain").addEventListener("click",()=>{if(mode==="live")newLiveHand();else if(mode==="spot")newSpot();else renderGuided()});
+$("startMain").addEventListener("click",()=>{if(mode==="live")startLiveSession();else if(mode==="spot")newSpot();else renderGuided()});
 $("backLive").onclick=()=>show("home");$("backSpot").onclick=()=>show("home");$("backGuided").onclick=()=>show("home");
 selectMode("live");
 })();
