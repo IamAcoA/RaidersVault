@@ -24,7 +24,7 @@
     <div class="modegrid">
       <button class="modecard live selected" data-mode="live">
         <div class="modehead"><span>🎲 Live Table</span><span>∞</span></div>
-        <div class="modedesc">Endless six-handed $1/$2 hands. Fresh deck, rotating position, real flop/turn/river decisions, opponent actions, pot tracking and showdown.</div>
+        <div class="modedesc">Continuous six-handed $1/$2 table. Stacks carry over, chips move to the winner, players can bust, positions rotate, and the session continues until you end it.</div>
       </button>
       <button class="modecard" data-mode="spot">
         <div class="modehead"><span>⚡ Random Spots</span><span>∞</span></div>
@@ -63,6 +63,7 @@
   <div class="statusbar">
     <div class="pill">Street: <b id="liveStreet">Preflop</b></div>
     <div class="pill">Session: <b id="liveNet">$0</b></div>
+    <div class="pill">Players: <b id="livePlayers">6/6</b></div>
   </div>
 
   <div class="tablewrap">
@@ -93,7 +94,7 @@
       <div id="liveActions" class="actions"></div>
       <div class="toolrow">
         <button id="liveHintBtn" class="tool">💡 Hint</button>
-        <button class="tool" onclick="document.getElementById('home').classList.add('active');document.getElementById('liveScreen').classList.remove('active');window.scrollTo(0,0)">End Session</button>
+        <button id="endSession" class="tool">End Session</button>
       </div>
       <div id="liveHint" class="hint"></div>
       <div id="liveFeedback" class="feedback"></div>
