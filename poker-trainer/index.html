@@ -3,72 +3,165 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
-<meta name="theme-color" content="#08120e">
+<meta name="theme-color" content="#07110d">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Holdem Trainer">
 <title>Hold'em Decision Trainer</title>
-<style>
-:root{--bg:#08120e;--panel:#122018;--line:#2b4035;--text:#f4f7f5;--muted:#9eb0a7;--gold:#e8b34d;--green:#47c77a;--red:#ef6d6d;--blue:#84adff}
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{margin:0;min-height:100%;background:radial-gradient(circle at top,#11271b,#08120e 48%,#050a08);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Arial,sans-serif}body{min-height:100dvh;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}button{font:inherit;color:inherit}.app{width:min(100%,540px);margin:auto;min-height:100dvh;padding:14px}.screen{display:none}.screen.active{display:block}.hero{text-align:center;padding:20px 10px 12px}.chip{display:inline-block;padding:7px 11px;border:1px solid #315342;border-radius:999px;color:#bde5cf;background:#0f2f21;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}h1{font-size:34px;line-height:1.02;margin:18px 0 10px;letter-spacing:-.04em}.lead{color:var(--muted);font-size:16px;line-height:1.45}.table{width:250px;height:145px;margin:22px auto 18px;border-radius:50%;background:linear-gradient(#0d5a3a,#0a402b);border:10px solid #3b2b1e;box-shadow:inset 0 0 0 2px #806343,0 16px 36px #0008;position:relative}.mc{position:absolute;width:48px;height:68px;background:#fff;color:#111;border-radius:8px;padding:6px;display:flex;flex-direction:column;justify-content:space-between;font-size:21px;font-weight:900;box-shadow:0 5px 12px #0006}.mc.a{left:78px;top:36px;transform:rotate(-7deg)}.mc.b{left:125px;top:36px;transform:rotate(7deg)}.red{color:#c62828}.panel,.hand{background:linear-gradient(#14251b,#0d1712);border:1px solid var(--line);border-radius:20px;padding:16px;box-shadow:0 14px 36px #0006}.start,.next{width:100%;border:0;border-radius:16px;padding:17px;background:linear-gradient(#f3c76e,var(--gold));color:#171208;font-size:18px;font-weight:900}.label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em;font-weight:800;margin:14px 0 8px}.modes{display:grid;grid-template-columns:1fr 1fr;gap:9px}.mode,.tool,.ghost{border:1px solid var(--line);background:#16261e;border-radius:14px;padding:13px;font-weight:750}.mode.selected{border-color:#c79a43;background:#2a2617}.small{font-size:12px;color:var(--muted);line-height:1.4;text-align:center;margin-top:12px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px}.brand{font-weight:900}.stats{display:flex;gap:6px}.stat{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:7px 9px;background:#101b15}.bar{height:6px;background:#17241d;border-radius:99px;overflow:hidden;margin-bottom:12px}.bar div{height:100%;background:var(--gold);width:0}.street{font-size:12px;font-weight:900;color:var(--blue);text-transform:uppercase;letter-spacing:.13em}.context{font-size:16px;line-height:1.48;margin:7px 0 12px}.cards{display:flex;gap:8px;flex-wrap:wrap}.card{width:66px;height:92px;background:#fff;color:#111;border-radius:11px;padding:7px 8px;display:flex;flex-direction:column;justify-content:space-between;font-size:24px;font-weight:900;box-shadow:0 6px 14px #0006}.board .card{width:54px;height:76px;font-size:20px}.question{font-size:19px;font-weight:850;line-height:1.35;margin:18px 0 11px}.answers{display:grid;gap:9px}.answer{min-height:58px;border:1px solid #31463c;background:#17261f;border-radius:15px;padding:14px;text-align:left;font-weight:750;font-size:16px;display:flex;gap:10px;align-items:flex-start}.letter{width:26px;height:26px;flex:0 0 26px;border-radius:50%;display:grid;place-items:center;background:#22352b;font-size:13px}.answer.correct{border-color:var(--green);background:#153222}.answer.wrong{border-color:var(--red);background:#321919}.answer.correct .letter{background:var(--green);color:#07130d}.answer.wrong .letter{background:var(--red);color:#210808}.tools{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px}.hint,.feedback{display:none;margin-top:12px;border-radius:14px;padding:14px;line-height:1.5;font-size:15px}.hint{border:1px solid #765d2c;background:#2c2514;color:#efd69c}.feedback{border:1px solid var(--line);background:#0d1812}.feedback.good{border-color:#2d8552}.feedback.bad{border-color:#8f4545}.feedback strong{display:block;margin-bottom:5px}.next{display:none;margin-top:12px}.footer{font-size:11px;color:#819188;text-align:center;line-height:1.45;padding:14px 10px}.summary{text-align:center}.big{font-size:52px;font-weight:950;color:#f3c76e}.review{margin-top:14px;border-top:1px solid var(--line);text-align:left}.row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #27382f;font-size:14px}.goodt{color:var(--green)}.badt{color:var(--red)}.ghost{width:100%;margin-top:10px}.summary p{color:var(--muted);line-height:1.45}
-@media(max-width:390px){.app{padding:11px}.modes{grid-template-columns:1fr}.answer{font-size:15px}.card{width:61px;height:86px}.board .card{width:49px;height:70px}}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="app">
 <section id="home" class="screen active">
-<div class="hero"><span class="chip">♠ Personal poker coach</span><h1>Hold'em<br>Decision Trainer</h1><p class="lead">Practice decisions, ranges, bet sizing and pot odds — without seeing the hint unless you ask for it.</p><div class="table"><div class="mc a"><span>A</span><span>♠</span></div><div class="mc b red"><span>Q</span><span>♥</span></div></div></div>
-<div class="panel"><button id="start" class="start">Start Training</button><div class="label">Training mode</div><div class="modes"><button class="mode selected" data-mode="mixed">Mixed Decisions</button><button class="mode" data-mode="preflop">Preflop</button><button class="mode" data-mode="postflop">Postflop</button><button class="mode" data-mode="math">Pot Odds / Math</button></div><div class="small">Built for iPhone. Hints stay hidden until you tap them. After each answer, you get the reasoning.</div></div>
-<div class="footer">Practical live low-stakes No-Limit Hold'em training. Real decisions can change with stacks, opponents, rake and exact ranges.</div>
+  <div class="hero">
+    <span class="chip">♠ Personal poker coach</span>
+    <h1>Hold'em<br>Decision Trainer</h1>
+    <p class="lead">Learn the concepts, then test them on fresh hands that don't repeat.</p>
+  </div>
+
+  <div class="panel">
+    <h2>Choose how you want to train</h2>
+    <div class="modegrid">
+      <button class="modecard live selected" data-mode="live">
+        <div class="modehead"><span>🎲 Live Table</span><span>∞</span></div>
+        <div class="modedesc">Endless six-handed $1/$2 hands. Fresh deck, rotating position, real flop/turn/river decisions, opponent actions, pot tracking and showdown.</div>
+      </button>
+      <button class="modecard" data-mode="spot">
+        <div class="modehead"><span>⚡ Random Spots</span><span>∞</span></div>
+        <div class="modedesc">Jump straight into a new randomized preflop, flop, turn or river decision every time.</div>
+      </button>
+      <button class="modecard" data-mode="guided">
+        <div class="modehead"><span>📘 Guided Training</span><span>Coach</span></div>
+        <div class="modedesc">The teaching situations you already know, with hints and plain-English explanations.</div>
+      </button>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Coaching</h2>
+    <div class="setting">
+      <label for="coachTiming"><b>Live hand feedback</b><br><span class="muted">When should the coach explain your decisions?</span></label>
+      <select id="coachTiming">
+        <option value="end" selected>End of hand</option>
+        <option value="instant">Immediately</option>
+      </select>
+    </div>
+    <button id="startMain" class="start">Start Training</button>
+  </div>
+
+  <div class="panel">
+    <div class="sectiontitle" style="margin-top:0">What changed</div>
+    <div class="muted">Live Table and Random Spots are generated on the fly, so there is no 20-hand ceiling and no fixed order to memorize. Guided Training stays available when you want instruction.</div>
+  </div>
 </section>
 
-<section id="trainer" class="screen">
-<div class="top"><div class="brand">Hold'em Trainer</div><div class="stats"><div class="stat">✓ <b id="score">0</b>/<span id="attempts">0</span></div><div class="stat">🔥 <b id="streak">0</b></div></div></div>
-<div class="bar"><div id="progress"></div></div>
-<div class="hand"><div id="street" class="street"></div><div id="context" class="context"></div><div class="label">Your hand</div><div id="hole" class="cards"></div><div id="boardSection"><div class="label">Board</div><div id="board" class="cards board"></div></div><div id="question" class="question"></div><div id="answers" class="answers"></div><div class="tools"><button id="hintBtn" class="tool">💡 Hint</button><button id="quit" class="tool">End Session</button></div><div id="hint" class="hint"></div><div id="feedback" class="feedback"></div><button id="next" class="next">Next Hand</button></div>
-<div class="footer">Think: position → range → board → value/bluff → price.</div>
+<section id="liveScreen" class="screen">
+  <div class="top">
+    <div><div class="brand">Live Table</div><div class="subbrand">$1/$2 · $300 effective</div></div>
+    <button id="backLive" class="iconbtn" aria-label="Back to home">←</button>
+  </div>
+  <div class="statusbar">
+    <div class="pill">Street: <b id="liveStreet">Preflop</b></div>
+    <div class="pill">Session: <b id="liveNet">$0</b></div>
+  </div>
+
+  <div class="tablewrap">
+    <div class="poker-table">
+      <div id="seat0" class="seat s0 hero"></div>
+      <div id="seat1" class="seat s1"></div>
+      <div id="seat2" class="seat s2"></div>
+      <div id="seat3" class="seat s3"></div>
+      <div id="seat4" class="seat s4"></div>
+      <div id="seat5" class="seat s5"></div>
+      <div class="potbox"><div class="potlabel">Pot</div><div id="livePot" class="pot">$3</div></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="sectiontitle" style="margin-top:0">Board</div>
+    <div id="liveBoard" class="boardrow"></div>
+    <div class="sectiontitle">Your cards</div>
+    <div id="heroHole" class="hole"></div>
+  </div>
+
+  <div class="panel">
+    <div class="sectiontitle" style="margin-top:0">Action</div>
+    <div id="liveLog" class="actionlog"></div>
+
+    <div class="decision">
+      <div id="livePrompt" class="prompt"></div>
+      <div id="liveActions" class="actions"></div>
+      <div class="toolrow">
+        <button id="liveHintBtn" class="tool">💡 Hint</button>
+        <button class="tool" onclick="document.getElementById('home').classList.add('active');document.getElementById('liveScreen').classList.remove('active');window.scrollTo(0,0)">End Session</button>
+      </div>
+      <div id="liveHint" class="hint"></div>
+      <div id="liveFeedback" class="feedback"></div>
+    </div>
+
+    <div id="handEnd" class="handend">
+      <div id="handWinner" class="winner"></div>
+      <div class="showdown">
+        <div id="heroShow" class="showbox"></div>
+        <div id="villainShow" class="showbox"></div>
+      </div>
+      <div class="sectiontitle">Coach review</div>
+      <div id="handReview" class="reviewbox"></div>
+      <button id="nextHand" class="primary" style="margin-top:12px">Deal Next Hand</button>
+    </div>
+  </div>
 </section>
 
-<section id="results" class="screen">
-<div class="panel summary"><span class="chip">Session complete</span><h1 style="font-size:28px">Your results</h1><div class="big"><span id="finalScore">0</span>/<span id="finalAttempts">0</span></div><p id="msg"></p><div id="review" class="review"></div><button id="again" class="start" style="margin-top:16px">Train Again</button><button id="homeBtn" class="ghost">Back to Home</button></div>
+<section id="spotScreen" class="screen">
+  <div class="top">
+    <div><div class="brand">Random Spot</div><div class="subbrand">Fresh situation every tap</div></div>
+    <button id="backSpot" class="iconbtn" aria-label="Back to home">←</button>
+  </div>
+  <div class="panel">
+    <div id="spotStreet" class="chip"></div>
+    <p id="spotContext" class="lead" style="text-align:left;margin-top:12px"></p>
+    <div class="sectiontitle">Your cards</div>
+    <div id="spotHole" class="hole"></div>
+    <div id="spotBoardWrap">
+      <div class="sectiontitle">Board</div>
+      <div id="spotBoard" class="boardrow"></div>
+    </div>
+    <div id="spotActions" class="actions"></div>
+    <div class="toolrow">
+      <button id="spotHintBtn" class="tool">💡 Hint</button>
+      <button id="nextSpot" class="tool">Next Spot</button>
+    </div>
+    <div id="spotHint" class="hint"></div>
+    <div id="spotFeedback" class="feedback"></div>
+  </div>
+</section>
+
+<section id="guidedScreen" class="screen">
+  <div class="top">
+    <div><div class="brand">Guided Training</div><div class="subbrand">Concept practice</div></div>
+    <button id="backGuided" class="iconbtn" aria-label="Back to home">←</button>
+  </div>
+  <div class="statusbar"><div class="pill">Score: <b id="gScore">0/0</b></div></div>
+  <div class="panel">
+    <div id="gStreet" class="chip"></div>
+    <p id="gContext" class="lead" style="text-align:left;margin-top:12px"></p>
+    <div class="sectiontitle">Your cards</div>
+    <div id="gHole" class="hole"></div>
+    <div id="gBoardWrap">
+      <div class="sectiontitle">Board</div>
+      <div id="gBoard" class="boardrow"></div>
+    </div>
+    <div id="gQuestion" class="prompt"></div>
+    <div id="gAnswers" class="answers"></div>
+    <div class="toolrow">
+      <button id="gHintBtn" class="tool">💡 Hint</button>
+      <button id="gNext" class="tool">Next</button>
+    </div>
+    <div id="gHint" class="hint"></div>
+    <div id="gFeedback" class="feedback"></div>
+  </div>
 </section>
 </div>
-<script>
-var S=[
-{cat:"preflop",street:"Preflop",context:"$1/$2 NLHE, $300 effective. You are on the button. Two players limp for $2 and action reaches you.",hole:["A♣","T♣"],board:[],q:"What is the best default action?",a:["Call $2","Raise to $8","Raise to $12–$14","Fold"],c:2,h:"You have position, a suited ace and two limpers. Will a tiny raise actually isolate anyone?",e:"Raise bigger — around $12–$14. A suited AT is strong enough to punish limpers from the button. The extra size reduces the chance that everyone comes along cheaply."},
-{cat:"postflop",street:"Flop",context:"You raised preflop and one player called. Pot: $29. Villain checks to you.",hole:["A♣","T♣"],board:["A♦","9♣","6♣"],q:"What is the best default action?",a:["Check back","Bet $10","Bet about $18–$20","Shove"],c:2,h:"You already have top pair plus the nut-flush draw. Which worse hands can call?",e:"Bet for value, around $18–$20. Worse aces, 9x, straight draws and lower club draws can call. You are not betting just to make them fold."},
-{cat:"postflop",street:"Turn",context:"Pot: $69. You bet the flop and were called. Villain checks again.",hole:["A♣","T♣"],board:["A♦","9♣","6♣","8♥"],q:"What is the best default action?",a:["Check back","Bet $25","Bet $50","Shove"],c:0,h:"The 8 improves several parts of the caller's range. You still have showdown value and a free river.",e:"Check back. The turn improves hands such as T7, 75, 98 and 88. You retain top pair and the nut-flush draw, so taking the free river controls the pot without surrendering."},
-{cat:"postflop",street:"River",context:"Pot: $69. You checked the turn. The river completes clubs. Villain bets $35.",hole:["A♣","T♣"],board:["A♦","9♣","6♣","8♥","2♣"],q:"What is the best default action?",a:["Call","Raise to about $100 total","Fold","Min-raise"],c:1,h:"No full house is possible. What is the strongest possible flush?",e:"Raise for value. You hold the nut flush, so your job is to get paid by smaller flushes and other strong made hands. Calling leaves money on the table."},
-{cat:"preflop",street:"Preflop",context:"$1/$2 NLHE, $300 effective. You are in early-middle position. Everyone before you folds.",hole:["A♠","J♠"],board:[],q:"What is the best default action?",a:["Fold","Limp for $2","Raise to about $6–$10","Raise to $25"],c:2,h:"AJs is strong enough to enter, but do you want to invite the whole table in cheaply?",e:"Raise. AJs is a strong opening hand. In a loose live game you can size a little larger, but the core idea is to enter aggressively rather than open-limp."},
-{cat:"postflop",street:"Flop",context:"Heads-up pot. Pot: $19. You were the preflop raiser and villain checks to you.",hole:["A♠","J♠"],board:["A♦","8♣","4♠"],q:"What is the best continuation bet?",a:["Check always","Bet about $6","Bet the full pot","Shove"],c:1,h:"This is a dry board. You want weaker aces and pairs to continue.",e:"A small bet works well. The board is dry and favors the preflop raiser. Betting roughly one-third pot keeps worse hands in while still extracting value."},
-{cat:"postflop",street:"Turn",context:"Pot: $31. Villain called your flop bet. Turn adds a second spade.",hole:["A♠","J♠"],board:["A♦","8♣","4♠","T♠"],q:"What is the best default action?",a:["Check/fold","Bet around $20–$24","Shove","Bet $5"],c:1,h:"You now have top pair plus the nut-flush draw. That is strong value plus equity.",e:"Bet again for value and protection. Worse aces and draws can call, and your nut-flush draw gives you substantial equity even when you are behind."},
-{cat:"postflop",street:"River",context:"Pot: $75. You bet twice, villain called twice, and the river bricks. You check; villain bets $25.",hole:["A♠","J♠"],board:["A♦","8♣","4♠","T♠","2♥"],q:"What is the best default action?",a:["Fold automatically","Call","Raise as a bluff","Shove"],c:1,h:"You call $25 to compete for a final pot of $125. How often do you need to be right?",e:"Call. You need to win about 20% of the time. Against a normal opponent, a small river bet can contain weaker aces and bluffs often enough to justify the price."},
-{cat:"postflop",street:"Flop",context:"$1/$2. Six players see the flop. A player bets $8 into $12 and action is on you.",hole:["8♠","7♠"],board:["9♠","6♦","2♠"],q:"What is the best aggressive option?",a:["Fold","Call only","Raise to about $25–$30","Shove"],c:2,h:"Count your draws: 5s and Ts make straights; spades make a flush. Some outs overlap.",e:"Raise is a strong semi-bluff. You have an open-ended straight draw plus a flush draw — a huge amount of equity — and the raise can also fold out hands that currently beat eight-high."},
-{cat:"postflop",street:"Turn",context:"Pot: $68. You raised the flop with a combo draw and were called. Villain checks the turn.",hole:["8♠","7♠"],board:["9♠","6♦","2♠","K♥"],q:"What is the best default action?",a:["Check back","Bet $20","Bet $68","Shove"],c:0,h:"Your flop raise was called. You still have a huge draw and are being offered a free river.",e:"Check back by default. You do not have to keep bluffing simply because you raised the flop. Preserve your equity and realize a free river."},
-{cat:"postflop",street:"River",context:"Pot: $68. You checked the turn. River completes your straight and villain leads $40.",hole:["8♠","7♠"],board:["9♠","6♦","2♠","K♥","5♦"],q:"What is the best default action?",a:["Call","Raise to around $100–$120","Fold","Raise tiny to $60"],c:1,h:"Ask whether any better straight exists on this exact board.",e:"Raise for value. You have the nut straight here; another 87 can tie, but no higher straight is available. Calling is too cautious because sets, two pair and other strong hands may pay a raise."},
-{cat:"postflop",street:"Flop",context:"$1/$2. You 3-bet preflop from the small blind and one player called. Pot: $86. You act first.",hole:["K♠","Q♠"],board:["K♦","8♠","3♣"],q:"Best default bet?",a:["Check","Bet around $25–$30","Bet $70","Shove"],c:1,h:"This board is extremely dry. Which worse hands do you want to keep calling?",e:"Use a smaller value bet. A dry K-8-3 board lets you keep QQ/JJ/TT and weaker kings in the pot. Huge sizing folds out too much of the range you beat."},
-{cat:"postflop",street:"Turn",context:"Pot: $140. Villain called your flop bet. The turn is an ace and you act first.",hole:["K♠","Q♠"],board:["K♦","8♠","3♣","A♥"],q:"Best default action?",a:["Check","Bet $35","Bet $70","Shove"],c:0,h:"Which worse hands can comfortably call another bet now? Which hands improved past you?",e:"Check. The ace improves hands such as AQ/AJ/AK while making QQ/JJ/TT less willing to call. This is a classic pot-control spot with second pair."},
-{cat:"postflop",street:"River",context:"Pot: $230. You checked the turn, called a $45 bet, then checked a blank river. Villain bets $120.",hole:["K♠","Q♠"],board:["K♦","8♠","3♣","A♥","2♦"],q:"Best default response against a normal live $1/$2 player?",a:["Fold","Call","Raise","Shove"],c:0,h:"The price requires you to be right about one-quarter of the time. Is this player type bluffing this river often enough?",e:"Fold by default. Pot odds matter, but so does range. A normal low-stakes player's second sizable barrel on a blank river is often too value-heavy for KQ to profitably bluff-catch."},
-{cat:"postflop",street:"Flop",context:"$1/$2. You opened with AA and got two callers. Pot: about $25. Big blind checks; action is on you.",hole:["A♠","A♥"],board:["J♣","9♣","8♦"],q:"Best default action?",a:["Check always","Bet around $16–$20","Bet $5","Shove"],c:1,h:"Your overpair is strong, but the board is connected and draw-heavy. Worse made hands and draws can call.",e:"Bet for value and protection. This is a wet board: Jx, Tx, club draws, pair-plus-draw hands and straight draws can continue. A medium-large bet charges that equity."},
-{cat:"preflop",street:"Preflop",context:"$1/$2, $300 effective. You are under the gun with a marginal offsuit ace.",hole:["A♣","8♦"],board:[],q:"Best default action?",a:["Raise","Limp","Fold","Shove"],c:2,h:"Position matters. How comfortable will this hand be if several players behind you continue?",e:"Fold. A8 offsuit is dominated too often and plays poorly out of position. Starting-hand discipline saves more money than clever postflop play."},
-{cat:"preflop",street:"Preflop",context:"$1/$2. You are on the button and everyone folds to you.",hole:["9♠","8♠"],board:[],q:"Best default action?",a:["Fold","Raise","Limp","Shove"],c:1,h:"Late position allows a wider opening range because fewer players remain and you will have position postflop.",e:"Raise. Suited connectors gain value on the button because of position, fold equity and postflop playability."},
-{cat:"postflop",street:"River",context:"Pot: $100. You check a medium-strength hand. A passive player who has barely bluffed all night suddenly bets $100.",hole:["K♦","J♦"],board:["K♣","9♥","4♠","2♣","7♦"],q:"Best exploitative default?",a:["Call because top pair is strong","Fold","Raise","Shove"],c:1,h:"Player tendencies can matter more than the absolute strength of one pair.",e:"Fold against this profile. A passive player's pot-sized river bet is often severely under-bluffed. Do not pay people off just because you have top pair."},
-{cat:"math",street:"Pot Odds",context:"The pot is $100. Villain bets $50. Action is on you.",hole:["Q♠","J♠"],board:["T♠","4♦","2♠"],q:"Approximately what equity do you need to call $50?",a:["20%","25%","33%","50%"],c:1,h:"After the bet there is $150 in the middle. Your $50 call makes a $200 final pot.",e:"25%. You call $50 for a chance at the $200 final pot: 50 ÷ 200 = 25%."},
-{cat:"math",street:"Pot Odds",context:"The pot is $80. Villain bets $20. You are considering a call.",hole:["A♠","Q♠"],board:["Q♦","7♣","3♥","9♥","2♣"],q:"How often do you need to win for a $20 call to break even?",a:["About 17%","25%","33%","50%"],c:0,h:"The final pot after your call would be $120.",e:"About 17%. Your $20 call is 20 ÷ 120 of the final pot."},
-{cat:"math",street:"Draw Math",context:"On the flop you estimate that 9 unseen cards complete your flush. Two cards remain to come.",hole:["A♣","5♣"],board:["K♣","8♣","2♦"],q:"Using the Rule of 4, roughly how often will you improve by the river?",a:["18%","27%","36%","54%"],c:2,h:"On the flop with two cards to come, multiply your outs by about 4.",e:"Roughly 36%. Nine outs × 4 gives a quick table estimate of about 36% to hit by the river."},
-{cat:"preflop",street:"Range Thinking",context:"A competent player raises from early position and you are deciding how to think about their cards.",hole:["Q♣","J♣"],board:[],q:"Which thought process is strongest?",a:["He definitely has AK","He probably has exactly a big pair","Start with a range of plausible opens, then narrow it as actions occur","Ignore his cards and only play your own hand"],c:2,h:"Poker decisions are rarely about guessing one exact hand.",e:"Think in ranges. Start with all plausible hands for that action and position, then update the range as the player checks, bets, calls or raises."}
-];
-var mode="mixed",deck=[],idx=0,score=0,attempts=0,streak=0,answered=false,review=[];
-function el(id){return document.getElementById(id)}
-function show(id){document.querySelectorAll(".screen").forEach(function(x){x.classList.remove("active")});el(id).classList.add("active");window.scrollTo(0,0)}
-function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
-function card(c){var s=c.slice(-1),r=c.slice(0,-1),cl=(s==="♥"||s==="♦")?" red":"";return '<div class="card'+cl+'"><span>'+r+'</span><span>'+s+'</span></div>'}
-function start(){var p=[];for(var i=0;i<S.length;i++)if(mode==="mixed"||S[i].cat===mode)p.push(i);deck=shuffle(p).slice(0,Math.min(12,p.length));idx=0;score=0;attempts=0;streak=0;review=[];show("trainer");render()}
-function render(){answered=false;var s=S[deck[idx]];el("street").textContent=s.street;el("context").textContent=s.context;el("hole").innerHTML=s.hole.map(card).join("");if(s.board.length){el("boardSection").style.display="block";el("board").innerHTML=s.board.map(card).join("")}else el("boardSection").style.display="none";el("question").textContent=s.q;var a=el("answers");a.innerHTML="";s.a.forEach(function(txt,i){var b=document.createElement("button");b.className="answer";b.innerHTML='<span class="letter">'+String.fromCharCode(65+i)+'</span><span>'+txt+'</span>';b.onclick=function(){answer(i,b)};a.appendChild(b)});el("hint").style.display="none";el("hint").textContent=s.h;el("feedback").style.display="none";el("feedback").className="feedback";el("next").style.display="none";el("hintBtn").style.display="block";el("score").textContent=score;el("attempts").textContent=attempts;el("streak").textContent=streak;el("progress").style.width=(idx/deck.length*100)+"%"}
-function answer(choice,btn){if(answered)return;answered=true;var s=S[deck[idx]],buttons=document.querySelectorAll(".answer");attempts++;for(var i=0;i<buttons.length;i++){if(i===s.c)buttons[i].classList.add("correct");buttons[i].disabled=true}var ok=choice===s.c;if(ok){score++;streak++}else{streak=0;btn.classList.add("wrong")}review.push({street:s.street,ok:ok});var f=el("feedback");f.classList.add(ok?"good":"bad");f.innerHTML="<strong>"+(ok?"Good decision.":"Not the best default here.")+"</strong>"+s.e;f.style.display="block";el("score").textContent=score;el("attempts").textContent=attempts;el("streak").textContent=streak;el("hintBtn").style.display="none";el("next").style.display="block";el("next").textContent=idx===deck.length-1?"See Results":"Next Hand"}
-function finish(){el("finalScore").textContent=score;el("finalAttempts").textContent=attempts;var pct=attempts?Math.round(score/attempts*100):0;el("msg").textContent=pct>=85?"Strong session. Your decisions are becoming disciplined, not just instinctive.":pct>=65?"Good work. Review the misses — those are the spots that will save or make you money.":"Keep drilling. Focus on why an action makes money, not just whether the hand looks strong.";el("review").innerHTML=review.map(function(r,i){return '<div class="row"><span>Hand '+(i+1)+' · '+r.street+'</span><b class="'+(r.ok?"goodt":"badt")+'">'+(r.ok?"Correct":"Review")+"</b></div>"}).join("");show("results")}
-document.querySelectorAll(".mode").forEach(function(b){b.onclick=function(){document.querySelectorAll(".mode").forEach(function(x){x.classList.remove("selected")});b.classList.add("selected");mode=b.getAttribute("data-mode")}})
-el("start").onclick=start;el("again").onclick=start;el("homeBtn").onclick=function(){show("home")};el("hintBtn").onclick=function(){el("hint").style.display="block"};el("quit").onclick=function(){attempts?finish():show("home")};el("next").onclick=function(){if(idx>=deck.length-1)finish();else{idx++;render()}};
-</script>
+<script src="app.js"></script>
 </body>
 </html>
