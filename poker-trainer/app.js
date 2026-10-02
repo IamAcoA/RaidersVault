@@ -23,7 +23,7 @@ const G=[
 ];
 
 let mode="live",coachTiming="end";
-let handNo=0,sessionNet=0,live=null,spot=null,gidx=0,gscore=0,gatt=0,tableSeats=null,tableButtonSeat=null,liveSessionActive=false;
+let handNo=0,sessionNet=0,live=null,spot=null,gidx=0,gscore=0,gatt=0,tableSeats=null,tableButtonSeat=null,liveSessionActive=false,lastHandTemplate=null,replayResume=null;
 
 function show(id){document.querySelectorAll(".screen").forEach(x=>x.classList.remove("active"));$(id).classList.add("active");window.scrollTo(0,0)}
 function rand(n){return Math.floor(Math.random()*n)}
@@ -31,6 +31,14 @@ function choice(a){return a[rand(a.length)]}
 function shuffle(a){for(let i=a.length-1;i>0;i--){let j=rand(i+1);[a[i],a[j]]=[a[j],a[i]]}return a}
 function money(n){return "$"+Math.max(0,Math.round(n))}
 function makeDeck(){let d=[];for(const s of SUITS)for(const r of RANKS)d.push({r,s});return shuffle(d)}
+function cloneDeck(d){return d.map(c=>({r:c.r,s:c.s}))}
+function handRand(){
+ if(live&&Number.isInteger(live.rngState)){
+   live.rngState=(Math.imul(live.rngState,1664525)+1013904223)>>>0;
+   return live.rngState/4294967296
+ }
+ return Math.random()
+}
 function ct(c){return (RN[c.r]||c.r)+c.s}
 function parseCard(t){const s=t.slice(-1),x=t.slice(0,-1);return {r:x==="A"?14:x==="K"?13:x==="Q"?12:x==="J"?11:x==="T"?10:Number(x),s}}
 function cardHTML(c,back=false){if(back)return '<div class="card back">??</div>';let x=typeof c==="string"?parseCard(c):c;return '<div class="card '+((x.s==="♥"||x.s==="♦")?"red":"")+'"><span>'+(RN[x.r]||x.r)+'</span><span>'+x.s+'</span></div>'}
@@ -203,7 +211,7 @@ function preflopOrder(seats){
  return names.map(p=>seats.find(s=>s.pos===p&&s.stack>=0&&!s.busted)).filter(Boolean)
 }
 function startLiveSession(){
- handNo=0;sessionNet=0;tableSeats=makeSeats();tableButtonSeat=null;liveSessionActive=true;
+ handNo=0;sessionNet=0;tableSeats=makeSeats();tableButtonSeat=null;liveSessionActive=true;lastHandTemplate=null;replayResume=null;
  newLiveHand()
 }
 function put(st,seat,target){
@@ -213,13 +221,13 @@ function botPreAction(st,seat,allowRaise=true){
  let sc=preScore(seat.cards),th=openThreshold(seat.pos)-seat.profile.loose*35,toCall=st.currentBet-seat.streetInvest;
  if(st.currentBet<=2){
    if(toCall===0)return{kind:sc>=th&&allowRaise?"raise":"check"};
-   if(sc>=th+6&&allowRaise&&Math.random()<seat.profile.agg)return{kind:"raise"};
-   if(sc>=th-10)return{kind:Math.random()<.45+seat.profile.loose?"call":"raise"};
-   if(Math.random()<.08+seat.profile.loose)return{kind:"call"};return{kind:"fold"}
+   if(sc>=th+6&&allowRaise&&handRand()<seat.profile.agg)return{kind:"raise"};
+   if(sc>=th-10)return{kind:handRand()<.45+seat.profile.loose?"call":"raise"};
+   if(handRand()<.08+seat.profile.loose)return{kind:"call"};return{kind:"fold"}
  }else{
-   if(sc>=th+17&&allowRaise&&Math.random()<seat.profile.agg*.7)return{kind:"raise"};
+   if(sc>=th+17&&allowRaise&&handRand()<seat.profile.agg*.7)return{kind:"raise"};
    if(sc>=th+1)return{kind:"call"};
-   if(sc>=th-7&&Math.random()<.18+seat.profile.loose)return{kind:"call"};
+   if(sc>=th-7&&handRand()<.18+seat.profile.loose)return{kind:"call"};
    return{kind:"fold"}
  }
 }
@@ -236,6 +244,26 @@ function preBotApply(st,seat,act,allowRaise=true){
    target=Math.min(target,seat.streetInvest+seat.stack);put(st,seat,target);st.currentBet=target;logLive(seat.name+" raises to "+money(target)+".")
  }
 }
+function beginLiveHand(template,isReplay){
+ const seats=tableSeats;
+ seats.forEach((s,i)=>{s.stack=template.stacks[i];s.busted=s.stack<=0});
+ assignPositions(seats,template.buttonSeat);
+ let d=cloneDeck(template.deck);
+ seats.forEach(s=>{
+   s.cards=s.busted?[]:[d.pop(),d.pop()];
+   s.streetInvest=0;s.folded=s.busted;s.handStartStack=s.stack
+ });
+ live={deck:d,seats,buttonSeat:template.buttonSeat,pot:0,currentBet:0,heroInvested:0,board:[],street:"Preflop",log:[],decisions:[],ended:false,villain:null,sessionStartNet:sessionNet,isReplay:!!isReplay,rngState:template.seed,template};
+ const sb=seats.find(s=>s.pos==="SB")||seats.find(s=>s.pos==="BTN");
+ const bb=seats.find(s=>s.pos==="BB");
+ if(sb)put(live,sb,1);
+ if(bb)put(live,bb,2);
+ live.currentBet=Math.max(sb?sb.streetInvest:0,bb?bb.streetInvest:0);
+ logLive((isReplay?"Replay of hand ":"Hand ")+template.handNumber+". Blinds posted. You are "+seats[0].pos+".");
+ let order=preflopOrder(seats);
+ for(const s of order){if(s.id===0)break;if(!s.folded)preBotApply(live,s,botPreAction(live,s,true),true)}
+ show("liveScreen");renderLive();presentPreflop()
+}
 function newLiveHand(){
  if(!liveSessionActive||!tableSeats)return startLiveSession();
  const activeBefore=tableSeats.filter(s=>s.stack>0);
@@ -243,23 +271,29 @@ function newLiveHand(){
    liveSessionActive=false;
    return show("home")
  }
- handNo++;tableButtonSeat=nextActiveSeat(tableButtonSeat);assignPositions(tableSeats,tableButtonSeat);
- let seats=tableSeats,d=makeDeck();
- seats.forEach(s=>{
-   s.busted=s.stack<=0;
-   s.cards=s.busted?[]:[d.pop(),d.pop()];
-   s.streetInvest=0;s.folded=s.busted;s.handStartStack=s.stack
- });
- live={deck:d,seats,buttonSeat:tableButtonSeat,pot:0,currentBet:0,heroInvested:0,board:[],street:"Preflop",log:[],decisions:[],ended:false,villain:null,sessionStartNet:sessionNet};
- const sb=seats.find(s=>s.pos==="SB")||seats.find(s=>s.pos==="BTN");
- const bb=seats.find(s=>s.pos==="BB");
- if(sb)put(live,sb,1);
- if(bb)put(live,bb,2);
- live.currentBet=Math.max(sb?sb.streetInvest:0,bb?bb.streetInvest:0);
- logLive("Hand "+handNo+". Blinds posted. You are "+seats[0].pos+".");
- let order=preflopOrder(seats);
- for(const s of order){if(s.id===0)break;if(!s.folded)preBotApply(live,s,botPreAction(live,s,true),true)}
- show("liveScreen");renderLive();presentPreflop()
+ handNo++;tableButtonSeat=nextActiveSeat(tableButtonSeat);
+ const d=makeDeck(),seed=(Math.random()*4294967296)>>>0;
+ lastHandTemplate={handNumber:handNo,buttonSeat:tableButtonSeat,stacks:tableSeats.map(s=>s.stack),deck:cloneDeck(d),seed};
+ replayResume=null;
+ beginLiveHand(lastHandTemplate,false)
+}
+function replayLastHand(){
+ if(!lastHandTemplate||!tableSeats)return;
+ if(!(live&&live.isReplay)){
+   replayResume={stacks:tableSeats.map(s=>s.stack),buttonSeat:tableButtonSeat,sessionNet,liveSessionActive}
+ }
+ beginLiveHand(lastHandTemplate,true)
+}
+function continueAfterReplay(){
+ if(!replayResume)return newLiveHand();
+ tableSeats.forEach((s,i)=>{s.stack=replayResume.stacks[i];s.busted=s.stack<=0});
+ tableButtonSeat=replayResume.buttonSeat;
+ sessionNet=replayResume.sessionNet;
+ liveSessionActive=replayResume.liveSessionActive;
+ replayResume=null;
+ const active=tableSeats.filter(s=>s.stack>0);
+ if(!liveSessionActive||tableSeats[0].stack<=0||active.length<=1){show("home");return}
+ newLiveHand()
 }
 function renderSeats(){
  for(let i=0;i<6;i++){
@@ -319,18 +353,18 @@ function resolvePreflop(o,coach){
 }
 function heroIP(){return POST_RANK[live.seats[0].pos]>POST_RANK[live.villain.pos]}
 function botLead(){
- let b=postStrength(live.villain.cards,live.board),p=live.villain.profile,bluff=Math.random()<.06+p.agg*.10;
- if(b.base>=.78||b.base>=.55&&Math.random()<.72||((b.fd||b.sd)&&Math.random()<p.agg*.55)||bluff){
+ let b=postStrength(live.villain.cards,live.board),p=live.villain.profile,bluff=handRand()<.06+p.agg*.10;
+ if(b.base>=.78||b.base>=.55&&handRand()<.72||((b.fd||b.sd)&&handRand()<p.agg*.55)||bluff){
    let frac=(b.base>=.7||boardWet(live.board))?.66:.38,amt=Math.max(4,Math.round(live.pot*frac/2)*2);amt=Math.min(amt,live.villain.stack);put(live,live.villain,amt);live.currentBet=amt;logLive(live.villain.name+" bets "+money(amt)+".");return{kind:"bet",amount:amt}
  }
  logLive(live.villain.name+" checks.");return{kind:"check",amount:0}
 }
 function botRespond(heroBet){
  let v=live.villain,b=postStrength(v.cards,live.board),toCall=live.currentBet-v.streetInvest,req=toCall/(live.pot+toCall),adj=b.v+v.profile.loose*.08;
- if(b.base>=.82&&v.stack>toCall&&Math.random()<.45+v.profile.agg*.35){
+ if(b.base>=.82&&v.stack>toCall&&handRand()<.45+v.profile.agg*.35){
    let target=Math.min(v.streetInvest+v.stack,Math.max(live.currentBet*3,live.currentBet+Math.round(live.pot*.5)));put(live,v,target);live.currentBet=target;logLive(v.name+" raises to "+money(target)+".");return{kind:"raise",amount:target}
  }
- if(adj>=req+.07||Math.random()<v.profile.loose*.12){put(live,v,live.currentBet);logLive(v.name+" calls.");return{kind:"call"}}
+ if(adj>=req+.07||handRand()<v.profile.loose*.12){put(live,v,live.currentBet);logLive(v.name+" calls.");return{kind:"call"}}
  v.folded=true;logLive(v.name+" folds.");return{kind:"fold"}
 }
 function prepareStreet(){
@@ -409,7 +443,7 @@ function endHand(reason){
  if(reason==="heroShowdown")reveal=true;
 
  live.seats.forEach(s=>{s.busted=s.stack<=0});
- sessionNet=hero.stack-300;
+ if(!live.isReplay)sessionNet=hero.stack-300;
  const net=hero.stack-hero.handStartStack;
  const newlyOut=live.seats.filter(s=>s.stack<=0&&s.handStartStack>0);
  newlyOut.forEach(s=>logLive((s.id===0?"You":s.name)+" has been knocked out."));
@@ -421,7 +455,15 @@ function endHand(reason){
  $("handReview").innerHTML=live.decisions.length?live.decisions.map(d=>'<div class="reviewitem"><b>'+d.street+' · <span class="'+(d.ok?"taggood":"tagwarn")+'">'+(d.ok?"Solid":"Review")+'</span></b>You: '+d.chosen+' · Coach: '+d.preferred+'<br><span class="muted">'+d.why+'</span></div>').join(""):'<div class="muted">No decision points this hand.</div>';
 
  const active=live.seats.filter(s=>s.stack>0);
- if(hero.stack<=0){
+ $("replayHand").style.display="block";
+ $("replayHand").textContent=live.isReplay?"↻ Replay Again":"↻ Replay Hand";
+ $("replayHand").onclick=replayLastHand;
+
+ if(live.isReplay){
+   $("handWinner").textContent+="  Practice replay — session chips unchanged.";
+   $("nextHand").textContent="Continue Live Session";
+   $("nextHand").onclick=continueAfterReplay;
+ }else if(hero.stack<=0){
    liveSessionActive=false;$("nextHand").textContent="Start New Session";$("nextHand").onclick=startLiveSession;
    $("handWinner").textContent+="  You are out."
  }else if(active.length===1){
