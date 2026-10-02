@@ -11,6 +11,11 @@ const BOT_PROFILES=[
 {name:"Dex",style:"Balanced",loose:.02,agg:.55},
 {name:"Lou",style:"Tight-aggressive",loose:-.04,agg:.72}
 ];
+const BLIND_LEVELS=[
+{sb:1,bb:2},{sb:1,bb:3},{sb:2,bb:4},{sb:3,bb:6},{sb:4,bb:8},
+{sb:5,bb:10},{sb:8,bb:16},{sb:10,bb:20},{sb:15,bb:30},{sb:20,bb:40},
+{sb:30,bb:60},{sb:40,bb:80},{sb:50,bb:100},{sb:75,bb:150},{sb:100,bb:200}
+];
 const G=[
 {street:"Preflop",context:"$1/$2. You are on the button. Two players limp for $2.",hole:["A♣","T♣"],board:[],q:"Best default?",a:["Call $2","Raise to $8","Raise to $12–$14","Fold"],c:2,h:"Position + suited ace + dead money. Will $8 actually isolate?",e:"Raise bigger. With two limpers, around $12–$14 is a better live-game isolation size."},
 {street:"Flop",context:"You raised and one player called. Pot $29. Villain checks.",hole:["A♣","T♣"],board:["A♦","9♣","6♣"],q:"Best default?",a:["Check","Bet $10","Bet $18–$20","Shove"],c:2,h:"Top pair plus the nut-flush draw. What worse hands can call?",e:"Bet for value. Worse aces, 9x, straight draws and lower club draws can all continue."},
@@ -22,8 +27,9 @@ const G=[
 {street:"Preflop",context:"$1/$2. Everyone folds to you on the button.",hole:["9♠","8♠"],board:[],q:"Best default?",a:["Fold","Raise","Limp","Shove"],c:1,h:"Late position lets you open wider.",e:"Raise. Suited connectors gain value from position, fold equity and postflop playability."}
 ];
 
-let mode="live",coachTiming="end";
+let mode="live",coachTiming="end",blindEveryHands=10;
 let handNo=0,sessionNet=0,live=null,spot=null,gidx=0,gscore=0,gatt=0,tableSeats=null,tableButtonSeat=null,liveSessionActive=false,lastHandTemplate=null,replayResume=null;
+let blindLevel=0,pendingBlindBump=false,lastBlindAdvanceReason="";
 
 function show(id){document.querySelectorAll(".screen").forEach(x=>x.classList.remove("active"));$(id).classList.add("active");window.scrollTo(0,0)}
 function rand(n){return Math.floor(Math.random()*n)}
@@ -110,15 +116,16 @@ function labelAction(k,amt){
  return k
 }
 function preflopRaiseTarget(st){
- const hero=st.seats[0];
- if(st.currentBet<=2){
-   const participants=st.seats.filter(s=>s.id!==hero.id&&!s.folded&&s.streetInvest===2).length;
-   return Math.min(hero.streetInvest+hero.stack,Math.max(8,8+participants*2))
+ const hero=st.seats[0],bb=st.bigBlind||2;
+ if(st.currentBet<=bb){
+   const participants=st.seats.filter(s=>s.id!==hero.id&&!s.folded&&s.streetInvest===bb).length;
+   return Math.min(hero.streetInvest+hero.stack,Math.max(4*bb,4*bb+participants*bb))
  }
- return Math.min(hero.streetInvest+hero.stack,Math.max(st.currentBet*3,st.currentBet+10))
+ return Math.min(hero.streetInvest+hero.stack,Math.max(st.currentBet*3,st.currentBet+5*bb))
 }
 function coachPreflop(st){
  const hero=st.seats[0],score=preScore(hero.cards),th=openThreshold(hero.pos),toCall=Math.max(0,st.currentBet-hero.streetInvest);
+ const bb=st.bigBlind||2,sb=st.smallBlind||1;
  const raiseTo=preflopRaiseTarget(st);
  const finalPotIfCall=st.pot+toCall;
  const pricePct=finalPotIfCall>0?toCall/finalPotIfCall:0;
@@ -126,20 +133,20 @@ function coachPreflop(st){
  const pair=hero.cards[0].r===hero.cards[1].r;
  const hi=Math.max(hero.cards[0].r,hero.cards[1].r),lo=Math.min(hero.cards[0].r,hero.cards[1].r);
  const connected=hi-lo<=2;
- const blindDiscount=st.currentBet===2&&hero.streetInvest===1&&toCall===1;
- const limpers=st.seats.filter(s=>s.id!==hero.id&&!s.folded&&s.streetInvest===2&&s.pos!=="BB").length;
+ const blindDiscount=hero.pos==="SB"&&st.currentBet===bb&&hero.streetInvest>0&&hero.streetInvest<bb&&toCall===bb-hero.streetInvest;
+ const limpers=st.seats.filter(s=>s.id!==hero.id&&!s.folded&&s.streetInvest===bb&&s.pos!=="BB").length;
 
- if(st.currentBet<=2){
+ if(st.currentBet<=bb){
    if(toCall===0){
      if(score>=th-2)return{k:"raise",amount:raiseTo,ok:["raise"],why:"You can check for free, but this hand is strong enough to raise for value from "+hero.pos+"."};
      return{k:"check",amount:0,ok:["check"],why:"It costs $0 to continue. Take the free flop rather than folding your option."}
    }
 
    if(blindDiscount){
-     if(score>=th+3)return{k:"raise",amount:raiseTo,ok:["raise","call"],why:"You already posted $1 in the blind and only "+money(toCall)+" more is required. Your hand is strong enough to raise, while completing is also defensible."};
+     if(score>=th+3)return{k:"raise",amount:raiseTo,ok:["raise","call"],why:"You already posted "+money(hero.streetInvest)+" in the small blind and only "+money(toCall)+" more is required. Your hand is strong enough to raise, while completing is also defensible."};
      const completeFloor=limpers>=2?23:limpers===1?27:32;
      if(score>=completeFloor||suited||pair||(connected&&hi>=6)){
-       return{k:"call",amount:toCall,ok:["call"],why:"You have already posted $1 and it costs only "+money(toCall)+" more to continue. At roughly "+Math.round(pricePct*100)+"% of the final pot, this price justifies completing much wider than a normal call, even though you will often be out of position."}
+       return{k:"call",amount:toCall,ok:["call"],why:"You have already posted "+money(hero.streetInvest)+" in the small blind and it costs only "+money(toCall)+" more to continue. At roughly "+Math.round(pricePct*100)+"% of the final pot, this price justifies completing much wider than a normal call, even though you will often be out of position."}
      }
      return{k:"fold",amount:toCall,ok:["fold","call"],why:"This is near the bottom of the deck. The extra dollar is cheap, so completing is not a major mistake, but folding the weakest offsuit holdings from the small blind is still reasonable."}
    }
@@ -210,16 +217,27 @@ function preflopOrder(seats){
  const names=["UTG","HJ","CO","BTN","SB","BB"];
  return names.map(p=>seats.find(s=>s.pos===p&&s.stack>=0&&!s.busted)).filter(Boolean)
 }
+function currentBlindPair(){return BLIND_LEVELS[Math.min(blindLevel,BLIND_LEVELS.length-1)]}
+function maybeAdvanceBlinds(){
+ const scheduled=handNo>0&&handNo%blindEveryHands===0;
+ if(!(scheduled||pendingBlindBump)){lastBlindAdvanceReason="";return}
+ if(blindLevel<BLIND_LEVELS.length-1)blindLevel++;
+ if(scheduled&&pendingBlindBump)lastBlindAdvanceReason="scheduled level + knockout";
+ else if(pendingBlindBump)lastBlindAdvanceReason="knockout";
+ else lastBlindAdvanceReason=blindEveryHands+" hands completed";
+ pendingBlindBump=false
+}
 function startLiveSession(){
  handNo=0;sessionNet=0;tableSeats=makeSeats();tableButtonSeat=null;liveSessionActive=true;lastHandTemplate=null;replayResume=null;
+ blindLevel=0;pendingBlindBump=false;lastBlindAdvanceReason="";
  newLiveHand()
 }
 function put(st,seat,target){
  target=Math.min(target,seat.streetInvest+seat.stack);let d=Math.max(0,target-seat.streetInvest);seat.stack-=d;seat.streetInvest+=d;st.pot+=d;if(seat.id===0)st.heroInvested+=d
 }
 function botPreAction(st,seat,allowRaise=true){
- let sc=preScore(seat.cards),th=openThreshold(seat.pos)-seat.profile.loose*35,toCall=st.currentBet-seat.streetInvest;
- if(st.currentBet<=2){
+ let sc=preScore(seat.cards),th=openThreshold(seat.pos)-seat.profile.loose*35,toCall=st.currentBet-seat.streetInvest,bb=st.bigBlind||2;
+ if(st.currentBet<=bb){
    if(toCall===0)return{kind:sc>=th&&allowRaise?"raise":"check"};
    if(sc>=th+6&&allowRaise&&handRand()<seat.profile.agg)return{kind:"raise"};
    if(sc>=th-10)return{kind:handRand()<.45+seat.profile.loose?"call":"raise"};
@@ -234,13 +252,13 @@ function botPreAction(st,seat,allowRaise=true){
 function logLive(t){live.log.push(t);renderLog()}
 function renderLog(){if(!$("liveLog"))return;$("liveLog").innerHTML=live.log.slice(-10).map(x=>'<div class="logline">'+x+'</div>').join("");$("liveLog").scrollTop=$("liveLog").scrollHeight}
 function preBotApply(st,seat,act,allowRaise=true){
- let toCall=st.currentBet-seat.streetInvest;
+ let toCall=st.currentBet-seat.streetInvest,bb=st.bigBlind||2;
  if(act.kind==="fold"){seat.folded=true;logLive(seat.name+" folds.");return}
  if(act.kind==="check"){logLive(seat.name+" checks.");return}
- if(act.kind==="call"){put(st,seat,st.currentBet);logLive(seat.name+(st.currentBet<=2?" limps.":" calls "+money(toCall)+"."));return}
+ if(act.kind==="call"){put(st,seat,st.currentBet);logLive(seat.name+(st.currentBet<=bb?" limps.":" calls "+money(toCall)+"."));return}
  if(act.kind==="raise"){
-   let limpers=st.seats.filter(s=>!s.folded&&s.streetInvest===2).length;
-   let target=st.currentBet<=2?Math.max(8,8+Math.max(0,limpers-1)*2):Math.max(st.currentBet*3,st.currentBet+10);
+   let limpers=st.seats.filter(s=>!s.folded&&s.streetInvest===bb).length;
+   let target=st.currentBet<=bb?Math.max(4*bb,4*bb+Math.max(0,limpers-1)*bb):Math.max(st.currentBet*3,st.currentBet+5*bb);
    target=Math.min(target,seat.streetInvest+seat.stack);put(st,seat,target);st.currentBet=target;logLive(seat.name+" raises to "+money(target)+".")
  }
 }
@@ -253,13 +271,14 @@ function beginLiveHand(template,isReplay){
    s.cards=s.busted?[]:[d.pop(),d.pop()];
    s.streetInvest=0;s.folded=s.busted;s.handStartStack=s.stack
  });
- live={deck:d,seats,buttonSeat:template.buttonSeat,pot:0,currentBet:0,heroInvested:0,board:[],street:"Preflop",log:[],decisions:[],ended:false,villain:null,sessionStartNet:sessionNet,isReplay:!!isReplay,rngState:template.seed,template};
- const sb=seats.find(s=>s.pos==="SB")||seats.find(s=>s.pos==="BTN");
- const bb=seats.find(s=>s.pos==="BB");
- if(sb)put(live,sb,1);
- if(bb)put(live,bb,2);
- live.currentBet=Math.max(sb?sb.streetInvest:0,bb?bb.streetInvest:0);
- logLive((isReplay?"Replay of hand ":"Hand ")+template.handNumber+". Blinds posted. You are "+seats[0].pos+".");
+ live={deck:d,seats,buttonSeat:template.buttonSeat,pot:0,currentBet:0,heroInvested:0,board:[],street:"Preflop",log:[],decisions:[],ended:false,villain:null,sessionStartNet:sessionNet,isReplay:!!isReplay,rngState:template.seed,template,smallBlind:template.sb,bigBlind:template.bb,blindLevel:template.blindLevel};
+ const sbSeat=seats.find(s=>s.pos==="SB")||seats.find(s=>s.pos==="BTN");
+ const bbSeat=seats.find(s=>s.pos==="BB");
+ if(sbSeat)put(live,sbSeat,template.sb);
+ if(bbSeat)put(live,bbSeat,template.bb);
+ live.currentBet=template.bb;
+ if(template.blindAdvancedReason&&!isReplay)logLive("Blinds increased to "+money(template.sb)+"/"+money(template.bb)+" after "+template.blindAdvancedReason+".");
+ logLive((isReplay?"Replay of hand ":"Hand ")+template.handNumber+". Blinds "+money(template.sb)+"/"+money(template.bb)+". You are "+seats[0].pos+".");
  let order=preflopOrder(seats);
  for(const s of order){if(s.id===0)break;if(!s.folded)preBotApply(live,s,botPreAction(live,s,true),true)}
  show("liveScreen");renderLive();presentPreflop()
@@ -271,9 +290,10 @@ function newLiveHand(){
    liveSessionActive=false;
    return show("home")
  }
+ maybeAdvanceBlinds();
  handNo++;tableButtonSeat=nextActiveSeat(tableButtonSeat);
- const d=makeDeck(),seed=(Math.random()*4294967296)>>>0;
- lastHandTemplate={handNumber:handNo,buttonSeat:tableButtonSeat,stacks:tableSeats.map(s=>s.stack),deck:cloneDeck(d),seed};
+ const d=makeDeck(),seed=(Math.random()*4294967296)>>>0,bl=currentBlindPair();
+ lastHandTemplate={handNumber:handNo,buttonSeat:tableButtonSeat,stacks:tableSeats.map(s=>s.stack),deck:cloneDeck(d),seed,sb:bl.sb,bb:bl.bb,blindLevel,blindAdvancedReason:lastBlindAdvanceReason};
  replayResume=null;
  beginLiveHand(lastHandTemplate,false)
 }
@@ -305,6 +325,17 @@ function renderSeats(){
 function renderLive(){
  renderSeats();$("livePot").textContent=money(live.pot);$("liveStreet").textContent=live.street;$("liveNet").textContent=(sessionNet>=0?"+":"-")+money(Math.abs(sessionNet));
  if($("livePlayers"))$("livePlayers").textContent=live.seats.filter(s=>s.stack>0).length+"/6";
+ if($("liveBlinds"))$("liveBlinds").textContent=money(live.smallBlind)+"/"+money(live.bigBlind);
+ if($("liveSubbrand"))$("liveSubbrand").textContent="Level "+(live.blindLevel+1)+" · "+money(live.smallBlind)+"/"+money(live.bigBlind)+" · $300 starting stacks";
+ if($("liveNextBlind")){
+   if(live.isReplay)$("liveNextBlind").textContent="Replay paused";
+   else if(blindLevel>=BLIND_LEVELS.length-1)$("liveNextBlind").textContent="Max level";
+   else if(pendingBlindBump)$("liveNextBlind").textContent="Next hand (KO)";
+   else{
+     const left=blindEveryHands-(handNo%blindEveryHands);
+     $("liveNextBlind").textContent=left+" hand"+(left===1?"":"s")
+   }
+ }
  $("heroHole").innerHTML=miniCards(live.seats[0].cards);$("liveBoard").innerHTML=live.board.map(c=>cardHTML(c)).join("");renderLog()
 }
 function clearDecision(){
@@ -323,10 +354,10 @@ function presentPreflop(){
  clearDecision();renderLive();let hero=live.seats[0],toCall=Math.max(0,live.currentBet-hero.streetInvest),coach=coachPreflop(live);
  $("livePrompt").textContent=toCall?"Action is on you. "+money(toCall)+" to call.":"Action is on you.";
  let opts=[];
- if(toCall===0){opts=[{kind:"check",label:"Check"},{kind:"raise",amount:Math.min(hero.streetInvest+hero.stack,Math.max(8,live.currentBet*4)),label:"Raise"}]}
+ if(toCall===0){let rt=preflopRaiseTarget(live);opts=[{kind:"check",label:"Check"},{kind:"raise",amount:rt,label:"Raise to "+money(rt)}]}
  else{
-   let rt=live.currentBet<=2?Math.max(8,8+live.seats.filter(s=>s.streetInvest===2&&!s.folded).length*2):Math.max(live.currentBet*3,live.currentBet+10);
-   opts=[{kind:"fold",label:"Fold"},{kind:"call",amount:toCall,label:"Call "+money(toCall)},{kind:"raise",amount:Math.min(hero.streetInvest+hero.stack,rt),label:"Raise to "+money(Math.min(hero.streetInvest+hero.stack,rt))}]
+   let rt=preflopRaiseTarget(live);
+   opts=[{kind:"fold",label:"Fold"},{kind:"call",amount:toCall,label:"Call "+money(toCall)},{kind:"raise",amount:rt,label:"Raise to "+money(rt)}]
  }
  $("liveHintBtn").onclick=()=>liveHint(coach);
  addDecisionButtons(opts,o=>resolvePreflop(o,coach))
@@ -447,6 +478,7 @@ function endHand(reason){
  const net=hero.stack-hero.handStartStack;
  const newlyOut=live.seats.filter(s=>s.stack<=0&&s.handStartStack>0);
  newlyOut.forEach(s=>logLive((s.id===0?"You":s.name)+" has been knocked out."));
+ if(!live.isReplay&&newlyOut.length>0)pendingBlindBump=true;
  renderLive();
 
  $("handEnd").style.display="block";$("handWinner").textContent=title+"  Hand: "+(net>=0?"+":"-")+money(Math.abs(net));
@@ -510,6 +542,7 @@ function renderGuided(){
 function selectMode(m){mode=m;document.querySelectorAll(".modecard").forEach(x=>x.classList.toggle("selected",x.dataset.mode===m))}
 document.querySelectorAll(".modecard").forEach(b=>b.addEventListener("click",()=>selectMode(b.dataset.mode)));
 $("coachTiming").addEventListener("change",e=>coachTiming=e.target.value);
+$("blindEvery").addEventListener("change",e=>blindEveryHands=Math.max(5,Math.min(20,Number(e.target.value)||10)));
 $("startMain").addEventListener("click",()=>{if(mode==="live")startLiveSession();else if(mode==="spot")newSpot();else renderGuided()});
 $("backLive").onclick=()=>show("home");$("backSpot").onclick=()=>show("home");$("backGuided").onclick=()=>show("home");$("endSession").onclick=()=>{liveSessionActive=false;show("home")};
 selectMode("live");
