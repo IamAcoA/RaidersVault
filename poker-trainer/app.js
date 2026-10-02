@@ -431,6 +431,6 @@ function selectMode(m){mode=m;document.querySelectorAll(".modecard").forEach(x=>
 document.querySelectorAll(".modecard").forEach(b=>b.addEventListener("click",()=>selectMode(b.dataset.mode)));
 $("coachTiming").addEventListener("change",e=>coachTiming=e.target.value);
 $("startMain").addEventListener("click",()=>{if(mode==="live")startLiveSession();else if(mode==="spot")newSpot();else renderGuided()});
-$("backLive").onclick=()=>show("home");$("backSpot").onclick=()=>show("home");$("backGuided").onclick=()=>show("home");
+$("backLive").onclick=()=>show("home");$("backSpot").onclick=()=>show("home");$("backGuided").onclick=()=>show("home");$("endSession").onclick=()=>{liveSessionActive=false;show("home")};
 selectMode("live");
 })();
