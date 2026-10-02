@@ -23,8 +23,8 @@
     <h2>Choose how you want to train</h2>
     <div class="modegrid">
       <button class="modecard live selected" data-mode="live">
-        <div class="modehead"><span>🎲 Live Table</span><span>∞</span></div>
-        <div class="modedesc">Continuous six-handed $1/$2 table. Stacks carry over, chips move to the winner, players can bust, positions rotate, and the session continues until you end it.</div>
+        <div class="modehead"><span>🎲 Live Tournament</span><span>∞</span></div>
+        <div class="modedesc">Continuous six-handed tournament. Stacks carry over, chips move to the winner, players can bust, positions rotate, and blinds rise as the session goes on.</div>
       </button>
       <button class="modecard" data-mode="spot">
         <div class="modehead"><span>⚡ Random Spots</span><span>∞</span></div>
@@ -46,6 +46,15 @@
         <option value="instant">Immediately</option>
       </select>
     </div>
+    <div class="setting">
+      <label for="blindEvery"><b>Blind level length</b><br><span class="muted">Blinds also rise one level after any knockout.</span></label>
+      <select id="blindEvery">
+        <option value="5">5 hands</option>
+        <option value="10" selected>10 hands</option>
+        <option value="15">15 hands</option>
+        <option value="20">20 hands</option>
+      </select>
+    </div>
     <button id="startMain" class="start">Start Training</button>
   </div>
 
@@ -57,11 +66,13 @@
 
 <section id="liveScreen" class="screen">
   <div class="top">
-    <div><div class="brand">Live Table</div><div class="subbrand">$1/$2 · $300 effective</div></div>
+    <div><div class="brand">Live Tournament</div><div id="liveSubbrand" class="subbrand">$1/$2 · $300 starting stacks</div></div>
     <button id="backLive" class="iconbtn" aria-label="Back to home">←</button>
   </div>
   <div class="statusbar">
     <div class="pill">Street: <b id="liveStreet">Preflop</b></div>
+    <div class="pill">Blinds: <b id="liveBlinds">$1/$2</b></div>
+    <div class="pill">Next level: <b id="liveNextBlind">10 hands</b></div>
     <div class="pill">Session: <b id="liveNet">$0</b></div>
     <div class="pill">Players: <b id="livePlayers">6/6</b></div>
   </div>
