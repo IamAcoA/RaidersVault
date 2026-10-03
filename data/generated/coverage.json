@@ -1,5 +1,35 @@
 [
   {
+    "id": "silver-and-black-pride-1v8f2pq",
+    "type": "article",
+    "title": "Raiders-Chiefs predictions",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-03T14:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141298/raiders-news-chiefs-predictions-week-4",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1uf94gd",
+    "type": "article",
+    "title": "Raiders vs. Chiefs preview: How they match up, injuries, bold predictions",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-03T13:00:41.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-chiefs-preview-how-they-match-up-injuries-bold-predictions-3895018/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-jcuv4p",
+    "type": "article",
+    "title": "How can Raiders’ Brock Bowers build on his season debut against the Chiefs?",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-03T13:00:27.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/how-can-raiders-brock-bowers-build-on-his-season-debut-against-the-chiefs-3895014/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "review-journal-6pq82a",
     "type": "article",
     "title": "Why the Raiders never lost confidence in Dylan Laube after fumble in New Orleans",
@@ -16,16 +46,6 @@
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-10-02T23:52:46.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/lineman-officially-out-for-raiders-vs-chiefs-qb-expected-to-return-sunday-3894734/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-jirpep",
-    "type": "article",
-    "title": "NFL betting trends — Week 4: Edge for Raiders-Chiefs",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-02T23:43:22.000Z",
-    "url": "https://www.reviewjournal.com/sports/betting/nfl-betting-trends-week-4-edge-for-raiders-chiefs-3894730/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
   },
@@ -116,16 +136,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-02T16:01:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/141462/raiders-cody-white-wide-receiver-roster",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-6x2sm7",
-    "type": "article",
-    "title": "Raiders-Chiefs Week 4: 5 things to watch",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-02T15:06:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/141188/raiders-chiefs-week-4-preview",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-24T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-15p5eya",
-    "type": "podcast",
-    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-23T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
