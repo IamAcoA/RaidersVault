@@ -50,16 +50,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-14lw2h6",
-    "type": "article",
-    "title": "Cheapest Raiders tickets to Allegiant Stadium spike in price amid 3-0 start",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-02T20:22:23.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/cheapest-raiders-tickets-to-allegiant-stadium-spike-in-price-amid-3-0-start-3894644/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-e6qqtw",
     "type": "article",
     "title": "Scouting Patrick Mahomes : Las Vegas Raiders Chiefs Week",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-24T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-15p5eya",
+    "type": "podcast",
+    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-23T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
