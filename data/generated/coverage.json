@@ -1,5 +1,35 @@
 [
   {
+    "id": "review-journal-40c08r",
+    "type": "article",
+    "title": "Raiders quarterback returns to team ahead of showdown with Chiefs",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-03T20:17:55.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-quarterback-returns-to-team-ahead-of-showdown-with-chiefs-3895077/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-tal4nm",
+    "type": "article",
+    "title": "Raiders Week 4: The Chiefs Las Vegas must stop in key AFC West showdown",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-03T20:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/24480871/raiders-2026-week-4-chiefs-game-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-wvs1j5",
+    "type": "article",
+    "title": "Raiders Mailbag: Will Las Vegas be buyers at the NFL trade deadline?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-03T17:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/141702/las-vegas-raiders-mailbag-trade-wide-receiver-week-4-chiefs",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1v8f2pq",
     "type": "article",
     "title": "Raiders-Chiefs predictions",
@@ -26,26 +56,6 @@
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-10-03T13:00:27.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/how-can-raiders-brock-bowers-build-on-his-season-debut-against-the-chiefs-3895014/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-6pq82a",
-    "type": "article",
-    "title": "Why the Raiders never lost confidence in Dylan Laube after fumble in New Orleans",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-03T01:41:38.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-dylan-laube-quickly-moving-on-from-his-blunder-reveals-about-the-raiders-3894761/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-p54c84",
-    "type": "article",
-    "title": "Lineman officially out for Raiders vs. Chiefs, QB expected to return Sunday",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-02T23:52:46.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/lineman-officially-out-for-raiders-vs-chiefs-qb-expected-to-return-sunday-3894734/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
   },
@@ -116,26 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-02T18:01:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/141557/raiders-chiefs-week-4-key-matchups-jeremy-chinn-travis-kelce",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-qzh8mm",
-    "type": "article",
-    "title": "Raiders Week 3 wide receiver snap and production review",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-02T17:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/141403/raiders-week-3-wide-receiver-snap-production-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-sofie4",
-    "type": "article",
-    "title": "Raiders roster 2026: The Cody White file",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-02T16:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/141462/raiders-cody-white-wide-receiver-roster",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-24T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-15p5eya",
+    "type": "podcast",
+    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-23T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
