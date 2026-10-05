@@ -1,5 +1,55 @@
 [
   {
+    "id": "review-journal-3i2i7l",
+    "type": "article",
+    "title": "Raiders’ Klint Kubiak exercises aggression, until he doesn’t in loss to Chiefs",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-05T14:00:06.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-klint-kubiak-exercises-aggression-until-he-doesnt-in-loss-to-chiefs-3895790/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-mr2vyf",
+    "type": "article",
+    "title": "Raiders News: Week 4 AFC West roundup, former rival does Las Vegas a favor",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-05T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141965/raiders-news-week-4-afc-west-roundup-chiefs-chargers-broncos",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-wpk6t8",
+    "type": "article",
+    "title": "Raiders search for running game answers after struggling in loss to Chiefs",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-05T13:30:16.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-search-for-running-game-answers-after-struggling-in-loss-to-chiefs-3895782/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-ilvft2",
+    "type": "article",
+    "title": "Graney: Close loss to Chiefs? Raiders still have master plan",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-05T13:00:20.000Z",
+    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-close-loss-to-chiefs-raiders-still-have-master-plan-3895729/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "locked-on-raiders-254fru",
+    "type": "podcast",
+    "title": "What was learned from the Raiders tough fought loss to KC",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-05T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-x3nt0o",
     "type": "article",
     "title": "Vegas Sports Sunday: Raiders lose to Chiefs, Las Vegas honors Kyle Busch",
@@ -160,16 +210,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-odt5z0",
-    "type": "article",
-    "title": "What channel is Raiders vs. Chiefs on today? Time, TV, streaming for Week 4",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-04T14:03:52.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-raiders-vs-chiefs-on-today-time-tv-streaming-for-week-4-3895354/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-15vmjdh",
     "type": "article",
     "title": "Raiders news: Aidan O’Connell is no longer questionable for Sundays game",
@@ -196,16 +236,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-03T22:00:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/141766/raider-nations-belief-in-the-teams-direction-remains-high",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-tal4nm",
-    "type": "article",
-    "title": "Raiders Week 4: The Chiefs Las Vegas must stop in key AFC West showdown",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-03T20:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/24480871/raiders-2026-week-4-chiefs-game-preview",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -550,16 +580,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "locked-on-raiders-1y6xf3z",
-    "type": "podcast",
-    "title": "Why this season and future will be bright for the Raiders",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-04T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-2hf3fr",
     "type": "podcast",
     "title": "Introducing ‘Raiders Weekly’ | Trailer",
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-30T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1ueekx6",
-    "type": "podcast",
-    "title": "Caleb Rogers upped his standard",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-26T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-rogers-08252026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-19wl9y1",
-    "type": "podcast",
-    "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-10T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
