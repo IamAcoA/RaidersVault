@@ -1,8 +1,28 @@
 [
   {
-    "id": "review-journal-tmkze3",
+    "id": "review-journal-4f17ki",
     "type": "article",
-    "title": "Klint Kubiak bares the blame for Raiders rushing ineffeciencies",
+    "title": "Stock up, stock down for the Raiders after Week 4 loss to the Chiefs",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-06T00:37:34.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-for-the-raiders-after-week-4-loss-to-the-chiefs-3896002/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1rp9bsf",
+    "type": "article",
+    "title": "Brittany Mahomes throws Instagram jab at Klint Kubiak after Raiders lose",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-06T00:04:07.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/brittany-mahomes-throws-instagram-jab-at-klint-kubiak-after-raiders-lose-3895980/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1o0uq1z",
+    "type": "article",
+    "title": "Klint Kubiak bares the blame for Raiders rushing inefficiencies",
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-10-05T23:13:16.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/klint-kubiak-bares-the-blame-for-raiders-rushing-ineffeciencies-3895971/",
@@ -50,16 +70,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-3i2i7l",
-    "type": "article",
-    "title": "Raiders’ Klint Kubiak exercises aggression, until he doesn’t in loss to Chiefs",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-05T14:00:06.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-klint-kubiak-exercises-aggression-until-he-doesnt-in-loss-to-chiefs-3895790/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-mr2vyf",
     "type": "article",
     "title": "Raiders News: Week 4 AFC West roundup, former rival does Las Vegas a favor",
@@ -68,26 +78,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141965/raiders-news-week-4-afc-west-roundup-chiefs-chargers-broncos",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-wpk6t8",
-    "type": "article",
-    "title": "Raiders search for running game answers after struggling in loss to Chiefs",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-05T13:30:16.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-search-for-running-game-answers-after-struggling-in-loss-to-chiefs-3895782/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-ilvft2",
-    "type": "article",
-    "title": "Graney: Close loss to Chiefs? Raiders still have master plan",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-05T13:00:20.000Z",
-    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-close-loss-to-chiefs-raiders-still-have-master-plan-3895729/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "locked-on-raiders-254fru",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-24T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-15p5eya",
+    "type": "podcast",
+    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-23T18:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
