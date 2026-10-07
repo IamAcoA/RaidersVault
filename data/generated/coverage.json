@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-dmwwt1",
+    "type": "podcast",
+    "title": "Raiders looking to add offensive weapons as they turn the page to week 5",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-07T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "silver-and-black-pride-1rtwqjt",
     "type": "article",
     "title": "Silver and Black Reacts Survey",
@@ -8,16 +18,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142128/silver-and-black-reacts-survey",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-o57j2t",
-    "type": "article",
-    "title": "What we learned: A closer look at the Raiders’ first loss of the season to the Chiefs",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-07T00:09:56.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-we-learned-a-closer-look-at-the-raiders-first-loss-of-the-season-to-the-chiefs-3896407/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-8jzaj5",
@@ -440,16 +440,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-1f9b34l",
-    "type": "podcast",
-    "title": "Raiders RB room will be key to success in 2026",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-08T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-1ec398j",
     "type": "podcast",
     "title": "Update on Upon Further Review",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-16T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1k0g6fk",
+    "type": "podcast",
+    "title": "Kwity Paye just wants to rush",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-06-09T19:30:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
