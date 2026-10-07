@@ -1,5 +1,75 @@
 [
   {
+    "id": "review-journal-rom4pq",
+    "type": "article",
+    "title": "‘Something special brewing’: Raiders dealt power rankings respect after loss",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-07T22:08:45.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/something-special-brewing-raiders-dealt-power-rankings-respect-after-loss-3896863/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-xtnp1x",
+    "type": "article",
+    "title": "Klint Kubiak leans on learning as Raiders move on from 1st loss",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-07T21:39:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/142135/raiders-klint-kubiak-coaching-week-5",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-87p7t4",
+    "type": "article",
+    "title": "Raiders injury news: 2 players return to practice field",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-07T18:21:57.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142222/raiders-injury-news-jackson-powers-jjohnson-donte-thornton",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1fjcixj",
+    "type": "article",
+    "title": "Raiders coach, QB address media ahead of game against Patriots",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-07T17:47:30.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-qb-address-media-ahead-of-game-against-patriots-live-3896763/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1xlv5iq",
+    "type": "article",
+    "title": "Raiders at the quarter pole",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-07T17:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142045/raiders-quarter-check-point-2026-nfl-season",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-dfwhv7",
+    "type": "article",
+    "title": "Tonka Hemingway becoming key figure on defense",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-07T15:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142031/raiders-tonka-hemingway-defensive-tackle",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-11esf2o",
+    "type": "article",
+    "title": "Raiders news: Could 49ers play Las Vegas every season?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-07T14:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141814/raiders-news-49ers-plah-every-season-jerry-jones",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "locked-on-raiders-dmwwt1",
     "type": "podcast",
     "title": "Raiders looking to add offensive weapons as they turn the page to week 5",
@@ -20,9 +90,9 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-8jzaj5",
+    "id": "silver-and-black-pride-f5ldzc",
     "type": "article",
-    "title": "How Kenneth Walker II ran all over Las Vegas Raiders in Week 4 to Kansas City Chiefs",
+    "title": "How Kenneth Walker III ran all over Las Vegas Raiders in Week 4 to Kansas City Chiefs",
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-06T21:48:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142026/las-vegas-raiders-chiefs-week-4-run-defense-film-break-down",
@@ -70,26 +140,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "silver-and-black-pride-1g0s6cu",
-    "type": "article",
-    "title": "Mike Washington couldn’t ignite run game in Week 4",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-06T15:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-draft/142022/raiders-running-game-mike-washington-ashton-jeanty",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-xc4p55",
-    "type": "article",
-    "title": "Raiders news: Fernando Mendoza using his business chops off the field",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-06T13:45:17.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/141585/raiders-news-fernando-mendoza-financial-advisor",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-yaf4hg",
     "type": "podcast",
     "title": "Raiders caught the attention of the NFL even after a loss",
@@ -98,36 +148,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-18emg2c",
-    "type": "article",
-    "title": "Khalil Mack feeds trade rumors with big performance in another Los Angeles Chargers loss",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-05T21:39:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/141971/raiders-former-players-khalil-mack-davante-adams-robert-spillane",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-14w4hhq",
-    "type": "article",
-    "title": "Las Vegas Raiders lose in trenches against Kansas City Chiefs to fall short in Week 4",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-05T19:10:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/141987/raiders-chiefs-week-4-winners-losers-offensive-line-trenches",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-bfk7hg",
-    "type": "article",
-    "title": "Explosive plays, special teams miscue Raiders’ undoing in loss to Chiefs",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-05T17:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/141790/raiders-2026-week-4-chiefs-game-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-254fru",
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-06-23T18:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-3zciw2",
-    "type": "podcast",
-    "title": "Eric Allen sees Treydan Stukes in a joker role on the defense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-16T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-ea-06162026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1k0g6fk",
-    "type": "podcast",
-    "title": "Kwity Paye just wants to rush",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-09T19:30:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-paye-06092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
