@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-16ggbvu",
+    "type": "article",
+    "title": "Dont’e Thornton Jr. is back at practice. What can he give the Raiders?",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-08T00:32:43.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/donte-thornton-jr-is-back-at-practice-what-can-he-give-the-raiders-3896924/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "raiders-podcast-network-w1kxy7",
+    "type": "podcast",
+    "title": "How the Raiders get back in the win column, plus previewing Drake Maye and the defending AFC Champs",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-wk05-audio-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
     "id": "review-journal-rom4pq",
     "type": "article",
     "title": "‘Something special brewing’: Raiders dealt power rankings respect after loss",
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-29T16:15:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1gz174p",
-    "type": "podcast",
-    "title": "Fernando Mendoza on signing his rookie deal, his mindset for training camp and more",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-24T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-15p5eya",
-    "type": "podcast",
-    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-23T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
