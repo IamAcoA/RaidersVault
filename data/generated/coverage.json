@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-a9dr1f",
+    "type": "podcast",
+    "title": "Blueprint for a Raiders week 5 victory",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-09T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-pe6tgh",
     "type": "article",
     "title": "Raiders running back has new ailment on injury report",
@@ -458,16 +468,6 @@
     "url": "https://omny.fm/shows/raiders-weekly/rw-week1-09092026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "locked-on-raiders-wgg8tt",
-    "type": "podcast",
-    "title": "Raiders what you need to know week 1",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-09T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
   },
   {
     "id": "raiders-podcast-network-1ec398j",
