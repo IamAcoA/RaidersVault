@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-1au300b",
+    "type": "article",
+    "title": "Raiders special teams coach fires back at ‘The Pat McAfee Show’",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-10T00:31:55.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-special-teams-coach-fires-back-at-the-pat-mcafee-show-3898081/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1xy2d5g",
+    "type": "article",
+    "title": "Las Vegas Raiders-New England Patriots FEED topic: Will wide receivers be more involved in offense?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-09T22:34:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142278/las-vegas-raiders-new-england-patriots-week-5-preview-wide-receivers-tre-tucker",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-9rjnki",
     "type": "article",
     "title": "Raiders Week 5: Eyeing the Patriots that present problems for Las Vegas",
@@ -30,16 +50,6 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-duoeci",
-    "type": "article",
-    "title": "NFL Week 5 betting trends: Bears, Raiders worth road plays",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-09T18:27:27.000Z",
-    "url": "https://www.reviewjournal.com/sports/betting/nfl-week-5-betting-trends-bears-raiders-worth-road-plays-3897941/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-10n5b5p",
     "type": "article",
     "title": "Ashton Jeanty is questionable to play Sunday",
@@ -50,16 +60,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-pqmt9j",
-    "type": "article",
-    "title": "Raiders’ Ashton Jeanty questionable vs. Patriots with ankle, foot injuries",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-09T18:11:48.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-ashton-jeanty-questionable-vs-patriots-with-ankle-foot-injuries-3897933/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-3y98ij",
     "type": "article",
     "title": "Following the Raiders scouting department after five weeks of college football",
@@ -68,16 +68,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-draft/142271/raiders-scouting-ohio-state-iowa",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1ufd42l",
-    "type": "article",
-    "title": "Raiders coach Klint Kubiak discusses Week 5 matchup against Patriots",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-09T17:58:56.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-discusses-week-5-matchup-against-patriots-watch-live-3897913/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1e5ebdf",
@@ -130,16 +120,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-3wtz8r",
-    "type": "article",
-    "title": "Kirk Cousins, 1990s pop culture references are helping the Raiders bond",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-09T13:30:18.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/kirk-cousins-1990s-pop-culture-references-are-helping-the-raiders-bond-3897801/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-a9dr1f",
     "type": "podcast",
     "title": "Blueprint for a Raiders week 5 victory",
@@ -166,16 +146,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-08T20:04:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142220/raiders-vs-patriots-predictions-week-5-picks",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-14wqu4r",
-    "type": "article",
-    "title": "Maxx Crosby, Las Vegas Raiders’ pass rush must get to Drake Maye in Week 5 key matchups vs. New England Patriots",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-08T19:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142204/raiders-patriots-week-5-key-matchups-maxx-crosby-pass-rush-drake-maye",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +566,36 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1t8wumo",
+    "type": "podcast",
+    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-02T16:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1y8bklc",
+    "type": "podcast",
+    "title": "Malik Benson is built to adapt",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-30T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-yok1fx",
+    "type": "podcast",
+    "title": "Keyron Crawford will match your energy",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-29T16:15:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
