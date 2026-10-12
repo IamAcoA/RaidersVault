@@ -1,5 +1,65 @@
 [
   {
+    "id": "review-journal-migmuc",
+    "type": "article",
+    "title": "Vegas Sports Sunday: Raiders fall to 3-2, UNLV football beats NDSU",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-12T02:50:49.000Z",
+    "url": "https://www.reviewjournal.com/sports/vegas-sports-sunday-raiders-fall-to-3-2-unlv-football-beats-ndsu-3898907/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-t9huwh",
+    "type": "article",
+    "title": "Raiders vs. Bills odds: Opening lines for Week 6 matchup",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-12T02:30:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142469/raiders-vs-bills-odds-week-6-opening-lines-point-spread-total",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-yptae3",
+    "type": "article",
+    "title": "Ashton Jeanty, Raiders rushing offense struggles yet again",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-12T00:39:42.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/ashton-jeanty-raiders-rushing-offense-struggles-yet-again-3898889/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1qevnjy",
+    "type": "article",
+    "title": "Fernando Mendoza’s ‘failure’ could provide valuable experience for Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-12T00:25:10.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendozas-failure-could-provide-valuable-experience-for-raiders-3898883/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-a5eagg",
+    "type": "article",
+    "title": "‘We weren’t ready to go’: Raiders were missing swagger in loss to New England",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-11T23:17:52.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/we-werent-ready-to-go-raiders-were-missing-swagger-in-loss-to-new-england-3898877/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-183pmw6",
+    "type": "article",
+    "title": "Las Vegas Raiders officially on fraud watch after embarrassing loss to New England Patriots",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-11T22:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/142544/raiders-patriots-score-fraud-watch-internet-reacts",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1jje0r3",
     "type": "article",
     "title": "Raiders-Patriots: 16 things we learned",
@@ -156,26 +216,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-10T22:00:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142456/142456",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-p0cdtb",
-    "type": "article",
-    "title": "Forcing giveaway-prone Patriots to cough ball up a must for Raiders",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-10T20:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/141800/raiders-2026-road-unbeaten-nakobe-dean",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1jta7q8",
-    "type": "article",
-    "title": "Raiders Mailbag: What’s going on with offensive line?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-10T17:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142364/las-vegas-raiders-mailbag-offensive-line-week-5-patriots",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -556,46 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-09-02T21:30:00.000Z",
     "url": "https://omny.fm/shows/raiders-weekly/rw-trailer-jt-09022026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-q3cded",
-    "type": "podcast",
-    "title": "Instant reactions to the Raiders’ initial 53-man roster",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-30T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1ueekx6",
-    "type": "podcast",
-    "title": "Caleb Rogers upped his standard",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-26T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-rogers-08252026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-19wl9y1",
-    "type": "podcast",
-    "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-10T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1hlqv39",
-    "type": "podcast",
-    "title": "Dalton Johnson is a gamer",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-07T21:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
