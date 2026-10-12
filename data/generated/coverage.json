@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-np2quj",
+    "type": "article",
+    "title": "Raiders News: Week 5 AFC West roundup, Denver Broncos pull even with Las Vegas",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-12T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142616/raiders-news-week-5-afc-west-roundup-broncos-chargers-chiefs",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-tehrzn",
+    "type": "article",
+    "title": "Graney: How will Raiders respond after being boat-raced by Patriots?",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-12T13:01:06.000Z",
+    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-how-will-raiders-respond-after-being-boat-raced-by-patriots-3898981/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-fj3tk7",
+    "type": "article",
+    "title": "Raiders RB Dylan Laube’s 1st TD meaningful despite loss to Patriots",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-12T13:00:52.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rb-dylan-laubes-1st-td-meaningful-despite-loss-to-patriots-3898977/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "locked-on-raiders-1j17mb6",
+    "type": "podcast",
+    "title": "Raiders get thumped in week 5 vs the Pats",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-12T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-migmuc",
     "type": "article",
     "title": "Vegas Sports Sunday: Raiders fall to 3-2, UNLV football beats NDSU",
@@ -170,16 +210,6 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-jny6zz",
-    "type": "article",
-    "title": "UPDATES: Raiders can’t slow down Patriots in 2nd straight loss",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-11T14:00:13.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/live-updates-raiders-look-to-rebound-against-patriots-after-1st-loss-3898696/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-14rvoek",
     "type": "article",
     "title": "Raiders News: Raiders Elevate Roman Hemby and Devyn Thompkins from the practice squad",
@@ -206,16 +236,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-10T22:07:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142336/raiders-patriots-week-5-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1radwb9",
-    "type": "article",
-    "title": "Raider Nation continues to be excited about the team’s direction",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-10T22:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142456/142456",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -550,16 +570,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-1i71l6s",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Brock BOWERS to MISS Week 1 | Las Vegas RAIDERS vs Miami DOLPHINS PREVIEW",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-10T15:50:14.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-14gmcyl",
     "type": "podcast",
     "title": "Offseason recap, numbers to know and slowing the Dolphins’ run game",
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-09-04T20:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-09042026-final-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-2hf3fr",
-    "type": "podcast",
-    "title": "Introducing ‘Raiders Weekly’ | Trailer",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-09-02T21:30:00.000Z",
-    "url": "https://omny.fm/shows/raiders-weekly/rw-trailer-jt-09022026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
