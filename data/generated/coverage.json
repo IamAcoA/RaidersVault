@@ -1,5 +1,55 @@
 [
   {
+    "id": "silver-and-black-pride-phs8va",
+    "type": "article",
+    "title": "Coaching matters, Klint Kubiak’s bad day at the office",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-13T21:38:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142509/klint-kubiak-las-vegas-raiders-new-england-patriots-45-17-loss",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-13kqf6p",
+    "type": "article",
+    "title": "Las Vegas Raiders sliding down Week 6 NFL Power Rankings after blowout loss",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-13T19:03:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-power-rankings/142742/las-vegas-raiders-power-rankings-week-6-roundup",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-4ylcc5",
+    "type": "article",
+    "title": "Memo prepared for Raiders used in coach’s lawsuit against NFL, report says",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-13T17:52:26.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/memo-prepared-for-raiders-used-in-coachs-lawsuit-against-nfl-report-says-3899553/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1b3mohk",
+    "type": "article",
+    "title": "Zeke Masses loses playing time, will he rebound in Week 6?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-13T16:19:46.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142739/raiders-zeke-masses-darien-porter-cornerback",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "locked-on-raiders-27cnmx",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS @ PATRIOTS RECAP, Ashton JEANTY is NOT a BUST",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-13T15:14:06.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "silver-and-black-pride-s32nx0",
     "type": "article",
     "title": "Raiders news: Fallout of botched Maxx Crosby trade",
@@ -100,16 +150,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-np2quj",
-    "type": "article",
-    "title": "Raiders News: Week 5 AFC West roundup, Denver Broncos pull even with Las Vegas",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-12T14:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142616/raiders-news-week-5-afc-west-roundup-broncos-chargers-chiefs",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-1j17mb6",
     "type": "podcast",
     "title": "Raiders get thumped in week 5 vs the Pats",
@@ -118,26 +158,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-t9huwh",
-    "type": "article",
-    "title": "Raiders vs. Bills odds: Opening lines for Week 6 matchup",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-12T02:30:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142469/raiders-vs-bills-odds-week-6-opening-lines-point-spread-total",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-183pmw6",
-    "type": "article",
-    "title": "Las Vegas Raiders officially on fraud watch after embarrassing loss to New England Patriots",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-11T22:45:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/142544/raiders-patriots-score-fraud-watch-internet-reacts",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-14nykna",
@@ -450,16 +470,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-6m51fg",
-    "type": "podcast",
-    "title": "Raiders open 2026 with a convincing win vs Miami",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-14T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-14gmcyl",
     "type": "podcast",
     "title": "Offseason recap, numbers to know and slowing the Dolphins’ run game",
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-29T16:15:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1gz174p",
-    "type": "podcast",
-    "title": "Fernando Mendoza on signing his rookie deal, his mindset for training camp and more",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-24T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
