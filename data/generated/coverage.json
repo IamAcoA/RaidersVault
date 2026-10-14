@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-1iux9ae",
+    "type": "podcast",
+    "title": "Raiders to-do list before turning to Fernando Mendoza",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-14T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-1amj1ta",
     "type": "article",
     "title": "What we learned: A closer look at the Raiders’ blowout loss to New England",
@@ -30,9 +40,9 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-4ylcc5",
+    "id": "review-journal-1p0rw5l",
     "type": "article",
-    "title": "Memo prepared for Raiders used in coach’s lawsuit against NFL, report says",
+    "title": "Memo prepared for Raiders used in coach’s lawsuit against NFL",
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-10-13T17:52:26.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/memo-prepared-for-raiders-used-in-coachs-lawsuit-against-nfl-report-says-3899553/",
@@ -445,16 +455,6 @@
     "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Miami DOLPHINS RECAP & the AFC WEST after week 1",
     "publisher": "Locked On Raiders",
     "publishedAt": "2026-09-15T15:53:21.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "locked-on-raiders-y33xp2",
-    "type": "podcast",
-    "title": "Raiders gave the shocking effort that HC Klint Kubiak expects",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-15T07:05:00.000Z",
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
