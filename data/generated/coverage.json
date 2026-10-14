@@ -1,5 +1,15 @@
 [
   {
+    "id": "review-journal-1amj1ta",
+    "type": "article",
+    "title": "What we learned: A closer look at the Raiders’ blowout loss to New England",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-14T02:58:53.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/what-we-learned-a-closer-look-at-the-raiders-blowout-loss-to-new-england-3899693/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-phs8va",
     "type": "article",
     "title": "Coaching matters, Klint Kubiak’s bad day at the office",
@@ -68,26 +78,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "review-journal-1moiigw",
-    "type": "article",
-    "title": "Stock up, stock down for Raiders after loss, thoughts on Fernando Mendoza",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-13T02:57:33.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-for-raiders-after-loss-thoughts-on-fernando-mendoza-3899344/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-cu1ty1",
-    "type": "article",
-    "title": "Are Klint Kubiak, Raiders open to changes along offensive line?",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-13T01:32:25.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/are-klint-kubiak-raiders-open-to-changes-along-offensive-line-3899300/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-v1p2oo",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-29T16:15:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1gz174p",
+    "type": "podcast",
+    "title": "Fernando Mendoza on signing his rookie deal, his mindset for training camp and more",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-24T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
