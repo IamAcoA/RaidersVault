@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-143hkwp",
+    "type": "article",
+    "title": "NFL predictions: Las Vegas Raiders need major bounce-back performance in Week 6 against Buffalo Bills",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-15T16:07:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142880/raiders-vs-bills-predictions-week-6-picks",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-11lvccq",
+    "type": "article",
+    "title": "Brock Bowers amazes every week",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-15T15:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142782/raiders-brock-bowers-tight-end-week-6",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-dnctqa",
+    "type": "article",
+    "title": "Raiders news: Numbers tell sad tale about ground game",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-15T14:06:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142534/raiders-news-ashton-jeanty-running-game",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1tpxwjl",
+    "type": "article",
+    "title": "Raiders can learn from late-game gaffes in the NFL to master ‘fourth phase’",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-15T13:00:12.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-can-learn-from-late-game-gaffes-in-the-nfl-to-master-fourth-phase-3900346/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "locked-on-raiders-5dokaq",
     "type": "podcast",
     "title": "Raiders are on to week 6 and the Buffalo Bills",
@@ -38,26 +78,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142866/raiders-news-ashton-jeanty-play-week-6-bills",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1ffmbbs",
-    "type": "article",
-    "title": "As turnovers dry up, Raiders defense looks to reverse course",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-14T22:09:04.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/as-turnovers-dry-up-raiders-defense-looks-to-reverse-course-3900066/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1vxzt3i",
-    "type": "article",
-    "title": "Raiders freefall in latest power rankings after blowout loss to Patriots",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-14T21:56:26.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-freefall-in-latest-power-rankings-after-blowout-loss-to-patriots-3900056/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1hh0u5x",
@@ -128,36 +148,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-phs8va",
-    "type": "article",
-    "title": "Coaching matters, Klint Kubiak’s bad day at the office",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-13T21:38:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142509/klint-kubiak-las-vegas-raiders-new-england-patriots-45-17-loss",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-13kqf6p",
-    "type": "article",
-    "title": "Las Vegas Raiders sliding down Week 6 NFL Power Rankings after blowout loss",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-13T19:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-power-rankings/142742/las-vegas-raiders-power-rankings-week-6-roundup",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1b3mohk",
-    "type": "article",
-    "title": "Zeke Masses loses playing time, will he rebound in Week 6?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-13T16:19:46.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142739/raiders-zeke-masses-darien-porter-cornerback",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-27cnmx",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-30T22:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-yok1fx",
+    "type": "podcast",
+    "title": "Keyron Crawford will match your energy",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-29T16:15:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
