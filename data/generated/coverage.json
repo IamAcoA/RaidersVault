@@ -1,5 +1,35 @@
 [
   {
+    "id": "silver-and-black-pride-gnwc5c",
+    "type": "article",
+    "title": "Shaky Las Vegas Raiders’ offensive line faces up-and-coming Buffalo Bills’ pass-rush duo Greg Rousseau, Deone Walker in Week 6 key matchups",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-15T19:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142848/raiders-bills-week-6-key-matchups-offensive-line-greg-rousseau-deone-walker",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-5jg7pj",
+    "type": "article",
+    "title": "Submit your Week 6 Las Vegas Raiders mailbag questions!",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-15T18:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142895/las-vegas-raiders-week-6-bills-mailbag",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-wu4p6t",
+    "type": "article",
+    "title": "Getting Michael Mayer more involved this week is important to Klint Kubiak",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-15T17:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142798/raiders-bills-brock-bowers-michael-mayer-tight-end-week-6",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-143hkwp",
     "type": "article",
     "title": "NFL predictions: Las Vegas Raiders need major bounce-back performance in Week 6 against Buffalo Bills",
@@ -50,16 +80,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "review-journal-gf4map",
-    "type": "article",
-    "title": "Raiders minority owner Durban joins Walton Laurie NBA expansion bid, report says",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-15T01:29:30.000Z",
-    "url": "https://www.reviewjournal.com/sports/nba/raiders-minority-owner-durban-joins-walton-laurie-nba-bid-expansion-report-says-3900158/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "raiders-podcast-network-13y2cby",
     "type": "podcast",
     "title": "How the Silver and Black can rise to the challenge against Josh Allen and the Bills",
@@ -106,36 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-14T18:53:20.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142862/silver-and-black-pride-reacts-survey-week-5",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1klvv1h",
-    "type": "article",
-    "title": "Raiders-Bills: Key storylines this week",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-14T17:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142830/raiders-bills-week-6-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1nhuuk0",
-    "type": "article",
-    "title": "Darien Porter bounces back into key role",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-14T15:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142765/raiders-darien-porterzeke-masses-cornerback",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1dsae89",
-    "type": "article",
-    "title": "Raiders news: More Brock Bowers stat madness",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-14T14:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142497/raiders-news-brock-bowers-break-records",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-29T16:15:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1gz174p",
+    "type": "podcast",
+    "title": "Fernando Mendoza on signing his rookie deal, his mindset for training camp and more",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-24T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
