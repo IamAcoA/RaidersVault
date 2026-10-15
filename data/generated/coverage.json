@@ -1,21 +1,71 @@
 [
   {
-    "id": "silver-and-black-pride-1aew74v",
+    "id": "review-journal-gf4map",
     "type": "article",
-    "title": "3 things about the Bills",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-14T20:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142832/raiders-bills-week-6-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
+    "title": "Raiders minority owner Durban joins Walton Laurie NBA expansion bid, report says",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-15T01:29:30.000Z",
+    "url": "https://www.reviewjournal.com/sports/nba/raiders-minority-owner-durban-joins-walton-laurie-nba-bid-expansion-report-says-3900158/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "raiders-podcast-network-13y2cby",
+    "type": "podcast",
+    "title": "How the Silver and Black can rise to the challenge against Josh Allen and the Bills",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-wk06-audio-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
   },
   {
     "id": "silver-and-black-pride-16iuo32",
     "type": "article",
     "title": "Klint Kubiak takes hard stance on Ashton Jeanty’s playing status",
     "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-14T19:30:46.000Z",
+    "publishedAt": "2026-10-14T23:55:07.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142866/raiders-news-ashton-jeanty-play-week-6-bills",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1ffmbbs",
+    "type": "article",
+    "title": "As turnovers dry up, Raiders defense looks to reverse course",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-14T22:09:04.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/as-turnovers-dry-up-raiders-defense-looks-to-reverse-course-3900066/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1vxzt3i",
+    "type": "article",
+    "title": "Raiders freefall in latest power rankings after blowout loss to Patriots",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-14T21:56:26.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-freefall-in-latest-power-rankings-after-blowout-loss-to-patriots-3900056/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1hh0u5x",
+    "type": "article",
+    "title": "Will Klint Kubiak finally unleash Mike Washington Jr?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-14T21:42:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142715/raiders-running-game-ashton-jeanty-mike-washington",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1aew74v",
+    "type": "article",
+    "title": "3 things about the Bills",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-14T20:03:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142832/raiders-bills-week-6-preview",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -28,16 +78,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142862/silver-and-black-pride-reacts-survey-week-5",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-yaa2a7",
-    "type": "article",
-    "title": "Raiders QB meets with media to preview Sunday’s game vs. Buffalo Bills",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-14T17:25:04.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-qb-meet-with-media-to-preview-sundays-game-vs-buffalo-bills-3899993/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1klvv1h",
@@ -118,16 +158,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-s32nx0",
-    "type": "article",
-    "title": "Raiders news: Fallout of botched Maxx Crosby trade",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-13T14:06:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142476/raiders-news-maxx-crosby-trade-cam-jurgens-ravens",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-dpszre",
@@ -566,36 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-30T22:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-yok1fx",
-    "type": "podcast",
-    "title": "Keyron Crawford will match your energy",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-29T16:15:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1gz174p",
-    "type": "podcast",
-    "title": "Fernando Mendoza on signing his rookie deal, his mindset for training camp and more",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-24T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-15p5eya",
-    "type": "podcast",
-    "title": "Raiders 2026 offseason vibe check with Jason Horowitz",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-06-23T18:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-06232026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
