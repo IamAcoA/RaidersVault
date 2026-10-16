@@ -1,5 +1,55 @@
 [
   {
+    "id": "silver-and-black-pride-1n32rop",
+    "type": "article",
+    "title": "What’s the defense needs to beat the Buffalo Bills",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-16T20:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142994/raiders-bills-week-6-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1j3ls1p",
+    "type": "article",
+    "title": "Raiders injury news: Tonka Hemingway out against Buffalo",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-16T19:31:11.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143055/raiders-injury-news-tonka-hemingway-out-buffalo",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1qm53yy",
+    "type": "article",
+    "title": "Raiders coach Klint Kubiak discusses Week 6 contest against Bills",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-16T19:03:58.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-discusses-week-6-contest-against-bills-watch-live-3901048/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1w0htp7",
+    "type": "article",
+    "title": "Raiders vs. Bills predictions: RJ staffers pick winner of Week 6 game",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-16T18:38:40.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-bills-predictions-rj-staffers-pick-winner-of-week-6-game-3901037/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1ff2pv7",
+    "type": "article",
+    "title": "Raiders wide receivers Week 5 snap and production review",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-16T17:05:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142827/raiders-wide-receivers-week-5-snap-production-review",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "locked-on-raiders-nwfww1",
     "type": "podcast",
     "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Buffalo BILLS PREVIEW, Keys to VICTORY",
@@ -60,26 +110,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "review-journal-1ed03wr",
-    "type": "article",
-    "title": "Battered and bruised Ashton Jeanty ‘feeling great’ and ‘ready to go’ for Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-16T00:47:19.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/battered-and-bruised-ashton-jeanty-feeling-great-and-ready-to-go-for-raiders-3900675/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1c4oowz",
-    "type": "article",
-    "title": "CBS’ ‘NFL Today’ pregame show to broadcast live from Allegiant Stadium parking lot",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-16T00:10:41.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/cbs-nfl-today-pregame-show-to-broadcast-live-from-allegiant-stadium-parking-lot-3900660/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-x50i81",
     "type": "article",
     "title": "Week 5 miss aside, Matt Gay’s accuracy a plus for Raiders special teams",
@@ -130,26 +160,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-11lvccq",
-    "type": "article",
-    "title": "Brock Bowers amazes every week",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-15T15:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142782/raiders-brock-bowers-tight-end-week-6",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-dnctqa",
-    "type": "article",
-    "title": "Raiders news: Numbers tell sad tale about ground game",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-15T14:06:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142534/raiders-news-ashton-jeanty-running-game",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-5dokaq",
     "type": "podcast",
     "title": "Raiders are on to week 6 and the Buffalo Bills",
@@ -168,16 +178,6 @@
     "url": "https://omny.fm/shows/raiders-weekly/rw-wk06-audio-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "silver-and-black-pride-16iuo32",
-    "type": "article",
-    "title": "Klint Kubiak takes hard stance on Ashton Jeanty’s playing status",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-14T23:55:07.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/142866/raiders-news-ashton-jeanty-play-week-6-bills",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1iux9ae",
