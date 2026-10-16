@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-1t0w4u",
+    "type": "podcast",
+    "title": "Raiders must-do in order to secure a week 6 win",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-16T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-1ed03wr",
     "type": "article",
     "title": "Battered and bruised Ashton Jeanty ‘feeling great’ and ‘ready to go’ for Raiders",
@@ -468,16 +478,6 @@
     "url": "https://omny.fm/shows/raiders-weekly/rw-wk02-audio-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "locked-on-raiders-punhik",
-    "type": "podcast",
-    "title": "Raiders have a huge opportunity ahead of them",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-16T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
   },
   {
     "id": "raiders-podcast-network-14gmcyl",
