@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-1xx9c8s",
+    "type": "article",
+    "title": "NFL betting, player props: Bills defense exposes good bet for Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-17T22:09:30.000Z",
+    "url": "https://www.reviewjournal.com/sports/betting/nfl-betting-player-props-bills-defense-exposes-good-bet-for-raiders-3901515/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-kr4plj",
+    "type": "article",
+    "title": "NFL announces punishment for Raiders defensive end after loss to Patriots",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-17T21:29:03.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/nfl-announces-punishment-for-raiders-defensive-end-after-loss-to-patriots-3901500/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-1pykn84",
     "type": "article",
     "title": "Raider Nation loses confidence in the team’s direction",
@@ -56,36 +76,6 @@
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-10-17T13:00:22.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/how-a-raiders-newcomer-from-buffalo-sees-path-toward-building-a-contender-3901431/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-rsr615",
-    "type": "article",
-    "title": "Jalen Nailor focused on winning, returning to Raiders receiving corps",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-17T02:09:04.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/jalen-nailor-focused-on-winning-returning-to-raiders-receiving-corps-3901244/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-6z11o2",
-    "type": "article",
-    "title": "‘Literally relentless’: Bills praise Raiders’ Maxx Crosby before Week 6 game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-17T01:40:36.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/literally-relentless-bills-praise-raiders-maxx-crosby-before-week-6-game-3901224/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-d8j498",
-    "type": "article",
-    "title": "Raiders look to replace key defensive piece against powerful Bills offense",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-17T00:10:26.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-look-to-replace-key-defensive-piece-against-powerful-bills-offense-3901198/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
   },
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1t8wumo",
+    "type": "podcast",
+    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-02T16:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
