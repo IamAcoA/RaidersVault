@@ -1,21 +1,41 @@
 [
   {
+    "id": "silver-and-black-pride-o6hqr2",
+    "type": "article",
+    "title": "Raiders vs. Bills: How to watch, TV schedule, streaming and more",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-18T15:08:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137808/raiders-vs-bills-how-watch-tv-schedule",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1ai8fh7",
+    "type": "article",
+    "title": "Who is Josh Allen throwing to in Las Vegas Raiders-Buffalo Bills Week 6 matchup?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-18T14:39:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143107/raiders-bills-week-6-preview-josh-allen-wide-receivers-tight-ends",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1nt6lmf",
+    "type": "article",
+    "title": "Raiders news: Cian Sloan gets elevated from the practice squad",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-18T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143114/raiders-news-cian-sloan-gets-elevated-from-the-practice-squad",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-1xx9c8s",
     "type": "article",
     "title": "NFL betting, player props: Bills defense exposes good bet for Raiders",
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-10-17T22:09:30.000Z",
     "url": "https://www.reviewjournal.com/sports/betting/nfl-betting-player-props-bills-defense-exposes-good-bet-for-raiders-3901515/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-kr4plj",
-    "type": "article",
-    "title": "NFL announces punishment for Raiders defensive end after loss to Patriots",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-17T21:29:03.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/nfl-announces-punishment-for-raiders-defensive-end-after-loss-to-patriots-3901500/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
   },
@@ -90,26 +110,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-1j3ls1p",
-    "type": "article",
-    "title": "Raiders injury news: Tonka Hemingway out against Buffalo",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-16T19:31:11.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143055/raiders-injury-news-tonka-hemingway-out-buffalo",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1ff2pv7",
-    "type": "article",
-    "title": "Raiders wide receivers Week 5 snap and production review",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-16T17:05:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142827/raiders-wide-receivers-week-5-snap-production-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-nwfww1",
     "type": "podcast",
     "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Buffalo BILLS PREVIEW, Keys to VICTORY",
@@ -118,16 +118,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-78gh89",
-    "type": "article",
-    "title": "Raiders-Bills Week 6: 5 things to watch",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-16T15:04:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142587/raiders-bills-week-6-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1t0w4u",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-29T16:15:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1gz174p",
+    "type": "podcast",
+    "title": "Fernando Mendoza on signing his rookie deal, his mindset for training camp and more",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-24T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
