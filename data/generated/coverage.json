@@ -60,26 +60,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1j7twty",
-    "type": "article",
-    "title": "Raiders vs. Bills preview: How they match up, injuries, bold predictions",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-17T13:00:48.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-bills-preview-how-they-match-up-injuries-bold-predictions-3901444/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-uzc1u7",
-    "type": "article",
-    "title": "How a Raiders newcomer from Buffalo sees path toward building a contender",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-17T13:00:22.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/how-a-raiders-newcomer-from-buffalo-sees-path-toward-building-a-contender-3901431/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1pqn4zi",
     "type": "article",
     "title": "Las Vegas Raiders-Buffalo Bills FEED topic: How will offensive line respond?",
@@ -596,6 +576,26 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-02T16:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1y8bklc",
+    "type": "podcast",
+    "title": "Malik Benson is built to adapt",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-30T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-yok1fx",
+    "type": "podcast",
+    "title": "Keyron Crawford will match your energy",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-29T16:15:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
