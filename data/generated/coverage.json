@@ -1,5 +1,45 @@
 [
   {
+    "id": "review-journal-13t3ijp",
+    "type": "article",
+    "title": "Tre Tucker impresses as a Raiders WR bright spot with 2 TDs vs. Bills",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-19T13:00:26.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/tre-tucker-impresses-as-a-raiders-wr-bright-spot-with-2-tds-vs-bills-3902111/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-2mgywf",
+    "type": "article",
+    "title": "Graney: Are Raiders staring at future when looking at Bills?",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-19T13:00:11.000Z",
+    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-are-raiders-staring-at-future-when-looking-at-bills-3902107/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "locked-on-raiders-45h3vx",
+    "type": "podcast",
+    "title": "Missed chances and poor execution doomed the Raiders against the Bills",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-19T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "review-journal-1b5qiof",
+    "type": "article",
+    "title": "Vegas Sports Sunday: ‘No moral victories’ Raiders drop third straight",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-19T04:49:54.000Z",
+    "url": "https://www.reviewjournal.com/sports/vegas-sports-sunday-no-moral-victories-raiders-drop-third-straight-3902092/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "review-journal-1khbrpf",
     "type": "article",
     "title": "Raiders keep running into trouble on fourth-and-short fullback sneaks",
@@ -136,16 +176,6 @@
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-10-18T16:53:33.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-raiders-vs-bills-tv-streaming-radio-kickoff-time-for-week-6-matchup-3901834/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-etu5f1",
-    "type": "article",
-    "title": "LIVE UPDATES: Raiders get ball back with chance to level score with Bills late in 4th quarter",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-18T16:00:06.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/live-updates-raiders-host-bills-looking-to-snap-2-game-losing-streak-3901811/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
   },
@@ -530,16 +560,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-1clld8w",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS @ Los Angeles CHARGERS PREVIEW, BOWERS injury update",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-17T15:45:22.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-1g7nm08",
     "type": "podcast",
     "title": "Week 1 recap, plus Raiders-Chargers Week 2 primer",
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-09-04T20:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-09042026-final-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-2hf3fr",
-    "type": "podcast",
-    "title": "Introducing ‘Raiders Weekly’ | Trailer",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-09-02T21:30:00.000Z",
-    "url": "https://omny.fm/shows/raiders-weekly/rw-trailer-jt-09022026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-q3cded",
-    "type": "podcast",
-    "title": "Instant reactions to the Raiders’ initial 53-man roster",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-30T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
