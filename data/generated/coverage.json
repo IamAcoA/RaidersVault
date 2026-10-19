@@ -1,5 +1,75 @@
 [
   {
+    "id": "silver-and-black-pride-1ddlrje",
+    "type": "article",
+    "title": "Former Raiders star will not face former team",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-19T21:17:14.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143427/raiders-davante-adams-injury-rams-week-7",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-12of91u",
+    "type": "article",
+    "title": "Raiders release former 1st-round pick, sign 2 Super Bowl champions",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-19T21:12:43.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-release-former-1st-round-pick-sign-2-super-bowl-champions-3902321/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-13twqqn",
+    "type": "article",
+    "title": "NFL suspends Bills’ C.J. Gardner-Johnson for spitting at Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-19T19:55:53.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/nfl-suspends-bills-c-j-gardner-johnson-for-spitting-at-raiders-3902291/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-f89jmi",
+    "type": "article",
+    "title": "Las Vegas Raiders aren’t getting enough from Tyler Linderbaum, especially in Week 6 loss to Buffalo Bills",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-19T19:12:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143375/raiders-bills-week-6-winners-losers",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-186dw81",
+    "type": "article",
+    "title": "Close but no cigar as visiting Bills eke out a 33-30 win over Raiders",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-19T17:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/143133/raiders-2026-week-6-bills-game-review",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1v9nyh2",
+    "type": "article",
+    "title": "Raiders Week 7: Meet the Rams",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-19T15:09:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/138037/raiders-week-7-rams-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-zgc0br",
+    "type": "article",
+    "title": "Raiders News: Week 6 AFC West roundup, Las Vegas’ divisional title hopes slipping away",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-19T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143137/raiders-news-week-6-afc-west-roundup-chiefs-broncos-chargers",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-13t3ijp",
     "type": "article",
     "title": "Tre Tucker impresses as a Raiders WR bright spot with 2 TDs vs. Bills",
@@ -40,16 +110,6 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-1khbrpf",
-    "type": "article",
-    "title": "Raiders keep running into trouble on fourth-and-short fullback sneaks",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-19T03:09:19.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-keep-running-into-trouble-on-fourth-and-short-fullback-sneaks-3902064/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-5wih8s",
     "type": "article",
     "title": "Raiders vs. Rams odds: Opening lines for Week 7 matchup",
@@ -58,16 +118,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/143074/raiders-vs-rams-odds-week-7-opening-lines-point-spread-total",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-b8pa84",
-    "type": "article",
-    "title": "Raiders lose on the margins to Bills, undermining valiant effort",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-19T02:22:35.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-lose-on-the-margins-to-bills-undermining-valiant-effort-3902053/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1sp69fm",
@@ -90,56 +140,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1xlzp37",
-    "type": "article",
-    "title": "Bills Mafia invade Las Vegas, takeover Allegiant Stadium",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-19T00:33:17.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/bills-mafia-invade-las-vegas-takeover-allegiant-stadium-3902021/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-iqx91a",
-    "type": "article",
-    "title": "Raiders grades: Solid effort falls short against Buffalo Bills with coaching, special teams errors",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-19T00:03:54.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-grades-solid-effort-falls-short-against-buffalo-bills-with-coaching-special-teams-errors-3901997/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-9a6fdr",
-    "type": "article",
-    "title": "Graney: Loss or not, Raiders show something in bouncing back",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-18T23:53:24.000Z",
-    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-loss-or-not-raiders-show-something-in-bouncing-back-3901989/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1dx179m",
-    "type": "article",
-    "title": "Raiders lose at home to Bills for third straight loss after 3-0 start — PHOTOS",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-18T23:43:34.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-lose-at-home-to-bills-for-third-straight-loss-after-3-0-start-3901959/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-t4s04j",
-    "type": "article",
-    "title": "Bills starting safety ejected after spitting toward Raiders players",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-18T21:51:45.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/bills-starting-safety-ejected-after-spitting-toward-raiders-players-3901908/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-9celjl",
     "type": "article",
     "title": "Las Vegas Raiders lose to Buffalo Bills for 3rd straight defeat",
@@ -150,82 +150,12 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1em983g",
-    "type": "article",
-    "title": "Raiders officially without key defensive starter against Buffalo Bills",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-18T19:32:24.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-officially-without-key-defensive-starter-against-buffalo-bills-3901855/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1r83va1",
     "type": "article",
     "title": "Las Vegas Raiders discussion: Week 6 live chat during Bills game",
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-18T19:27:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/137227/raiders-bills-week-6-live-discussion",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1cj24g5",
-    "type": "article",
-    "title": "What channel is Raiders vs Bills: TV, streaming, radio, kickoff time for Week 6 matchup",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-18T16:53:33.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-raiders-vs-bills-tv-streaming-radio-kickoff-time-for-week-6-matchup-3901834/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "silver-and-black-pride-o6hqr2",
-    "type": "article",
-    "title": "Raiders vs. Bills: How to watch, TV schedule, streaming and more",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-18T15:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137808/raiders-vs-bills-how-watch-tv-schedule",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1ai8fh7",
-    "type": "article",
-    "title": "Who is Josh Allen throwing to in Las Vegas Raiders-Buffalo Bills Week 6 matchup?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-18T14:39:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143107/raiders-bills-week-6-preview-josh-allen-wide-receivers-tight-ends",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1nt6lmf",
-    "type": "article",
-    "title": "Raiders news: Cian Sloan gets elevated from the practice squad",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-18T14:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143114/raiders-news-cian-sloan-gets-elevated-from-the-practice-squad",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1pykn84",
-    "type": "article",
-    "title": "Raider Nation loses confidence in the team’s direction",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-17T20:04:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/142985/raider-nation-loses-confidence-in-the-teams-direction",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1a7epuh",
-    "type": "article",
-    "title": "Bills, Raiders a battle between two keen offensive-minded head coaches",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-17T20:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/142677/raiders-2026-week-6-bills-klint-kubiak",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +526,76 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-09-04T20:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-09042026-final-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-2hf3fr",
+    "type": "podcast",
+    "title": "Introducing ‘Raiders Weekly’ | Trailer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-02T21:30:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-trailer-jt-09022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-q3cded",
+    "type": "podcast",
+    "title": "Instant reactions to the Raiders’ initial 53-man roster",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-30T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1ueekx6",
+    "type": "podcast",
+    "title": "Caleb Rogers upped his standard",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-26T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-rogers-08252026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-19wl9y1",
+    "type": "podcast",
+    "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-10T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1hlqv39",
+    "type": "podcast",
+    "title": "Dalton Johnson is a gamer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-07T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-gj6xq8",
+    "type": "podcast",
+    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T17:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-n7cgvf",
+    "type": "podcast",
+    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
