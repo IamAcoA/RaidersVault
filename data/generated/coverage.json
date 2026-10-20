@@ -1,5 +1,45 @@
 [
   {
+    "id": "locked-on-raiders-43lj3h",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Buffalo BILLS RECAP, O-LINE & JEANTY concerns",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-20T15:16:27.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-uov9b6",
+    "type": "article",
+    "title": "Mike Washington Jr. gets more opportunities in Week 6",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-20T15:07:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143398/raiders-mike-washington-jrunning-game-week-6",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1s1fe3l",
+    "type": "article",
+    "title": "Raiders news: What price would you pay for Brian Thomas Jr.?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-20T14:06:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143125/raiders-news-brian-thomas-jr-trade-rumors",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1cqesx",
+    "type": "article",
+    "title": "Stock up, stock down for Raiders after loss, including an emerging threat in passing game",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-20T13:00:24.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-for-raiders-after-loss-including-an-emerging-threat-in-passing-game-3902567/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "locked-on-raiders-4y2ejp",
     "type": "podcast",
     "title": "Raiders players and Coaches fired up about what's in front of them",
@@ -46,16 +86,6 @@
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-10-19T21:12:43.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/raiders-release-former-1st-round-pick-sign-2-super-bowl-champions-3902321/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-13twqqn",
-    "type": "article",
-    "title": "NFL suspends Bills’ C.J. Gardner-Johnson for spitting at Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-19T19:55:53.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/nfl-suspends-bills-c-j-gardner-johnson-for-spitting-at-raiders-3902291/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
   },
@@ -136,26 +166,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-19T00:54:35.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142040/raiders-bills-wee-6-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-9celjl",
-    "type": "article",
-    "title": "Las Vegas Raiders lose to Buffalo Bills for 3rd straight defeat",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-18T20:40:03.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/142042/las-vegas-raiders-buffalo-bills-live-updates-week-7",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1r83va1",
-    "type": "article",
-    "title": "Las Vegas Raiders discussion: Week 6 live chat during Bills game",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-18T19:27:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/137227/raiders-bills-week-6-live-discussion",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -465,16 +475,6 @@
     "title": "Raiders defense making plays as the goal post continues to move",
     "publisher": "Locked On Raiders",
     "publishedAt": "2026-09-22T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "locked-on-raiders-1hvse14",
-    "type": "podcast",
-    "title": "Raiders now 2-0 after taking down the Chargers",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-21T07:25:00.000Z",
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
