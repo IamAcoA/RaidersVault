@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-g3h71y",
+    "type": "article",
+    "title": "Raiders’ next opponent has key receiver injured, out for months",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-20T03:01:56.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-next-opponent-has-key-receiver-injured-out-for-months-3902458/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-rje9nb",
+    "type": "article",
+    "title": "Raiders are faltering but focused on getting season back on track",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-19T23:38:44.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-are-faltering-but-focused-on-getting-season-back-on-track-3902367/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-1ddlrje",
     "type": "article",
     "title": "Former Raiders star will not face former team",
@@ -70,26 +90,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-13t3ijp",
-    "type": "article",
-    "title": "Tre Tucker impresses as a Raiders WR bright spot with 2 TDs vs. Bills",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-19T13:00:26.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/tre-tucker-impresses-as-a-raiders-wr-bright-spot-with-2-tds-vs-bills-3902111/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-2mgywf",
-    "type": "article",
-    "title": "Graney: Are Raiders staring at future when looking at Bills?",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-19T13:00:11.000Z",
-    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-are-raiders-staring-at-future-when-looking-at-bills-3902107/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-45h3vx",
     "type": "podcast",
     "title": "Missed chances and poor execution doomed the Raiders against the Bills",
@@ -98,16 +98,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "review-journal-1b5qiof",
-    "type": "article",
-    "title": "Vegas Sports Sunday: ‘No moral victories’ Raiders drop third straight",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-19T04:49:54.000Z",
-    "url": "https://www.reviewjournal.com/sports/vegas-sports-sunday-no-moral-victories-raiders-drop-third-straight-3902092/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-5wih8s",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1t8wumo",
+    "type": "podcast",
+    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-02T16:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
