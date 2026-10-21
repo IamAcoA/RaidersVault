@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-1rlsd6s",
+    "type": "article",
+    "title": "What we learned: Raiders play another AFC contender down to the wire",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-21T00:27:49.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/what-we-learned-raiders-play-another-afc-contender-down-to-the-wire-3902754/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-a9dgok",
+    "type": "article",
+    "title": "Silver and Black Pride Reacts Survey Week 6",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-20T22:13:23.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/143525/silver-and-black-pride-reacts-survey-week-6",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-yykz5j",
     "type": "article",
     "title": "Raiders overreaction to 33-30 loss to the Bills",
@@ -70,16 +90,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1cqesx",
-    "type": "article",
-    "title": "Stock up, stock down for Raiders after loss, including an emerging threat in passing game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-20T13:00:24.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-for-raiders-after-loss-including-an-emerging-threat-in-passing-game-3902567/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-4y2ejp",
     "type": "podcast",
     "title": "Raiders players and Coaches fired up about what's in front of them",
@@ -88,26 +98,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "review-journal-g3h71y",
-    "type": "article",
-    "title": "Raiders’ next opponent has key receiver injured, out for months",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-20T03:01:56.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-next-opponent-has-key-receiver-injured-out-for-months-3902458/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-rje9nb",
-    "type": "article",
-    "title": "Raiders are faltering but focused on getting season back on track",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-19T23:38:44.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-are-faltering-but-focused-on-getting-season-back-on-track-3902367/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1ddlrje",
@@ -136,16 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-19T17:00:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/143133/raiders-2026-week-6-bills-game-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1v9nyh2",
-    "type": "article",
-    "title": "Raiders Week 7: Meet the Rams",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-19T15:09:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/138037/raiders-week-7-rams-preview",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +576,26 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-30T22:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-yok1fx",
+    "type": "podcast",
+    "title": "Keyron Crawford will match your energy",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-29T16:15:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1gz174p",
+    "type": "podcast",
+    "title": "Fernando Mendoza on signing his rookie deal, his mindset for training camp and more",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-24T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/rpn-mendoza-07242026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
