@@ -1,5 +1,35 @@
 [
   {
+    "id": "silver-and-black-pride-oa7x7c",
+    "type": "article",
+    "title": "Mike Washington Jr. not spotted during Las Vegas Raiders’ Thursday practice ahead of Week 7 Los Angeles Rams’ matchup",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-22T20:29:24.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/143784/raiders-injury-report-week-7-rams-mike-washington",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-cwp9dt",
+    "type": "article",
+    "title": "Las Vegas Raiders need Eric Stokes’ best performance vs. Puka Nacua in Week 7 key matchups against Los Angeles Rams",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-22T19:07:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143637/raiders-rams-week-7-key-matchups-eric-stokes-puka-nacua",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-aaz3bu",
+    "type": "article",
+    "title": "Michael Mayer is living up to his new contract",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-22T18:05:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143688/raiders-michael-mayer-tight-end-big-season",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-o1bsnj",
     "type": "article",
     "title": "Raiders continue to manage Maxx Crosby snap counts",
@@ -60,16 +90,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "review-journal-35f67y",
-    "type": "article",
-    "title": "Kirk Cousins pacing NFL passers, lifting unbalanced Raiders offense",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-22T02:00:39.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/kirk-cousins-pacing-nfl-passers-lifting-unbalanced-raiders-offense-3903334/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-ngu0u2",
     "type": "article",
     "title": "Raiders injury report: Tonka Hemingway is still out",
@@ -106,36 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-21T19:03:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-rumors/143459/raiders-trade-rumorss-quenton-nelson",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-tfrju",
-    "type": "article",
-    "title": "5 things about the Rams",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-21T17:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143545/raiders-rams-week-7-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-ofl34b",
-    "type": "article",
-    "title": "Darien Porter definitely a starter again",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-21T15:05:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143412/raiders-darien-porter-zeke-masses-cornerback-starrting-job-battle",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-3k0got",
-    "type": "article",
-    "title": "Bills had a 2nd spitter in Las Vegas",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-21T13:59:18.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143588/bills-sam-franklin-cj-gardner-johnson-spit-raiders",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-07-30T22:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-yok1fx",
+    "type": "podcast",
+    "title": "Keyron Crawford will match your energy",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-29T16:15:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
