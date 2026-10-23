@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-2r0hjq",
+    "type": "podcast",
+    "title": "Raiders look to bounce back: Who can help, and what needs to happen",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-23T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-yw5yk5",
     "type": "article",
     "title": "Raiders rookie safety keeps passing tests from opposing offenses",
@@ -458,16 +468,6 @@
     "url": "https://omny.fm/shows/raiders-weekly/rw-wk03-audio-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "locked-on-raiders-1j21gff",
-    "type": "podcast",
-    "title": "Raiders could be getting their # 1 target back in time for week 3",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-23T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
   },
   {
     "id": "raiders-podcast-network-1g7nm08",
