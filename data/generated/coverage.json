@@ -1,5 +1,35 @@
 [
   {
+    "id": "silver-and-black-pride-17oe9t3",
+    "type": "article",
+    "title": "Raiders Week 7: How to attack the Rams stingy defense",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-23T22:30:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/143483/raiders-2026-week-7-rams-game-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-xes1zf",
+    "type": "article",
+    "title": "Rams’ injuries pile up ahead of Sunday’s contest against Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-23T21:46:17.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/rams-injuries-pile-up-ahead-of-sundays-contest-against-raiders-3904276/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-11uajpl",
+    "type": "article",
+    "title": "NFL predictions: Las Vegas Raiders-Los Angeles Rams clinging to postseason relevance in Week 7 matchup",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-23T21:36:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/143774/raiders-vs-rams-predictions-week-7-picks",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-cnyt7j",
     "type": "article",
     "title": "Are the Los Angeles Rams a repeat of the Patriots game?",
@@ -70,16 +100,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1swm9rv",
-    "type": "article",
-    "title": "Raiders vs. Rams predictions: RJ staffers pick winner of Week 7 game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-23T16:25:08.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-rams-predictions-rj-staffers-pick-winner-of-week-7-game-3904133/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-1ub18cr",
     "type": "podcast",
     "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Los Angeles RAMS PREVIEW, RUN game concerns + MATCHUPS",
@@ -120,16 +140,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1ynw5bf",
-    "type": "article",
-    "title": "Can Mike Washington Jr. help ignite Raiders rushing offense?",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-23T13:00:20.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/can-mike-washington-jr-help-ignite-raiders-rushing-offense-3904056/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-2r0hjq",
     "type": "podcast",
     "title": "Raiders look to bounce back: Who can help, and what needs to happen",
@@ -146,26 +156,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-22T21:41:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/143474/raiders-2026-red-zone-failures-klint-kubiak",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-zyr1sv",
-    "type": "article",
-    "title": "Mike Washington Jr. misses Las Vegas Raiders’ Thursday practice ahead of Week 7 Los Angeles Rams’ matchup",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-22T20:29:24.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/143784/raiders-injury-report-week-7-rams-mike-washington",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-cwp9dt",
-    "type": "article",
-    "title": "Las Vegas Raiders need Eric Stokes’ best performance vs. Puka Nacua in Week 7 key matchups against Los Angeles Rams",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-22T19:07:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143637/raiders-rams-week-7-key-matchups-eric-stokes-puka-nacua",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T17:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-n7cgvf",
+    "type": "podcast",
+    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
