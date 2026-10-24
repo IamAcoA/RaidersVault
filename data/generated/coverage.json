@@ -1,5 +1,25 @@
 [
   {
+    "id": "silver-and-black-pride-15w7kgt",
+    "type": "article",
+    "title": "Maxx Crosby, Tyler Linderbaum among Raiders that must step up in Week 7",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-24T20:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143493/raiders-2026-week-7-rams-maxx-crosby",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1u0k6g7",
+    "type": "article",
+    "title": "Raiders Mailbag: What players should Las Vegas target at NFL Trade Deadline?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-24T17:10:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143857/raiders-mailbag-nfl-trade-deadline-jeffery-simmons-quenton-nelson-brian-thomas",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1rv5iik",
     "type": "article",
     "title": "Raiders-Rams predictions",
@@ -70,16 +90,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-xes1zf",
-    "type": "article",
-    "title": "Rams’ injuries pile up ahead of Sunday’s contest against Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-23T21:46:17.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/rams-injuries-pile-up-ahead-of-sundays-contest-against-raiders-3904276/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-11uajpl",
     "type": "article",
     "title": "NFL predictions: Las Vegas Raiders-Los Angeles Rams clinging to postseason relevance in Week 7 matchup",
@@ -138,26 +148,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-1tlm01l",
-    "type": "article",
-    "title": "Raiders entering a critical 2-game swing",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-23T16:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143569/raiders-rams-jets-playoff-chances",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-g646pk",
-    "type": "article",
-    "title": "Raiders-Rams Week 7: 5 things to watch",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-23T15:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143279/raiders-rams-week-7-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-2r0hjq",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T17:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-n7cgvf",
+    "type": "podcast",
+    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
