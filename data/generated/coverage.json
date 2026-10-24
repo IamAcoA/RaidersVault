@@ -1,5 +1,55 @@
 [
   {
+    "id": "silver-and-black-pride-1rv5iik",
+    "type": "article",
+    "title": "Raiders-Rams predictions",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-24T14:04:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143383/raiders-rams-predictions-week-7",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-15pirtj",
+    "type": "article",
+    "title": "What the Raiders are up against in Week 7 with Sean McVay’s Rams",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-24T14:00:32.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/what-the-raiders-are-up-against-in-week-7-with-sean-mcvays-rams-3904623/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1l8m8nx",
+    "type": "article",
+    "title": "Nonprofit honors Raiders owner for supporting youth mental health",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-24T14:00:10.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/nonprofit-honors-raiders-owner-for-supporting-youth-mental-health-3904613/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1ltvhsl",
+    "type": "article",
+    "title": "Raiders special teams duo seeking win, not revenge vs. Rams",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-24T13:00:24.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-special-teams-duo-seeking-win-not-revenge-vs-rams-3904603/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1b0j37q",
+    "type": "article",
+    "title": "How Fernando Mendoza amazes in attacking the Raiders scout team QB role",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-24T13:00:12.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/how-fernando-mendoza-amazes-in-attacking-the-raiders-scout-team-qb-role-3904600/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-2y3o92",
     "type": "article",
     "title": "Las Vegas Raiders-Los Angeles Rams FEED Topic: Which team will win special teams battle?",
@@ -48,16 +98,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143747/raiders-rams-week-7-preview",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-4oebhv",
-    "type": "article",
-    "title": "Raiders get positive updates on key injured players ahead of Rams game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-23T19:30:05.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-get-positive-updates-on-key-injured-players-ahead-of-rams-game-3904209/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-uir155",
@@ -116,16 +156,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-23T15:01:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143279/raiders-rams-week-7-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-eixtmg",
-    "type": "article",
-    "title": "Raiders news: Andrew Janocko sees Michael Mayer as valuable piece",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-23T13:31:44.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143844/raiders-news-michael-mayer-tight-end",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -566,36 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T17:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-n7cgvf",
-    "type": "podcast",
-    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1t8wumo",
-    "type": "podcast",
-    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-02T16:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1y8bklc",
-    "type": "podcast",
-    "title": "Malik Benson is built to adapt",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-30T22:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
