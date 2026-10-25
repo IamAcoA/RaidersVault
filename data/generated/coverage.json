@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-1dw3d8v",
+    "type": "article",
+    "title": "Raiders vs. Rams: How to watch, TV schedule, streaming and more",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-25T14:20:33.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137812/raiders-vs-rams-how-watch-tv-schedule",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-i8tmzg",
+    "type": "article",
+    "title": "What channel is the Raiders vs Rams game on today? Time, TV, streaming",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-25T14:11:17.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-the-raiders-vs-rams-game-on-today-time-tv-streaming-3904888/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-12f4iqv",
+    "type": "article",
+    "title": "Raiders News: Quay Walker downgraded to questionable",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-25T14:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143960/raiders-news-quay-walker-downgraded-to-questionable",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-304mcd",
+    "type": "article",
+    "title": "Raiders vs. Rams preview: How they match up, injuries, bold predictions",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-25T13:01:10.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-rams-preview-how-they-match-up-injuries-bold-predictions-3904877/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "review-journal-128xdna",
     "type": "article",
     "title": "Raiders starting linebacker questionable for Sunday’s game against Rams",
@@ -18,16 +58,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/143950/raider-nation-rises-in-confidence-in-the-teams-direction",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-d6ifdq",
-    "type": "article",
-    "title": "Raiders RB Banaszak, part of famed ‘Holy Roller,’ dies",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-24T21:46:47.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rb-banaszak-82-was-part-of-famed-holy-roller-3904672/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-15w7kgt",
@@ -96,26 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-23T20:08:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143747/raiders-rams-week-7-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-uir155",
-    "type": "article",
-    "title": "Raiders injury news: Mike Washington is questionable to play Sunday against Rams",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-23T19:28:14.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143865/raiders-injury-news-mike-washington-questionable-rams",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-b9tuuf",
-    "type": "article",
-    "title": "What happened to Los Angeles Rams’ ‘Super Team’ ahead of Week 7 Las Vegas Raiders matchup?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-23T18:05:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143693/raiders-rams-week-7-preview-super-team",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-02T16:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1y8bklc",
-    "type": "podcast",
-    "title": "Malik Benson is built to adapt",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-30T22:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
