@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-qrp8fy",
+    "type": "article",
+    "title": "Geno Smith isn’t terrible this year",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-27T17:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144264/riaders-jets-geno-smith-week-8-quarterback",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "locked-on-raiders-1nqnnch",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Los Angeles RAMS RECAP, Maxx CROSBY rumors HEAT UP",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-27T16:04:03.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-6a913",
+    "type": "article",
+    "title": "Mike Washington flashes in limited role again",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-27T15:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144216/raiders-mike-washington-ashton-jeanty-running-game",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1qdlnoy",
+    "type": "article",
+    "title": "Raiders news: Would Jeffrey Simmons be a good fit?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-27T14:06:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143883/raiders-news-would-jeffrey-simmons-trade-rumors",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "locked-on-raiders-1mctus3",
     "type": "podcast",
     "title": "HC Klint Kubiak :Raiders have no QB Controversy",
@@ -30,16 +70,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-xf4104",
-    "type": "article",
-    "title": "Raiders offense could alter lineup even as Fernando Mendoza stays sidelined",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-26T20:35:42.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-open-wide-receiver-jach-bechs-practice-window-3905425/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-jfgiy2",
     "type": "article",
     "title": "Kirk Cousins remaining Raiders’ starting quarterback",
@@ -48,16 +78,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/144248/raiders-news-kirk-cousins-starting-quarterback",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-13itx2j",
-    "type": "article",
-    "title": "‘No controversy’: Raiders to start Kirk Cousins over Fernando Mendoza vs. Jets",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-26T19:52:09.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/no-controversy-raiders-to-start-kirk-cousins-over-fernando-mendoza-vs-jets-3905403/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-57bzqc",
@@ -118,36 +138,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-rxjlmi",
-    "type": "article",
-    "title": "Raiders vs. Jets odds: Opening lines for Week 8 matchup",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-26T02:31:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/143957/raiders-vs-jets-odds-week-8-opening-lines-point-spread-total",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-xzj6ct",
-    "type": "article",
-    "title": "Las Vegas Raiders’ playoff hopes continue to fade after Week 7 loss to Los Angeles Rams",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-26T01:43:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-nfl-playoffs/144075/raiders-playoff-picture-week-7-rams",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-9mzdoi",
-    "type": "article",
-    "title": "Raiders-Rams:16 things we learned",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-26T00:50:42.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/142801/raiders-rams-week-7-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1ub18cr",
@@ -460,16 +450,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-17x3hjz",
-    "type": "podcast",
-    "title": "Raiders are proving they’re no longer the same old team",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-28T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-1pvnzjw",
     "type": "podcast",
     "title": "Saints leaning on the passing game and more Week 3 storylines",
@@ -596,6 +576,26 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-02T16:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1y8bklc",
+    "type": "podcast",
+    "title": "Malik Benson is built to adapt",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-30T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-yok1fx",
+    "type": "podcast",
+    "title": "Keyron Crawford will match your energy",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-29T16:15:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
