@@ -1,5 +1,35 @@
 [
   {
+    "id": "review-journal-1u89x6b",
+    "type": "article",
+    "title": "Raiders slide down power rankings as calls for Fernando Mendoza grow louder",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-29T03:56:37.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-slide-down-power-rankings-as-calls-for-fernando-mendoza-grow-louder-3906467/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1w7a72t",
+    "type": "article",
+    "title": "Still the Raiders starter, Kirk Cousins eyes improvement ahead of Jets game",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-29T00:17:25.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/still-the-raiders-starter-kirk-cousins-eyes-improvement-ahead-of-jets-game-3906395/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "raiders-podcast-network-12hzgbp",
+    "type": "podcast",
+    "title": "Run game will be key on both sides of the ball against the Jets",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-10-28T23:00:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-wk08-audio-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
     "id": "silver-and-black-pride-1ahe8ao",
     "type": "article",
     "title": "Raiders practice notes: Jack Bech could play Sunday",
@@ -566,36 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1t8wumo",
-    "type": "podcast",
-    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-02T16:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1y8bklc",
-    "type": "podcast",
-    "title": "Malik Benson is built to adapt",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-30T22:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-yok1fx",
-    "type": "podcast",
-    "title": "Keyron Crawford will match your energy",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-07-29T16:15:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
