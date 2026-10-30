@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-4gg9y1",
+    "type": "podcast",
+    "title": "How the Raiders can stop the bleeding vs the Jets",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-10-30T07:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "silver-and-black-pride-1a0ckzp",
     "type": "article",
     "title": "Raiders injury news: Jackson Powers-Johnson doesn’t practice",
@@ -438,16 +448,6 @@
     "url": "https://omny.fm/shows/raiders-weekly/rw-wk04-093026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "locked-on-raiders-ccstch",
-    "type": "podcast",
-    "title": "Raiders turn the page to week 4 matchup with KC",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-09-30T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
   },
   {
     "id": "raiders-podcast-network-1pvnzjw",
