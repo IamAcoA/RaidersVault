@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-1t3yp6i",
+    "type": "article",
+    "title": "Raiders continue to preach competition for starting jobs, roster spots",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-10-30T23:40:49.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-continue-to-preach-competition-for-starting-jobs-roster-spots-3907339/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-babvy9",
+    "type": "article",
+    "title": "Las Vegas Raiders-New York Jets FEED Topic: Monitoring Geno Smith’s ‘revenge game’",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-30T22:38:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/144573/raiders-jets-week-8-preview-geno-smith",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-uz1kn",
     "type": "article",
     "title": "Raiders Week 8: Jets defense can turn afterburners on Las Vegas",
@@ -18,26 +38,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/144639/raiders-jets-week-8-injury-report-jack-bech",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-6l6oab",
-    "type": "article",
-    "title": "Raiders coach Klint Kubiak previews Sunday’s game against Jets",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-30T19:01:10.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-previews-sundays-game-against-jets-watch-live-3907193/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1g90obp",
-    "type": "article",
-    "title": "Raiders vs. Jets predictions: RJ staffers pick winner of Week 8 game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-30T18:47:35.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-jets-predictions-rj-staffers-pick-winner-of-week-8-game-3907187/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-chhgjn",
@@ -126,16 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-29T20:58:37.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/144307/raiders-2026-losing-streak-klint-kubiak",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1mv41b3",
-    "type": "article",
-    "title": "NFL predictions: Las Vegas Raiders, New York Jets face crossroads in Week 8 matchup",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-29T19:58:48.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/144251/raiders-vs-jets-predictions-week-8-picks",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-02T16:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1y8bklc",
+    "type": "podcast",
+    "title": "Malik Benson is built to adapt",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-30T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
