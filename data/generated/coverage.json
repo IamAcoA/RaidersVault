@@ -1,5 +1,15 @@
 [
   {
+    "id": "silver-and-black-pride-1sg9n8s",
+    "type": "article",
+    "title": "Raider Nation has a drop in confidence heading into Week 8",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-10-31T22:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/144686/raider-nation-has-a-drop-in-confidence-heading-into-week-8",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-45huqu",
     "type": "article",
     "title": "Raiders make wide receiver’s return official for Sunday’s game against Jets",
@@ -20,26 +30,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-k1w2ef",
-    "type": "article",
-    "title": "Women contacted police about incidents with Josh Jacobs during time with Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-31T16:58:24.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/women-contacted-police-about-incidents-with-josh-jacobs-during-time-with-raiders-3907624/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1spq88x",
-    "type": "article",
-    "title": "Raiders vs. Jets preview: How they match up, injuries, bold predictions",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-31T15:00:10.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-vs-jets-preview-how-they-match-up-injuries-bold-predictions-3907616/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1c6wmdj",
     "type": "article",
     "title": "Raiders Mailbag: Should Las Vegas sell Maxx Crosby, Kolton Miller, other players ahead of NFL trade deadline?",
@@ -58,36 +48,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/144200/raiders-jets-predictions-week-8",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1r9krpu",
-    "type": "article",
-    "title": "Tireless Tre Tucker conditioned himself for a career year with the Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-31T14:00:11.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/tireless-tre-tucker-conditioned-himself-for-a-career-year-with-the-raiders-3907591/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-130g662",
-    "type": "article",
-    "title": "Can the Raiders slow the Jets rushing offense?",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-31T13:00:10.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/can-the-raiders-slow-the-jets-rushing-offense-3907585/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1t3yp6i",
-    "type": "article",
-    "title": "Raiders continue to preach competition for starting jobs, roster spots",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-10-30T23:40:49.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-continue-to-preach-competition-for-starting-jobs-roster-spots-3907339/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-babvy9",
@@ -158,16 +118,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-ilu0ki",
-    "type": "article",
-    "title": "Raiders-Jets Week 8: 5 things to watch",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-30T15:06:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144100/raiders-jets-week-8-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-4gg9y1",
@@ -596,6 +546,56 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-10T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1hlqv39",
+    "type": "podcast",
+    "title": "Dalton Johnson is a gamer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-07T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-gj6xq8",
+    "type": "podcast",
+    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T17:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-n7cgvf",
+    "type": "podcast",
+    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1t8wumo",
+    "type": "podcast",
+    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-02T16:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1y8bklc",
+    "type": "podcast",
+    "title": "Malik Benson is built to adapt",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-30T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
