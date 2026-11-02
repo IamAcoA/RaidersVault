@@ -1,5 +1,55 @@
 [
   {
+    "id": "review-journal-1fswwzl",
+    "type": "article",
+    "title": "Dylan Laube sparks Raiders with special homecoming kick return TD vs. Jets",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-02T15:00:13.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/dylan-laube-sparks-raiders-with-special-homecoming-kick-return-td-vs-jets-3908379/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-wx9320",
+    "type": "article",
+    "title": "Raiders News: Week 8 AFC West Roundup, Broncos pull off 4th quarter comeback against Chiefs",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-02T15:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/144869/raiders-news-week-8-afc-west-roundup-broncos-chiefs-chargers",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-2n4fgc",
+    "type": "article",
+    "title": "Brock Bowers dominates Jets in record-setting showing with Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-02T14:30:26.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/brock-bowers-dominates-jets-in-record-setting-showing-with-raiders-3908371/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-10xn2h7",
+    "type": "article",
+    "title": "Raiders rookies take on expanded roles in win over Jets",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-02T14:00:13.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rookies-take-on-expanded-roles-in-win-over-jets-3908324/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "locked-on-raiders-1r4f77",
+    "type": "podcast",
+    "title": "Raiders stop the bleeding and Just Win vs the Jets",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-02T08:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-1r0prn9",
     "type": "article",
     "title": "Vegas Sports Sunday: Raiders beat Jets, snap losing streak",
@@ -120,16 +170,6 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-rw53v7",
-    "type": "article",
-    "title": "Raiders WR a healthy scratch, won’t make season debut vs. Jets",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-01T17:22:11.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-wr-a-healthy-scratch-wont-make-season-debut-vs-jets-3908014/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1n96386",
     "type": "article",
     "title": "Las Vegas Raiders discussion: Week 8 live chat during Jets game",
@@ -138,26 +178,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/137235/raiders-jets-week-8-live-discussion-game-chat",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-10l1zf6",
-    "type": "article",
-    "title": "What channel is Raiders vs Jets: TV, streaming, radio, kickoff time for Week 8 matchup",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-01T16:04:36.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-raiders-vs-jets-tv-streaming-radio-kickoff-time-for-week-8-matchup-3907998/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-pjal5m",
-    "type": "article",
-    "title": "UPDATES: Raiders rally in 2nd half to beat Jets, snap 4-game losing streak",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-01T15:00:17.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/live-updates-raiders-try-to-snap-4-game-losing-streak-against-slumping-jets-3907989/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1nxo20",
@@ -196,16 +216,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-31T20:00:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144300/raiders-2026-week-8-defense-blitz-rob-leonard",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1c6wmdj",
-    "type": "article",
-    "title": "Raiders Mailbag: Should Las Vegas sell Maxx Crosby, Kolton Miller, other players ahead of NFL trade deadline?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-31T14:11:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144621/raiders-mailbag-nfl-trade-deadline-maxx-crosby-kolton-miller",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -535,16 +545,6 @@
     "title": "What needs to happen for the Raiders to secure another win",
     "publisher": "Locked On Raiders",
     "publishedAt": "2026-10-02T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "locked-on-raiders-1bikm4p",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Kansas City CHIEFS PREVIEW, AFC WEST 1st place BATTLE",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-01T15:13:32.000Z",
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
