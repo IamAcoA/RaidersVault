@@ -1,5 +1,75 @@
 [
   {
+    "id": "review-journal-1r0prn9",
+    "type": "article",
+    "title": "Vegas Sports Sunday: Raiders beat Jets, snap losing streak",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-02T03:17:33.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/vegas-sports-sunday-raiders-beat-jets-snap-losing-streak-3908297/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-18ruton",
+    "type": "article",
+    "title": "Raiders vs. 49ers odds: Opening lines for Week 9 matchup",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-02T02:30:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/144702/raiders-vs-49ers-odds-week-9-opening-lines-point-spread-total",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1rktbb3",
+    "type": "article",
+    "title": "Josh Jacobs lawyers: Evidence disputes women’s allegations from his Raiders years",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-02T01:10:46.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/josh-jacobs-lawyers-evidence-disputes-womens-allegations-from-his-raiders-years-3908199/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-165vfva",
+    "type": "article",
+    "title": "‘It’s not always going to be pretty’: Raiders manage margins to take down Jets",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-02T00:49:19.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/its-not-always-going-to-be-pretty-raiders-manage-margins-to-take-down-jets-3908185/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-vkcinz",
+    "type": "article",
+    "title": "Ashton Jeanty’s reduced role for Raiders unrelated to Jets comments",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-02T00:11:21.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/ashton-jeantys-reduced-role-for-raiders-unrelated-to-jets-comments-3908178/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-10lh5tk",
+    "type": "article",
+    "title": "Las Vegas Raiders’ playoff standing gets a boost with Week 8 results",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-01T23:29:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-nfl-playoffs/144792/raiders-playoff-picture-week-8-jets",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-k1me76",
+    "type": "article",
+    "title": "Raiders-Jets: 17 things we learned",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-01T22:24:40.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/143562/raiders-jets-week-8-review",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-1utxcsq",
     "type": "article",
     "title": "Raiders grades: Offense overcomes ugly defensive day to end skid",
@@ -30,9 +100,9 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-a3s0kz",
+    "id": "review-journal-1q8kxm3",
     "type": "article",
-    "title": "Raiders coach, quarterback speak to media following victory over Jets — LIVE",
+    "title": "Raiders coach speaks to media following victory over Jets",
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-11-01T21:06:00.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-quarterback-speak-to-media-following-victory-over-jets-3908108/",
@@ -136,36 +206,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-10-31T14:11:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144621/raiders-mailbag-nfl-trade-deadline-maxx-crosby-kolton-miller",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1uos3ga",
-    "type": "article",
-    "title": "Raiders-Jets predictions",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-31T14:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/144200/raiders-jets-predictions-week-8",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-babvy9",
-    "type": "article",
-    "title": "Las Vegas Raiders-New York Jets FEED Topic: Monitoring Geno Smith’s ‘revenge game’",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-30T22:38:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/144573/raiders-jets-week-8-preview-geno-smith",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-uz1kn",
-    "type": "article",
-    "title": "Raiders Week 8: Jets defense can turn afterburners on Las Vegas",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-10-30T21:45:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/144294/raiders-2026-week-8-jets-game-preview",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -556,46 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-09-04T21:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-sendoff-09042026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-h62a0w",
-    "type": "podcast",
-    "title": "Roster deep dive ahead of Week 1",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-09-04T20:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-09042026-final-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-2hf3fr",
-    "type": "podcast",
-    "title": "Introducing ‘Raiders Weekly’ | Trailer",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-09-02T21:30:00.000Z",
-    "url": "https://omny.fm/shows/raiders-weekly/rw-trailer-jt-09022026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-q3cded",
-    "type": "podcast",
-    "title": "Instant reactions to the Raiders’ initial 53-man roster",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-30T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1ueekx6",
-    "type": "podcast",
-    "title": "Caleb Rogers upped his standard",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-26T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-rogers-08252026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
