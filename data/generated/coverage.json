@@ -1,5 +1,15 @@
 [
   {
+    "id": "locked-on-raiders-1u9iwy1",
+    "type": "podcast",
+    "title": "How the Raiders could best utilize their RB's",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-04T08:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "silver-and-black-pride-1vj5d4",
     "type": "article",
     "title": "Silver and Black Pride Reacts Survey Week 9",
@@ -8,26 +18,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/145026/silver-and-black-pride-reacts-survey-week-9",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-qovjy2",
-    "type": "article",
-    "title": "After serving 1-game suspension for spitting at Raiders, safety Gardner-Johnson released by Bills",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-03T23:04:15.000Z",
-    "url": "https://www.reviewjournal.com/sports/nfl/after-serving-1-game-suspension-for-spitting-at-raiders-safety-gardner-johnson-released-by-bills-3909109/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-n7agzl",
-    "type": "article",
-    "title": "What we learned: Raiders rookies starting to see more opportunities",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-03T22:40:36.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-we-learned-raiders-rookies-starting-to-see-more-opportunities-3909101/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-175kejs",
@@ -450,16 +440,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-yaf4hg",
-    "type": "podcast",
-    "title": "Raiders caught the attention of the NFL even after a loss",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-06T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-mbik75",
     "type": "podcast",
     "title": "Raiders-Chiefs preview with a focus on Kenneth Walker and KC’s run game",
@@ -596,6 +576,26 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-02T16:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1y8bklc",
+    "type": "podcast",
+    "title": "Malik Benson is built to adapt",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-30T22:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-benson-073026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-yok1fx",
+    "type": "podcast",
+    "title": "Keyron Crawford will match your energy",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-07-29T16:15:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-crawford-072926-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
