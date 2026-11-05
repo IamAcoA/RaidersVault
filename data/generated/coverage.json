@@ -1,43 +1,83 @@
 [
   {
-    "id": "review-journal-1gvchi1",
+    "id": "silver-and-black-pride-1vwxw6i",
     "type": "article",
-    "title": "Powers-Johnson benched on Raiders offense, but looks to ‘embrace every role’",
+    "title": "Next 3 games are critical for Raiders",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-05T18:04:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-schedule/145044/raiders-week-9-49ers-schedule",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-znvtcg",
+    "type": "article",
+    "title": "Submit your Week 9 Las Vegas Raiders mailbag questions!",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-05T17:09:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145182/las-vegas-raiders-week-9-mailbag-questions",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-16m0kqk",
+    "type": "article",
+    "title": "Raiders owner Mark Davis chats about ticket holders selling tickets to opposing fans",
     "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-05T03:07:17.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/powers-johnson-benched-on-raiders-offense-but-looks-to-embrace-every-role-3910022/",
+    "publishedAt": "2026-11-05T17:01:45.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-owner-mark-davis-chats-about-ticket-holders-selling-tickets-to-opposing-fans-3910259/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-17ium9z",
+    "id": "locked-on-raiders-7k2nf5",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs San Francisco 49ERS PREVIEW | JEANTY, MWJ, & the RUN game",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-05T16:13:56.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-63r9gi",
     "type": "article",
-    "title": "‘He’s one of my favorites’: Christian Bale reflects on role as Raiders owner in ‘Madden’",
+    "title": "Brock Bowers dominates as a wide receiver",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-05T16:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144996/raiders-brock-bowers-wide-receiver-tight-end",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1vuzxsf",
+    "type": "article",
+    "title": "Raiders news: 2027 comp picks not expected",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-05T15:04:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/144400/raiders-news-2027-comp-picks-not-expected",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1mi7gvm",
+    "type": "article",
+    "title": "Raiders QB has ‘dad vibe energy’: Kirko Chainz, TD celly, In-N-Out spread joy",
     "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-05T01:29:58.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/hes-one-of-my-favorites-christian-bale-reflects-on-role-as-raiders-owner-in-madden-3909967/",
+    "publishedAt": "2026-11-05T14:00:23.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-qb-has-dad-vibe-energy-kirko-chainz-td-celly-in-n-out-spread-joy-3910191/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-1k0gv0y",
-    "type": "article",
-    "title": "Raiders deemed postseason players in latest power rankings",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-05T01:10:04.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-deemed-postseason-players-in-latest-power-rankings-3909955/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-5sm7y2",
-    "type": "article",
-    "title": "Raiders release early-season breakout star receiver",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-05T00:57:43.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-release-early-season-breakout-star-3909937/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
+    "id": "locked-on-raiders-1ss16vk",
+    "type": "podcast",
+    "title": "Raiders vs 49ers - Battle of the Bay Tale of the Tape",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-05T08:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
   },
   {
     "id": "silver-and-black-pride-htwhwt",
@@ -58,16 +98,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145185/raiders-news-cody-white-carter-runyon-twide-receiver-tight-end",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1ug3m6h",
-    "type": "article",
-    "title": "Raiders coach, quarterback speak about Sunday’s game at 49ers",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-04T21:12:51.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-quarterback-speak-about-sundays-game-at-49ers-watch-live-3909823/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1ubuch7",
@@ -120,26 +150,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-10gjzwl",
-    "type": "article",
-    "title": "Raiders news: Quay Walker is all over the place",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-04T15:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/144336/raiders-news-quay-walker-multiple-positions",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1bue1gs",
-    "type": "article",
-    "title": "Raiders trade deadline 2026: Trackings rumors",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-04T14:34:54.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-rumors/144679/nfk-trade-deadline-maxx-crosby-kirk-cousins",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-1u9iwy1",
     "type": "podcast",
     "title": "How the Raiders could best utilize their RB's",
@@ -148,26 +158,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-1vj5d4",
-    "type": "article",
-    "title": "Silver and Black Pride Reacts Survey Week 9",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-03T23:18:18.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/145026/silver-and-black-pride-reacts-survey-week-9",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-175kejs",
-    "type": "article",
-    "title": "Raiders make some changes and take down the Jets",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-03T22:39:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144926/raiders-lineup-changes-beat-new-york-jets",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1k1n3er",
@@ -480,26 +470,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "locked-on-raiders-dmwwt1",
-    "type": "podcast",
-    "title": "Raiders looking to add offensive weapons as they turn the page to week 5",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-07T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "locked-on-raiders-pbeex8",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: RAIDERS SQUAD SHOW: Raiders vs Chiefs RECAP — OFFENSIVE LINE Takes a Step BACK",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-06T15:17:57.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-mbik75",
     "type": "podcast",
     "title": "Raiders-Chiefs preview with a focus on Kenneth Walker and KC’s run game",
@@ -596,6 +566,36 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-10T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1hlqv39",
+    "type": "podcast",
+    "title": "Dalton Johnson is a gamer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-07T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-gj6xq8",
+    "type": "podcast",
+    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T17:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-n7cgvf",
+    "type": "podcast",
+    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
