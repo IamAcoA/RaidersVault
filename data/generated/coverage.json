@@ -1,5 +1,55 @@
 [
   {
+    "id": "review-journal-1gvchi1",
+    "type": "article",
+    "title": "Powers-Johnson benched on Raiders offense, but looks to ‘embrace every role’",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-05T03:07:17.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/powers-johnson-benched-on-raiders-offense-but-looks-to-embrace-every-role-3910022/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-17ium9z",
+    "type": "article",
+    "title": "‘He’s one of my favorites’: Christian Bale reflects on role as Raiders owner in ‘Madden’",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-05T01:29:58.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/hes-one-of-my-favorites-christian-bale-reflects-on-role-as-raiders-owner-in-madden-3909967/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1k0gv0y",
+    "type": "article",
+    "title": "Raiders deemed postseason players in latest power rankings",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-05T01:10:04.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-deemed-postseason-players-in-latest-power-rankings-3909955/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-5sm7y2",
+    "type": "article",
+    "title": "Raiders release early-season breakout star receiver",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-05T00:57:43.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-release-early-season-breakout-star-3909937/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-htwhwt",
+    "type": "article",
+    "title": "Las Vegas Raiders playoff hopes depend on the defense",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-04T23:42:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144934/las-vegas-raiders-defense-pla",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1bds5u8",
     "type": "article",
     "title": "Raiders release early-season TD machine Cody White",
@@ -116,16 +166,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-03T22:39:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144926/raiders-lineup-changes-beat-new-york-jets",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1180be",
-    "type": "article",
-    "title": "Mike Washington Jr.-Ashton Jeanty leads Las Vegas Raiders talk in Week 9 NFL Power Rankings",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-03T20:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-power-rankings/144963/raiders-power-rankings-week-9-mike-washington-ashton-jeanty",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -556,46 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-10T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1hlqv39",
-    "type": "podcast",
-    "title": "Dalton Johnson is a gamer",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-07T21:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-gj6xq8",
-    "type": "podcast",
-    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T17:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-n7cgvf",
-    "type": "podcast",
-    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1t8wumo",
-    "type": "podcast",
-    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-02T16:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
