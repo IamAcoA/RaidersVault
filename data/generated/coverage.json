@@ -1,5 +1,65 @@
 [
   {
+    "id": "review-journal-1l049x3",
+    "type": "article",
+    "title": "Jeremy Chinn’s pick didn’t just snap the Raiders’ streak. It set an example",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-06T03:33:09.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/jeremy-chinns-pick-didnt-just-snap-the-raiders-streak-it-set-an-example-3910550/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-15f27pn",
+    "type": "article",
+    "title": "Raiders bring back fan-favorite wide receiver day after cutting him",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-06T00:37:06.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-bring-back-fan-favorite-wide-receiver-day-after-cutting-him-3910457/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-atw9ou",
+    "type": "article",
+    "title": "Raiders special teams’ resounding response key in Week 8 road victory",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-05T22:36:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144943/raiders-2026-week-8-special-teams-dylan-laube",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-5cf17j",
+    "type": "article",
+    "title": "Raiders bring early-season TD machine Cody White back a day after releasing him",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-05T22:13:17.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145185/raiders-news-cody-white-carter-runyon-twide-receiver-tight-end",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-zwf73b",
+    "type": "article",
+    "title": "Darien Porter returns to practice ahead of Las Vegas Raiders-San Francisco 49ers Week 9 matchup",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-05T21:44:28.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/145226/raiders-49ers-injury-report-darien-porter",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-r64of5",
+    "type": "article",
+    "title": "Las Vegas Raiders’ defense must find answers for San Francisco 49ers Kyle Juszczyk packages in Week 9 key matchups",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-05T20:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145096/raiders-49ers-week-9-key-matchups-kyle-juszczyk-21-personnel",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1vwxw6i",
     "type": "article",
     "title": "Next 3 games are critical for Raiders",
@@ -18,16 +78,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145182/las-vegas-raiders-week-9-mailbag-questions",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-16m0kqk",
-    "type": "article",
-    "title": "Raiders owner Mark Davis chats about ticket holders selling tickets to opposing fans",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-05T17:01:45.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-owner-mark-davis-chats-about-ticket-holders-selling-tickets-to-opposing-fans-3910259/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "locked-on-raiders-7k2nf5",
@@ -60,16 +110,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1mi7gvm",
-    "type": "article",
-    "title": "Raiders QB has ‘dad vibe energy’: Kirko Chainz, TD celly, In-N-Out spread joy",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-05T14:00:23.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-qb-has-dad-vibe-energy-kirko-chainz-td-celly-in-n-out-spread-joy-3910191/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-1ss16vk",
     "type": "podcast",
     "title": "Raiders vs 49ers - Battle of the Bay Tale of the Tape",
@@ -86,16 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-04T23:42:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144934/las-vegas-raiders-defense-pla",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1bds5u8",
-    "type": "article",
-    "title": "Raiders release early-season TD machine Cody White",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-04T22:59:51.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145185/raiders-news-cody-white-carter-runyon-twide-receiver-tight-end",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -118,36 +148,6 @@
     "url": "https://omny.fm/shows/raiders-weekly/rw-wk09-audio-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "silver-and-black-pride-1ijw09g",
-    "type": "article",
-    "title": "Raiders at the midway point",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-04T18:09:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145019/raiders-midseason-review-2026-season",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-knf5qz",
-    "type": "article",
-    "title": "Dylan Laube honored for TD kick return",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-04T17:09:21.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145062/raiders-news-dylan-laube-afc-special-twams-player-week",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-383dgv",
-    "type": "article",
-    "title": "Was this a 1-game demotion for Ashton Jeanty?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-04T16:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144987/raiders-ashton-jeanty-mike-washington-running-back",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1u9iwy1",
