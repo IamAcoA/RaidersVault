@@ -1,5 +1,15 @@
 [
   {
+    "id": "review-journal-1wr9t46",
+    "type": "article",
+    "title": "NFL announces punishment for Raiders safety who sealed win over Jets",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-08T06:11:47.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/nfl-announces-punishment-for-raiders-safety-who-sealed-win-over-jets-3911636/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "review-journal-1rsbtmw",
     "type": "article",
     "title": "Raiders rookie DT living the dream after inauspicious NFL start",
@@ -68,16 +78,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/144810/raders-49ers-predictions-week-9",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-lsj40w",
-    "type": "article",
-    "title": "Raiders owner remains mum on Las Vegas NBA expansion bid interest",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-07T15:00:39.000Z",
-    "url": "https://www.reviewjournal.com/sports/nba/raiders-owner-remains-mum-on-las-vegas-nba-expansion-bid-interest-3911301/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1fp0p3u",
