@@ -1,5 +1,45 @@
 [
   {
+    "id": "review-journal-1rmkmkz",
+    "type": "article",
+    "title": "Raiders stock report on trade candidates ahead of NFL deadline",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-10T02:57:25.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-stock-report-on-trade-candidates-ahead-of-nfl-deadline-3912361/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-959zky",
+    "type": "article",
+    "title": "11 arrested, 45 ejected from Raiders-49ers game as videos of fan brawls go viral",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-10T01:08:31.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/11-arrested-45-ejected-from-raiders-49ers-game-as-videos-of-fan-brawls-go-viral-3912317/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1mqt8z1",
+    "type": "article",
+    "title": "Raiders ‘talking all the time’ with NFL trade deadline a day away",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-10T00:48:29.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-talking-all-the-time-with-nfl-trade-deadline-a-day-away-3912311/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1ceno97",
+    "type": "article",
+    "title": "Darren Waller has best game in 3 years",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-09T22:25:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145632/raiders-former-players-week-8-darren-waller-khalil-mack-gardner-minshew",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-1kpn341",
     "type": "article",
     "title": "Klint Kubiak backs Raiders DC Rob Leonard despite unit’s historic struggles",
@@ -80,26 +120,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1v5x5l0",
-    "type": "article",
-    "title": "Graney: Raiders should listen to trade offers for Kirk Cousins",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-09T14:00:51.000Z",
-    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-for-the-first-time-with-raiders-we-saw-a-bad-kirk-cousins-3912050/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1uw8ltz",
-    "type": "article",
-    "title": "‘Totally unacceptable’: Raiders’ dynamic duo each commits costly turnover in loss",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-09T14:00:38.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/totally-unacceptable-raiders-dynamic-duo-each-commits-costly-turnover-in-loss-3912047/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-10nk6er",
     "type": "podcast",
     "title": "Raiders self inflicted wounds leads to their loss vs the 49ers",
@@ -108,36 +128,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "review-journal-m9w6gp",
-    "type": "article",
-    "title": "Will the Raiders make a deadline trade? ‘Every day the calculus changes’",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-09T04:33:49.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/will-the-raiders-make-a-deadline-trade-every-day-the-calculus-changes-3911962/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1lgotzu",
-    "type": "article",
-    "title": "Vegas Sports Sunday: What went wrong in Raiders’ loss to 49ers",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-09T04:19:34.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/vegas-sports-sunday-what-went-wrong-in-raiders-loss-to-49ers-3911958/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1yisvdf",
-    "type": "article",
-    "title": "Takeaways: Raiders forced to play catch-up in loss to 49ers",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-09T04:03:27.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/takeaways-raiders-forced-to-play-catch-up-in-loss-to-49ers-3911951/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-qi3dvg",
@@ -166,26 +156,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-09T01:53:29.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/144369/raiders-49ers-review-week-9",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-3xzkps",
-    "type": "article",
-    "title": "Maxx Crosby on trade deadline: ‘I play for the Raiders’",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-09T01:37:36.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/maxx-crosby-on-trade-deadline-i-play-for-the-raiders-3911926/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "silver-and-black-pride-a4totg",
-    "type": "article",
-    "title": "Sloppy Raiders blown out in return to Bay Area",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-09T00:19:21.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/144371/las-vegas-raiders-san-francisco-49ers-live-updates",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +566,36 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-09-02T21:30:00.000Z",
     "url": "https://omny.fm/shows/raiders-weekly/rw-trailer-jt-09022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-q3cded",
+    "type": "podcast",
+    "title": "Instant reactions to the Raiders’ initial 53-man roster",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-30T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1ueekx6",
+    "type": "podcast",
+    "title": "Caleb Rogers upped his standard",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-26T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-rogers-08252026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-19wl9y1",
+    "type": "podcast",
+    "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-10T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
