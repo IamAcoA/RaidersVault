@@ -1,5 +1,55 @@
 [
   {
+    "id": "review-journal-1gvmrs4",
+    "type": "article",
+    "title": "Raiders coach Kubiak, quarterback Mendoza address media",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-11T20:53:12.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-kubiak-quarterback-mendoza-address-media-watch-live-3913057/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1nmylkn",
+    "type": "article",
+    "title": "Should the Las Vegas Raiders fire Rob Leonard?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-11T20:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145679/slas-vegas-raiders-fire-rob-leonard-defensive-coordinator",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-e29btj",
+    "type": "article",
+    "title": "Things to consider as Fernando Mendoza era begins",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-11T18:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/145940/raiders-fernando-mendoza-starting-quarterback",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1ozmw45",
+    "type": "article",
+    "title": "Are you happy with the Raiders’ trade deadline?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-11T16:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145925/raiders-trade-deadline-kirk-cousins",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-x6wf3j",
+    "type": "article",
+    "title": "Raiders news: Adam Butler honored",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-11T15:06:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145231/raiders-news-adam-butler-salute-service-ussaa",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-l0gvj1",
     "type": "article",
     "title": "Silver and Black Pride Reacts Survey Week 10",
@@ -8,6 +58,26 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/145883/silver-and-black-pride-reacts-survey-week-10",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1no7y6u",
+    "type": "article",
+    "title": "Graney: Raiders not punting season? Kirk Cousins trade is about future",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-11T14:00:33.000Z",
+    "url": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-raiders-not-punting-season-kirk-cousins-trade-is-about-future-3912940/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-sx0z80",
+    "type": "article",
+    "title": "What we learned: Raiders’ blowout loss leads to QB change, Fernando Mendoza",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-11T14:00:15.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/what-we-learned-raiders-blowout-loss-leads-to-qb-change-fernando-mendoza-3912934/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
   },
   {
     "id": "locked-on-raiders-xyyuqg",
@@ -20,34 +90,14 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "review-journal-1gzpieg",
-    "type": "article",
-    "title": "Why Fernando Mendoza is replacing Kirk Cousins as Raiders QB",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-11T03:54:58.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/why-fernando-mendoza-is-replacing-kirk-cousins-as-raiders-qb-3912823/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1mtpa5m",
-    "type": "article",
-    "title": "Raiders rookie earns roster spot after Kirk Cousins trade",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-11T01:28:24.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rookie-earns-roster-spot-after-kirk-cousins-trade-3912763/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-8brtts",
-    "type": "article",
-    "title": "Fernando Mendoza’s move to Raiders starting QB impacts secondary ticket market",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-11T01:20:07.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendozas-move-to-raiders-starting-qb-impacts-secondary-ticket-market-3912746/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
+    "id": "raiders-podcast-network-509wjk",
+    "type": "podcast",
+    "title": "2026 NFL Trade Deadline marks new era of Raiders football as Fernando Mendoza named QB1",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-11-11T01:30:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-wk10-audio-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
   },
   {
     "id": "silver-and-black-pride-pfjz0y",
@@ -58,16 +108,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145934/raiders-news-tim-keenan-rookie-defensive-tackle-sign",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-cjhd9e",
-    "type": "article",
-    "title": "5 things to know about Raiders rookie QB Fernando Mendoza",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-11T00:06:59.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/5-things-to-know-about-raiders-rookie-qb-fernando-mendoza-3912713/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1wg4v8p",
@@ -110,26 +150,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-qc56zh",
-    "type": "article",
-    "title": "Raiders trade Kirk Cousins to Vikings",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-10T19:51:44.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145832/raiders-viking-kirk-cousins-trade",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1p40d7c",
-    "type": "article",
-    "title": "Raiders have enjoyed major injury advantage in 2026",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-10T18:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/145333/raidersinjury-advantage-2026-nfl-season",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-zotj6x",
     "type": "podcast",
     "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs 49ers RECAP | Defensive DISASTER & O-line PROBLEMS",
@@ -138,26 +158,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-1khviox",
-    "type": "article",
-    "title": "Mike Washington sees role reduced",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-10T16:04:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145688/raiders-mike-washington-ashton-jeanty-running-back",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-2xg48h",
-    "type": "article",
-    "title": "Raiders news: Who is the greatest player in team history?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-10T15:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/143896/raiders-news-greatest-team-history",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-10tp1a1",
