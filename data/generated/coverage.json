@@ -1,5 +1,75 @@
 [
   {
+    "id": "silver-and-black-pride-nz874b",
+    "type": "article",
+    "title": "Is there a quick fix to the Las Vegas Raiders’ defensive woes?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-12T22:39:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/145714/raiders-2026-week-9-defense-rob-leonard",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1exszv5",
+    "type": "article",
+    "title": "Fernando Mendoza faces top-ranked Seattle Seahawks’ defense in 1st start for Las Vegas Raiders Week 10 key matchups",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-12T20:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145975/raiders-seahawks-week-10-key-matchups-fernando-mendoza",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-rgiktq",
+    "type": "article",
+    "title": "Klint Kubiak meets former team",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-12T18:05:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/145755/raiders-seahawks-klint-kubiak-week-10",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1h2tvh9",
+    "type": "article",
+    "title": "Submit your Week 10 Las Vegas Raiders mailbag questions!",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-12T17:09:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146010/las-vegas-raiders-week-10-mailbag",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "locked-on-raiders-1agus5e",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: The Fernando MENDOZA ERA begins, Las Vegas RAIDERS VS Seattle SEAHAWKS PREVIEW",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-12T16:33:51.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-qk3s7s",
+    "type": "article",
+    "title": "Ashton Jeanty struggles in both running and receiving game in Week 9",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-12T16:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145705/riaders-ashton-jeanty-rushing-receiving-offense",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-rghszw",
+    "type": "article",
+    "title": "Raiders news: Brock Bowers is an explosive playmaker",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-12T15:05:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145494/raiders-news-brock-bowers-explosive-plays",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "locked-on-raiders-8c42k9",
     "type": "podcast",
     "title": "Raiders vs Seahawks Week 10: The Ultimate Chess Match",
@@ -8,46 +78,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "review-journal-1dkupce",
-    "type": "article",
-    "title": "‘Trust in Fernando’: Raiders players rally around Mendoza to start new era",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-12T02:21:35.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/trust-in-fernando-raiders-players-rally-around-mendoza-to-start-new-era-3913225/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-15fynh",
-    "type": "article",
-    "title": "Fernando Mendoza ‘a lot more confident’ ahead of Raiders starting debut",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-12T02:18:06.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-a-lot-more-confident-ahead-of-raiders-starting-debut-3913199/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-6o3kzb",
-    "type": "article",
-    "title": "Power rankings prove prophetic after Raiders trade Cousins, usher in Mendoza era",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-12T00:59:31.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/power-rankings-prove-prohetic-after-raiders-trade-cousins-usher-in-mendoza-era-3913182/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1gnx0x1",
-    "type": "article",
-    "title": "Raiders linemen with ‘soldier spirit’ know that iron sharpens iron",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-12T00:54:12.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-linemen-with-soldier-spirit-know-that-iron-sharpens-iron-3913176/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1d1inj7",
@@ -90,36 +120,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-1ozmw45",
-    "type": "article",
-    "title": "Are you happy with the Raiders’ trade deadline?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-11T16:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145925/raiders-trade-deadline-kirk-cousins",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-x6wf3j",
-    "type": "article",
-    "title": "Raiders news: Adam Butler honored",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-11T15:06:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145231/raiders-news-adam-butler-salute-service-ussaa",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-l0gvj1",
-    "type": "article",
-    "title": "Silver and Black Pride Reacts Survey Week 10",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-11T14:15:01.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/145883/silver-and-black-pride-reacts-survey-week-10",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-xyyuqg",
     "type": "podcast",
     "title": "It's Mendoza time as Kirk Cousins Raiders career ends",
@@ -138,36 +138,6 @@
     "url": "https://omny.fm/shows/raiders-weekly/rw-wk10-audio-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "silver-and-black-pride-pfjz0y",
-    "type": "article",
-    "title": "Raiders sign rookie defensive tackle to roster",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-11T00:20:35.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145934/raiders-news-tim-keenan-rookie-defensive-tackle-sign",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1wg4v8p",
-    "type": "article",
-    "title": "Raiders trade deadline notes",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-10T23:26:24.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145905/raiders-trade-deadline-kirk-cousins-fernando-mendoza",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-uoe1wg",
-    "type": "article",
-    "title": "Las Vegas Raiders get their gold mined by the 49ers",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-10T22:42:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145489/raiders-49ers-week-9-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-zotj6x",
@@ -480,16 +450,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "locked-on-raiders-1iux9ae",
-    "type": "podcast",
-    "title": "Raiders to-do list before turning to Fernando Mendoza",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-14T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-w1kxy7",
     "type": "podcast",
     "title": "How the Raiders get back in the win column, plus previewing Drake Maye and the defending AFC Champs",
@@ -596,6 +556,46 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-10T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1hlqv39",
+    "type": "podcast",
+    "title": "Dalton Johnson is a gamer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-07T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-gj6xq8",
+    "type": "podcast",
+    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T17:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-n7cgvf",
+    "type": "podcast",
+    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1t8wumo",
+    "type": "podcast",
+    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-02T16:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
