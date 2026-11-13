@@ -1,5 +1,35 @@
 [
   {
+    "id": "review-journal-fwp6l",
+    "type": "article",
+    "title": "Backed by Klint Kubiak, Rob Leonard seeks improvement for Raiders defense",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-13T01:47:59.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/backed-by-klint-kubiak-rob-leonard-seeks-improvement-for-raiders-defense-3913620/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1l6ywde",
+    "type": "article",
+    "title": "Seahawks defense plans to ‘get after’ Raiders’ Fernando Mendoza in 1st start",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-13T01:28:06.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/seahawks-defense-plans-to-get-after-raiders-fernando-mendoza-in-1st-start-3913602/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-166ty54",
+    "type": "article",
+    "title": "Raiders’ decision to trade Kirk Cousins draws praise, surprise from around NFL",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-12T23:48:22.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-decision-to-trade-kirk-cousins-draws-praise-surprise-from-around-nfl-3913588/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-nz874b",
     "type": "article",
     "title": "Is there a quick fix to the Las Vegas Raiders’ defensive woes?",
@@ -566,36 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-07T21:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-gj6xq8",
-    "type": "podcast",
-    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T17:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-n7cgvf",
-    "type": "podcast",
-    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1t8wumo",
-    "type": "podcast",
-    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-02T16:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
