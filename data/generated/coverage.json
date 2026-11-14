@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-1u3iee1",
+    "type": "article",
+    "title": "Raiders-Seahawks predictions",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-14T15:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/145654/raiders-seahawks-predictions-week-10",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1ie5m8",
+    "type": "article",
+    "title": "Kubiak, Raiders put emotions aside for Super Bowl reunion with Seahawks",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-14T15:00:11.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/kubiak-raiders-put-emotions-aside-for-super-bowl-reunion-with-seahawks-3914295/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-gt1yrl",
+    "type": "article",
+    "title": "Midseason report card: Raiders rebuild on track, but one unit gets poor grade",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-14T14:30:13.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/midseason-report-card-raiders-rebuild-on-track-but-one-unit-gets-poor-grade-3914290/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-16v083y",
+    "type": "article",
+    "title": "How formative years at Cal prepped Fernando Mendoza to play for the Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-14T14:00:26.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/how-formative-years-at-cal-prepped-fernando-mendoza-to-play-for-the-raiders-3914273/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-3w0quj",
     "type": "article",
     "title": "Las Vegas Raiders-Seattle Seahawks FEED Topic: Monitoring Fernando Mendoza’s 1st start",
@@ -28,16 +68,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146155/raiders-injury-news-trey-zuhn-play-week-10",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-33y1d9",
-    "type": "article",
-    "title": "Raiders coach Klint Kubiak discusses matchup vs. Seahawks",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-13T20:02:42.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-discusses-matchup-vs-seahawks-watch-live-3913871/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1cvig30",
@@ -106,16 +136,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-12T22:39:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/145714/raiders-2026-week-9-defense-rob-leonard",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1exszv5",
-    "type": "article",
-    "title": "Fernando Mendoza faces top-ranked Seattle Seahawks’ defense in 1st start for Las Vegas Raiders Week 10 key matchups",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-12T20:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145975/raiders-seahawks-week-10-key-matchups-fernando-mendoza",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -576,26 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-07T21:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-gj6xq8",
-    "type": "podcast",
-    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T17:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-n7cgvf",
-    "type": "podcast",
-    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T01:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
