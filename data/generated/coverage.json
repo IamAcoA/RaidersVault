@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-1rmvkj2",
+    "type": "article",
+    "title": "The Fernando Mendoza era marks a sizeable shift for rebuilding Raiders",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-14T21:11:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145732/raiders-2026-week-10-seahawks-fernando-mendoza",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-1udli7k",
+    "type": "article",
+    "title": "NFL betting predictions: Differing views on Raiders-Seahawks, but what about Bowers?",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-14T20:47:48.000Z",
+    "url": "https://www.reviewjournal.com/sports/betting/nfl-betting-predictions-differing-views-on-raiders-seahawks-but-what-about-bowers-3914352/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-l1rcg5",
+    "type": "article",
+    "title": "How does Seattle Seahawks’ offense look with Drew Lock at quarterback for Week 10 matchup against Las Vegas Raiders?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-14T20:04:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146184/raiders-seahawks-week-10-preview-drew-lock",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1x8qltq",
+    "type": "article",
+    "title": "Raiders Mailbag: Could John Spytek have gotten bigger return from Minnesota Vikings in Kirk Cousins trade?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-14T18:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146135/raiders-vikings-kirk-cousins-trade-john-spytek",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1u3iee1",
     "type": "article",
     "title": "Raiders-Seahawks predictions",
@@ -100,26 +140,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-1dikk5x",
-    "type": "article",
-    "title": "Raiders-Seahawks Week 10: 5 things to watch",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-13T16:02:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145591/raiders-seahawks-week-10-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-va8u3i",
-    "type": "article",
-    "title": "Raiders news: Rob Leonard says fatigue is leading to defensive struggles",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-13T14:25:45.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146078/raiders-news-rob-leonard-defense-week-10",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-8qvzlu",
     "type": "podcast",
     "title": "What to look for from Fernando Mendoza in his Raiders Debut",
@@ -128,16 +148,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-nz874b",
-    "type": "article",
-    "title": "Is there a quick fix to the Las Vegas Raiders’ defensive woes?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-12T22:39:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/145714/raiders-2026-week-9-defense-rob-leonard",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1agus5e",
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-10T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1hlqv39",
-    "type": "podcast",
-    "title": "Dalton Johnson is a gamer",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-07T21:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
