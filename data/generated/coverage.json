@@ -1,5 +1,25 @@
 [
   {
+    "id": "review-journal-1bkyha5",
+    "type": "article",
+    "title": "Las Vegas Raiders offensive line stuffs families-in-need vehicles with Thanksgiving dinners",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-17T23:46:56.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/las-vegas-raiders-offensive-line-stuffs-families-in-need-vehicles-with-thanksgiving-dinners-3915626/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1v5m49g",
+    "type": "article",
+    "title": "Highs and lows of Fernando Mendoza’s starting debut for Las Vegas Raiders",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-17T22:44:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146478/raiders-seahawks-week-10-fernando-mendoza-film-breakdown",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1u76f21",
     "type": "article",
     "title": "Fernando Mendoza’s shaky starting debut primary focus for Las Vegas Raiders in Week 11 NFL Power Rankings",
@@ -18,16 +38,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146581/raiders-news-brown-week-12-flex-sunday-night-football",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-bpccxi",
-    "type": "article",
-    "title": "Raiders, Fernando Mendoza will get prime time appearance in Week 12",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-17T18:46:53.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-fernando-mendoza-will-get-prime-time-appearance-in-week-12-3915535/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-12xsdov",
@@ -70,16 +80,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-e0ow6b",
-    "type": "article",
-    "title": "Assessing the future value of Raiders rookie QB Fernando Mendoza",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-17T14:00:23.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/assessing-the-future-value-of-raiders-rookie-qb-fernando-mendoza-3915436/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-wmcvft",
     "type": "podcast",
     "title": "Why Raiders are in a good position with Mendoza as their Franchise QB",
@@ -88,16 +88,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "review-journal-1h1ctox",
-    "type": "article",
-    "title": "Fernando Mendoza ‘showed poise’ in his first Raiders start, Klint Kubiak says",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-17T02:19:37.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-showed-poise-in-his-first-raiders-start-klint-kubiak-says-3915316/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1bp9wen",
@@ -136,16 +126,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-16T20:07:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146450/raiders-seahawks-week-10-winners-losers-klint-kubiak",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1j1wtpq",
-    "type": "article",
-    "title": "Mendoza, Raiders get punched in face the by visiting Seahawks 21-13",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-16T18:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/146256/raiders-2026-week-10-seahawks-game-review",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +576,26 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-07T21:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-gj6xq8",
+    "type": "podcast",
+    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T17:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-n7cgvf",
+    "type": "podcast",
+    "title": "‘Trying to find your top 5’: Richie Incognito on the Raiders’ O-line",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
