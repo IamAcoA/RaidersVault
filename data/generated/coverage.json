@@ -1,13 +1,53 @@
 [
   {
-    "id": "review-journal-1bkyha5",
+    "id": "silver-and-black-pride-96a3rn",
     "type": "article",
-    "title": "Las Vegas Raiders offensive line stuffs families-in-need vehicles with Thanksgiving dinners",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-17T23:46:56.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/las-vegas-raiders-offensive-line-stuffs-families-in-need-vehicles-with-thanksgiving-dinners-3915626/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
+    "title": "Raiders roster 2026: Get to know Brett Rypien",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-18T18:04:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/146507/raiders-brett-rypien-practice-squad-quarterback",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-inc1xw",
+    "type": "article",
+    "title": "Jack Bech not making impact after return",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-18T16:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146488/raiders-jack-bech-wide-receiver",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-2q1f8n",
+    "type": "article",
+    "title": "Silver and Black Pride Reacts Survey Week 11",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-18T15:17:05.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/146622/silver-and-black-pride-reacts-survey-week-11",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1l5cdao",
+    "type": "article",
+    "title": "Raiders news: Brock Bowers racks up the numbers",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-18T15:04:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146295/raiders-news-brock-bowers-stats",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "locked-on-raiders-1553hgf",
+    "type": "podcast",
+    "title": "Raiders move on to Week 11: how they can better support QB Fernando Mendoza",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-18T08:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
   },
   {
     "id": "silver-and-black-pride-1v5m49g",
@@ -88,46 +128,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-1bp9wen",
-    "type": "article",
-    "title": "Kirk Cousins looks sharp in 1st game after being traded by Las Vegas Raiders",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-16T22:39:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146429/raiders-week-10-kirk-cousins-amik-robertson-jakobi-meyers",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-4jm303",
-    "type": "article",
-    "title": "Raiders add quarterback to program",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-16T22:00:43.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146497/raiders-news-brett-rypien-sign-practice-squafd",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1pe70ay",
-    "type": "article",
-    "title": "Klint Kubiak: Brock Bowers is ‘day-to-day’",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-16T21:12:31.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146285/raiders-news-brock-bowers-injures-ankle",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-139eybb",
-    "type": "article",
-    "title": "Klint Kubiak coached scared in Las Vegas Raiders’ Week 10 loss to Seattle Seahawks",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-16T20:07:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146450/raiders-seahawks-week-10-winners-losers-klint-kubiak",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-1w0q8fj",
@@ -440,16 +440,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-4y2ejp",
-    "type": "podcast",
-    "title": "Raiders players and Coaches fired up about what's in front of them",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-20T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-13y2cby",
     "type": "podcast",
     "title": "How the Silver and Black can rise to the challenge against Josh Allen and the Bills",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-incognito-08042026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1t8wumo",
+    "type": "podcast",
+    "title": "‘Heat-seeking linebackers’: Kirk Morrison dives into the Raiders defense",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-02T16:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-camp-08012026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
