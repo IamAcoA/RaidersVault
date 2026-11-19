@@ -1,31 +1,111 @@
 [
   {
+    "id": "silver-and-black-pride-pvn8zx",
+    "type": "article",
+    "title": "How the Las Vegas Raiders offense can earn a tough win",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-19T20:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146655/raiders-offense-broncos-defense-week-11-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-tadlkp",
+    "type": "article",
+    "title": "Brock Bowers returns to practice ahead of Las Vegas Raiders’ Week 11 matchup against Denver Broncos",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-19T19:47:25.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/146836/raiders-broncos-week-11-injury-report-brock-bowers",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1kwd3bu",
+    "type": "article",
+    "title": "More on flexed Week 12 game at Cleveland",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-19T18:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-schedule/146619/raiders-browns-week-12-flex-sunday-night-football",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-a4vcac",
+    "type": "article",
+    "title": "Submit your Week 11 Las Vegas Raiders mailbag questions!",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-19T17:13:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146764/las-vegas-raiders-week-11-broncos-mailbag-questions",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "raiders-podcast-network-125vrpy",
+    "type": "podcast",
+    "title": "Fernando Mendoza looks to build on first start in divisional clash with Broncos",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-11-19T17:00:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-wk11-audio-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "locked-on-raiders-krl7ap",
+    "type": "podcast",
+    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS @ Denver BRONCOS PREVIEW | Raiders head to PRIMETIME",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-19T16:27:07.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "silver-and-black-pride-1e0bzlx",
+    "type": "article",
+    "title": "Fernando Mendoza needs a healthy Brock Bowers",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-19T16:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146566/raiders-fernando-mendoza-brock-bowers-week-11-broncos",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-61zqmz",
+    "type": "article",
+    "title": "Raiders News: Maxx Crosby racks up tackles for loss",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-19T15:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146300/raiders-news-maxx-crosby-tackles-for-loss",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-cdji1",
+    "type": "article",
+    "title": "‘I have to be better’: Eric Stokes responds to Raiders coach Klint Kubiak’s callout",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-19T14:00:16.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/i-have-to-be-better-eric-stokes-responds-to-raiders-coach-klint-kubiaks-callout-3916310/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "locked-on-raiders-109px8f",
+    "type": "podcast",
+    "title": "Fernando Mendoza welcome to Raiders vs Broncos Round 1",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-19T08:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-4hi2vk",
     "type": "article",
     "title": "Fernando Mendoza leaves ‘no stone unturned’ prepping for second Raiders start",
     "publisher": "Las Vegas Review-Journal",
     "publishedAt": "2026-11-19T03:18:14.000Z",
     "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-leaves-no-stone-unturned-prepping-for-second-raiders-start-3916214/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1umvdt8",
-    "type": "article",
-    "title": "Raiders star Maxx Crosby on making film cameo in ‘Madden’: ‘It’s a lot’",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-19T01:54:46.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-star-maxx-crosby-on-making-film-cameo-in-madden-its-a-lot-3916142/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1u9ob7h",
-    "type": "article",
-    "title": "Power rankers not down on Fernando Mendoza after Raiders’ loss to Seahawks",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-19T00:36:02.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/power-rankers-not-down-on-fernando-mendoza-after-raiders-loss-to-seahawks-3916119/",
     "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
     "sourceId": "review-journal"
   },
@@ -50,16 +130,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-1s1iodw",
-    "type": "article",
-    "title": "Klint Kubiak, Fernando Mendoza speak about Raiders game at Broncos",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-18T20:52:56.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/klint-kubiak-fernando-mendoza-speak-about-raiders-game-at-broncos-watch-live-3916011/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1iqi3q6",
     "type": "article",
     "title": "Brock Bowers not at open of practice Wednesday",
@@ -80,36 +150,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-inc1xw",
-    "type": "article",
-    "title": "Jack Bech not making impact after return",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-18T16:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146488/raiders-jack-bech-wide-receiver",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-2q1f8n",
-    "type": "article",
-    "title": "Silver and Black Pride Reacts Survey Week 11",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-18T15:17:05.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/146622/silver-and-black-pride-reacts-survey-week-11",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1l5cdao",
-    "type": "article",
-    "title": "Raiders news: Brock Bowers racks up the numbers",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-18T15:04:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146295/raiders-news-brock-bowers-stats",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-1553hgf",
     "type": "podcast",
     "title": "Raiders move on to Week 11: how they can better support QB Fernando Mendoza",
@@ -118,36 +158,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-1v5m49g",
-    "type": "article",
-    "title": "Highs and lows of Fernando Mendoza’s starting debut for Las Vegas Raiders",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-17T22:44:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146478/raiders-seahawks-week-10-fernando-mendoza-film-breakdown",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1u76f21",
-    "type": "article",
-    "title": "Fernando Mendoza’s shaky starting debut primary focus for Las Vegas Raiders in Week 11 NFL Power Rankings",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-17T20:03:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-power-rankings/146557/raiders-nfl-power-rankings-week-11-fernando-mendoza",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-9b944f",
-    "type": "article",
-    "title": "What a world: Raiders-Browns will be on Sunday Night Football",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-17T19:16:12.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146581/raiders-news-brown-week-12-flex-sunday-night-football",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-umlfpm",
@@ -460,26 +470,6 @@
     "sourceId": "raiders-podcast-network"
   },
   {
-    "id": "locked-on-raiders-lsj4ws",
-    "type": "podcast",
-    "title": "Raiders vs Rams Week 7 Tale of the Tape",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-21T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "locked-on-raiders-43lj3h",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Buffalo BILLS RECAP, O-LINE & JEANTY concerns",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-20T15:16:27.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-13y2cby",
     "type": "podcast",
     "title": "How the Silver and Black can rise to the challenge against Josh Allen and the Bills",
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-10T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1hlqv39",
+    "type": "podcast",
+    "title": "Dalton Johnson is a gamer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-07T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
