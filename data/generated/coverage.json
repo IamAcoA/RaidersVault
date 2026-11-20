@@ -1,21 +1,51 @@
 [
   {
+    "id": "review-journal-125dyyw",
+    "type": "article",
+    "title": "Raiders look for insurance policy for injured kicker",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-20T02:30:05.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-look-for-insurance-policy-for-injured-kicker-3916645/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1azsx6f",
+    "type": "article",
+    "title": "All eyes on not only Fernando Mendoza’s growth, but Klint Kubiak too",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-19T22:41:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/146601/raiders-2026-week-10-improvement-growth-klint-kubiak",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-12laen0",
+    "type": "article",
+    "title": "Brock Bowers returns to practice, Matt Gay dealing with injury ahead of Las Vegas Raiders’ Week 11 matchup against Denver Broncos",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-19T22:18:34.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/146836/raiders-broncos-week-11-injury-report-brock-bowers-matt-gay",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-lcxh6l",
+    "type": "article",
+    "title": "Las Vegas Raiders must protect Fernando Mendoza against Denver Broncos’ pass rush in Week 11 key matchups",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-19T21:10:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146689/raiders-broncos-week-11-preview-offensive-line-pass-rush-fernando-mendoza",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-pvn8zx",
     "type": "article",
     "title": "How the Las Vegas Raiders offense can earn a tough win",
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-19T20:02:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146655/raiders-offense-broncos-defense-week-11-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-tadlkp",
-    "type": "article",
-    "title": "Brock Bowers returns to practice ahead of Las Vegas Raiders’ Week 11 matchup against Denver Broncos",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-19T19:47:25.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-injuries/146836/raiders-broncos-week-11-injury-report-brock-bowers",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -80,16 +110,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-cdji1",
-    "type": "article",
-    "title": "‘I have to be better’: Eric Stokes responds to Raiders coach Klint Kubiak’s callout",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-19T14:00:16.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/i-have-to-be-better-eric-stokes-responds-to-raiders-coach-klint-kubiaks-callout-3916310/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-109px8f",
     "type": "podcast",
     "title": "Fernando Mendoza welcome to Raiders vs Broncos Round 1",
@@ -98,16 +118,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "review-journal-4hi2vk",
-    "type": "article",
-    "title": "Fernando Mendoza leaves ‘no stone unturned’ prepping for second Raiders start",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-19T03:18:14.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-leaves-no-stone-unturned-prepping-for-second-raiders-start-3916214/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-ipef4x",
@@ -126,26 +136,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-18T21:06:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146526/raiders-fernando-mendoza-starting-quarterback",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1iqi3q6",
-    "type": "article",
-    "title": "Brock Bowers not at open of practice Wednesday",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-18T19:54:35.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146718/raiders-news-brock-bowers-no-practice-wednesday",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-96a3rn",
-    "type": "article",
-    "title": "Raiders roster 2026: Get to know Brett Rypien",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-18T18:04:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-roster/146507/raiders-brett-rypien-practice-squad-quarterback",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +586,16 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-07T21:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-gj6xq8",
+    "type": "podcast",
+    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T17:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
