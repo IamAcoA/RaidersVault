@@ -1,5 +1,45 @@
 [
   {
+    "id": "silver-and-black-pride-1rt7pdi",
+    "type": "article",
+    "title": "Has Bo Nix quieted early-season criticisms ahead of Las Vegas Raiders-Denver Broncos Week 11 matchup?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-21T23:32:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146910/raiders-broncos-week-11-preview-bo-nix",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-36otls",
+    "type": "article",
+    "title": "Raiders elevate two players from practice squad ahead of Sunday’s game",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-21T22:21:53.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-elevate-two-players-from-practice-squad-ahead-of-sundays-game-3917644/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1a3cijd",
+    "type": "article",
+    "title": "Division games a true barometer of Raiders progress, or lack of it",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-21T21:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146560/raiders-week-11-broncos-klint-kubiak",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1qolju3",
+    "type": "article",
+    "title": "Raiders fans have a slight gain in confidence heading into Week 11",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-21T21:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/146998/raiders-fans-have-a-slight-gain-in-confidence-heading-into-week-11",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-5x3ftp",
     "type": "article",
     "title": "Raiders Mailbag: How will Fernando Mendoza look in 2nd career start against Denver Broncos’ defense?",
@@ -30,26 +70,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-dw1ubo",
-    "type": "article",
-    "title": "How the Raiders’ new QB room with Fernando Mendoza has taken shape",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-21T14:00:27.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/how-the-raiders-new-qb-room-with-fernando-mendoza-has-taken-shape-3917586/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-r92jc3",
-    "type": "article",
-    "title": "Raiders owner Mark Davis has biting assessment of ‘Madden’",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-21T01:45:12.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-owner-mark-davis-has-biting-assessment-of-madden-3917296/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-pnlf33",
     "type": "article",
     "title": "Las Vegas Raiders-Denver Broncos FEED Topic: Kolton Miller, DJ Glaze vs. Nik Bonitto, Jonathon Cooper",
@@ -70,16 +90,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-te1pqr",
-    "type": "article",
-    "title": "Raiders at Broncos preview: Fernando Mendoza hits the road for the first time",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-20T22:21:16.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-at-broncos-preview-fernando-mendoza-hits-the-road-for-the-first-time-3917196/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1yfu1gz",
     "type": "article",
     "title": "Brock Bowers is questionable to play Sunday at Denver",
@@ -90,52 +100,12 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-smcbjb",
-    "type": "article",
-    "title": "Raiders list 3 starters as questionable to play vs. Broncos",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-20T20:25:33.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-list-3-starters-as-questionable-to-play-vs-broncos-3917122/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-1uhsode",
     "type": "article",
     "title": "Raiders defense can beat the Denver Broncos offense",
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-20T20:01:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146781/raiders-broncos-week-12-preview",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1ti9h09",
-    "type": "article",
-    "title": "NFL predictions: Fernando Mendoza’s chapter in Las Vegas Raiders-Denver Broncos rivalry begins in Week 11",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-20T19:07:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/146790/raiders-vs-broncos-predictions-week-11-picks",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1xvvt8c",
-    "type": "article",
-    "title": "Raiders’ Week 10 wide receiver snap and production review",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-20T18:08:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146500/raiders-week-10-wide-receiver-snap-production-review",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-165gq6t",
-    "type": "article",
-    "title": "Here’s how the Raiders can still make the postseason in the AFC",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-20T17:34:49.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-nfl-playoffs/146917/raiders-playoff-picture-week-11-2026",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -596,6 +566,36 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-26T01:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-rogers-08252026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-19wl9y1",
+    "type": "podcast",
+    "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-10T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1hlqv39",
+    "type": "podcast",
+    "title": "Dalton Johnson is a gamer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-07T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-gj6xq8",
+    "type": "podcast",
+    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-05T17:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
