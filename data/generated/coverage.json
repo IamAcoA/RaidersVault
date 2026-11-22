@@ -1,5 +1,45 @@
 [
   {
+    "id": "review-journal-npv3vv",
+    "type": "article",
+    "title": "What channel is Raiders vs. Broncos? TV channel, streaming, kickoff time for today’s AFC West matchup",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-22T17:01:55.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-raiders-vs-broncos-tv-channel-streaming-kickoff-time-for-todays-afc-west-matchup-3917997/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-1xn8f3j",
+    "type": "article",
+    "title": "LIVE UPDATES: Raiders face Broncos on road, look to snap 2-game losing streak",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-22T17:00:23.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/live-updates-raiders-face-broncos-on-road-look-to-snap-2-game-losing-streak-3917994/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1e3c1vj",
+    "type": "article",
+    "title": "Raiders vs. Broncos: How to watch, TV schedule, streaming and more",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-22T15:42:18.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137922/raiders-vs-broncos-how-watch-tv-schedule",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-fea6sd",
+    "type": "article",
+    "title": "Raiders News: Raiders elevate Carter Runyon and Chris Williams",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-22T15:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/147007/raiders-news-raiders-elevate-carter-runyon-and-chris-williams",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1rt7pdi",
     "type": "article",
     "title": "Has Bo Nix quieted early-season criticisms ahead of Las Vegas Raiders-Denver Broncos Week 11 matchup?",
@@ -8,16 +48,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146910/raiders-broncos-week-11-preview-bo-nix",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-36otls",
-    "type": "article",
-    "title": "Raiders elevate two players from practice squad ahead of Sunday’s game",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-21T22:21:53.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-elevate-two-players-from-practice-squad-ahead-of-sundays-game-3917644/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1a3cijd",
@@ -86,26 +116,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-20T22:42:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/146586/raiders-2026-week-11-broncos-game-preview-fernando-mendoza",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1yfu1gz",
-    "type": "article",
-    "title": "Brock Bowers is questionable to play Sunday at Denver",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-20T20:36:54.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146932/raiders-news-brock-bowers-questionable-play-week-11",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1uhsode",
-    "type": "article",
-    "title": "Raiders defense can beat the Denver Broncos offense",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-20T20:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146781/raiders-broncos-week-12-preview",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-07T21:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-gj6xq8",
-    "type": "podcast",
-    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T17:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
