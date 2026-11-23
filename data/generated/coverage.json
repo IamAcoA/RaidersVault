@@ -1,5 +1,75 @@
 [
   {
+    "id": "silver-and-black-pride-vu359v",
+    "type": "article",
+    "title": "San Francisco 49ers continue to haunt Kirk Cousins",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-23T22:26:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/147152/raiders-week-11-kirk-cousins-trevon-moehrig-marcus-epps",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-k5ewaj",
+    "type": "article",
+    "title": "Fernando Mendoza shows growth despite Las Vegas Raiders’ Week 11 loss to Denver Broncos",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-23T20:05:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147168/raiders-broncos-winners-losers-week-11-fernando-mendoza",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-127mav5",
+    "type": "article",
+    "title": "Fernando Mendoza shows his mettle as Broncos gallop past Raiders 38-24",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-23T18:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/147025/raiders-2026-week-11-broncos-game-review",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-1oycnuy",
+    "type": "article",
+    "title": "Raiders Week 12: Meet the Browns",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-23T16:02:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/138129/raiders-week-12-meet-browns-preview",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-f4mgmj",
+    "type": "article",
+    "title": "Raiders News: Week 11 AFC West roundup, Chiefs keep pace with Broncos",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-23T15:00:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/147144/raiders-news-week-11-afc-west-broncos-chargers-chiefs",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-op3nkw",
+    "type": "article",
+    "title": "Fernando Mendoza feeling ‘more comfortable’ in 2nd Raiders start",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-23T14:01:03.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-feeling-more-comfortable-in-2nd-raiders-start-3918308/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "locked-on-raiders-1cnxoxm",
+    "type": "podcast",
+    "title": "Raiders lose to the Broncos, but learned a lot about the future of the team",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-23T08:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
     "id": "review-journal-1kz1se4",
     "type": "article",
     "title": "Vegas Sports Sunday: Broncos outlast Raiders, Mendoza throws 3 TDs",
@@ -70,44 +140,14 @@
     "sourceId": "review-journal"
   },
   {
-    "id": "review-journal-15k1m2j",
+    "id": "silver-and-black-pride-1d005m",
     "type": "article",
-    "title": "Fernando Mendoza tosses 3 TDs, but first INT helps Broncos outlast Raiders",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-23T00:56:11.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-tosses-3-tds-but-late-int-helps-broncos-outlast-raiders-3918150/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "silver-and-black-pride-6gf84p",
-    "type": "article",
-    "title": "Las Vegas Raiders can’t catch to Broncos to fall to 4-7",
+    "title": "Las Vegas Raiders can’t catch up to Broncos to fall to 4-7",
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-23T00:45:51.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/145853/las-vegas-raiders-denver-broncos-live-updates",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-tbmy8v",
-    "type": "article",
-    "title": "Fernando Mendoza’s ‘first of many’ TD passes shows rookie’s trust in Raiders RB",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-22T22:52:54.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendozas-timely-1st-career-td-pass-doesnt-go-to-a-raiders-wideout-3918092/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1m34mtf",
-    "type": "article",
-    "title": "Raiders rookie CB Jermod McCoy makes meaningful 1st career start",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-22T22:14:19.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-rookie-cornerback-makes-early-impact-in-1st-career-start-3918078/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1vv2mkm",
@@ -116,86 +156,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-22T20:28:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-discussion/137244/raiders-broncos-week-11-live-discussion",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1kjxh5",
-    "type": "article",
-    "title": "Raiders’ top target for Fernando Mendoza ruled out of Sunday’s game at Denver",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-22T20:07:49.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-top-target-for-fernando-mendoza-ruled-out-of-sundays-game-at-denver-3918010/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "silver-and-black-pride-114x44t",
-    "type": "article",
-    "title": "Raiders-Broncos inactives: Brock Bowers is out",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-22T20:02:57.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/146936/raiders-broncos-inactives-brock-not-bowers-playing",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-npv3vv",
-    "type": "article",
-    "title": "What channel is Raiders vs. Broncos? TV channel, streaming, kickoff time for today’s AFC West matchup",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-22T17:01:55.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/what-channel-is-raiders-vs-broncos-tv-channel-streaming-kickoff-time-for-todays-afc-west-matchup-3917997/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-hpbuq2",
-    "type": "article",
-    "title": "UPDATES: Mendoza throws 3 TDs, but Raiders fall to Broncos after late pick-6",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-22T17:00:23.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/live-updates-raiders-face-broncos-on-road-look-to-snap-2-game-losing-streak-3917994/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "silver-and-black-pride-1e3c1vj",
-    "type": "article",
-    "title": "Raiders vs. Broncos: How to watch, TV schedule, streaming and more",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-22T15:42:18.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137922/raiders-vs-broncos-how-watch-tv-schedule",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-fea6sd",
-    "type": "article",
-    "title": "Raiders News: Raiders elevate Carter Runyon and Chris Williams",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-22T15:00:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/147007/raiders-news-raiders-elevate-carter-runyon-and-chris-williams",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1rt7pdi",
-    "type": "article",
-    "title": "Has Bo Nix quieted early-season criticisms ahead of Las Vegas Raiders-Denver Broncos Week 11 matchup?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-21T23:32:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146910/raiders-broncos-week-11-preview-bo-nix",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1a3cijd",
-    "type": "article",
-    "title": "Division games a true barometer of Raiders progress, or lack of it",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-21T21:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146560/raiders-week-11-broncos-klint-kubiak",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -530,16 +490,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-2r0hjq",
-    "type": "podcast",
-    "title": "Raiders look to bounce back: Who can help, and what needs to happen",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-23T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-1blu905",
     "type": "podcast",
     "title": "Close. Games. Out.: Raiders prepare for home matchup with Rams",
@@ -596,6 +546,56 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-09-16T20:00:00.000Z",
     "url": "https://omny.fm/shows/raiders-weekly/rw-wk02-audio-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-14gmcyl",
+    "type": "podcast",
+    "title": "Offseason recap, numbers to know and slowing the Dolphins’ run game",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-week1-09092026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1ec398j",
+    "type": "podcast",
+    "title": "Update on Upon Further Review",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-04T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-sendoff-09042026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-h62a0w",
+    "type": "podcast",
+    "title": "Roster deep dive ahead of Week 1",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-04T20:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-09042026-final-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-2hf3fr",
+    "type": "podcast",
+    "title": "Introducing ‘Raiders Weekly’ | Trailer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-09-02T21:30:00.000Z",
+    "url": "https://omny.fm/shows/raiders-weekly/rw-trailer-jt-09022026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-q3cded",
+    "type": "podcast",
+    "title": "Instant reactions to the Raiders’ initial 53-man roster",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-30T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
