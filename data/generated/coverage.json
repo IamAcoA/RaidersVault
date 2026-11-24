@@ -1,5 +1,35 @@
 [
   {
+    "id": "locked-on-raiders-p2sn3e",
+    "type": "podcast",
+    "title": "Raiders have reasons for optimism despite 4-7 record",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-24T08:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "review-journal-1s00va3",
+    "type": "article",
+    "title": "Jack Bech’s stock soars based on connection with Raiders QB Fernando Mendoza",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-24T03:36:53.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/jack-bechs-stock-soars-based-on-connection-with-raiders-qb-fernando-mendoza-3918612/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-5xig0w",
+    "type": "article",
+    "title": "Klint Kubiak sees improvement in Fernando Mendoza after 2 starts for Raiders",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-24T01:31:23.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/klint-kubiak-sees-improvement-through-2-raiders-starts-for-fernando-mendoza-3918538/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
     "id": "silver-and-black-pride-vu359v",
     "type": "article",
     "title": "San Francisco 49ers continue to haunt Kirk Cousins",
@@ -50,16 +80,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "review-journal-op3nkw",
-    "type": "article",
-    "title": "Fernando Mendoza feeling ‘more comfortable’ in 2nd Raiders start",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-23T14:01:03.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-feeling-more-comfortable-in-2nd-raiders-start-3918308/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "locked-on-raiders-1cnxoxm",
     "type": "podcast",
     "title": "Raiders lose to the Broncos, but learned a lot about the future of the team",
@@ -70,26 +90,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "review-journal-1kz1se4",
-    "type": "article",
-    "title": "Vegas Sports Sunday: Broncos outlast Raiders, Mendoza throws 3 TDs",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-23T04:10:55.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/vegas-sports-sunday-broncos-outlast-raiders-mendoza-throws-3-tds-3918234/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
-    "id": "review-journal-1jhgovk",
-    "type": "article",
-    "title": "Raiders show fight in Fernando Mendoza’s 2nd start but falter late in Denver",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-23T03:49:28.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-show-fight-in-fernando-mendozas-2nd-start-but-falter-late-in-denver-3918225/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-18xy196",
     "type": "article",
     "title": "Raiders vs. Browns odds: Opening lines for Week 12 matchup",
@@ -98,16 +98,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-odds/147012/raiders-vs-browns-odds-week-12-opening-lines-point-spread-total",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1qmo5q6",
-    "type": "article",
-    "title": "Raiders hope to get Brock Bowers back soon, decimated at defensive tackle",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-23T03:10:06.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-hope-to-get-brock-bowers-back-soon-decimated-at-defensive-tackle-3918212/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-5iurh8",
@@ -128,16 +118,6 @@
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/145702/raiders-broncos-week-11-review",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "review-journal-1j27k8j",
-    "type": "article",
-    "title": "Raiders grades: Fernando Mendoza shows promise despite another loss",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-23T01:11:58.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-grades-fernando-mendoza-shows-promise-despite-another-loss-3918199/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
   },
   {
     "id": "silver-and-black-pride-1d005m",
@@ -480,16 +460,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-1ub18cr",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Los Angeles RAMS PREVIEW, RUN game concerns + MATCHUPS",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-23T16:02:04.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-1blu905",
     "type": "podcast",
     "title": "Close. Games. Out.: Raiders prepare for home matchup with Rams",
@@ -596,6 +566,36 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-30T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1ueekx6",
+    "type": "podcast",
+    "title": "Caleb Rogers upped his standard",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-26T01:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-rogers-08252026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-19wl9y1",
+    "type": "podcast",
+    "title": "‘Starts and finishes with the offensive line’: Lincoln Kennedy on training camp and preseason",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-10T23:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
+    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
+    "sourceId": "raiders-podcast-network"
+  },
+  {
+    "id": "raiders-podcast-network-1hlqv39",
+    "type": "podcast",
+    "title": "Dalton Johnson is a gamer",
+    "publisher": "Raiders Podcast Network",
+    "publishedAt": "2026-08-07T21:00:00.000Z",
+    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
