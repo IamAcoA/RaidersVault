@@ -1,5 +1,45 @@
 [
   {
+    "id": "locked-on-raiders-umwfll",
+    "type": "podcast",
+    "title": "Raiders vs Browns Primetime Preview",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-26T08:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "review-journal-gtqxn8",
+    "type": "article",
+    "title": "‘It will be special’: Raiders’ Eichenberg set for homecoming in Cleveland",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-26T01:36:53.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-eichenberg-set-for-homecoming-at-cleveland-stadium-3919426/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-ikik4y",
+    "type": "article",
+    "title": "Raiders offense gets back on track without Brock Bowers",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-25T22:41:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147241/lraiders-offense-fernando-mendoza-brock-bowers",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "silver-and-black-pride-rr36rg",
+    "type": "article",
+    "title": "Jermod McCoy shows promise during 1st start for Las Vegas Raiders in Week 11 vs. Denver Broncos",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-25T21:03:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147204/raiders-week-11-broncos-jermod-mccoy-film-breakdown",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-3qdffb",
     "type": "article",
     "title": "Raiders QB, coach discuss Sunday night matchup vs. Cleveland Browns",
@@ -100,16 +140,6 @@
     "sourceId": "silver-and-black-pride"
   },
   {
-    "id": "silver-and-black-pride-1dfzh3e",
-    "type": "article",
-    "title": "Could Puka Nacua be on Raiders’ radar in 2027?",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-24T18:04:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-rumors/147214/raiders-puka-nacua-2027-offseason",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
     "id": "locked-on-raiders-1o06cuf",
     "type": "podcast",
     "title": "RAIDERS SQUAD SHOW: RAIDERS vs BRONCOS RECAP| Fernando MENDOZA'S Growth & Defensive STRUGGLES",
@@ -118,16 +148,6 @@
     "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
     "description": "Latest episode from Locked On Raiders. Listen at the original source.",
     "sourceId": "locked-on-raiders"
-  },
-  {
-    "id": "silver-and-black-pride-1v7m76p",
-    "type": "article",
-    "title": "Jermod McCoy takes major leap",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-24T16:07:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147199/raiders-jermod-mccoy-starting-corrnerback-week-11",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
   },
   {
     "id": "locked-on-raiders-p2sn3e",
@@ -440,16 +460,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-1nqnnch",
-    "type": "podcast",
-    "title": "RAIDERS SQUAD SHOW: Las Vegas RAIDERS vs Los Angeles RAMS RECAP, Maxx CROSBY rumors HEAT UP",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-27T16:04:03.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-1blu905",
     "type": "podcast",
     "title": "Close. Games. Out.: Raiders prepare for home matchup with Rams",
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-07T21:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-gj6xq8",
-    "type": "podcast",
-    "title": "‘I’m just being myself’: Hezekiah Masses on his first NFL Training Camp",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-05T17:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-masses-08052026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
