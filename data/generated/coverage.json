@@ -1,5 +1,45 @@
 [
   {
+    "id": "locked-on-raiders-11wo1i5",
+    "type": "podcast",
+    "title": "Raiders have a primetime chance to get primetime win",
+    "publisher": "Locked On Raiders",
+    "publishedAt": "2026-11-27T08:05:00.000Z",
+    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
+    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
+    "sourceId": "locked-on-raiders"
+  },
+  {
+    "id": "review-journal-1g7bf4b",
+    "type": "article",
+    "title": "When will someone take the other starting cornerback spot for the Raiders?",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-27T04:01:46.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/when-will-someone-take-the-other-starting-cornerback-spot-for-the-raiders-3919772/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "review-journal-jqe7yy",
+    "type": "article",
+    "title": "Raiders finally enjoy watching run game film. Now they hope to make a worthy sequel",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-27T02:09:28.000Z",
+    "url": "https://www.reviewjournal.com/sports/raiders/raiders-finally-enjoy-watching-run-game-film-now-they-hope-to-make-a-worthy-sequel-3919764/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-51imql",
+    "type": "article",
+    "title": "Raiders’ special teams can ill afford adding to the team’s overall woes",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-26T22:45:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147311/raiders-2026-special-teams-joe-decamillis",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "silver-and-black-pride-1z8l94",
     "type": "article",
     "title": "Why isn’t the Las Vegas Raiders defense good enough",
@@ -80,16 +120,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "review-journal-gtqxn8",
-    "type": "article",
-    "title": "‘It will be special’: Raiders’ Eichenberg set for homecoming in Cleveland",
-    "publisher": "Las Vegas Review-Journal",
-    "publishedAt": "2026-11-26T01:36:53.000Z",
-    "url": "https://www.reviewjournal.com/sports/raiders/raiders-eichenberg-set-for-homecoming-at-cleveland-stadium-3919426/",
-    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
-    "sourceId": "review-journal"
-  },
-  {
     "id": "silver-and-black-pride-ikik4y",
     "type": "article",
     "title": "Raiders offense gets back on track without Brock Bowers",
@@ -126,16 +156,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-25T18:01:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147206/raiders-ashton-jeanty-jack-bech-week-11",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-wawbbf",
-    "type": "article",
-    "title": "Fernando Mendoza is having issues throwing to his left",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-25T17:02:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147272/raiders-fernando-mendoza-accuracy-quarterback",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -440,16 +460,6 @@
     "sourceId": "locked-on-raiders"
   },
   {
-    "id": "locked-on-raiders-b7lo18",
-    "type": "podcast",
-    "title": "Deep Dive into Raiders vs Jets week 8",
-    "publisher": "Locked On Raiders",
-    "publishedAt": "2026-10-29T07:05:00.000Z",
-    "url": "https://lockedonpodcasts.com/podcasts/locked-on-raiders/",
-    "description": "Latest episode from Locked On Raiders. Listen at the original source.",
-    "sourceId": "locked-on-raiders"
-  },
-  {
     "id": "raiders-podcast-network-12hzgbp",
     "type": "podcast",
     "title": "Run game will be key on both sides of the ball against the Jets",
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-08-10T23:00:00.000Z",
     "url": "https://omny.fm/shows/upon-further-review-3/ufr-lincoln-08102026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-1hlqv39",
-    "type": "podcast",
-    "title": "Dalton Johnson is a gamer",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-07T21:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-johnson-08072026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
