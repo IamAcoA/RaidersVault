@@ -1,5 +1,35 @@
 [
   {
+    "id": "silver-and-black-pride-1hspzea",
+    "type": "article",
+    "title": "How have Cleveland Browns defined expectations ahead of Week 12 matchup against Las Vegas Raiders?",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-28T18:03:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147551/raiders-browns-week-12-preview-sunday-night-football",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
+    "id": "review-journal-2os0lz",
+    "type": "article",
+    "title": "USC-Texas Tech to face off in MGM Classic at Allegiant Stadium in ‘27",
+    "publisher": "Las Vegas Review-Journal",
+    "publishedAt": "2026-11-28T15:40:07.000Z",
+    "url": "https://www.reviewjournal.com/sports/football/usc-texas-tech-to-face-off-in-mgm-classic-at-allegiant-stadium-in-27-3920151/",
+    "description": "Current Raiders coverage from Las Vegas Review-Journal. Read the full story at the original publisher.",
+    "sourceId": "review-journal"
+  },
+  {
+    "id": "silver-and-black-pride-1ow0xa0",
+    "type": "article",
+    "title": "Raiders-Browns predictions",
+    "publisher": "Silver And Black Pride",
+    "publishedAt": "2026-11-28T15:01:00.000Z",
+    "url": "https://www.silverandblackpride.com/las-vegas-raiders-news/147185/raiders-browns-predictions-week-12-sunday-night",
+    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
+    "sourceId": "silver-and-black-pride"
+  },
+  {
     "id": "review-journal-1y02y77",
     "type": "article",
     "title": "Raiders-Browns predictions: Will Fernando Mendoza earn his first victory?",
@@ -136,26 +166,6 @@
     "publisher": "Silver And Black Pride",
     "publishedAt": "2026-11-26T22:45:00.000Z",
     "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147311/raiders-2026-special-teams-joe-decamillis",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-1z8l94",
-    "type": "article",
-    "title": "Why isn’t the Las Vegas Raiders defense good enough",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-26T20:04:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147347/raiders-defense-2026-rob-leonard",
-    "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
-    "sourceId": "silver-and-black-pride"
-  },
-  {
-    "id": "silver-and-black-pride-p6c9ke",
-    "type": "article",
-    "title": "4 things about Browns heading into Week 12",
-    "publisher": "Silver And Black Pride",
-    "publishedAt": "2026-11-26T18:01:00.000Z",
-    "url": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146705/raiders-browns-week-12-preview",
     "description": "Current Raiders coverage from Silver And Black Pride. Read the full story at the original publisher.",
     "sourceId": "silver-and-black-pride"
   },
@@ -586,16 +596,6 @@
     "publisher": "Raiders Podcast Network",
     "publishedAt": "2026-09-02T21:30:00.000Z",
     "url": "https://omny.fm/shows/raiders-weekly/rw-trailer-jt-09022026-mp3",
-    "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
-    "sourceId": "raiders-podcast-network"
-  },
-  {
-    "id": "raiders-podcast-network-q3cded",
-    "type": "podcast",
-    "title": "Instant reactions to the Raiders’ initial 53-man roster",
-    "publisher": "Raiders Podcast Network",
-    "publishedAt": "2026-08-30T23:00:00.000Z",
-    "url": "https://omny.fm/shows/upon-further-review-3/ufr-08302026-mp3",
     "description": "Latest episode from Raiders Podcast Network. Listen at the original source.",
     "sourceId": "raiders-podcast-network"
   }
